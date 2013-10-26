@@ -68,28 +68,28 @@ private:
 };
 
 
-typedef ::SAPO::Broker::Codecs::Autogen::ProtobufXS::Atom_Parameter __SAPO__Broker__Codecs__Autogen__ProtobufXS__Atom_Parameter;
-typedef ::SAPO::Broker::Codecs::Autogen::ProtobufXS::Atom_Header __SAPO__Broker__Codecs__Autogen__ProtobufXS__Atom_Header;
-typedef ::SAPO::Broker::Codecs::Autogen::ProtobufXS::Atom_BrokerMessage __SAPO__Broker__Codecs__Autogen__ProtobufXS__Atom_BrokerMessage;
-typedef ::SAPO::Broker::Codecs::Autogen::ProtobufXS::Atom_Publish __SAPO__Broker__Codecs__Autogen__ProtobufXS__Atom_Publish;
-typedef ::SAPO::Broker::Codecs::Autogen::ProtobufXS::Atom_Poll __SAPO__Broker__Codecs__Autogen__ProtobufXS__Atom_Poll;
-typedef ::SAPO::Broker::Codecs::Autogen::ProtobufXS::Atom_Accepted __SAPO__Broker__Codecs__Autogen__ProtobufXS__Atom_Accepted;
-typedef ::SAPO::Broker::Codecs::Autogen::ProtobufXS::Atom_AcknowledgeMessage __SAPO__Broker__Codecs__Autogen__ProtobufXS__Atom_AcknowledgeMessage;
-typedef ::SAPO::Broker::Codecs::Autogen::ProtobufXS::Atom_Subscribe __SAPO__Broker__Codecs__Autogen__ProtobufXS__Atom_Subscribe;
-typedef ::SAPO::Broker::Codecs::Autogen::ProtobufXS::Atom_Unsubscribe __SAPO__Broker__Codecs__Autogen__ProtobufXS__Atom_Unsubscribe;
-typedef ::SAPO::Broker::Codecs::Autogen::ProtobufXS::Atom_Notification __SAPO__Broker__Codecs__Autogen__ProtobufXS__Atom_Notification;
-typedef ::SAPO::Broker::Codecs::Autogen::ProtobufXS::Atom_Fault __SAPO__Broker__Codecs__Autogen__ProtobufXS__Atom_Fault;
-typedef ::SAPO::Broker::Codecs::Autogen::ProtobufXS::Atom_Ping __SAPO__Broker__Codecs__Autogen__ProtobufXS__Atom_Ping;
-typedef ::SAPO::Broker::Codecs::Autogen::ProtobufXS::Atom_Pong __SAPO__Broker__Codecs__Autogen__ProtobufXS__Atom_Pong;
-typedef ::SAPO::Broker::Codecs::Autogen::ProtobufXS::Atom_Authentication __SAPO__Broker__Codecs__Autogen__ProtobufXS__Atom_Authentication;
-typedef ::SAPO::Broker::Codecs::Autogen::ProtobufXS::Atom_Action __SAPO__Broker__Codecs__Autogen__ProtobufXS__Atom_Action;
-typedef ::SAPO::Broker::Codecs::Autogen::ProtobufXS::Atom __SAPO__Broker__Codecs__Autogen__ProtobufXS__Atom;
+typedef ::sapo_broker::Atom_Parameter __SAPO__Broker__Codecs__Autogen__ProtobufXS__Atom_Parameter;
+typedef ::sapo_broker::Atom_Header __SAPO__Broker__Codecs__Autogen__ProtobufXS__Atom_Header;
+typedef ::sapo_broker::Atom_BrokerMessage __SAPO__Broker__Codecs__Autogen__ProtobufXS__Atom_BrokerMessage;
+typedef ::sapo_broker::Atom_Publish __SAPO__Broker__Codecs__Autogen__ProtobufXS__Atom_Publish;
+typedef ::sapo_broker::Atom_Poll __SAPO__Broker__Codecs__Autogen__ProtobufXS__Atom_Poll;
+typedef ::sapo_broker::Atom_Accepted __SAPO__Broker__Codecs__Autogen__ProtobufXS__Atom_Accepted;
+typedef ::sapo_broker::Atom_AcknowledgeMessage __SAPO__Broker__Codecs__Autogen__ProtobufXS__Atom_AcknowledgeMessage;
+typedef ::sapo_broker::Atom_Subscribe __SAPO__Broker__Codecs__Autogen__ProtobufXS__Atom_Subscribe;
+typedef ::sapo_broker::Atom_Unsubscribe __SAPO__Broker__Codecs__Autogen__ProtobufXS__Atom_Unsubscribe;
+typedef ::sapo_broker::Atom_Notification __SAPO__Broker__Codecs__Autogen__ProtobufXS__Atom_Notification;
+typedef ::sapo_broker::Atom_Fault __SAPO__Broker__Codecs__Autogen__ProtobufXS__Atom_Fault;
+typedef ::sapo_broker::Atom_Ping __SAPO__Broker__Codecs__Autogen__ProtobufXS__Atom_Ping;
+typedef ::sapo_broker::Atom_Pong __SAPO__Broker__Codecs__Autogen__ProtobufXS__Atom_Pong;
+typedef ::sapo_broker::Atom_Authentication __SAPO__Broker__Codecs__Autogen__ProtobufXS__Atom_Authentication;
+typedef ::sapo_broker::Atom_Action __SAPO__Broker__Codecs__Autogen__ProtobufXS__Atom_Action;
+typedef ::sapo_broker::Atom __SAPO__Broker__Codecs__Autogen__ProtobufXS__Atom;
 
 
-static ::SAPO::Broker::Codecs::Autogen::ProtobufXS::Atom_Parameter *
+static ::sapo_broker::Atom_Parameter *
 __SAPO__Broker__Codecs__Autogen__ProtobufXS__Atom_Parameter_from_hashref ( SV * sv0 )
 {
-  ::SAPO::Broker::Codecs::Autogen::ProtobufXS::Atom_Parameter * msg0 = new ::SAPO::Broker::Codecs::Autogen::ProtobufXS::Atom_Parameter;
+  ::sapo_broker::Atom_Parameter * msg0 = new ::sapo_broker::Atom_Parameter;
 
   if ( SvROK(sv0) && SvTYPE(SvRV(sv0)) == SVt_PVHV ) {
     HV *  hv0 = (HV *)SvRV(sv0);
@@ -118,10 +118,10 @@ __SAPO__Broker__Codecs__Autogen__ProtobufXS__Atom_Parameter_from_hashref ( SV * 
   return msg0;
 }
 
-static ::SAPO::Broker::Codecs::Autogen::ProtobufXS::Atom_Header *
+static ::sapo_broker::Atom_Header *
 __SAPO__Broker__Codecs__Autogen__ProtobufXS__Atom_Header_from_hashref ( SV * sv0 )
 {
-  ::SAPO::Broker::Codecs::Autogen::ProtobufXS::Atom_Header * msg0 = new ::SAPO::Broker::Codecs::Autogen::ProtobufXS::Atom_Header;
+  ::sapo_broker::Atom_Header * msg0 = new ::sapo_broker::Atom_Header;
 
   if ( SvROK(sv0) && SvTYPE(SvRV(sv0)) == SVt_PVHV ) {
     HV *  hv0 = (HV *)SvRV(sv0);
@@ -132,7 +132,7 @@ __SAPO__Broker__Codecs__Autogen__ProtobufXS__Atom_Header_from_hashref ( SV * sv0
         AV * av1 = (AV *)SvRV(*sv1);
         
         for ( int i1 = 0; i1 <= av_len(av1); i1++ ) {
-          ::SAPO::Broker::Codecs::Autogen::ProtobufXS::Atom_Parameter * msg2 = msg0->add_parameter();
+          ::sapo_broker::Atom_Parameter * msg2 = msg0->add_parameter();
           SV ** sv1;
           SV *  sv2;
           
@@ -170,10 +170,10 @@ __SAPO__Broker__Codecs__Autogen__ProtobufXS__Atom_Header_from_hashref ( SV * sv0
   return msg0;
 }
 
-static ::SAPO::Broker::Codecs::Autogen::ProtobufXS::Atom_BrokerMessage *
+static ::sapo_broker::Atom_BrokerMessage *
 __SAPO__Broker__Codecs__Autogen__ProtobufXS__Atom_BrokerMessage_from_hashref ( SV * sv0 )
 {
-  ::SAPO::Broker::Codecs::Autogen::ProtobufXS::Atom_BrokerMessage * msg0 = new ::SAPO::Broker::Codecs::Autogen::ProtobufXS::Atom_BrokerMessage;
+  ::sapo_broker::Atom_BrokerMessage * msg0 = new ::sapo_broker::Atom_BrokerMessage;
 
   if ( SvROK(sv0) && SvTYPE(SvRV(sv0)) == SVt_PVHV ) {
     HV *  hv0 = (HV *)SvRV(sv0);
@@ -210,10 +210,10 @@ __SAPO__Broker__Codecs__Autogen__ProtobufXS__Atom_BrokerMessage_from_hashref ( S
   return msg0;
 }
 
-static ::SAPO::Broker::Codecs::Autogen::ProtobufXS::Atom_Publish *
+static ::sapo_broker::Atom_Publish *
 __SAPO__Broker__Codecs__Autogen__ProtobufXS__Atom_Publish_from_hashref ( SV * sv0 )
 {
-  ::SAPO::Broker::Codecs::Autogen::ProtobufXS::Atom_Publish * msg0 = new ::SAPO::Broker::Codecs::Autogen::ProtobufXS::Atom_Publish;
+  ::sapo_broker::Atom_Publish * msg0 = new ::sapo_broker::Atom_Publish;
 
   if ( SvROK(sv0) && SvTYPE(SvRV(sv0)) == SVt_PVHV ) {
     HV *  hv0 = (HV *)SvRV(sv0);
@@ -229,7 +229,7 @@ __SAPO__Broker__Codecs__Autogen__ProtobufXS__Atom_Publish_from_hashref ( SV * sv
       msg0->set_action_id(sval);
     }
     if ( (sv1 = hv_fetch(hv0, "destination_type", sizeof("destination_type") - 1, 0)) != NULL ) {
-      msg0->set_destination_type((::SAPO::Broker::Codecs::Autogen::ProtobufXS::Atom_DestinationType)SvIV(*sv1));
+      msg0->set_destination_type((::sapo_broker::Atom_DestinationType)SvIV(*sv1));
     }
     if ( (sv1 = hv_fetch(hv0, "destination", sizeof("destination") - 1, 0)) != NULL ) {
       STRLEN len;
@@ -241,7 +241,7 @@ __SAPO__Broker__Codecs__Autogen__ProtobufXS__Atom_Publish_from_hashref ( SV * sv
       msg0->set_destination(sval);
     }
     if ( (sv1 = hv_fetch(hv0, "message", sizeof("message") - 1, 0)) != NULL ) {
-      ::SAPO::Broker::Codecs::Autogen::ProtobufXS::Atom_BrokerMessage * msg2 = msg0->mutable_message();
+      ::sapo_broker::Atom_BrokerMessage * msg2 = msg0->mutable_message();
       SV * sv2 = *sv1;
       
       if ( SvROK(sv2) && SvTYPE(SvRV(sv2)) == SVt_PVHV ) {
@@ -281,10 +281,10 @@ __SAPO__Broker__Codecs__Autogen__ProtobufXS__Atom_Publish_from_hashref ( SV * sv
   return msg0;
 }
 
-static ::SAPO::Broker::Codecs::Autogen::ProtobufXS::Atom_Poll *
+static ::sapo_broker::Atom_Poll *
 __SAPO__Broker__Codecs__Autogen__ProtobufXS__Atom_Poll_from_hashref ( SV * sv0 )
 {
-  ::SAPO::Broker::Codecs::Autogen::ProtobufXS::Atom_Poll * msg0 = new ::SAPO::Broker::Codecs::Autogen::ProtobufXS::Atom_Poll;
+  ::sapo_broker::Atom_Poll * msg0 = new ::sapo_broker::Atom_Poll;
 
   if ( SvROK(sv0) && SvTYPE(SvRV(sv0)) == SVt_PVHV ) {
     HV *  hv0 = (HV *)SvRV(sv0);
@@ -318,10 +318,10 @@ __SAPO__Broker__Codecs__Autogen__ProtobufXS__Atom_Poll_from_hashref ( SV * sv0 )
   return msg0;
 }
 
-static ::SAPO::Broker::Codecs::Autogen::ProtobufXS::Atom_Accepted *
+static ::sapo_broker::Atom_Accepted *
 __SAPO__Broker__Codecs__Autogen__ProtobufXS__Atom_Accepted_from_hashref ( SV * sv0 )
 {
-  ::SAPO::Broker::Codecs::Autogen::ProtobufXS::Atom_Accepted * msg0 = new ::SAPO::Broker::Codecs::Autogen::ProtobufXS::Atom_Accepted;
+  ::sapo_broker::Atom_Accepted * msg0 = new ::sapo_broker::Atom_Accepted;
 
   if ( SvROK(sv0) && SvTYPE(SvRV(sv0)) == SVt_PVHV ) {
     HV *  hv0 = (HV *)SvRV(sv0);
@@ -341,10 +341,10 @@ __SAPO__Broker__Codecs__Autogen__ProtobufXS__Atom_Accepted_from_hashref ( SV * s
   return msg0;
 }
 
-static ::SAPO::Broker::Codecs::Autogen::ProtobufXS::Atom_AcknowledgeMessage *
+static ::sapo_broker::Atom_AcknowledgeMessage *
 __SAPO__Broker__Codecs__Autogen__ProtobufXS__Atom_AcknowledgeMessage_from_hashref ( SV * sv0 )
 {
-  ::SAPO::Broker::Codecs::Autogen::ProtobufXS::Atom_AcknowledgeMessage * msg0 = new ::SAPO::Broker::Codecs::Autogen::ProtobufXS::Atom_AcknowledgeMessage;
+  ::sapo_broker::Atom_AcknowledgeMessage * msg0 = new ::sapo_broker::Atom_AcknowledgeMessage;
 
   if ( SvROK(sv0) && SvTYPE(SvRV(sv0)) == SVt_PVHV ) {
     HV *  hv0 = (HV *)SvRV(sv0);
@@ -382,10 +382,10 @@ __SAPO__Broker__Codecs__Autogen__ProtobufXS__Atom_AcknowledgeMessage_from_hashre
   return msg0;
 }
 
-static ::SAPO::Broker::Codecs::Autogen::ProtobufXS::Atom_Subscribe *
+static ::sapo_broker::Atom_Subscribe *
 __SAPO__Broker__Codecs__Autogen__ProtobufXS__Atom_Subscribe_from_hashref ( SV * sv0 )
 {
-  ::SAPO::Broker::Codecs::Autogen::ProtobufXS::Atom_Subscribe * msg0 = new ::SAPO::Broker::Codecs::Autogen::ProtobufXS::Atom_Subscribe;
+  ::sapo_broker::Atom_Subscribe * msg0 = new ::sapo_broker::Atom_Subscribe;
 
   if ( SvROK(sv0) && SvTYPE(SvRV(sv0)) == SVt_PVHV ) {
     HV *  hv0 = (HV *)SvRV(sv0);
@@ -410,17 +410,17 @@ __SAPO__Broker__Codecs__Autogen__ProtobufXS__Atom_Subscribe_from_hashref ( SV * 
       msg0->set_destination(sval);
     }
     if ( (sv1 = hv_fetch(hv0, "destination_type", sizeof("destination_type") - 1, 0)) != NULL ) {
-      msg0->set_destination_type((::SAPO::Broker::Codecs::Autogen::ProtobufXS::Atom_DestinationType)SvIV(*sv1));
+      msg0->set_destination_type((::sapo_broker::Atom_DestinationType)SvIV(*sv1));
     }
   }
 
   return msg0;
 }
 
-static ::SAPO::Broker::Codecs::Autogen::ProtobufXS::Atom_Unsubscribe *
+static ::sapo_broker::Atom_Unsubscribe *
 __SAPO__Broker__Codecs__Autogen__ProtobufXS__Atom_Unsubscribe_from_hashref ( SV * sv0 )
 {
-  ::SAPO::Broker::Codecs::Autogen::ProtobufXS::Atom_Unsubscribe * msg0 = new ::SAPO::Broker::Codecs::Autogen::ProtobufXS::Atom_Unsubscribe;
+  ::sapo_broker::Atom_Unsubscribe * msg0 = new ::sapo_broker::Atom_Unsubscribe;
 
   if ( SvROK(sv0) && SvTYPE(SvRV(sv0)) == SVt_PVHV ) {
     HV *  hv0 = (HV *)SvRV(sv0);
@@ -445,17 +445,17 @@ __SAPO__Broker__Codecs__Autogen__ProtobufXS__Atom_Unsubscribe_from_hashref ( SV 
       msg0->set_destination(sval);
     }
     if ( (sv1 = hv_fetch(hv0, "destination_type", sizeof("destination_type") - 1, 0)) != NULL ) {
-      msg0->set_destination_type((::SAPO::Broker::Codecs::Autogen::ProtobufXS::Atom_DestinationType)SvIV(*sv1));
+      msg0->set_destination_type((::sapo_broker::Atom_DestinationType)SvIV(*sv1));
     }
   }
 
   return msg0;
 }
 
-static ::SAPO::Broker::Codecs::Autogen::ProtobufXS::Atom_Notification *
+static ::sapo_broker::Atom_Notification *
 __SAPO__Broker__Codecs__Autogen__ProtobufXS__Atom_Notification_from_hashref ( SV * sv0 )
 {
-  ::SAPO::Broker::Codecs::Autogen::ProtobufXS::Atom_Notification * msg0 = new ::SAPO::Broker::Codecs::Autogen::ProtobufXS::Atom_Notification;
+  ::sapo_broker::Atom_Notification * msg0 = new ::sapo_broker::Atom_Notification;
 
   if ( SvROK(sv0) && SvTYPE(SvRV(sv0)) == SVt_PVHV ) {
     HV *  hv0 = (HV *)SvRV(sv0);
@@ -480,10 +480,10 @@ __SAPO__Broker__Codecs__Autogen__ProtobufXS__Atom_Notification_from_hashref ( SV
       msg0->set_subscription(sval);
     }
     if ( (sv1 = hv_fetch(hv0, "destination_type", sizeof("destination_type") - 1, 0)) != NULL ) {
-      msg0->set_destination_type((::SAPO::Broker::Codecs::Autogen::ProtobufXS::Atom_DestinationType)SvIV(*sv1));
+      msg0->set_destination_type((::sapo_broker::Atom_DestinationType)SvIV(*sv1));
     }
     if ( (sv1 = hv_fetch(hv0, "message", sizeof("message") - 1, 0)) != NULL ) {
-      ::SAPO::Broker::Codecs::Autogen::ProtobufXS::Atom_BrokerMessage * msg2 = msg0->mutable_message();
+      ::sapo_broker::Atom_BrokerMessage * msg2 = msg0->mutable_message();
       SV * sv2 = *sv1;
       
       if ( SvROK(sv2) && SvTYPE(SvRV(sv2)) == SVt_PVHV ) {
@@ -523,10 +523,10 @@ __SAPO__Broker__Codecs__Autogen__ProtobufXS__Atom_Notification_from_hashref ( SV
   return msg0;
 }
 
-static ::SAPO::Broker::Codecs::Autogen::ProtobufXS::Atom_Fault *
+static ::sapo_broker::Atom_Fault *
 __SAPO__Broker__Codecs__Autogen__ProtobufXS__Atom_Fault_from_hashref ( SV * sv0 )
 {
-  ::SAPO::Broker::Codecs::Autogen::ProtobufXS::Atom_Fault * msg0 = new ::SAPO::Broker::Codecs::Autogen::ProtobufXS::Atom_Fault;
+  ::sapo_broker::Atom_Fault * msg0 = new ::sapo_broker::Atom_Fault;
 
   if ( SvROK(sv0) && SvTYPE(SvRV(sv0)) == SVt_PVHV ) {
     HV *  hv0 = (HV *)SvRV(sv0);
@@ -573,10 +573,10 @@ __SAPO__Broker__Codecs__Autogen__ProtobufXS__Atom_Fault_from_hashref ( SV * sv0 
   return msg0;
 }
 
-static ::SAPO::Broker::Codecs::Autogen::ProtobufXS::Atom_Ping *
+static ::sapo_broker::Atom_Ping *
 __SAPO__Broker__Codecs__Autogen__ProtobufXS__Atom_Ping_from_hashref ( SV * sv0 )
 {
-  ::SAPO::Broker::Codecs::Autogen::ProtobufXS::Atom_Ping * msg0 = new ::SAPO::Broker::Codecs::Autogen::ProtobufXS::Atom_Ping;
+  ::sapo_broker::Atom_Ping * msg0 = new ::sapo_broker::Atom_Ping;
 
   if ( SvROK(sv0) && SvTYPE(SvRV(sv0)) == SVt_PVHV ) {
     HV *  hv0 = (HV *)SvRV(sv0);
@@ -596,10 +596,10 @@ __SAPO__Broker__Codecs__Autogen__ProtobufXS__Atom_Ping_from_hashref ( SV * sv0 )
   return msg0;
 }
 
-static ::SAPO::Broker::Codecs::Autogen::ProtobufXS::Atom_Pong *
+static ::sapo_broker::Atom_Pong *
 __SAPO__Broker__Codecs__Autogen__ProtobufXS__Atom_Pong_from_hashref ( SV * sv0 )
 {
-  ::SAPO::Broker::Codecs::Autogen::ProtobufXS::Atom_Pong * msg0 = new ::SAPO::Broker::Codecs::Autogen::ProtobufXS::Atom_Pong;
+  ::sapo_broker::Atom_Pong * msg0 = new ::sapo_broker::Atom_Pong;
 
   if ( SvROK(sv0) && SvTYPE(SvRV(sv0)) == SVt_PVHV ) {
     HV *  hv0 = (HV *)SvRV(sv0);
@@ -619,10 +619,10 @@ __SAPO__Broker__Codecs__Autogen__ProtobufXS__Atom_Pong_from_hashref ( SV * sv0 )
   return msg0;
 }
 
-static ::SAPO::Broker::Codecs::Autogen::ProtobufXS::Atom_Authentication *
+static ::sapo_broker::Atom_Authentication *
 __SAPO__Broker__Codecs__Autogen__ProtobufXS__Atom_Authentication_from_hashref ( SV * sv0 )
 {
-  ::SAPO::Broker::Codecs::Autogen::ProtobufXS::Atom_Authentication * msg0 = new ::SAPO::Broker::Codecs::Autogen::ProtobufXS::Atom_Authentication;
+  ::sapo_broker::Atom_Authentication * msg0 = new ::sapo_broker::Atom_Authentication;
 
   if ( SvROK(sv0) && SvTYPE(SvRV(sv0)) == SVt_PVHV ) {
     HV *  hv0 = (HV *)SvRV(sv0);
@@ -686,17 +686,17 @@ __SAPO__Broker__Codecs__Autogen__ProtobufXS__Atom_Authentication_from_hashref ( 
   return msg0;
 }
 
-static ::SAPO::Broker::Codecs::Autogen::ProtobufXS::Atom_Action *
+static ::sapo_broker::Atom_Action *
 __SAPO__Broker__Codecs__Autogen__ProtobufXS__Atom_Action_from_hashref ( SV * sv0 )
 {
-  ::SAPO::Broker::Codecs::Autogen::ProtobufXS::Atom_Action * msg0 = new ::SAPO::Broker::Codecs::Autogen::ProtobufXS::Atom_Action;
+  ::sapo_broker::Atom_Action * msg0 = new ::sapo_broker::Atom_Action;
 
   if ( SvROK(sv0) && SvTYPE(SvRV(sv0)) == SVt_PVHV ) {
     HV *  hv0 = (HV *)SvRV(sv0);
     SV ** sv1;
     
     if ( (sv1 = hv_fetch(hv0, "publish", sizeof("publish") - 1, 0)) != NULL ) {
-      ::SAPO::Broker::Codecs::Autogen::ProtobufXS::Atom_Publish * msg2 = msg0->mutable_publish();
+      ::sapo_broker::Atom_Publish * msg2 = msg0->mutable_publish();
       SV * sv2 = *sv1;
       
       if ( SvROK(sv2) && SvTYPE(SvRV(sv2)) == SVt_PVHV ) {
@@ -713,7 +713,7 @@ __SAPO__Broker__Codecs__Autogen__ProtobufXS__Atom_Action_from_hashref ( SV * sv0
           msg2->set_action_id(sval);
         }
         if ( (sv3 = hv_fetch(hv2, "destination_type", sizeof("destination_type") - 1, 0)) != NULL ) {
-          msg2->set_destination_type((::SAPO::Broker::Codecs::Autogen::ProtobufXS::Atom_DestinationType)SvIV(*sv3));
+          msg2->set_destination_type((::sapo_broker::Atom_DestinationType)SvIV(*sv3));
         }
         if ( (sv3 = hv_fetch(hv2, "destination", sizeof("destination") - 1, 0)) != NULL ) {
           STRLEN len;
@@ -725,7 +725,7 @@ __SAPO__Broker__Codecs__Autogen__ProtobufXS__Atom_Action_from_hashref ( SV * sv0
           msg2->set_destination(sval);
         }
         if ( (sv3 = hv_fetch(hv2, "message", sizeof("message") - 1, 0)) != NULL ) {
-          ::SAPO::Broker::Codecs::Autogen::ProtobufXS::Atom_BrokerMessage * msg4 = msg2->mutable_message();
+          ::sapo_broker::Atom_BrokerMessage * msg4 = msg2->mutable_message();
           SV * sv4 = *sv3;
           
           if ( SvROK(sv4) && SvTYPE(SvRV(sv4)) == SVt_PVHV ) {
@@ -763,7 +763,7 @@ __SAPO__Broker__Codecs__Autogen__ProtobufXS__Atom_Action_from_hashref ( SV * sv0
       }
     }
     if ( (sv1 = hv_fetch(hv0, "poll", sizeof("poll") - 1, 0)) != NULL ) {
-      ::SAPO::Broker::Codecs::Autogen::ProtobufXS::Atom_Poll * msg2 = msg0->mutable_poll();
+      ::sapo_broker::Atom_Poll * msg2 = msg0->mutable_poll();
       SV * sv2 = *sv1;
       
       if ( SvROK(sv2) && SvTYPE(SvRV(sv2)) == SVt_PVHV ) {
@@ -796,7 +796,7 @@ __SAPO__Broker__Codecs__Autogen__ProtobufXS__Atom_Action_from_hashref ( SV * sv0
       }
     }
     if ( (sv1 = hv_fetch(hv0, "accepted", sizeof("accepted") - 1, 0)) != NULL ) {
-      ::SAPO::Broker::Codecs::Autogen::ProtobufXS::Atom_Accepted * msg2 = msg0->mutable_accepted();
+      ::sapo_broker::Atom_Accepted * msg2 = msg0->mutable_accepted();
       SV * sv2 = *sv1;
       
       if ( SvROK(sv2) && SvTYPE(SvRV(sv2)) == SVt_PVHV ) {
@@ -815,7 +815,7 @@ __SAPO__Broker__Codecs__Autogen__ProtobufXS__Atom_Action_from_hashref ( SV * sv0
       }
     }
     if ( (sv1 = hv_fetch(hv0, "ack_message", sizeof("ack_message") - 1, 0)) != NULL ) {
-      ::SAPO::Broker::Codecs::Autogen::ProtobufXS::Atom_AcknowledgeMessage * msg2 = msg0->mutable_ack_message();
+      ::sapo_broker::Atom_AcknowledgeMessage * msg2 = msg0->mutable_ack_message();
       SV * sv2 = *sv1;
       
       if ( SvROK(sv2) && SvTYPE(SvRV(sv2)) == SVt_PVHV ) {
@@ -852,7 +852,7 @@ __SAPO__Broker__Codecs__Autogen__ProtobufXS__Atom_Action_from_hashref ( SV * sv0
       }
     }
     if ( (sv1 = hv_fetch(hv0, "subscribe", sizeof("subscribe") - 1, 0)) != NULL ) {
-      ::SAPO::Broker::Codecs::Autogen::ProtobufXS::Atom_Subscribe * msg2 = msg0->mutable_subscribe();
+      ::sapo_broker::Atom_Subscribe * msg2 = msg0->mutable_subscribe();
       SV * sv2 = *sv1;
       
       if ( SvROK(sv2) && SvTYPE(SvRV(sv2)) == SVt_PVHV ) {
@@ -878,12 +878,12 @@ __SAPO__Broker__Codecs__Autogen__ProtobufXS__Atom_Action_from_hashref ( SV * sv0
           msg2->set_destination(sval);
         }
         if ( (sv3 = hv_fetch(hv2, "destination_type", sizeof("destination_type") - 1, 0)) != NULL ) {
-          msg2->set_destination_type((::SAPO::Broker::Codecs::Autogen::ProtobufXS::Atom_DestinationType)SvIV(*sv3));
+          msg2->set_destination_type((::sapo_broker::Atom_DestinationType)SvIV(*sv3));
         }
       }
     }
     if ( (sv1 = hv_fetch(hv0, "unsubscribe", sizeof("unsubscribe") - 1, 0)) != NULL ) {
-      ::SAPO::Broker::Codecs::Autogen::ProtobufXS::Atom_Unsubscribe * msg2 = msg0->mutable_unsubscribe();
+      ::sapo_broker::Atom_Unsubscribe * msg2 = msg0->mutable_unsubscribe();
       SV * sv2 = *sv1;
       
       if ( SvROK(sv2) && SvTYPE(SvRV(sv2)) == SVt_PVHV ) {
@@ -909,12 +909,12 @@ __SAPO__Broker__Codecs__Autogen__ProtobufXS__Atom_Action_from_hashref ( SV * sv0
           msg2->set_destination(sval);
         }
         if ( (sv3 = hv_fetch(hv2, "destination_type", sizeof("destination_type") - 1, 0)) != NULL ) {
-          msg2->set_destination_type((::SAPO::Broker::Codecs::Autogen::ProtobufXS::Atom_DestinationType)SvIV(*sv3));
+          msg2->set_destination_type((::sapo_broker::Atom_DestinationType)SvIV(*sv3));
         }
       }
     }
     if ( (sv1 = hv_fetch(hv0, "notification", sizeof("notification") - 1, 0)) != NULL ) {
-      ::SAPO::Broker::Codecs::Autogen::ProtobufXS::Atom_Notification * msg2 = msg0->mutable_notification();
+      ::sapo_broker::Atom_Notification * msg2 = msg0->mutable_notification();
       SV * sv2 = *sv1;
       
       if ( SvROK(sv2) && SvTYPE(SvRV(sv2)) == SVt_PVHV ) {
@@ -940,10 +940,10 @@ __SAPO__Broker__Codecs__Autogen__ProtobufXS__Atom_Action_from_hashref ( SV * sv0
           msg2->set_subscription(sval);
         }
         if ( (sv3 = hv_fetch(hv2, "destination_type", sizeof("destination_type") - 1, 0)) != NULL ) {
-          msg2->set_destination_type((::SAPO::Broker::Codecs::Autogen::ProtobufXS::Atom_DestinationType)SvIV(*sv3));
+          msg2->set_destination_type((::sapo_broker::Atom_DestinationType)SvIV(*sv3));
         }
         if ( (sv3 = hv_fetch(hv2, "message", sizeof("message") - 1, 0)) != NULL ) {
-          ::SAPO::Broker::Codecs::Autogen::ProtobufXS::Atom_BrokerMessage * msg4 = msg2->mutable_message();
+          ::sapo_broker::Atom_BrokerMessage * msg4 = msg2->mutable_message();
           SV * sv4 = *sv3;
           
           if ( SvROK(sv4) && SvTYPE(SvRV(sv4)) == SVt_PVHV ) {
@@ -981,7 +981,7 @@ __SAPO__Broker__Codecs__Autogen__ProtobufXS__Atom_Action_from_hashref ( SV * sv0
       }
     }
     if ( (sv1 = hv_fetch(hv0, "fault", sizeof("fault") - 1, 0)) != NULL ) {
-      ::SAPO::Broker::Codecs::Autogen::ProtobufXS::Atom_Fault * msg2 = msg0->mutable_fault();
+      ::sapo_broker::Atom_Fault * msg2 = msg0->mutable_fault();
       SV * sv2 = *sv1;
       
       if ( SvROK(sv2) && SvTYPE(SvRV(sv2)) == SVt_PVHV ) {
@@ -1027,7 +1027,7 @@ __SAPO__Broker__Codecs__Autogen__ProtobufXS__Atom_Action_from_hashref ( SV * sv0
       }
     }
     if ( (sv1 = hv_fetch(hv0, "ping", sizeof("ping") - 1, 0)) != NULL ) {
-      ::SAPO::Broker::Codecs::Autogen::ProtobufXS::Atom_Ping * msg2 = msg0->mutable_ping();
+      ::sapo_broker::Atom_Ping * msg2 = msg0->mutable_ping();
       SV * sv2 = *sv1;
       
       if ( SvROK(sv2) && SvTYPE(SvRV(sv2)) == SVt_PVHV ) {
@@ -1046,7 +1046,7 @@ __SAPO__Broker__Codecs__Autogen__ProtobufXS__Atom_Action_from_hashref ( SV * sv0
       }
     }
     if ( (sv1 = hv_fetch(hv0, "pong", sizeof("pong") - 1, 0)) != NULL ) {
-      ::SAPO::Broker::Codecs::Autogen::ProtobufXS::Atom_Pong * msg2 = msg0->mutable_pong();
+      ::sapo_broker::Atom_Pong * msg2 = msg0->mutable_pong();
       SV * sv2 = *sv1;
       
       if ( SvROK(sv2) && SvTYPE(SvRV(sv2)) == SVt_PVHV ) {
@@ -1065,7 +1065,7 @@ __SAPO__Broker__Codecs__Autogen__ProtobufXS__Atom_Action_from_hashref ( SV * sv0
       }
     }
     if ( (sv1 = hv_fetch(hv0, "auth", sizeof("auth") - 1, 0)) != NULL ) {
-      ::SAPO::Broker::Codecs::Autogen::ProtobufXS::Atom_Authentication * msg2 = msg0->mutable_auth();
+      ::sapo_broker::Atom_Authentication * msg2 = msg0->mutable_auth();
       SV * sv2 = *sv1;
       
       if ( SvROK(sv2) && SvTYPE(SvRV(sv2)) == SVt_PVHV ) {
@@ -1128,24 +1128,24 @@ __SAPO__Broker__Codecs__Autogen__ProtobufXS__Atom_Action_from_hashref ( SV * sv0
       }
     }
     if ( (sv1 = hv_fetch(hv0, "action_type", sizeof("action_type") - 1, 0)) != NULL ) {
-      msg0->set_action_type((::SAPO::Broker::Codecs::Autogen::ProtobufXS::Atom_Action_ActionType)SvIV(*sv1));
+      msg0->set_action_type((::sapo_broker::Atom_Action_ActionType)SvIV(*sv1));
     }
   }
 
   return msg0;
 }
 
-static ::SAPO::Broker::Codecs::Autogen::ProtobufXS::Atom *
+static ::sapo_broker::Atom *
 __SAPO__Broker__Codecs__Autogen__ProtobufXS__Atom_from_hashref ( SV * sv0 )
 {
-  ::SAPO::Broker::Codecs::Autogen::ProtobufXS::Atom * msg0 = new ::SAPO::Broker::Codecs::Autogen::ProtobufXS::Atom;
+  ::sapo_broker::Atom * msg0 = new ::sapo_broker::Atom;
 
   if ( SvROK(sv0) && SvTYPE(SvRV(sv0)) == SVt_PVHV ) {
     HV *  hv0 = (HV *)SvRV(sv0);
     SV ** sv1;
     
     if ( (sv1 = hv_fetch(hv0, "header", sizeof("header") - 1, 0)) != NULL ) {
-      ::SAPO::Broker::Codecs::Autogen::ProtobufXS::Atom_Header * msg2 = msg0->mutable_header();
+      ::sapo_broker::Atom_Header * msg2 = msg0->mutable_header();
       SV * sv2 = *sv1;
       
       if ( SvROK(sv2) && SvTYPE(SvRV(sv2)) == SVt_PVHV ) {
@@ -1157,7 +1157,7 @@ __SAPO__Broker__Codecs__Autogen__ProtobufXS__Atom_from_hashref ( SV * sv0 )
             AV * av3 = (AV *)SvRV(*sv3);
             
             for ( int i3 = 0; i3 <= av_len(av3); i3++ ) {
-              ::SAPO::Broker::Codecs::Autogen::ProtobufXS::Atom_Parameter * msg4 = msg2->add_parameter();
+              ::sapo_broker::Atom_Parameter * msg4 = msg2->add_parameter();
               SV ** sv3;
               SV *  sv4;
               
@@ -1193,7 +1193,7 @@ __SAPO__Broker__Codecs__Autogen__ProtobufXS__Atom_from_hashref ( SV * sv0 )
       }
     }
     if ( (sv1 = hv_fetch(hv0, "action", sizeof("action") - 1, 0)) != NULL ) {
-      ::SAPO::Broker::Codecs::Autogen::ProtobufXS::Atom_Action * msg2 = msg0->mutable_action();
+      ::sapo_broker::Atom_Action * msg2 = msg0->mutable_action();
       SV * sv2 = *sv1;
       
       if ( SvROK(sv2) && SvTYPE(SvRV(sv2)) == SVt_PVHV ) {
@@ -1201,7 +1201,7 @@ __SAPO__Broker__Codecs__Autogen__ProtobufXS__Atom_from_hashref ( SV * sv0 )
         SV ** sv3;
         
         if ( (sv3 = hv_fetch(hv2, "publish", sizeof("publish") - 1, 0)) != NULL ) {
-          ::SAPO::Broker::Codecs::Autogen::ProtobufXS::Atom_Publish * msg4 = msg2->mutable_publish();
+          ::sapo_broker::Atom_Publish * msg4 = msg2->mutable_publish();
           SV * sv4 = *sv3;
           
           if ( SvROK(sv4) && SvTYPE(SvRV(sv4)) == SVt_PVHV ) {
@@ -1218,7 +1218,7 @@ __SAPO__Broker__Codecs__Autogen__ProtobufXS__Atom_from_hashref ( SV * sv0 )
               msg4->set_action_id(sval);
             }
             if ( (sv5 = hv_fetch(hv4, "destination_type", sizeof("destination_type") - 1, 0)) != NULL ) {
-              msg4->set_destination_type((::SAPO::Broker::Codecs::Autogen::ProtobufXS::Atom_DestinationType)SvIV(*sv5));
+              msg4->set_destination_type((::sapo_broker::Atom_DestinationType)SvIV(*sv5));
             }
             if ( (sv5 = hv_fetch(hv4, "destination", sizeof("destination") - 1, 0)) != NULL ) {
               STRLEN len;
@@ -1230,7 +1230,7 @@ __SAPO__Broker__Codecs__Autogen__ProtobufXS__Atom_from_hashref ( SV * sv0 )
               msg4->set_destination(sval);
             }
             if ( (sv5 = hv_fetch(hv4, "message", sizeof("message") - 1, 0)) != NULL ) {
-              ::SAPO::Broker::Codecs::Autogen::ProtobufXS::Atom_BrokerMessage * msg6 = msg4->mutable_message();
+              ::sapo_broker::Atom_BrokerMessage * msg6 = msg4->mutable_message();
               SV * sv6 = *sv5;
               
               if ( SvROK(sv6) && SvTYPE(SvRV(sv6)) == SVt_PVHV ) {
@@ -1268,7 +1268,7 @@ __SAPO__Broker__Codecs__Autogen__ProtobufXS__Atom_from_hashref ( SV * sv0 )
           }
         }
         if ( (sv3 = hv_fetch(hv2, "poll", sizeof("poll") - 1, 0)) != NULL ) {
-          ::SAPO::Broker::Codecs::Autogen::ProtobufXS::Atom_Poll * msg4 = msg2->mutable_poll();
+          ::sapo_broker::Atom_Poll * msg4 = msg2->mutable_poll();
           SV * sv4 = *sv3;
           
           if ( SvROK(sv4) && SvTYPE(SvRV(sv4)) == SVt_PVHV ) {
@@ -1301,7 +1301,7 @@ __SAPO__Broker__Codecs__Autogen__ProtobufXS__Atom_from_hashref ( SV * sv0 )
           }
         }
         if ( (sv3 = hv_fetch(hv2, "accepted", sizeof("accepted") - 1, 0)) != NULL ) {
-          ::SAPO::Broker::Codecs::Autogen::ProtobufXS::Atom_Accepted * msg4 = msg2->mutable_accepted();
+          ::sapo_broker::Atom_Accepted * msg4 = msg2->mutable_accepted();
           SV * sv4 = *sv3;
           
           if ( SvROK(sv4) && SvTYPE(SvRV(sv4)) == SVt_PVHV ) {
@@ -1320,7 +1320,7 @@ __SAPO__Broker__Codecs__Autogen__ProtobufXS__Atom_from_hashref ( SV * sv0 )
           }
         }
         if ( (sv3 = hv_fetch(hv2, "ack_message", sizeof("ack_message") - 1, 0)) != NULL ) {
-          ::SAPO::Broker::Codecs::Autogen::ProtobufXS::Atom_AcknowledgeMessage * msg4 = msg2->mutable_ack_message();
+          ::sapo_broker::Atom_AcknowledgeMessage * msg4 = msg2->mutable_ack_message();
           SV * sv4 = *sv3;
           
           if ( SvROK(sv4) && SvTYPE(SvRV(sv4)) == SVt_PVHV ) {
@@ -1357,7 +1357,7 @@ __SAPO__Broker__Codecs__Autogen__ProtobufXS__Atom_from_hashref ( SV * sv0 )
           }
         }
         if ( (sv3 = hv_fetch(hv2, "subscribe", sizeof("subscribe") - 1, 0)) != NULL ) {
-          ::SAPO::Broker::Codecs::Autogen::ProtobufXS::Atom_Subscribe * msg4 = msg2->mutable_subscribe();
+          ::sapo_broker::Atom_Subscribe * msg4 = msg2->mutable_subscribe();
           SV * sv4 = *sv3;
           
           if ( SvROK(sv4) && SvTYPE(SvRV(sv4)) == SVt_PVHV ) {
@@ -1383,12 +1383,12 @@ __SAPO__Broker__Codecs__Autogen__ProtobufXS__Atom_from_hashref ( SV * sv0 )
               msg4->set_destination(sval);
             }
             if ( (sv5 = hv_fetch(hv4, "destination_type", sizeof("destination_type") - 1, 0)) != NULL ) {
-              msg4->set_destination_type((::SAPO::Broker::Codecs::Autogen::ProtobufXS::Atom_DestinationType)SvIV(*sv5));
+              msg4->set_destination_type((::sapo_broker::Atom_DestinationType)SvIV(*sv5));
             }
           }
         }
         if ( (sv3 = hv_fetch(hv2, "unsubscribe", sizeof("unsubscribe") - 1, 0)) != NULL ) {
-          ::SAPO::Broker::Codecs::Autogen::ProtobufXS::Atom_Unsubscribe * msg4 = msg2->mutable_unsubscribe();
+          ::sapo_broker::Atom_Unsubscribe * msg4 = msg2->mutable_unsubscribe();
           SV * sv4 = *sv3;
           
           if ( SvROK(sv4) && SvTYPE(SvRV(sv4)) == SVt_PVHV ) {
@@ -1414,12 +1414,12 @@ __SAPO__Broker__Codecs__Autogen__ProtobufXS__Atom_from_hashref ( SV * sv0 )
               msg4->set_destination(sval);
             }
             if ( (sv5 = hv_fetch(hv4, "destination_type", sizeof("destination_type") - 1, 0)) != NULL ) {
-              msg4->set_destination_type((::SAPO::Broker::Codecs::Autogen::ProtobufXS::Atom_DestinationType)SvIV(*sv5));
+              msg4->set_destination_type((::sapo_broker::Atom_DestinationType)SvIV(*sv5));
             }
           }
         }
         if ( (sv3 = hv_fetch(hv2, "notification", sizeof("notification") - 1, 0)) != NULL ) {
-          ::SAPO::Broker::Codecs::Autogen::ProtobufXS::Atom_Notification * msg4 = msg2->mutable_notification();
+          ::sapo_broker::Atom_Notification * msg4 = msg2->mutable_notification();
           SV * sv4 = *sv3;
           
           if ( SvROK(sv4) && SvTYPE(SvRV(sv4)) == SVt_PVHV ) {
@@ -1445,10 +1445,10 @@ __SAPO__Broker__Codecs__Autogen__ProtobufXS__Atom_from_hashref ( SV * sv0 )
               msg4->set_subscription(sval);
             }
             if ( (sv5 = hv_fetch(hv4, "destination_type", sizeof("destination_type") - 1, 0)) != NULL ) {
-              msg4->set_destination_type((::SAPO::Broker::Codecs::Autogen::ProtobufXS::Atom_DestinationType)SvIV(*sv5));
+              msg4->set_destination_type((::sapo_broker::Atom_DestinationType)SvIV(*sv5));
             }
             if ( (sv5 = hv_fetch(hv4, "message", sizeof("message") - 1, 0)) != NULL ) {
-              ::SAPO::Broker::Codecs::Autogen::ProtobufXS::Atom_BrokerMessage * msg6 = msg4->mutable_message();
+              ::sapo_broker::Atom_BrokerMessage * msg6 = msg4->mutable_message();
               SV * sv6 = *sv5;
               
               if ( SvROK(sv6) && SvTYPE(SvRV(sv6)) == SVt_PVHV ) {
@@ -1486,7 +1486,7 @@ __SAPO__Broker__Codecs__Autogen__ProtobufXS__Atom_from_hashref ( SV * sv0 )
           }
         }
         if ( (sv3 = hv_fetch(hv2, "fault", sizeof("fault") - 1, 0)) != NULL ) {
-          ::SAPO::Broker::Codecs::Autogen::ProtobufXS::Atom_Fault * msg4 = msg2->mutable_fault();
+          ::sapo_broker::Atom_Fault * msg4 = msg2->mutable_fault();
           SV * sv4 = *sv3;
           
           if ( SvROK(sv4) && SvTYPE(SvRV(sv4)) == SVt_PVHV ) {
@@ -1532,7 +1532,7 @@ __SAPO__Broker__Codecs__Autogen__ProtobufXS__Atom_from_hashref ( SV * sv0 )
           }
         }
         if ( (sv3 = hv_fetch(hv2, "ping", sizeof("ping") - 1, 0)) != NULL ) {
-          ::SAPO::Broker::Codecs::Autogen::ProtobufXS::Atom_Ping * msg4 = msg2->mutable_ping();
+          ::sapo_broker::Atom_Ping * msg4 = msg2->mutable_ping();
           SV * sv4 = *sv3;
           
           if ( SvROK(sv4) && SvTYPE(SvRV(sv4)) == SVt_PVHV ) {
@@ -1551,7 +1551,7 @@ __SAPO__Broker__Codecs__Autogen__ProtobufXS__Atom_from_hashref ( SV * sv0 )
           }
         }
         if ( (sv3 = hv_fetch(hv2, "pong", sizeof("pong") - 1, 0)) != NULL ) {
-          ::SAPO::Broker::Codecs::Autogen::ProtobufXS::Atom_Pong * msg4 = msg2->mutable_pong();
+          ::sapo_broker::Atom_Pong * msg4 = msg2->mutable_pong();
           SV * sv4 = *sv3;
           
           if ( SvROK(sv4) && SvTYPE(SvRV(sv4)) == SVt_PVHV ) {
@@ -1570,7 +1570,7 @@ __SAPO__Broker__Codecs__Autogen__ProtobufXS__Atom_from_hashref ( SV * sv0 )
           }
         }
         if ( (sv3 = hv_fetch(hv2, "auth", sizeof("auth") - 1, 0)) != NULL ) {
-          ::SAPO::Broker::Codecs::Autogen::ProtobufXS::Atom_Authentication * msg4 = msg2->mutable_auth();
+          ::sapo_broker::Atom_Authentication * msg4 = msg2->mutable_auth();
           SV * sv4 = *sv3;
           
           if ( SvROK(sv4) && SvTYPE(SvRV(sv4)) == SVt_PVHV ) {
@@ -1633,7 +1633,7 @@ __SAPO__Broker__Codecs__Autogen__ProtobufXS__Atom_from_hashref ( SV * sv0 )
           }
         }
         if ( (sv3 = hv_fetch(hv2, "action_type", sizeof("action_type") - 1, 0)) != NULL ) {
-          msg2->set_action_type((::SAPO::Broker::Codecs::Autogen::ProtobufXS::Atom_Action_ActionType)SvIV(*sv3));
+          msg2->set_action_type((::sapo_broker::Atom_Action_ActionType)SvIV(*sv3));
         }
       }
     }
@@ -1649,9 +1649,9 @@ PROTOTYPES: ENABLE
 
 
 SV *
-::SAPO::Broker::Codecs::Autogen::ProtobufXS::Atom_Parameter::new (...)
+::sapo_broker::Atom_Parameter::new (...)
   PREINIT:
-    ::SAPO::Broker::Codecs::Autogen::ProtobufXS::Atom_Parameter * rv = NULL;
+    ::sapo_broker::Atom_Parameter * rv = NULL;
 
   CODE:
     if ( strcmp(CLASS,"SAPO::Broker::Codecs::Autogen::ProtobufXS::Atom::Parameter") ) {
@@ -1664,14 +1664,14 @@ SV *
         STRLEN len;
         char * str;
 
-        rv = new ::SAPO::Broker::Codecs::Autogen::ProtobufXS::Atom_Parameter;
+        rv = new ::sapo_broker::Atom_Parameter;
         str = SvPV(ST(1), len);
         if ( str != NULL ) {
           rv->ParseFromArray(str, len);
         }
       }
     } else {
-      rv = new ::SAPO::Broker::Codecs::Autogen::ProtobufXS::Atom_Parameter;
+      rv = new ::sapo_broker::Atom_Parameter;
     }
     RETVAL = newSV(0);
     sv_setref_pv(RETVAL, "SAPO::Broker::Codecs::Autogen::ProtobufXS::Atom::Parameter", (void *)rv);
@@ -1684,7 +1684,7 @@ void
 DESTROY(svTHIS)
   SV * svTHIS;
   CODE:
-    ::SAPO::Broker::Codecs::Autogen::ProtobufXS::Atom_Parameter * THIS;
+    ::sapo_broker::Atom_Parameter * THIS;
     if ( sv_derived_from(svTHIS, "SAPO::Broker::Codecs::Autogen::ProtobufXS::Atom::Parameter") ) {
       IV tmp = SvIV((SV *)SvRV(svTHIS));
       THIS = INT2PTR(__SAPO__Broker__Codecs__Autogen__ProtobufXS__Atom_Parameter *, tmp);
@@ -1701,7 +1701,7 @@ copy_from(svTHIS, sv)
   SV * svTHIS
   SV * sv
   CODE:
-    ::SAPO::Broker::Codecs::Autogen::ProtobufXS::Atom_Parameter * THIS;
+    ::sapo_broker::Atom_Parameter * THIS;
     if ( sv_derived_from(svTHIS, "SAPO::Broker::Codecs::Autogen::ProtobufXS::Atom::Parameter") ) {
       IV tmp = SvIV((SV *)SvRV(svTHIS));
       THIS = INT2PTR(__SAPO__Broker__Codecs__Autogen__ProtobufXS__Atom_Parameter *, tmp);
@@ -1711,12 +1711,12 @@ copy_from(svTHIS, sv)
     if ( THIS != NULL && sv != NULL ) {
       if ( sv_derived_from(sv, "SAPO::Broker::Codecs::Autogen::ProtobufXS::Atom::Parameter") ) {
         IV tmp = SvIV((SV *)SvRV(sv));
-        ::SAPO::Broker::Codecs::Autogen::ProtobufXS::Atom_Parameter * other = INT2PTR(__SAPO__Broker__Codecs__Autogen__ProtobufXS__Atom_Parameter *, tmp);
+        ::sapo_broker::Atom_Parameter * other = INT2PTR(__SAPO__Broker__Codecs__Autogen__ProtobufXS__Atom_Parameter *, tmp);
 
         THIS->CopyFrom(*other);
       } else if ( SvROK(sv) &&
                   SvTYPE(SvRV(sv)) == SVt_PVHV ) {
-        ::SAPO::Broker::Codecs::Autogen::ProtobufXS::Atom_Parameter * other = __SAPO__Broker__Codecs__Autogen__ProtobufXS__Atom_Parameter_from_hashref(sv);
+        ::sapo_broker::Atom_Parameter * other = __SAPO__Broker__Codecs__Autogen__ProtobufXS__Atom_Parameter_from_hashref(sv);
         THIS->CopyFrom(*other);
         delete other;
       }
@@ -1728,7 +1728,7 @@ merge_from(svTHIS, sv)
   SV * svTHIS
   SV * sv
   CODE:
-    ::SAPO::Broker::Codecs::Autogen::ProtobufXS::Atom_Parameter * THIS;
+    ::sapo_broker::Atom_Parameter * THIS;
     if ( sv_derived_from(svTHIS, "SAPO::Broker::Codecs::Autogen::ProtobufXS::Atom::Parameter") ) {
       IV tmp = SvIV((SV *)SvRV(svTHIS));
       THIS = INT2PTR(__SAPO__Broker__Codecs__Autogen__ProtobufXS__Atom_Parameter *, tmp);
@@ -1738,12 +1738,12 @@ merge_from(svTHIS, sv)
     if ( THIS != NULL && sv != NULL ) {
       if ( sv_derived_from(sv, "SAPO::Broker::Codecs::Autogen::ProtobufXS::Atom::Parameter") ) {
         IV tmp = SvIV((SV *)SvRV(sv));
-        ::SAPO::Broker::Codecs::Autogen::ProtobufXS::Atom_Parameter * other = INT2PTR(__SAPO__Broker__Codecs__Autogen__ProtobufXS__Atom_Parameter *, tmp);
+        ::sapo_broker::Atom_Parameter * other = INT2PTR(__SAPO__Broker__Codecs__Autogen__ProtobufXS__Atom_Parameter *, tmp);
 
         THIS->MergeFrom(*other);
       } else if ( SvROK(sv) &&
                   SvTYPE(SvRV(sv)) == SVt_PVHV ) {
-        ::SAPO::Broker::Codecs::Autogen::ProtobufXS::Atom_Parameter * other = __SAPO__Broker__Codecs__Autogen__ProtobufXS__Atom_Parameter_from_hashref(sv);
+        ::sapo_broker::Atom_Parameter * other = __SAPO__Broker__Codecs__Autogen__ProtobufXS__Atom_Parameter_from_hashref(sv);
         THIS->MergeFrom(*other);
         delete other;
       }
@@ -1754,7 +1754,7 @@ void
 clear(svTHIS)
   SV * svTHIS
   CODE:
-    ::SAPO::Broker::Codecs::Autogen::ProtobufXS::Atom_Parameter * THIS;
+    ::sapo_broker::Atom_Parameter * THIS;
     if ( sv_derived_from(svTHIS, "SAPO::Broker::Codecs::Autogen::ProtobufXS::Atom::Parameter") ) {
       IV tmp = SvIV((SV *)SvRV(svTHIS));
       THIS = INT2PTR(__SAPO__Broker__Codecs__Autogen__ProtobufXS__Atom_Parameter *, tmp);
@@ -1770,7 +1770,7 @@ int
 is_initialized(svTHIS)
   SV * svTHIS
   CODE:
-    ::SAPO::Broker::Codecs::Autogen::ProtobufXS::Atom_Parameter * THIS;
+    ::sapo_broker::Atom_Parameter * THIS;
     if ( sv_derived_from(svTHIS, "SAPO::Broker::Codecs::Autogen::ProtobufXS::Atom::Parameter") ) {
       IV tmp = SvIV((SV *)SvRV(svTHIS));
       THIS = INT2PTR(__SAPO__Broker__Codecs__Autogen__ProtobufXS__Atom_Parameter *, tmp);
@@ -1794,7 +1794,7 @@ error_string(svTHIS)
     string estr;
 
   CODE:
-    ::SAPO::Broker::Codecs::Autogen::ProtobufXS::Atom_Parameter * THIS;
+    ::sapo_broker::Atom_Parameter * THIS;
     if ( sv_derived_from(svTHIS, "SAPO::Broker::Codecs::Autogen::ProtobufXS::Atom::Parameter") ) {
       IV tmp = SvIV((SV *)SvRV(svTHIS));
       THIS = INT2PTR(__SAPO__Broker__Codecs__Autogen__ProtobufXS__Atom_Parameter *, tmp);
@@ -1814,7 +1814,7 @@ void
 discard_unkown_fields(svTHIS)
   SV * svTHIS
   CODE:
-    ::SAPO::Broker::Codecs::Autogen::ProtobufXS::Atom_Parameter * THIS;
+    ::sapo_broker::Atom_Parameter * THIS;
     if ( sv_derived_from(svTHIS, "SAPO::Broker::Codecs::Autogen::ProtobufXS::Atom::Parameter") ) {
       IV tmp = SvIV((SV *)SvRV(svTHIS));
       THIS = INT2PTR(__SAPO__Broker__Codecs__Autogen__ProtobufXS__Atom_Parameter *, tmp);
@@ -1833,7 +1833,7 @@ debug_string(svTHIS)
     string dstr;
 
   CODE:
-    ::SAPO::Broker::Codecs::Autogen::ProtobufXS::Atom_Parameter * THIS;
+    ::sapo_broker::Atom_Parameter * THIS;
     if ( sv_derived_from(svTHIS, "SAPO::Broker::Codecs::Autogen::ProtobufXS::Atom::Parameter") ) {
       IV tmp = SvIV((SV *)SvRV(svTHIS));
       THIS = INT2PTR(__SAPO__Broker__Codecs__Autogen__ProtobufXS__Atom_Parameter *, tmp);
@@ -1856,7 +1856,7 @@ short_debug_string(svTHIS)
     string dstr;
 
   CODE:
-    ::SAPO::Broker::Codecs::Autogen::ProtobufXS::Atom_Parameter * THIS;
+    ::sapo_broker::Atom_Parameter * THIS;
     if ( sv_derived_from(svTHIS, "SAPO::Broker::Codecs::Autogen::ProtobufXS::Atom::Parameter") ) {
       IV tmp = SvIV((SV *)SvRV(svTHIS));
       THIS = INT2PTR(__SAPO__Broker__Codecs__Autogen__ProtobufXS__Atom_Parameter *, tmp);
@@ -1881,7 +1881,7 @@ unpack(svTHIS, arg)
     char * str;
 
   CODE:
-    ::SAPO::Broker::Codecs::Autogen::ProtobufXS::Atom_Parameter * THIS;
+    ::sapo_broker::Atom_Parameter * THIS;
     if ( sv_derived_from(svTHIS, "SAPO::Broker::Codecs::Autogen::ProtobufXS::Atom::Parameter") ) {
       IV tmp = SvIV((SV *)SvRV(svTHIS));
       THIS = INT2PTR(__SAPO__Broker__Codecs__Autogen__ProtobufXS__Atom_Parameter *, tmp);
@@ -1907,7 +1907,7 @@ SV *
 pack(svTHIS)
   SV * svTHIS
   CODE:
-    ::SAPO::Broker::Codecs::Autogen::ProtobufXS::Atom_Parameter * THIS;
+    ::sapo_broker::Atom_Parameter * THIS;
     if ( sv_derived_from(svTHIS, "SAPO::Broker::Codecs::Autogen::ProtobufXS::Atom::Parameter") ) {
       IV tmp = SvIV((SV *)SvRV(svTHIS));
       THIS = INT2PTR(__SAPO__Broker__Codecs__Autogen__ProtobufXS__Atom_Parameter *, tmp);
@@ -1940,7 +1940,7 @@ int
 length(svTHIS)
   SV * svTHIS
   CODE:
-    ::SAPO::Broker::Codecs::Autogen::ProtobufXS::Atom_Parameter * THIS;
+    ::sapo_broker::Atom_Parameter * THIS;
     if ( sv_derived_from(svTHIS, "SAPO::Broker::Codecs::Autogen::ProtobufXS::Atom::Parameter") ) {
       IV tmp = SvIV((SV *)SvRV(svTHIS));
       THIS = INT2PTR(__SAPO__Broker__Codecs__Autogen__ProtobufXS__Atom_Parameter *, tmp);
@@ -1971,7 +1971,7 @@ SV *
 to_hashref(svTHIS)
   SV * svTHIS
   CODE:
-    ::SAPO::Broker::Codecs::Autogen::ProtobufXS::Atom_Parameter * THIS;
+    ::sapo_broker::Atom_Parameter * THIS;
     if ( sv_derived_from(svTHIS, "SAPO::Broker::Codecs::Autogen::ProtobufXS::Atom::Parameter") ) {
       IV tmp = SvIV((SV *)SvRV(svTHIS));
       THIS = INT2PTR(__SAPO__Broker__Codecs__Autogen__ProtobufXS__Atom_Parameter *, tmp);
@@ -1980,7 +1980,7 @@ to_hashref(svTHIS)
     }
     if ( THIS != NULL ) {
       HV * hv0 = newHV();
-      ::SAPO::Broker::Codecs::Autogen::ProtobufXS::Atom_Parameter * msg0 = THIS;
+      ::sapo_broker::Atom_Parameter * msg0 = THIS;
 
       if ( msg0->has_name() ) {
         SV * sv0 = newSVpv(msg0->name().c_str(), msg0->name().length());
@@ -2003,7 +2003,7 @@ I32
 has_name(svTHIS)
   SV * svTHIS;
   CODE:
-    ::SAPO::Broker::Codecs::Autogen::ProtobufXS::Atom_Parameter * THIS;
+    ::sapo_broker::Atom_Parameter * THIS;
     if ( sv_derived_from(svTHIS, "SAPO::Broker::Codecs::Autogen::ProtobufXS::Atom::Parameter") ) {
       IV tmp = SvIV((SV *)SvRV(svTHIS));
       THIS = INT2PTR(__SAPO__Broker__Codecs__Autogen__ProtobufXS__Atom_Parameter *, tmp);
@@ -2020,7 +2020,7 @@ void
 clear_name(svTHIS)
   SV * svTHIS;
   CODE:
-    ::SAPO::Broker::Codecs::Autogen::ProtobufXS::Atom_Parameter * THIS;
+    ::sapo_broker::Atom_Parameter * THIS;
     if ( sv_derived_from(svTHIS, "SAPO::Broker::Codecs::Autogen::ProtobufXS::Atom::Parameter") ) {
       IV tmp = SvIV((SV *)SvRV(svTHIS));
       THIS = INT2PTR(__SAPO__Broker__Codecs__Autogen__ProtobufXS__Atom_Parameter *, tmp);
@@ -2037,7 +2037,7 @@ PREINIT:
     SV * sv;
 
   PPCODE:
-    ::SAPO::Broker::Codecs::Autogen::ProtobufXS::Atom_Parameter * THIS;
+    ::sapo_broker::Atom_Parameter * THIS;
     if ( sv_derived_from(svTHIS, "SAPO::Broker::Codecs::Autogen::ProtobufXS::Atom::Parameter") ) {
       IV tmp = SvIV((SV *)SvRV(svTHIS));
       THIS = INT2PTR(__SAPO__Broker__Codecs__Autogen__ProtobufXS__Atom_Parameter *, tmp);
@@ -2063,7 +2063,7 @@ set_name(svTHIS, svVAL)
     string sval;
 
   CODE:
-    ::SAPO::Broker::Codecs::Autogen::ProtobufXS::Atom_Parameter * THIS;
+    ::sapo_broker::Atom_Parameter * THIS;
     if ( sv_derived_from(svTHIS, "SAPO::Broker::Codecs::Autogen::ProtobufXS::Atom::Parameter") ) {
       IV tmp = SvIV((SV *)SvRV(svTHIS));
       THIS = INT2PTR(__SAPO__Broker__Codecs__Autogen__ProtobufXS__Atom_Parameter *, tmp);
@@ -2079,7 +2079,7 @@ I32
 has_value(svTHIS)
   SV * svTHIS;
   CODE:
-    ::SAPO::Broker::Codecs::Autogen::ProtobufXS::Atom_Parameter * THIS;
+    ::sapo_broker::Atom_Parameter * THIS;
     if ( sv_derived_from(svTHIS, "SAPO::Broker::Codecs::Autogen::ProtobufXS::Atom::Parameter") ) {
       IV tmp = SvIV((SV *)SvRV(svTHIS));
       THIS = INT2PTR(__SAPO__Broker__Codecs__Autogen__ProtobufXS__Atom_Parameter *, tmp);
@@ -2096,7 +2096,7 @@ void
 clear_value(svTHIS)
   SV * svTHIS;
   CODE:
-    ::SAPO::Broker::Codecs::Autogen::ProtobufXS::Atom_Parameter * THIS;
+    ::sapo_broker::Atom_Parameter * THIS;
     if ( sv_derived_from(svTHIS, "SAPO::Broker::Codecs::Autogen::ProtobufXS::Atom::Parameter") ) {
       IV tmp = SvIV((SV *)SvRV(svTHIS));
       THIS = INT2PTR(__SAPO__Broker__Codecs__Autogen__ProtobufXS__Atom_Parameter *, tmp);
@@ -2113,7 +2113,7 @@ PREINIT:
     SV * sv;
 
   PPCODE:
-    ::SAPO::Broker::Codecs::Autogen::ProtobufXS::Atom_Parameter * THIS;
+    ::sapo_broker::Atom_Parameter * THIS;
     if ( sv_derived_from(svTHIS, "SAPO::Broker::Codecs::Autogen::ProtobufXS::Atom::Parameter") ) {
       IV tmp = SvIV((SV *)SvRV(svTHIS));
       THIS = INT2PTR(__SAPO__Broker__Codecs__Autogen__ProtobufXS__Atom_Parameter *, tmp);
@@ -2139,7 +2139,7 @@ set_value(svTHIS, svVAL)
     string sval;
 
   CODE:
-    ::SAPO::Broker::Codecs::Autogen::ProtobufXS::Atom_Parameter * THIS;
+    ::sapo_broker::Atom_Parameter * THIS;
     if ( sv_derived_from(svTHIS, "SAPO::Broker::Codecs::Autogen::ProtobufXS::Atom::Parameter") ) {
       IV tmp = SvIV((SV *)SvRV(svTHIS));
       THIS = INT2PTR(__SAPO__Broker__Codecs__Autogen__ProtobufXS__Atom_Parameter *, tmp);
@@ -2156,9 +2156,9 @@ PROTOTYPES: ENABLE
 
 
 SV *
-::SAPO::Broker::Codecs::Autogen::ProtobufXS::Atom_Header::new (...)
+::sapo_broker::Atom_Header::new (...)
   PREINIT:
-    ::SAPO::Broker::Codecs::Autogen::ProtobufXS::Atom_Header * rv = NULL;
+    ::sapo_broker::Atom_Header * rv = NULL;
 
   CODE:
     if ( strcmp(CLASS,"SAPO::Broker::Codecs::Autogen::ProtobufXS::Atom::Header") ) {
@@ -2171,14 +2171,14 @@ SV *
         STRLEN len;
         char * str;
 
-        rv = new ::SAPO::Broker::Codecs::Autogen::ProtobufXS::Atom_Header;
+        rv = new ::sapo_broker::Atom_Header;
         str = SvPV(ST(1), len);
         if ( str != NULL ) {
           rv->ParseFromArray(str, len);
         }
       }
     } else {
-      rv = new ::SAPO::Broker::Codecs::Autogen::ProtobufXS::Atom_Header;
+      rv = new ::sapo_broker::Atom_Header;
     }
     RETVAL = newSV(0);
     sv_setref_pv(RETVAL, "SAPO::Broker::Codecs::Autogen::ProtobufXS::Atom::Header", (void *)rv);
@@ -2191,7 +2191,7 @@ void
 DESTROY(svTHIS)
   SV * svTHIS;
   CODE:
-    ::SAPO::Broker::Codecs::Autogen::ProtobufXS::Atom_Header * THIS;
+    ::sapo_broker::Atom_Header * THIS;
     if ( sv_derived_from(svTHIS, "SAPO::Broker::Codecs::Autogen::ProtobufXS::Atom::Header") ) {
       IV tmp = SvIV((SV *)SvRV(svTHIS));
       THIS = INT2PTR(__SAPO__Broker__Codecs__Autogen__ProtobufXS__Atom_Header *, tmp);
@@ -2208,7 +2208,7 @@ copy_from(svTHIS, sv)
   SV * svTHIS
   SV * sv
   CODE:
-    ::SAPO::Broker::Codecs::Autogen::ProtobufXS::Atom_Header * THIS;
+    ::sapo_broker::Atom_Header * THIS;
     if ( sv_derived_from(svTHIS, "SAPO::Broker::Codecs::Autogen::ProtobufXS::Atom::Header") ) {
       IV tmp = SvIV((SV *)SvRV(svTHIS));
       THIS = INT2PTR(__SAPO__Broker__Codecs__Autogen__ProtobufXS__Atom_Header *, tmp);
@@ -2218,12 +2218,12 @@ copy_from(svTHIS, sv)
     if ( THIS != NULL && sv != NULL ) {
       if ( sv_derived_from(sv, "SAPO::Broker::Codecs::Autogen::ProtobufXS::Atom::Header") ) {
         IV tmp = SvIV((SV *)SvRV(sv));
-        ::SAPO::Broker::Codecs::Autogen::ProtobufXS::Atom_Header * other = INT2PTR(__SAPO__Broker__Codecs__Autogen__ProtobufXS__Atom_Header *, tmp);
+        ::sapo_broker::Atom_Header * other = INT2PTR(__SAPO__Broker__Codecs__Autogen__ProtobufXS__Atom_Header *, tmp);
 
         THIS->CopyFrom(*other);
       } else if ( SvROK(sv) &&
                   SvTYPE(SvRV(sv)) == SVt_PVHV ) {
-        ::SAPO::Broker::Codecs::Autogen::ProtobufXS::Atom_Header * other = __SAPO__Broker__Codecs__Autogen__ProtobufXS__Atom_Header_from_hashref(sv);
+        ::sapo_broker::Atom_Header * other = __SAPO__Broker__Codecs__Autogen__ProtobufXS__Atom_Header_from_hashref(sv);
         THIS->CopyFrom(*other);
         delete other;
       }
@@ -2235,7 +2235,7 @@ merge_from(svTHIS, sv)
   SV * svTHIS
   SV * sv
   CODE:
-    ::SAPO::Broker::Codecs::Autogen::ProtobufXS::Atom_Header * THIS;
+    ::sapo_broker::Atom_Header * THIS;
     if ( sv_derived_from(svTHIS, "SAPO::Broker::Codecs::Autogen::ProtobufXS::Atom::Header") ) {
       IV tmp = SvIV((SV *)SvRV(svTHIS));
       THIS = INT2PTR(__SAPO__Broker__Codecs__Autogen__ProtobufXS__Atom_Header *, tmp);
@@ -2245,12 +2245,12 @@ merge_from(svTHIS, sv)
     if ( THIS != NULL && sv != NULL ) {
       if ( sv_derived_from(sv, "SAPO::Broker::Codecs::Autogen::ProtobufXS::Atom::Header") ) {
         IV tmp = SvIV((SV *)SvRV(sv));
-        ::SAPO::Broker::Codecs::Autogen::ProtobufXS::Atom_Header * other = INT2PTR(__SAPO__Broker__Codecs__Autogen__ProtobufXS__Atom_Header *, tmp);
+        ::sapo_broker::Atom_Header * other = INT2PTR(__SAPO__Broker__Codecs__Autogen__ProtobufXS__Atom_Header *, tmp);
 
         THIS->MergeFrom(*other);
       } else if ( SvROK(sv) &&
                   SvTYPE(SvRV(sv)) == SVt_PVHV ) {
-        ::SAPO::Broker::Codecs::Autogen::ProtobufXS::Atom_Header * other = __SAPO__Broker__Codecs__Autogen__ProtobufXS__Atom_Header_from_hashref(sv);
+        ::sapo_broker::Atom_Header * other = __SAPO__Broker__Codecs__Autogen__ProtobufXS__Atom_Header_from_hashref(sv);
         THIS->MergeFrom(*other);
         delete other;
       }
@@ -2261,7 +2261,7 @@ void
 clear(svTHIS)
   SV * svTHIS
   CODE:
-    ::SAPO::Broker::Codecs::Autogen::ProtobufXS::Atom_Header * THIS;
+    ::sapo_broker::Atom_Header * THIS;
     if ( sv_derived_from(svTHIS, "SAPO::Broker::Codecs::Autogen::ProtobufXS::Atom::Header") ) {
       IV tmp = SvIV((SV *)SvRV(svTHIS));
       THIS = INT2PTR(__SAPO__Broker__Codecs__Autogen__ProtobufXS__Atom_Header *, tmp);
@@ -2277,7 +2277,7 @@ int
 is_initialized(svTHIS)
   SV * svTHIS
   CODE:
-    ::SAPO::Broker::Codecs::Autogen::ProtobufXS::Atom_Header * THIS;
+    ::sapo_broker::Atom_Header * THIS;
     if ( sv_derived_from(svTHIS, "SAPO::Broker::Codecs::Autogen::ProtobufXS::Atom::Header") ) {
       IV tmp = SvIV((SV *)SvRV(svTHIS));
       THIS = INT2PTR(__SAPO__Broker__Codecs__Autogen__ProtobufXS__Atom_Header *, tmp);
@@ -2301,7 +2301,7 @@ error_string(svTHIS)
     string estr;
 
   CODE:
-    ::SAPO::Broker::Codecs::Autogen::ProtobufXS::Atom_Header * THIS;
+    ::sapo_broker::Atom_Header * THIS;
     if ( sv_derived_from(svTHIS, "SAPO::Broker::Codecs::Autogen::ProtobufXS::Atom::Header") ) {
       IV tmp = SvIV((SV *)SvRV(svTHIS));
       THIS = INT2PTR(__SAPO__Broker__Codecs__Autogen__ProtobufXS__Atom_Header *, tmp);
@@ -2321,7 +2321,7 @@ void
 discard_unkown_fields(svTHIS)
   SV * svTHIS
   CODE:
-    ::SAPO::Broker::Codecs::Autogen::ProtobufXS::Atom_Header * THIS;
+    ::sapo_broker::Atom_Header * THIS;
     if ( sv_derived_from(svTHIS, "SAPO::Broker::Codecs::Autogen::ProtobufXS::Atom::Header") ) {
       IV tmp = SvIV((SV *)SvRV(svTHIS));
       THIS = INT2PTR(__SAPO__Broker__Codecs__Autogen__ProtobufXS__Atom_Header *, tmp);
@@ -2340,7 +2340,7 @@ debug_string(svTHIS)
     string dstr;
 
   CODE:
-    ::SAPO::Broker::Codecs::Autogen::ProtobufXS::Atom_Header * THIS;
+    ::sapo_broker::Atom_Header * THIS;
     if ( sv_derived_from(svTHIS, "SAPO::Broker::Codecs::Autogen::ProtobufXS::Atom::Header") ) {
       IV tmp = SvIV((SV *)SvRV(svTHIS));
       THIS = INT2PTR(__SAPO__Broker__Codecs__Autogen__ProtobufXS__Atom_Header *, tmp);
@@ -2363,7 +2363,7 @@ short_debug_string(svTHIS)
     string dstr;
 
   CODE:
-    ::SAPO::Broker::Codecs::Autogen::ProtobufXS::Atom_Header * THIS;
+    ::sapo_broker::Atom_Header * THIS;
     if ( sv_derived_from(svTHIS, "SAPO::Broker::Codecs::Autogen::ProtobufXS::Atom::Header") ) {
       IV tmp = SvIV((SV *)SvRV(svTHIS));
       THIS = INT2PTR(__SAPO__Broker__Codecs__Autogen__ProtobufXS__Atom_Header *, tmp);
@@ -2388,7 +2388,7 @@ unpack(svTHIS, arg)
     char * str;
 
   CODE:
-    ::SAPO::Broker::Codecs::Autogen::ProtobufXS::Atom_Header * THIS;
+    ::sapo_broker::Atom_Header * THIS;
     if ( sv_derived_from(svTHIS, "SAPO::Broker::Codecs::Autogen::ProtobufXS::Atom::Header") ) {
       IV tmp = SvIV((SV *)SvRV(svTHIS));
       THIS = INT2PTR(__SAPO__Broker__Codecs__Autogen__ProtobufXS__Atom_Header *, tmp);
@@ -2414,7 +2414,7 @@ SV *
 pack(svTHIS)
   SV * svTHIS
   CODE:
-    ::SAPO::Broker::Codecs::Autogen::ProtobufXS::Atom_Header * THIS;
+    ::sapo_broker::Atom_Header * THIS;
     if ( sv_derived_from(svTHIS, "SAPO::Broker::Codecs::Autogen::ProtobufXS::Atom::Header") ) {
       IV tmp = SvIV((SV *)SvRV(svTHIS));
       THIS = INT2PTR(__SAPO__Broker__Codecs__Autogen__ProtobufXS__Atom_Header *, tmp);
@@ -2447,7 +2447,7 @@ int
 length(svTHIS)
   SV * svTHIS
   CODE:
-    ::SAPO::Broker::Codecs::Autogen::ProtobufXS::Atom_Header * THIS;
+    ::sapo_broker::Atom_Header * THIS;
     if ( sv_derived_from(svTHIS, "SAPO::Broker::Codecs::Autogen::ProtobufXS::Atom::Header") ) {
       IV tmp = SvIV((SV *)SvRV(svTHIS));
       THIS = INT2PTR(__SAPO__Broker__Codecs__Autogen__ProtobufXS__Atom_Header *, tmp);
@@ -2477,7 +2477,7 @@ SV *
 to_hashref(svTHIS)
   SV * svTHIS
   CODE:
-    ::SAPO::Broker::Codecs::Autogen::ProtobufXS::Atom_Header * THIS;
+    ::sapo_broker::Atom_Header * THIS;
     if ( sv_derived_from(svTHIS, "SAPO::Broker::Codecs::Autogen::ProtobufXS::Atom::Header") ) {
       IV tmp = SvIV((SV *)SvRV(svTHIS));
       THIS = INT2PTR(__SAPO__Broker__Codecs__Autogen__ProtobufXS__Atom_Header *, tmp);
@@ -2486,14 +2486,14 @@ to_hashref(svTHIS)
     }
     if ( THIS != NULL ) {
       HV * hv0 = newHV();
-      ::SAPO::Broker::Codecs::Autogen::ProtobufXS::Atom_Header * msg0 = THIS;
+      ::sapo_broker::Atom_Header * msg0 = THIS;
 
       if ( msg0->parameter_size() > 0 ) {
         AV * av0 = newAV();
         SV * sv0 = newRV_noinc((SV *)av0);
         
         for ( int i0 = 0; i0 < msg0->parameter_size(); i0++ ) {
-          ::SAPO::Broker::Codecs::Autogen::ProtobufXS::Atom_Parameter * msg2 = msg0->mutable_parameter(i0);
+          ::sapo_broker::Atom_Parameter * msg2 = msg0->mutable_parameter(i0);
           HV * hv2 = newHV();
           SV * sv1 = newRV_noinc((SV *)hv2);
           
@@ -2522,7 +2522,7 @@ I32
 parameter_size(svTHIS)
   SV * svTHIS;
   CODE:
-    ::SAPO::Broker::Codecs::Autogen::ProtobufXS::Atom_Header * THIS;
+    ::sapo_broker::Atom_Header * THIS;
     if ( sv_derived_from(svTHIS, "SAPO::Broker::Codecs::Autogen::ProtobufXS::Atom::Header") ) {
       IV tmp = SvIV((SV *)SvRV(svTHIS));
       THIS = INT2PTR(__SAPO__Broker__Codecs__Autogen__ProtobufXS__Atom_Header *, tmp);
@@ -2539,7 +2539,7 @@ void
 clear_parameter(svTHIS)
   SV * svTHIS;
   CODE:
-    ::SAPO::Broker::Codecs::Autogen::ProtobufXS::Atom_Header * THIS;
+    ::sapo_broker::Atom_Header * THIS;
     if ( sv_derived_from(svTHIS, "SAPO::Broker::Codecs::Autogen::ProtobufXS::Atom::Header") ) {
       IV tmp = SvIV((SV *)SvRV(svTHIS));
       THIS = INT2PTR(__SAPO__Broker__Codecs__Autogen__ProtobufXS__Atom_Header *, tmp);
@@ -2555,10 +2555,10 @@ parameter(svTHIS, ...)
 PREINIT:
     SV * sv;
     int index = 0;
-    ::SAPO::Broker::Codecs::Autogen::ProtobufXS::Atom_Parameter * val = NULL;
+    ::sapo_broker::Atom_Parameter * val = NULL;
 
   PPCODE:
-    ::SAPO::Broker::Codecs::Autogen::ProtobufXS::Atom_Header * THIS;
+    ::sapo_broker::Atom_Header * THIS;
     if ( sv_derived_from(svTHIS, "SAPO::Broker::Codecs::Autogen::ProtobufXS::Atom::Header") ) {
       IV tmp = SvIV((SV *)SvRV(svTHIS));
       THIS = INT2PTR(__SAPO__Broker__Codecs__Autogen__ProtobufXS__Atom_Header *, tmp);
@@ -2576,7 +2576,7 @@ PREINIT:
 
         EXTEND(SP, count);
         for ( int index = 0; index < count; index++ ) {
-          val = new ::SAPO::Broker::Codecs::Autogen::ProtobufXS::Atom_Parameter;
+          val = new ::sapo_broker::Atom_Parameter;
           val->CopyFrom(THIS->parameter(index));
           sv = sv_newmortal();
           sv_setref_pv(sv, "SAPO::Broker::Codecs::Autogen::ProtobufXS::Atom::Parameter", (void *)val);
@@ -2585,7 +2585,7 @@ PREINIT:
       } else if ( index >= 0 &&
                   index < THIS->parameter_size() ) {
         EXTEND(SP,1);
-        val = new ::SAPO::Broker::Codecs::Autogen::ProtobufXS::Atom_Parameter;
+        val = new ::sapo_broker::Atom_Parameter;
         val->CopyFrom(THIS->parameter(index));
         sv = sv_newmortal();
         sv_setref_pv(sv, "SAPO::Broker::Codecs::Autogen::ProtobufXS::Atom::Parameter", (void *)val);
@@ -2602,14 +2602,14 @@ add_parameter(svTHIS, svVAL)
   SV * svTHIS
   SV * svVAL
   CODE:
-    ::SAPO::Broker::Codecs::Autogen::ProtobufXS::Atom_Header * THIS;
+    ::sapo_broker::Atom_Header * THIS;
     if ( sv_derived_from(svTHIS, "SAPO::Broker::Codecs::Autogen::ProtobufXS::Atom::Header") ) {
       IV tmp = SvIV((SV *)SvRV(svTHIS));
       THIS = INT2PTR(__SAPO__Broker__Codecs__Autogen__ProtobufXS__Atom_Header *, tmp);
     } else {
       croak("THIS is not of type SAPO::Broker::Codecs::Autogen::ProtobufXS::Atom::Header");
     }
-    ::SAPO::Broker::Codecs::Autogen::ProtobufXS::Atom_Parameter * VAL;
+    ::sapo_broker::Atom_Parameter * VAL;
     if ( sv_derived_from(svVAL, "SAPO::Broker::Codecs::Autogen::ProtobufXS::Atom::Parameter") ) {
       IV tmp = SvIV((SV *)SvRV(svVAL));
       VAL = INT2PTR(__SAPO__Broker__Codecs__Autogen__ProtobufXS__Atom_Parameter *, tmp);
@@ -2617,7 +2617,7 @@ add_parameter(svTHIS, svVAL)
       croak("VAL is not of type SAPO::Broker::Codecs::Autogen::ProtobufXS::Atom::Parameter");
     }
     if ( VAL != NULL ) {
-      ::SAPO::Broker::Codecs::Autogen::ProtobufXS::Atom_Parameter * mval = THIS->add_parameter();
+      ::sapo_broker::Atom_Parameter * mval = THIS->add_parameter();
       mval->CopyFrom(*VAL);
     }
 
@@ -2627,9 +2627,9 @@ PROTOTYPES: ENABLE
 
 
 SV *
-::SAPO::Broker::Codecs::Autogen::ProtobufXS::Atom_BrokerMessage::new (...)
+::sapo_broker::Atom_BrokerMessage::new (...)
   PREINIT:
-    ::SAPO::Broker::Codecs::Autogen::ProtobufXS::Atom_BrokerMessage * rv = NULL;
+    ::sapo_broker::Atom_BrokerMessage * rv = NULL;
 
   CODE:
     if ( strcmp(CLASS,"SAPO::Broker::Codecs::Autogen::ProtobufXS::Atom::BrokerMessage") ) {
@@ -2642,14 +2642,14 @@ SV *
         STRLEN len;
         char * str;
 
-        rv = new ::SAPO::Broker::Codecs::Autogen::ProtobufXS::Atom_BrokerMessage;
+        rv = new ::sapo_broker::Atom_BrokerMessage;
         str = SvPV(ST(1), len);
         if ( str != NULL ) {
           rv->ParseFromArray(str, len);
         }
       }
     } else {
-      rv = new ::SAPO::Broker::Codecs::Autogen::ProtobufXS::Atom_BrokerMessage;
+      rv = new ::sapo_broker::Atom_BrokerMessage;
     }
     RETVAL = newSV(0);
     sv_setref_pv(RETVAL, "SAPO::Broker::Codecs::Autogen::ProtobufXS::Atom::BrokerMessage", (void *)rv);
@@ -2662,7 +2662,7 @@ void
 DESTROY(svTHIS)
   SV * svTHIS;
   CODE:
-    ::SAPO::Broker::Codecs::Autogen::ProtobufXS::Atom_BrokerMessage * THIS;
+    ::sapo_broker::Atom_BrokerMessage * THIS;
     if ( sv_derived_from(svTHIS, "SAPO::Broker::Codecs::Autogen::ProtobufXS::Atom::BrokerMessage") ) {
       IV tmp = SvIV((SV *)SvRV(svTHIS));
       THIS = INT2PTR(__SAPO__Broker__Codecs__Autogen__ProtobufXS__Atom_BrokerMessage *, tmp);
@@ -2679,7 +2679,7 @@ copy_from(svTHIS, sv)
   SV * svTHIS
   SV * sv
   CODE:
-    ::SAPO::Broker::Codecs::Autogen::ProtobufXS::Atom_BrokerMessage * THIS;
+    ::sapo_broker::Atom_BrokerMessage * THIS;
     if ( sv_derived_from(svTHIS, "SAPO::Broker::Codecs::Autogen::ProtobufXS::Atom::BrokerMessage") ) {
       IV tmp = SvIV((SV *)SvRV(svTHIS));
       THIS = INT2PTR(__SAPO__Broker__Codecs__Autogen__ProtobufXS__Atom_BrokerMessage *, tmp);
@@ -2689,12 +2689,12 @@ copy_from(svTHIS, sv)
     if ( THIS != NULL && sv != NULL ) {
       if ( sv_derived_from(sv, "SAPO::Broker::Codecs::Autogen::ProtobufXS::Atom::BrokerMessage") ) {
         IV tmp = SvIV((SV *)SvRV(sv));
-        ::SAPO::Broker::Codecs::Autogen::ProtobufXS::Atom_BrokerMessage * other = INT2PTR(__SAPO__Broker__Codecs__Autogen__ProtobufXS__Atom_BrokerMessage *, tmp);
+        ::sapo_broker::Atom_BrokerMessage * other = INT2PTR(__SAPO__Broker__Codecs__Autogen__ProtobufXS__Atom_BrokerMessage *, tmp);
 
         THIS->CopyFrom(*other);
       } else if ( SvROK(sv) &&
                   SvTYPE(SvRV(sv)) == SVt_PVHV ) {
-        ::SAPO::Broker::Codecs::Autogen::ProtobufXS::Atom_BrokerMessage * other = __SAPO__Broker__Codecs__Autogen__ProtobufXS__Atom_BrokerMessage_from_hashref(sv);
+        ::sapo_broker::Atom_BrokerMessage * other = __SAPO__Broker__Codecs__Autogen__ProtobufXS__Atom_BrokerMessage_from_hashref(sv);
         THIS->CopyFrom(*other);
         delete other;
       }
@@ -2706,7 +2706,7 @@ merge_from(svTHIS, sv)
   SV * svTHIS
   SV * sv
   CODE:
-    ::SAPO::Broker::Codecs::Autogen::ProtobufXS::Atom_BrokerMessage * THIS;
+    ::sapo_broker::Atom_BrokerMessage * THIS;
     if ( sv_derived_from(svTHIS, "SAPO::Broker::Codecs::Autogen::ProtobufXS::Atom::BrokerMessage") ) {
       IV tmp = SvIV((SV *)SvRV(svTHIS));
       THIS = INT2PTR(__SAPO__Broker__Codecs__Autogen__ProtobufXS__Atom_BrokerMessage *, tmp);
@@ -2716,12 +2716,12 @@ merge_from(svTHIS, sv)
     if ( THIS != NULL && sv != NULL ) {
       if ( sv_derived_from(sv, "SAPO::Broker::Codecs::Autogen::ProtobufXS::Atom::BrokerMessage") ) {
         IV tmp = SvIV((SV *)SvRV(sv));
-        ::SAPO::Broker::Codecs::Autogen::ProtobufXS::Atom_BrokerMessage * other = INT2PTR(__SAPO__Broker__Codecs__Autogen__ProtobufXS__Atom_BrokerMessage *, tmp);
+        ::sapo_broker::Atom_BrokerMessage * other = INT2PTR(__SAPO__Broker__Codecs__Autogen__ProtobufXS__Atom_BrokerMessage *, tmp);
 
         THIS->MergeFrom(*other);
       } else if ( SvROK(sv) &&
                   SvTYPE(SvRV(sv)) == SVt_PVHV ) {
-        ::SAPO::Broker::Codecs::Autogen::ProtobufXS::Atom_BrokerMessage * other = __SAPO__Broker__Codecs__Autogen__ProtobufXS__Atom_BrokerMessage_from_hashref(sv);
+        ::sapo_broker::Atom_BrokerMessage * other = __SAPO__Broker__Codecs__Autogen__ProtobufXS__Atom_BrokerMessage_from_hashref(sv);
         THIS->MergeFrom(*other);
         delete other;
       }
@@ -2732,7 +2732,7 @@ void
 clear(svTHIS)
   SV * svTHIS
   CODE:
-    ::SAPO::Broker::Codecs::Autogen::ProtobufXS::Atom_BrokerMessage * THIS;
+    ::sapo_broker::Atom_BrokerMessage * THIS;
     if ( sv_derived_from(svTHIS, "SAPO::Broker::Codecs::Autogen::ProtobufXS::Atom::BrokerMessage") ) {
       IV tmp = SvIV((SV *)SvRV(svTHIS));
       THIS = INT2PTR(__SAPO__Broker__Codecs__Autogen__ProtobufXS__Atom_BrokerMessage *, tmp);
@@ -2748,7 +2748,7 @@ int
 is_initialized(svTHIS)
   SV * svTHIS
   CODE:
-    ::SAPO::Broker::Codecs::Autogen::ProtobufXS::Atom_BrokerMessage * THIS;
+    ::sapo_broker::Atom_BrokerMessage * THIS;
     if ( sv_derived_from(svTHIS, "SAPO::Broker::Codecs::Autogen::ProtobufXS::Atom::BrokerMessage") ) {
       IV tmp = SvIV((SV *)SvRV(svTHIS));
       THIS = INT2PTR(__SAPO__Broker__Codecs__Autogen__ProtobufXS__Atom_BrokerMessage *, tmp);
@@ -2772,7 +2772,7 @@ error_string(svTHIS)
     string estr;
 
   CODE:
-    ::SAPO::Broker::Codecs::Autogen::ProtobufXS::Atom_BrokerMessage * THIS;
+    ::sapo_broker::Atom_BrokerMessage * THIS;
     if ( sv_derived_from(svTHIS, "SAPO::Broker::Codecs::Autogen::ProtobufXS::Atom::BrokerMessage") ) {
       IV tmp = SvIV((SV *)SvRV(svTHIS));
       THIS = INT2PTR(__SAPO__Broker__Codecs__Autogen__ProtobufXS__Atom_BrokerMessage *, tmp);
@@ -2792,7 +2792,7 @@ void
 discard_unkown_fields(svTHIS)
   SV * svTHIS
   CODE:
-    ::SAPO::Broker::Codecs::Autogen::ProtobufXS::Atom_BrokerMessage * THIS;
+    ::sapo_broker::Atom_BrokerMessage * THIS;
     if ( sv_derived_from(svTHIS, "SAPO::Broker::Codecs::Autogen::ProtobufXS::Atom::BrokerMessage") ) {
       IV tmp = SvIV((SV *)SvRV(svTHIS));
       THIS = INT2PTR(__SAPO__Broker__Codecs__Autogen__ProtobufXS__Atom_BrokerMessage *, tmp);
@@ -2811,7 +2811,7 @@ debug_string(svTHIS)
     string dstr;
 
   CODE:
-    ::SAPO::Broker::Codecs::Autogen::ProtobufXS::Atom_BrokerMessage * THIS;
+    ::sapo_broker::Atom_BrokerMessage * THIS;
     if ( sv_derived_from(svTHIS, "SAPO::Broker::Codecs::Autogen::ProtobufXS::Atom::BrokerMessage") ) {
       IV tmp = SvIV((SV *)SvRV(svTHIS));
       THIS = INT2PTR(__SAPO__Broker__Codecs__Autogen__ProtobufXS__Atom_BrokerMessage *, tmp);
@@ -2834,7 +2834,7 @@ short_debug_string(svTHIS)
     string dstr;
 
   CODE:
-    ::SAPO::Broker::Codecs::Autogen::ProtobufXS::Atom_BrokerMessage * THIS;
+    ::sapo_broker::Atom_BrokerMessage * THIS;
     if ( sv_derived_from(svTHIS, "SAPO::Broker::Codecs::Autogen::ProtobufXS::Atom::BrokerMessage") ) {
       IV tmp = SvIV((SV *)SvRV(svTHIS));
       THIS = INT2PTR(__SAPO__Broker__Codecs__Autogen__ProtobufXS__Atom_BrokerMessage *, tmp);
@@ -2859,7 +2859,7 @@ unpack(svTHIS, arg)
     char * str;
 
   CODE:
-    ::SAPO::Broker::Codecs::Autogen::ProtobufXS::Atom_BrokerMessage * THIS;
+    ::sapo_broker::Atom_BrokerMessage * THIS;
     if ( sv_derived_from(svTHIS, "SAPO::Broker::Codecs::Autogen::ProtobufXS::Atom::BrokerMessage") ) {
       IV tmp = SvIV((SV *)SvRV(svTHIS));
       THIS = INT2PTR(__SAPO__Broker__Codecs__Autogen__ProtobufXS__Atom_BrokerMessage *, tmp);
@@ -2885,7 +2885,7 @@ SV *
 pack(svTHIS)
   SV * svTHIS
   CODE:
-    ::SAPO::Broker::Codecs::Autogen::ProtobufXS::Atom_BrokerMessage * THIS;
+    ::sapo_broker::Atom_BrokerMessage * THIS;
     if ( sv_derived_from(svTHIS, "SAPO::Broker::Codecs::Autogen::ProtobufXS::Atom::BrokerMessage") ) {
       IV tmp = SvIV((SV *)SvRV(svTHIS));
       THIS = INT2PTR(__SAPO__Broker__Codecs__Autogen__ProtobufXS__Atom_BrokerMessage *, tmp);
@@ -2918,7 +2918,7 @@ int
 length(svTHIS)
   SV * svTHIS
   CODE:
-    ::SAPO::Broker::Codecs::Autogen::ProtobufXS::Atom_BrokerMessage * THIS;
+    ::sapo_broker::Atom_BrokerMessage * THIS;
     if ( sv_derived_from(svTHIS, "SAPO::Broker::Codecs::Autogen::ProtobufXS::Atom::BrokerMessage") ) {
       IV tmp = SvIV((SV *)SvRV(svTHIS));
       THIS = INT2PTR(__SAPO__Broker__Codecs__Autogen__ProtobufXS__Atom_BrokerMessage *, tmp);
@@ -2951,7 +2951,7 @@ SV *
 to_hashref(svTHIS)
   SV * svTHIS
   CODE:
-    ::SAPO::Broker::Codecs::Autogen::ProtobufXS::Atom_BrokerMessage * THIS;
+    ::sapo_broker::Atom_BrokerMessage * THIS;
     if ( sv_derived_from(svTHIS, "SAPO::Broker::Codecs::Autogen::ProtobufXS::Atom::BrokerMessage") ) {
       IV tmp = SvIV((SV *)SvRV(svTHIS));
       THIS = INT2PTR(__SAPO__Broker__Codecs__Autogen__ProtobufXS__Atom_BrokerMessage *, tmp);
@@ -2960,7 +2960,7 @@ to_hashref(svTHIS)
     }
     if ( THIS != NULL ) {
       HV * hv0 = newHV();
-      ::SAPO::Broker::Codecs::Autogen::ProtobufXS::Atom_BrokerMessage * msg0 = THIS;
+      ::sapo_broker::Atom_BrokerMessage * msg0 = THIS;
 
       if ( msg0->has_message_id() ) {
         SV * sv0 = newSVpv(msg0->message_id().c_str(), msg0->message_id().length());
@@ -2997,7 +2997,7 @@ I32
 has_message_id(svTHIS)
   SV * svTHIS;
   CODE:
-    ::SAPO::Broker::Codecs::Autogen::ProtobufXS::Atom_BrokerMessage * THIS;
+    ::sapo_broker::Atom_BrokerMessage * THIS;
     if ( sv_derived_from(svTHIS, "SAPO::Broker::Codecs::Autogen::ProtobufXS::Atom::BrokerMessage") ) {
       IV tmp = SvIV((SV *)SvRV(svTHIS));
       THIS = INT2PTR(__SAPO__Broker__Codecs__Autogen__ProtobufXS__Atom_BrokerMessage *, tmp);
@@ -3014,7 +3014,7 @@ void
 clear_message_id(svTHIS)
   SV * svTHIS;
   CODE:
-    ::SAPO::Broker::Codecs::Autogen::ProtobufXS::Atom_BrokerMessage * THIS;
+    ::sapo_broker::Atom_BrokerMessage * THIS;
     if ( sv_derived_from(svTHIS, "SAPO::Broker::Codecs::Autogen::ProtobufXS::Atom::BrokerMessage") ) {
       IV tmp = SvIV((SV *)SvRV(svTHIS));
       THIS = INT2PTR(__SAPO__Broker__Codecs__Autogen__ProtobufXS__Atom_BrokerMessage *, tmp);
@@ -3031,7 +3031,7 @@ PREINIT:
     SV * sv;
 
   PPCODE:
-    ::SAPO::Broker::Codecs::Autogen::ProtobufXS::Atom_BrokerMessage * THIS;
+    ::sapo_broker::Atom_BrokerMessage * THIS;
     if ( sv_derived_from(svTHIS, "SAPO::Broker::Codecs::Autogen::ProtobufXS::Atom::BrokerMessage") ) {
       IV tmp = SvIV((SV *)SvRV(svTHIS));
       THIS = INT2PTR(__SAPO__Broker__Codecs__Autogen__ProtobufXS__Atom_BrokerMessage *, tmp);
@@ -3057,7 +3057,7 @@ set_message_id(svTHIS, svVAL)
     string sval;
 
   CODE:
-    ::SAPO::Broker::Codecs::Autogen::ProtobufXS::Atom_BrokerMessage * THIS;
+    ::sapo_broker::Atom_BrokerMessage * THIS;
     if ( sv_derived_from(svTHIS, "SAPO::Broker::Codecs::Autogen::ProtobufXS::Atom::BrokerMessage") ) {
       IV tmp = SvIV((SV *)SvRV(svTHIS));
       THIS = INT2PTR(__SAPO__Broker__Codecs__Autogen__ProtobufXS__Atom_BrokerMessage *, tmp);
@@ -3073,7 +3073,7 @@ I32
 has_payload(svTHIS)
   SV * svTHIS;
   CODE:
-    ::SAPO::Broker::Codecs::Autogen::ProtobufXS::Atom_BrokerMessage * THIS;
+    ::sapo_broker::Atom_BrokerMessage * THIS;
     if ( sv_derived_from(svTHIS, "SAPO::Broker::Codecs::Autogen::ProtobufXS::Atom::BrokerMessage") ) {
       IV tmp = SvIV((SV *)SvRV(svTHIS));
       THIS = INT2PTR(__SAPO__Broker__Codecs__Autogen__ProtobufXS__Atom_BrokerMessage *, tmp);
@@ -3090,7 +3090,7 @@ void
 clear_payload(svTHIS)
   SV * svTHIS;
   CODE:
-    ::SAPO::Broker::Codecs::Autogen::ProtobufXS::Atom_BrokerMessage * THIS;
+    ::sapo_broker::Atom_BrokerMessage * THIS;
     if ( sv_derived_from(svTHIS, "SAPO::Broker::Codecs::Autogen::ProtobufXS::Atom::BrokerMessage") ) {
       IV tmp = SvIV((SV *)SvRV(svTHIS));
       THIS = INT2PTR(__SAPO__Broker__Codecs__Autogen__ProtobufXS__Atom_BrokerMessage *, tmp);
@@ -3107,7 +3107,7 @@ PREINIT:
     SV * sv;
 
   PPCODE:
-    ::SAPO::Broker::Codecs::Autogen::ProtobufXS::Atom_BrokerMessage * THIS;
+    ::sapo_broker::Atom_BrokerMessage * THIS;
     if ( sv_derived_from(svTHIS, "SAPO::Broker::Codecs::Autogen::ProtobufXS::Atom::BrokerMessage") ) {
       IV tmp = SvIV((SV *)SvRV(svTHIS));
       THIS = INT2PTR(__SAPO__Broker__Codecs__Autogen__ProtobufXS__Atom_BrokerMessage *, tmp);
@@ -3132,7 +3132,7 @@ set_payload(svTHIS, svVAL)
     STRLEN len;
 
   CODE:
-    ::SAPO::Broker::Codecs::Autogen::ProtobufXS::Atom_BrokerMessage * THIS;
+    ::sapo_broker::Atom_BrokerMessage * THIS;
     if ( sv_derived_from(svTHIS, "SAPO::Broker::Codecs::Autogen::ProtobufXS::Atom::BrokerMessage") ) {
       IV tmp = SvIV((SV *)SvRV(svTHIS));
       THIS = INT2PTR(__SAPO__Broker__Codecs__Autogen__ProtobufXS__Atom_BrokerMessage *, tmp);
@@ -3147,7 +3147,7 @@ I32
 has_expiration(svTHIS)
   SV * svTHIS;
   CODE:
-    ::SAPO::Broker::Codecs::Autogen::ProtobufXS::Atom_BrokerMessage * THIS;
+    ::sapo_broker::Atom_BrokerMessage * THIS;
     if ( sv_derived_from(svTHIS, "SAPO::Broker::Codecs::Autogen::ProtobufXS::Atom::BrokerMessage") ) {
       IV tmp = SvIV((SV *)SvRV(svTHIS));
       THIS = INT2PTR(__SAPO__Broker__Codecs__Autogen__ProtobufXS__Atom_BrokerMessage *, tmp);
@@ -3164,7 +3164,7 @@ void
 clear_expiration(svTHIS)
   SV * svTHIS;
   CODE:
-    ::SAPO::Broker::Codecs::Autogen::ProtobufXS::Atom_BrokerMessage * THIS;
+    ::sapo_broker::Atom_BrokerMessage * THIS;
     if ( sv_derived_from(svTHIS, "SAPO::Broker::Codecs::Autogen::ProtobufXS::Atom::BrokerMessage") ) {
       IV tmp = SvIV((SV *)SvRV(svTHIS));
       THIS = INT2PTR(__SAPO__Broker__Codecs__Autogen__ProtobufXS__Atom_BrokerMessage *, tmp);
@@ -3182,7 +3182,7 @@ PREINIT:
     ostringstream ost;
 
   PPCODE:
-    ::SAPO::Broker::Codecs::Autogen::ProtobufXS::Atom_BrokerMessage * THIS;
+    ::sapo_broker::Atom_BrokerMessage * THIS;
     if ( sv_derived_from(svTHIS, "SAPO::Broker::Codecs::Autogen::ProtobufXS::Atom::BrokerMessage") ) {
       IV tmp = SvIV((SV *)SvRV(svTHIS));
       THIS = INT2PTR(__SAPO__Broker__Codecs__Autogen__ProtobufXS__Atom_BrokerMessage *, tmp);
@@ -3209,7 +3209,7 @@ set_expiration(svTHIS, svVAL)
 
   CODE:
     lval = strtoll((svVAL) ? svVAL : "", NULL, 0);
-    ::SAPO::Broker::Codecs::Autogen::ProtobufXS::Atom_BrokerMessage * THIS;
+    ::sapo_broker::Atom_BrokerMessage * THIS;
     if ( sv_derived_from(svTHIS, "SAPO::Broker::Codecs::Autogen::ProtobufXS::Atom::BrokerMessage") ) {
       IV tmp = SvIV((SV *)SvRV(svTHIS));
       THIS = INT2PTR(__SAPO__Broker__Codecs__Autogen__ProtobufXS__Atom_BrokerMessage *, tmp);
@@ -3223,7 +3223,7 @@ I32
 has_timestamp(svTHIS)
   SV * svTHIS;
   CODE:
-    ::SAPO::Broker::Codecs::Autogen::ProtobufXS::Atom_BrokerMessage * THIS;
+    ::sapo_broker::Atom_BrokerMessage * THIS;
     if ( sv_derived_from(svTHIS, "SAPO::Broker::Codecs::Autogen::ProtobufXS::Atom::BrokerMessage") ) {
       IV tmp = SvIV((SV *)SvRV(svTHIS));
       THIS = INT2PTR(__SAPO__Broker__Codecs__Autogen__ProtobufXS__Atom_BrokerMessage *, tmp);
@@ -3240,7 +3240,7 @@ void
 clear_timestamp(svTHIS)
   SV * svTHIS;
   CODE:
-    ::SAPO::Broker::Codecs::Autogen::ProtobufXS::Atom_BrokerMessage * THIS;
+    ::sapo_broker::Atom_BrokerMessage * THIS;
     if ( sv_derived_from(svTHIS, "SAPO::Broker::Codecs::Autogen::ProtobufXS::Atom::BrokerMessage") ) {
       IV tmp = SvIV((SV *)SvRV(svTHIS));
       THIS = INT2PTR(__SAPO__Broker__Codecs__Autogen__ProtobufXS__Atom_BrokerMessage *, tmp);
@@ -3258,7 +3258,7 @@ PREINIT:
     ostringstream ost;
 
   PPCODE:
-    ::SAPO::Broker::Codecs::Autogen::ProtobufXS::Atom_BrokerMessage * THIS;
+    ::sapo_broker::Atom_BrokerMessage * THIS;
     if ( sv_derived_from(svTHIS, "SAPO::Broker::Codecs::Autogen::ProtobufXS::Atom::BrokerMessage") ) {
       IV tmp = SvIV((SV *)SvRV(svTHIS));
       THIS = INT2PTR(__SAPO__Broker__Codecs__Autogen__ProtobufXS__Atom_BrokerMessage *, tmp);
@@ -3285,7 +3285,7 @@ set_timestamp(svTHIS, svVAL)
 
   CODE:
     lval = strtoll((svVAL) ? svVAL : "", NULL, 0);
-    ::SAPO::Broker::Codecs::Autogen::ProtobufXS::Atom_BrokerMessage * THIS;
+    ::sapo_broker::Atom_BrokerMessage * THIS;
     if ( sv_derived_from(svTHIS, "SAPO::Broker::Codecs::Autogen::ProtobufXS::Atom::BrokerMessage") ) {
       IV tmp = SvIV((SV *)SvRV(svTHIS));
       THIS = INT2PTR(__SAPO__Broker__Codecs__Autogen__ProtobufXS__Atom_BrokerMessage *, tmp);
@@ -3300,9 +3300,9 @@ PROTOTYPES: ENABLE
 
 
 SV *
-::SAPO::Broker::Codecs::Autogen::ProtobufXS::Atom_Publish::new (...)
+::sapo_broker::Atom_Publish::new (...)
   PREINIT:
-    ::SAPO::Broker::Codecs::Autogen::ProtobufXS::Atom_Publish * rv = NULL;
+    ::sapo_broker::Atom_Publish * rv = NULL;
 
   CODE:
     if ( strcmp(CLASS,"SAPO::Broker::Codecs::Autogen::ProtobufXS::Atom::Publish") ) {
@@ -3315,14 +3315,14 @@ SV *
         STRLEN len;
         char * str;
 
-        rv = new ::SAPO::Broker::Codecs::Autogen::ProtobufXS::Atom_Publish;
+        rv = new ::sapo_broker::Atom_Publish;
         str = SvPV(ST(1), len);
         if ( str != NULL ) {
           rv->ParseFromArray(str, len);
         }
       }
     } else {
-      rv = new ::SAPO::Broker::Codecs::Autogen::ProtobufXS::Atom_Publish;
+      rv = new ::sapo_broker::Atom_Publish;
     }
     RETVAL = newSV(0);
     sv_setref_pv(RETVAL, "SAPO::Broker::Codecs::Autogen::ProtobufXS::Atom::Publish", (void *)rv);
@@ -3335,7 +3335,7 @@ void
 DESTROY(svTHIS)
   SV * svTHIS;
   CODE:
-    ::SAPO::Broker::Codecs::Autogen::ProtobufXS::Atom_Publish * THIS;
+    ::sapo_broker::Atom_Publish * THIS;
     if ( sv_derived_from(svTHIS, "SAPO::Broker::Codecs::Autogen::ProtobufXS::Atom::Publish") ) {
       IV tmp = SvIV((SV *)SvRV(svTHIS));
       THIS = INT2PTR(__SAPO__Broker__Codecs__Autogen__ProtobufXS__Atom_Publish *, tmp);
@@ -3352,7 +3352,7 @@ copy_from(svTHIS, sv)
   SV * svTHIS
   SV * sv
   CODE:
-    ::SAPO::Broker::Codecs::Autogen::ProtobufXS::Atom_Publish * THIS;
+    ::sapo_broker::Atom_Publish * THIS;
     if ( sv_derived_from(svTHIS, "SAPO::Broker::Codecs::Autogen::ProtobufXS::Atom::Publish") ) {
       IV tmp = SvIV((SV *)SvRV(svTHIS));
       THIS = INT2PTR(__SAPO__Broker__Codecs__Autogen__ProtobufXS__Atom_Publish *, tmp);
@@ -3362,12 +3362,12 @@ copy_from(svTHIS, sv)
     if ( THIS != NULL && sv != NULL ) {
       if ( sv_derived_from(sv, "SAPO::Broker::Codecs::Autogen::ProtobufXS::Atom::Publish") ) {
         IV tmp = SvIV((SV *)SvRV(sv));
-        ::SAPO::Broker::Codecs::Autogen::ProtobufXS::Atom_Publish * other = INT2PTR(__SAPO__Broker__Codecs__Autogen__ProtobufXS__Atom_Publish *, tmp);
+        ::sapo_broker::Atom_Publish * other = INT2PTR(__SAPO__Broker__Codecs__Autogen__ProtobufXS__Atom_Publish *, tmp);
 
         THIS->CopyFrom(*other);
       } else if ( SvROK(sv) &&
                   SvTYPE(SvRV(sv)) == SVt_PVHV ) {
-        ::SAPO::Broker::Codecs::Autogen::ProtobufXS::Atom_Publish * other = __SAPO__Broker__Codecs__Autogen__ProtobufXS__Atom_Publish_from_hashref(sv);
+        ::sapo_broker::Atom_Publish * other = __SAPO__Broker__Codecs__Autogen__ProtobufXS__Atom_Publish_from_hashref(sv);
         THIS->CopyFrom(*other);
         delete other;
       }
@@ -3379,7 +3379,7 @@ merge_from(svTHIS, sv)
   SV * svTHIS
   SV * sv
   CODE:
-    ::SAPO::Broker::Codecs::Autogen::ProtobufXS::Atom_Publish * THIS;
+    ::sapo_broker::Atom_Publish * THIS;
     if ( sv_derived_from(svTHIS, "SAPO::Broker::Codecs::Autogen::ProtobufXS::Atom::Publish") ) {
       IV tmp = SvIV((SV *)SvRV(svTHIS));
       THIS = INT2PTR(__SAPO__Broker__Codecs__Autogen__ProtobufXS__Atom_Publish *, tmp);
@@ -3389,12 +3389,12 @@ merge_from(svTHIS, sv)
     if ( THIS != NULL && sv != NULL ) {
       if ( sv_derived_from(sv, "SAPO::Broker::Codecs::Autogen::ProtobufXS::Atom::Publish") ) {
         IV tmp = SvIV((SV *)SvRV(sv));
-        ::SAPO::Broker::Codecs::Autogen::ProtobufXS::Atom_Publish * other = INT2PTR(__SAPO__Broker__Codecs__Autogen__ProtobufXS__Atom_Publish *, tmp);
+        ::sapo_broker::Atom_Publish * other = INT2PTR(__SAPO__Broker__Codecs__Autogen__ProtobufXS__Atom_Publish *, tmp);
 
         THIS->MergeFrom(*other);
       } else if ( SvROK(sv) &&
                   SvTYPE(SvRV(sv)) == SVt_PVHV ) {
-        ::SAPO::Broker::Codecs::Autogen::ProtobufXS::Atom_Publish * other = __SAPO__Broker__Codecs__Autogen__ProtobufXS__Atom_Publish_from_hashref(sv);
+        ::sapo_broker::Atom_Publish * other = __SAPO__Broker__Codecs__Autogen__ProtobufXS__Atom_Publish_from_hashref(sv);
         THIS->MergeFrom(*other);
         delete other;
       }
@@ -3405,7 +3405,7 @@ void
 clear(svTHIS)
   SV * svTHIS
   CODE:
-    ::SAPO::Broker::Codecs::Autogen::ProtobufXS::Atom_Publish * THIS;
+    ::sapo_broker::Atom_Publish * THIS;
     if ( sv_derived_from(svTHIS, "SAPO::Broker::Codecs::Autogen::ProtobufXS::Atom::Publish") ) {
       IV tmp = SvIV((SV *)SvRV(svTHIS));
       THIS = INT2PTR(__SAPO__Broker__Codecs__Autogen__ProtobufXS__Atom_Publish *, tmp);
@@ -3421,7 +3421,7 @@ int
 is_initialized(svTHIS)
   SV * svTHIS
   CODE:
-    ::SAPO::Broker::Codecs::Autogen::ProtobufXS::Atom_Publish * THIS;
+    ::sapo_broker::Atom_Publish * THIS;
     if ( sv_derived_from(svTHIS, "SAPO::Broker::Codecs::Autogen::ProtobufXS::Atom::Publish") ) {
       IV tmp = SvIV((SV *)SvRV(svTHIS));
       THIS = INT2PTR(__SAPO__Broker__Codecs__Autogen__ProtobufXS__Atom_Publish *, tmp);
@@ -3445,7 +3445,7 @@ error_string(svTHIS)
     string estr;
 
   CODE:
-    ::SAPO::Broker::Codecs::Autogen::ProtobufXS::Atom_Publish * THIS;
+    ::sapo_broker::Atom_Publish * THIS;
     if ( sv_derived_from(svTHIS, "SAPO::Broker::Codecs::Autogen::ProtobufXS::Atom::Publish") ) {
       IV tmp = SvIV((SV *)SvRV(svTHIS));
       THIS = INT2PTR(__SAPO__Broker__Codecs__Autogen__ProtobufXS__Atom_Publish *, tmp);
@@ -3465,7 +3465,7 @@ void
 discard_unkown_fields(svTHIS)
   SV * svTHIS
   CODE:
-    ::SAPO::Broker::Codecs::Autogen::ProtobufXS::Atom_Publish * THIS;
+    ::sapo_broker::Atom_Publish * THIS;
     if ( sv_derived_from(svTHIS, "SAPO::Broker::Codecs::Autogen::ProtobufXS::Atom::Publish") ) {
       IV tmp = SvIV((SV *)SvRV(svTHIS));
       THIS = INT2PTR(__SAPO__Broker__Codecs__Autogen__ProtobufXS__Atom_Publish *, tmp);
@@ -3484,7 +3484,7 @@ debug_string(svTHIS)
     string dstr;
 
   CODE:
-    ::SAPO::Broker::Codecs::Autogen::ProtobufXS::Atom_Publish * THIS;
+    ::sapo_broker::Atom_Publish * THIS;
     if ( sv_derived_from(svTHIS, "SAPO::Broker::Codecs::Autogen::ProtobufXS::Atom::Publish") ) {
       IV tmp = SvIV((SV *)SvRV(svTHIS));
       THIS = INT2PTR(__SAPO__Broker__Codecs__Autogen__ProtobufXS__Atom_Publish *, tmp);
@@ -3507,7 +3507,7 @@ short_debug_string(svTHIS)
     string dstr;
 
   CODE:
-    ::SAPO::Broker::Codecs::Autogen::ProtobufXS::Atom_Publish * THIS;
+    ::sapo_broker::Atom_Publish * THIS;
     if ( sv_derived_from(svTHIS, "SAPO::Broker::Codecs::Autogen::ProtobufXS::Atom::Publish") ) {
       IV tmp = SvIV((SV *)SvRV(svTHIS));
       THIS = INT2PTR(__SAPO__Broker__Codecs__Autogen__ProtobufXS__Atom_Publish *, tmp);
@@ -3532,7 +3532,7 @@ unpack(svTHIS, arg)
     char * str;
 
   CODE:
-    ::SAPO::Broker::Codecs::Autogen::ProtobufXS::Atom_Publish * THIS;
+    ::sapo_broker::Atom_Publish * THIS;
     if ( sv_derived_from(svTHIS, "SAPO::Broker::Codecs::Autogen::ProtobufXS::Atom::Publish") ) {
       IV tmp = SvIV((SV *)SvRV(svTHIS));
       THIS = INT2PTR(__SAPO__Broker__Codecs__Autogen__ProtobufXS__Atom_Publish *, tmp);
@@ -3558,7 +3558,7 @@ SV *
 pack(svTHIS)
   SV * svTHIS
   CODE:
-    ::SAPO::Broker::Codecs::Autogen::ProtobufXS::Atom_Publish * THIS;
+    ::sapo_broker::Atom_Publish * THIS;
     if ( sv_derived_from(svTHIS, "SAPO::Broker::Codecs::Autogen::ProtobufXS::Atom::Publish") ) {
       IV tmp = SvIV((SV *)SvRV(svTHIS));
       THIS = INT2PTR(__SAPO__Broker__Codecs__Autogen__ProtobufXS__Atom_Publish *, tmp);
@@ -3591,7 +3591,7 @@ int
 length(svTHIS)
   SV * svTHIS
   CODE:
-    ::SAPO::Broker::Codecs::Autogen::ProtobufXS::Atom_Publish * THIS;
+    ::sapo_broker::Atom_Publish * THIS;
     if ( sv_derived_from(svTHIS, "SAPO::Broker::Codecs::Autogen::ProtobufXS::Atom::Publish") ) {
       IV tmp = SvIV((SV *)SvRV(svTHIS));
       THIS = INT2PTR(__SAPO__Broker__Codecs__Autogen__ProtobufXS__Atom_Publish *, tmp);
@@ -3624,7 +3624,7 @@ SV *
 to_hashref(svTHIS)
   SV * svTHIS
   CODE:
-    ::SAPO::Broker::Codecs::Autogen::ProtobufXS::Atom_Publish * THIS;
+    ::sapo_broker::Atom_Publish * THIS;
     if ( sv_derived_from(svTHIS, "SAPO::Broker::Codecs::Autogen::ProtobufXS::Atom::Publish") ) {
       IV tmp = SvIV((SV *)SvRV(svTHIS));
       THIS = INT2PTR(__SAPO__Broker__Codecs__Autogen__ProtobufXS__Atom_Publish *, tmp);
@@ -3633,7 +3633,7 @@ to_hashref(svTHIS)
     }
     if ( THIS != NULL ) {
       HV * hv0 = newHV();
-      ::SAPO::Broker::Codecs::Autogen::ProtobufXS::Atom_Publish * msg0 = THIS;
+      ::sapo_broker::Atom_Publish * msg0 = THIS;
 
       if ( msg0->has_action_id() ) {
         SV * sv0 = newSVpv(msg0->action_id().c_str(), msg0->action_id().length());
@@ -3648,7 +3648,7 @@ to_hashref(svTHIS)
         hv_store(hv0, "destination", sizeof("destination") - 1, sv0, 0);
       }
       if ( msg0->has_message() ) {
-        ::SAPO::Broker::Codecs::Autogen::ProtobufXS::Atom_BrokerMessage * msg2 = msg0->mutable_message();
+        ::sapo_broker::Atom_BrokerMessage * msg2 = msg0->mutable_message();
         HV * hv2 = newHV();
         SV * sv1 = newRV_noinc((SV *)hv2);
         
@@ -3689,7 +3689,7 @@ I32
 has_action_id(svTHIS)
   SV * svTHIS;
   CODE:
-    ::SAPO::Broker::Codecs::Autogen::ProtobufXS::Atom_Publish * THIS;
+    ::sapo_broker::Atom_Publish * THIS;
     if ( sv_derived_from(svTHIS, "SAPO::Broker::Codecs::Autogen::ProtobufXS::Atom::Publish") ) {
       IV tmp = SvIV((SV *)SvRV(svTHIS));
       THIS = INT2PTR(__SAPO__Broker__Codecs__Autogen__ProtobufXS__Atom_Publish *, tmp);
@@ -3706,7 +3706,7 @@ void
 clear_action_id(svTHIS)
   SV * svTHIS;
   CODE:
-    ::SAPO::Broker::Codecs::Autogen::ProtobufXS::Atom_Publish * THIS;
+    ::sapo_broker::Atom_Publish * THIS;
     if ( sv_derived_from(svTHIS, "SAPO::Broker::Codecs::Autogen::ProtobufXS::Atom::Publish") ) {
       IV tmp = SvIV((SV *)SvRV(svTHIS));
       THIS = INT2PTR(__SAPO__Broker__Codecs__Autogen__ProtobufXS__Atom_Publish *, tmp);
@@ -3723,7 +3723,7 @@ PREINIT:
     SV * sv;
 
   PPCODE:
-    ::SAPO::Broker::Codecs::Autogen::ProtobufXS::Atom_Publish * THIS;
+    ::sapo_broker::Atom_Publish * THIS;
     if ( sv_derived_from(svTHIS, "SAPO::Broker::Codecs::Autogen::ProtobufXS::Atom::Publish") ) {
       IV tmp = SvIV((SV *)SvRV(svTHIS));
       THIS = INT2PTR(__SAPO__Broker__Codecs__Autogen__ProtobufXS__Atom_Publish *, tmp);
@@ -3749,7 +3749,7 @@ set_action_id(svTHIS, svVAL)
     string sval;
 
   CODE:
-    ::SAPO::Broker::Codecs::Autogen::ProtobufXS::Atom_Publish * THIS;
+    ::sapo_broker::Atom_Publish * THIS;
     if ( sv_derived_from(svTHIS, "SAPO::Broker::Codecs::Autogen::ProtobufXS::Atom::Publish") ) {
       IV tmp = SvIV((SV *)SvRV(svTHIS));
       THIS = INT2PTR(__SAPO__Broker__Codecs__Autogen__ProtobufXS__Atom_Publish *, tmp);
@@ -3765,7 +3765,7 @@ I32
 has_destination_type(svTHIS)
   SV * svTHIS;
   CODE:
-    ::SAPO::Broker::Codecs::Autogen::ProtobufXS::Atom_Publish * THIS;
+    ::sapo_broker::Atom_Publish * THIS;
     if ( sv_derived_from(svTHIS, "SAPO::Broker::Codecs::Autogen::ProtobufXS::Atom::Publish") ) {
       IV tmp = SvIV((SV *)SvRV(svTHIS));
       THIS = INT2PTR(__SAPO__Broker__Codecs__Autogen__ProtobufXS__Atom_Publish *, tmp);
@@ -3782,7 +3782,7 @@ void
 clear_destination_type(svTHIS)
   SV * svTHIS;
   CODE:
-    ::SAPO::Broker::Codecs::Autogen::ProtobufXS::Atom_Publish * THIS;
+    ::sapo_broker::Atom_Publish * THIS;
     if ( sv_derived_from(svTHIS, "SAPO::Broker::Codecs::Autogen::ProtobufXS::Atom::Publish") ) {
       IV tmp = SvIV((SV *)SvRV(svTHIS));
       THIS = INT2PTR(__SAPO__Broker__Codecs__Autogen__ProtobufXS__Atom_Publish *, tmp);
@@ -3799,7 +3799,7 @@ PREINIT:
     SV * sv;
 
   PPCODE:
-    ::SAPO::Broker::Codecs::Autogen::ProtobufXS::Atom_Publish * THIS;
+    ::sapo_broker::Atom_Publish * THIS;
     if ( sv_derived_from(svTHIS, "SAPO::Broker::Codecs::Autogen::ProtobufXS::Atom::Publish") ) {
       IV tmp = SvIV((SV *)SvRV(svTHIS));
       THIS = INT2PTR(__SAPO__Broker__Codecs__Autogen__ProtobufXS__Atom_Publish *, tmp);
@@ -3819,15 +3819,15 @@ set_destination_type(svTHIS, svVAL)
   IV svVAL
 
   CODE:
-    ::SAPO::Broker::Codecs::Autogen::ProtobufXS::Atom_Publish * THIS;
+    ::sapo_broker::Atom_Publish * THIS;
     if ( sv_derived_from(svTHIS, "SAPO::Broker::Codecs::Autogen::ProtobufXS::Atom::Publish") ) {
       IV tmp = SvIV((SV *)SvRV(svTHIS));
       THIS = INT2PTR(__SAPO__Broker__Codecs__Autogen__ProtobufXS__Atom_Publish *, tmp);
     } else {
       croak("THIS is not of type SAPO::Broker::Codecs::Autogen::ProtobufXS::Atom::Publish");
     }
-    if ( ::SAPO::Broker::Codecs::Autogen::ProtobufXS::Atom_DestinationType_IsValid(svVAL) ) {
-      THIS->set_destination_type((::SAPO::Broker::Codecs::Autogen::ProtobufXS::Atom_DestinationType)svVAL);
+    if ( ::sapo_broker::Atom_DestinationType_IsValid(svVAL) ) {
+      THIS->set_destination_type((::sapo_broker::Atom_DestinationType)svVAL);
     }
 
 
@@ -3835,7 +3835,7 @@ I32
 has_destination(svTHIS)
   SV * svTHIS;
   CODE:
-    ::SAPO::Broker::Codecs::Autogen::ProtobufXS::Atom_Publish * THIS;
+    ::sapo_broker::Atom_Publish * THIS;
     if ( sv_derived_from(svTHIS, "SAPO::Broker::Codecs::Autogen::ProtobufXS::Atom::Publish") ) {
       IV tmp = SvIV((SV *)SvRV(svTHIS));
       THIS = INT2PTR(__SAPO__Broker__Codecs__Autogen__ProtobufXS__Atom_Publish *, tmp);
@@ -3852,7 +3852,7 @@ void
 clear_destination(svTHIS)
   SV * svTHIS;
   CODE:
-    ::SAPO::Broker::Codecs::Autogen::ProtobufXS::Atom_Publish * THIS;
+    ::sapo_broker::Atom_Publish * THIS;
     if ( sv_derived_from(svTHIS, "SAPO::Broker::Codecs::Autogen::ProtobufXS::Atom::Publish") ) {
       IV tmp = SvIV((SV *)SvRV(svTHIS));
       THIS = INT2PTR(__SAPO__Broker__Codecs__Autogen__ProtobufXS__Atom_Publish *, tmp);
@@ -3869,7 +3869,7 @@ PREINIT:
     SV * sv;
 
   PPCODE:
-    ::SAPO::Broker::Codecs::Autogen::ProtobufXS::Atom_Publish * THIS;
+    ::sapo_broker::Atom_Publish * THIS;
     if ( sv_derived_from(svTHIS, "SAPO::Broker::Codecs::Autogen::ProtobufXS::Atom::Publish") ) {
       IV tmp = SvIV((SV *)SvRV(svTHIS));
       THIS = INT2PTR(__SAPO__Broker__Codecs__Autogen__ProtobufXS__Atom_Publish *, tmp);
@@ -3895,7 +3895,7 @@ set_destination(svTHIS, svVAL)
     string sval;
 
   CODE:
-    ::SAPO::Broker::Codecs::Autogen::ProtobufXS::Atom_Publish * THIS;
+    ::sapo_broker::Atom_Publish * THIS;
     if ( sv_derived_from(svTHIS, "SAPO::Broker::Codecs::Autogen::ProtobufXS::Atom::Publish") ) {
       IV tmp = SvIV((SV *)SvRV(svTHIS));
       THIS = INT2PTR(__SAPO__Broker__Codecs__Autogen__ProtobufXS__Atom_Publish *, tmp);
@@ -3911,7 +3911,7 @@ I32
 has_message(svTHIS)
   SV * svTHIS;
   CODE:
-    ::SAPO::Broker::Codecs::Autogen::ProtobufXS::Atom_Publish * THIS;
+    ::sapo_broker::Atom_Publish * THIS;
     if ( sv_derived_from(svTHIS, "SAPO::Broker::Codecs::Autogen::ProtobufXS::Atom::Publish") ) {
       IV tmp = SvIV((SV *)SvRV(svTHIS));
       THIS = INT2PTR(__SAPO__Broker__Codecs__Autogen__ProtobufXS__Atom_Publish *, tmp);
@@ -3928,7 +3928,7 @@ void
 clear_message(svTHIS)
   SV * svTHIS;
   CODE:
-    ::SAPO::Broker::Codecs::Autogen::ProtobufXS::Atom_Publish * THIS;
+    ::sapo_broker::Atom_Publish * THIS;
     if ( sv_derived_from(svTHIS, "SAPO::Broker::Codecs::Autogen::ProtobufXS::Atom::Publish") ) {
       IV tmp = SvIV((SV *)SvRV(svTHIS));
       THIS = INT2PTR(__SAPO__Broker__Codecs__Autogen__ProtobufXS__Atom_Publish *, tmp);
@@ -3943,10 +3943,10 @@ message(svTHIS)
   SV * svTHIS;
 PREINIT:
     SV * sv;
-    ::SAPO::Broker::Codecs::Autogen::ProtobufXS::Atom_BrokerMessage * val = NULL;
+    ::sapo_broker::Atom_BrokerMessage * val = NULL;
 
   PPCODE:
-    ::SAPO::Broker::Codecs::Autogen::ProtobufXS::Atom_Publish * THIS;
+    ::sapo_broker::Atom_Publish * THIS;
     if ( sv_derived_from(svTHIS, "SAPO::Broker::Codecs::Autogen::ProtobufXS::Atom::Publish") ) {
       IV tmp = SvIV((SV *)SvRV(svTHIS));
       THIS = INT2PTR(__SAPO__Broker__Codecs__Autogen__ProtobufXS__Atom_Publish *, tmp);
@@ -3955,7 +3955,7 @@ PREINIT:
     }
     if ( THIS != NULL ) {
       EXTEND(SP,1);
-      val = new ::SAPO::Broker::Codecs::Autogen::ProtobufXS::Atom_BrokerMessage;
+      val = new ::sapo_broker::Atom_BrokerMessage;
       val->CopyFrom(THIS->message());
       sv = sv_newmortal();
       sv_setref_pv(sv, "SAPO::Broker::Codecs::Autogen::ProtobufXS::Atom::BrokerMessage", (void *)val);
@@ -3968,14 +3968,14 @@ set_message(svTHIS, svVAL)
   SV * svTHIS
   SV * svVAL
   CODE:
-    ::SAPO::Broker::Codecs::Autogen::ProtobufXS::Atom_Publish * THIS;
+    ::sapo_broker::Atom_Publish * THIS;
     if ( sv_derived_from(svTHIS, "SAPO::Broker::Codecs::Autogen::ProtobufXS::Atom::Publish") ) {
       IV tmp = SvIV((SV *)SvRV(svTHIS));
       THIS = INT2PTR(__SAPO__Broker__Codecs__Autogen__ProtobufXS__Atom_Publish *, tmp);
     } else {
       croak("THIS is not of type SAPO::Broker::Codecs::Autogen::ProtobufXS::Atom::Publish");
     }
-    ::SAPO::Broker::Codecs::Autogen::ProtobufXS::Atom_BrokerMessage * VAL;
+    ::sapo_broker::Atom_BrokerMessage * VAL;
     if ( sv_derived_from(svVAL, "SAPO::Broker::Codecs::Autogen::ProtobufXS::Atom::BrokerMessage") ) {
       IV tmp = SvIV((SV *)SvRV(svVAL));
       VAL = INT2PTR(__SAPO__Broker__Codecs__Autogen__ProtobufXS__Atom_BrokerMessage *, tmp);
@@ -3983,7 +3983,7 @@ set_message(svTHIS, svVAL)
       croak("VAL is not of type SAPO::Broker::Codecs::Autogen::ProtobufXS::Atom::BrokerMessage");
     }
     if ( VAL != NULL ) {
-      ::SAPO::Broker::Codecs::Autogen::ProtobufXS::Atom_BrokerMessage * mval = THIS->mutable_message();
+      ::sapo_broker::Atom_BrokerMessage * mval = THIS->mutable_message();
       mval->CopyFrom(*VAL);
     }
 
@@ -3993,9 +3993,9 @@ PROTOTYPES: ENABLE
 
 
 SV *
-::SAPO::Broker::Codecs::Autogen::ProtobufXS::Atom_Poll::new (...)
+::sapo_broker::Atom_Poll::new (...)
   PREINIT:
-    ::SAPO::Broker::Codecs::Autogen::ProtobufXS::Atom_Poll * rv = NULL;
+    ::sapo_broker::Atom_Poll * rv = NULL;
 
   CODE:
     if ( strcmp(CLASS,"SAPO::Broker::Codecs::Autogen::ProtobufXS::Atom::Poll") ) {
@@ -4008,14 +4008,14 @@ SV *
         STRLEN len;
         char * str;
 
-        rv = new ::SAPO::Broker::Codecs::Autogen::ProtobufXS::Atom_Poll;
+        rv = new ::sapo_broker::Atom_Poll;
         str = SvPV(ST(1), len);
         if ( str != NULL ) {
           rv->ParseFromArray(str, len);
         }
       }
     } else {
-      rv = new ::SAPO::Broker::Codecs::Autogen::ProtobufXS::Atom_Poll;
+      rv = new ::sapo_broker::Atom_Poll;
     }
     RETVAL = newSV(0);
     sv_setref_pv(RETVAL, "SAPO::Broker::Codecs::Autogen::ProtobufXS::Atom::Poll", (void *)rv);
@@ -4028,7 +4028,7 @@ void
 DESTROY(svTHIS)
   SV * svTHIS;
   CODE:
-    ::SAPO::Broker::Codecs::Autogen::ProtobufXS::Atom_Poll * THIS;
+    ::sapo_broker::Atom_Poll * THIS;
     if ( sv_derived_from(svTHIS, "SAPO::Broker::Codecs::Autogen::ProtobufXS::Atom::Poll") ) {
       IV tmp = SvIV((SV *)SvRV(svTHIS));
       THIS = INT2PTR(__SAPO__Broker__Codecs__Autogen__ProtobufXS__Atom_Poll *, tmp);
@@ -4045,7 +4045,7 @@ copy_from(svTHIS, sv)
   SV * svTHIS
   SV * sv
   CODE:
-    ::SAPO::Broker::Codecs::Autogen::ProtobufXS::Atom_Poll * THIS;
+    ::sapo_broker::Atom_Poll * THIS;
     if ( sv_derived_from(svTHIS, "SAPO::Broker::Codecs::Autogen::ProtobufXS::Atom::Poll") ) {
       IV tmp = SvIV((SV *)SvRV(svTHIS));
       THIS = INT2PTR(__SAPO__Broker__Codecs__Autogen__ProtobufXS__Atom_Poll *, tmp);
@@ -4055,12 +4055,12 @@ copy_from(svTHIS, sv)
     if ( THIS != NULL && sv != NULL ) {
       if ( sv_derived_from(sv, "SAPO::Broker::Codecs::Autogen::ProtobufXS::Atom::Poll") ) {
         IV tmp = SvIV((SV *)SvRV(sv));
-        ::SAPO::Broker::Codecs::Autogen::ProtobufXS::Atom_Poll * other = INT2PTR(__SAPO__Broker__Codecs__Autogen__ProtobufXS__Atom_Poll *, tmp);
+        ::sapo_broker::Atom_Poll * other = INT2PTR(__SAPO__Broker__Codecs__Autogen__ProtobufXS__Atom_Poll *, tmp);
 
         THIS->CopyFrom(*other);
       } else if ( SvROK(sv) &&
                   SvTYPE(SvRV(sv)) == SVt_PVHV ) {
-        ::SAPO::Broker::Codecs::Autogen::ProtobufXS::Atom_Poll * other = __SAPO__Broker__Codecs__Autogen__ProtobufXS__Atom_Poll_from_hashref(sv);
+        ::sapo_broker::Atom_Poll * other = __SAPO__Broker__Codecs__Autogen__ProtobufXS__Atom_Poll_from_hashref(sv);
         THIS->CopyFrom(*other);
         delete other;
       }
@@ -4072,7 +4072,7 @@ merge_from(svTHIS, sv)
   SV * svTHIS
   SV * sv
   CODE:
-    ::SAPO::Broker::Codecs::Autogen::ProtobufXS::Atom_Poll * THIS;
+    ::sapo_broker::Atom_Poll * THIS;
     if ( sv_derived_from(svTHIS, "SAPO::Broker::Codecs::Autogen::ProtobufXS::Atom::Poll") ) {
       IV tmp = SvIV((SV *)SvRV(svTHIS));
       THIS = INT2PTR(__SAPO__Broker__Codecs__Autogen__ProtobufXS__Atom_Poll *, tmp);
@@ -4082,12 +4082,12 @@ merge_from(svTHIS, sv)
     if ( THIS != NULL && sv != NULL ) {
       if ( sv_derived_from(sv, "SAPO::Broker::Codecs::Autogen::ProtobufXS::Atom::Poll") ) {
         IV tmp = SvIV((SV *)SvRV(sv));
-        ::SAPO::Broker::Codecs::Autogen::ProtobufXS::Atom_Poll * other = INT2PTR(__SAPO__Broker__Codecs__Autogen__ProtobufXS__Atom_Poll *, tmp);
+        ::sapo_broker::Atom_Poll * other = INT2PTR(__SAPO__Broker__Codecs__Autogen__ProtobufXS__Atom_Poll *, tmp);
 
         THIS->MergeFrom(*other);
       } else if ( SvROK(sv) &&
                   SvTYPE(SvRV(sv)) == SVt_PVHV ) {
-        ::SAPO::Broker::Codecs::Autogen::ProtobufXS::Atom_Poll * other = __SAPO__Broker__Codecs__Autogen__ProtobufXS__Atom_Poll_from_hashref(sv);
+        ::sapo_broker::Atom_Poll * other = __SAPO__Broker__Codecs__Autogen__ProtobufXS__Atom_Poll_from_hashref(sv);
         THIS->MergeFrom(*other);
         delete other;
       }
@@ -4098,7 +4098,7 @@ void
 clear(svTHIS)
   SV * svTHIS
   CODE:
-    ::SAPO::Broker::Codecs::Autogen::ProtobufXS::Atom_Poll * THIS;
+    ::sapo_broker::Atom_Poll * THIS;
     if ( sv_derived_from(svTHIS, "SAPO::Broker::Codecs::Autogen::ProtobufXS::Atom::Poll") ) {
       IV tmp = SvIV((SV *)SvRV(svTHIS));
       THIS = INT2PTR(__SAPO__Broker__Codecs__Autogen__ProtobufXS__Atom_Poll *, tmp);
@@ -4114,7 +4114,7 @@ int
 is_initialized(svTHIS)
   SV * svTHIS
   CODE:
-    ::SAPO::Broker::Codecs::Autogen::ProtobufXS::Atom_Poll * THIS;
+    ::sapo_broker::Atom_Poll * THIS;
     if ( sv_derived_from(svTHIS, "SAPO::Broker::Codecs::Autogen::ProtobufXS::Atom::Poll") ) {
       IV tmp = SvIV((SV *)SvRV(svTHIS));
       THIS = INT2PTR(__SAPO__Broker__Codecs__Autogen__ProtobufXS__Atom_Poll *, tmp);
@@ -4138,7 +4138,7 @@ error_string(svTHIS)
     string estr;
 
   CODE:
-    ::SAPO::Broker::Codecs::Autogen::ProtobufXS::Atom_Poll * THIS;
+    ::sapo_broker::Atom_Poll * THIS;
     if ( sv_derived_from(svTHIS, "SAPO::Broker::Codecs::Autogen::ProtobufXS::Atom::Poll") ) {
       IV tmp = SvIV((SV *)SvRV(svTHIS));
       THIS = INT2PTR(__SAPO__Broker__Codecs__Autogen__ProtobufXS__Atom_Poll *, tmp);
@@ -4158,7 +4158,7 @@ void
 discard_unkown_fields(svTHIS)
   SV * svTHIS
   CODE:
-    ::SAPO::Broker::Codecs::Autogen::ProtobufXS::Atom_Poll * THIS;
+    ::sapo_broker::Atom_Poll * THIS;
     if ( sv_derived_from(svTHIS, "SAPO::Broker::Codecs::Autogen::ProtobufXS::Atom::Poll") ) {
       IV tmp = SvIV((SV *)SvRV(svTHIS));
       THIS = INT2PTR(__SAPO__Broker__Codecs__Autogen__ProtobufXS__Atom_Poll *, tmp);
@@ -4177,7 +4177,7 @@ debug_string(svTHIS)
     string dstr;
 
   CODE:
-    ::SAPO::Broker::Codecs::Autogen::ProtobufXS::Atom_Poll * THIS;
+    ::sapo_broker::Atom_Poll * THIS;
     if ( sv_derived_from(svTHIS, "SAPO::Broker::Codecs::Autogen::ProtobufXS::Atom::Poll") ) {
       IV tmp = SvIV((SV *)SvRV(svTHIS));
       THIS = INT2PTR(__SAPO__Broker__Codecs__Autogen__ProtobufXS__Atom_Poll *, tmp);
@@ -4200,7 +4200,7 @@ short_debug_string(svTHIS)
     string dstr;
 
   CODE:
-    ::SAPO::Broker::Codecs::Autogen::ProtobufXS::Atom_Poll * THIS;
+    ::sapo_broker::Atom_Poll * THIS;
     if ( sv_derived_from(svTHIS, "SAPO::Broker::Codecs::Autogen::ProtobufXS::Atom::Poll") ) {
       IV tmp = SvIV((SV *)SvRV(svTHIS));
       THIS = INT2PTR(__SAPO__Broker__Codecs__Autogen__ProtobufXS__Atom_Poll *, tmp);
@@ -4225,7 +4225,7 @@ unpack(svTHIS, arg)
     char * str;
 
   CODE:
-    ::SAPO::Broker::Codecs::Autogen::ProtobufXS::Atom_Poll * THIS;
+    ::sapo_broker::Atom_Poll * THIS;
     if ( sv_derived_from(svTHIS, "SAPO::Broker::Codecs::Autogen::ProtobufXS::Atom::Poll") ) {
       IV tmp = SvIV((SV *)SvRV(svTHIS));
       THIS = INT2PTR(__SAPO__Broker__Codecs__Autogen__ProtobufXS__Atom_Poll *, tmp);
@@ -4251,7 +4251,7 @@ SV *
 pack(svTHIS)
   SV * svTHIS
   CODE:
-    ::SAPO::Broker::Codecs::Autogen::ProtobufXS::Atom_Poll * THIS;
+    ::sapo_broker::Atom_Poll * THIS;
     if ( sv_derived_from(svTHIS, "SAPO::Broker::Codecs::Autogen::ProtobufXS::Atom::Poll") ) {
       IV tmp = SvIV((SV *)SvRV(svTHIS));
       THIS = INT2PTR(__SAPO__Broker__Codecs__Autogen__ProtobufXS__Atom_Poll *, tmp);
@@ -4284,7 +4284,7 @@ int
 length(svTHIS)
   SV * svTHIS
   CODE:
-    ::SAPO::Broker::Codecs::Autogen::ProtobufXS::Atom_Poll * THIS;
+    ::sapo_broker::Atom_Poll * THIS;
     if ( sv_derived_from(svTHIS, "SAPO::Broker::Codecs::Autogen::ProtobufXS::Atom::Poll") ) {
       IV tmp = SvIV((SV *)SvRV(svTHIS));
       THIS = INT2PTR(__SAPO__Broker__Codecs__Autogen__ProtobufXS__Atom_Poll *, tmp);
@@ -4316,7 +4316,7 @@ SV *
 to_hashref(svTHIS)
   SV * svTHIS
   CODE:
-    ::SAPO::Broker::Codecs::Autogen::ProtobufXS::Atom_Poll * THIS;
+    ::sapo_broker::Atom_Poll * THIS;
     if ( sv_derived_from(svTHIS, "SAPO::Broker::Codecs::Autogen::ProtobufXS::Atom::Poll") ) {
       IV tmp = SvIV((SV *)SvRV(svTHIS));
       THIS = INT2PTR(__SAPO__Broker__Codecs__Autogen__ProtobufXS__Atom_Poll *, tmp);
@@ -4325,7 +4325,7 @@ to_hashref(svTHIS)
     }
     if ( THIS != NULL ) {
       HV * hv0 = newHV();
-      ::SAPO::Broker::Codecs::Autogen::ProtobufXS::Atom_Poll * msg0 = THIS;
+      ::sapo_broker::Atom_Poll * msg0 = THIS;
 
       if ( msg0->has_action_id() ) {
         SV * sv0 = newSVpv(msg0->action_id().c_str(), msg0->action_id().length());
@@ -4355,7 +4355,7 @@ I32
 has_action_id(svTHIS)
   SV * svTHIS;
   CODE:
-    ::SAPO::Broker::Codecs::Autogen::ProtobufXS::Atom_Poll * THIS;
+    ::sapo_broker::Atom_Poll * THIS;
     if ( sv_derived_from(svTHIS, "SAPO::Broker::Codecs::Autogen::ProtobufXS::Atom::Poll") ) {
       IV tmp = SvIV((SV *)SvRV(svTHIS));
       THIS = INT2PTR(__SAPO__Broker__Codecs__Autogen__ProtobufXS__Atom_Poll *, tmp);
@@ -4372,7 +4372,7 @@ void
 clear_action_id(svTHIS)
   SV * svTHIS;
   CODE:
-    ::SAPO::Broker::Codecs::Autogen::ProtobufXS::Atom_Poll * THIS;
+    ::sapo_broker::Atom_Poll * THIS;
     if ( sv_derived_from(svTHIS, "SAPO::Broker::Codecs::Autogen::ProtobufXS::Atom::Poll") ) {
       IV tmp = SvIV((SV *)SvRV(svTHIS));
       THIS = INT2PTR(__SAPO__Broker__Codecs__Autogen__ProtobufXS__Atom_Poll *, tmp);
@@ -4389,7 +4389,7 @@ PREINIT:
     SV * sv;
 
   PPCODE:
-    ::SAPO::Broker::Codecs::Autogen::ProtobufXS::Atom_Poll * THIS;
+    ::sapo_broker::Atom_Poll * THIS;
     if ( sv_derived_from(svTHIS, "SAPO::Broker::Codecs::Autogen::ProtobufXS::Atom::Poll") ) {
       IV tmp = SvIV((SV *)SvRV(svTHIS));
       THIS = INT2PTR(__SAPO__Broker__Codecs__Autogen__ProtobufXS__Atom_Poll *, tmp);
@@ -4415,7 +4415,7 @@ set_action_id(svTHIS, svVAL)
     string sval;
 
   CODE:
-    ::SAPO::Broker::Codecs::Autogen::ProtobufXS::Atom_Poll * THIS;
+    ::sapo_broker::Atom_Poll * THIS;
     if ( sv_derived_from(svTHIS, "SAPO::Broker::Codecs::Autogen::ProtobufXS::Atom::Poll") ) {
       IV tmp = SvIV((SV *)SvRV(svTHIS));
       THIS = INT2PTR(__SAPO__Broker__Codecs__Autogen__ProtobufXS__Atom_Poll *, tmp);
@@ -4431,7 +4431,7 @@ I32
 has_destination(svTHIS)
   SV * svTHIS;
   CODE:
-    ::SAPO::Broker::Codecs::Autogen::ProtobufXS::Atom_Poll * THIS;
+    ::sapo_broker::Atom_Poll * THIS;
     if ( sv_derived_from(svTHIS, "SAPO::Broker::Codecs::Autogen::ProtobufXS::Atom::Poll") ) {
       IV tmp = SvIV((SV *)SvRV(svTHIS));
       THIS = INT2PTR(__SAPO__Broker__Codecs__Autogen__ProtobufXS__Atom_Poll *, tmp);
@@ -4448,7 +4448,7 @@ void
 clear_destination(svTHIS)
   SV * svTHIS;
   CODE:
-    ::SAPO::Broker::Codecs::Autogen::ProtobufXS::Atom_Poll * THIS;
+    ::sapo_broker::Atom_Poll * THIS;
     if ( sv_derived_from(svTHIS, "SAPO::Broker::Codecs::Autogen::ProtobufXS::Atom::Poll") ) {
       IV tmp = SvIV((SV *)SvRV(svTHIS));
       THIS = INT2PTR(__SAPO__Broker__Codecs__Autogen__ProtobufXS__Atom_Poll *, tmp);
@@ -4465,7 +4465,7 @@ PREINIT:
     SV * sv;
 
   PPCODE:
-    ::SAPO::Broker::Codecs::Autogen::ProtobufXS::Atom_Poll * THIS;
+    ::sapo_broker::Atom_Poll * THIS;
     if ( sv_derived_from(svTHIS, "SAPO::Broker::Codecs::Autogen::ProtobufXS::Atom::Poll") ) {
       IV tmp = SvIV((SV *)SvRV(svTHIS));
       THIS = INT2PTR(__SAPO__Broker__Codecs__Autogen__ProtobufXS__Atom_Poll *, tmp);
@@ -4491,7 +4491,7 @@ set_destination(svTHIS, svVAL)
     string sval;
 
   CODE:
-    ::SAPO::Broker::Codecs::Autogen::ProtobufXS::Atom_Poll * THIS;
+    ::sapo_broker::Atom_Poll * THIS;
     if ( sv_derived_from(svTHIS, "SAPO::Broker::Codecs::Autogen::ProtobufXS::Atom::Poll") ) {
       IV tmp = SvIV((SV *)SvRV(svTHIS));
       THIS = INT2PTR(__SAPO__Broker__Codecs__Autogen__ProtobufXS__Atom_Poll *, tmp);
@@ -4507,7 +4507,7 @@ I32
 has_timeout(svTHIS)
   SV * svTHIS;
   CODE:
-    ::SAPO::Broker::Codecs::Autogen::ProtobufXS::Atom_Poll * THIS;
+    ::sapo_broker::Atom_Poll * THIS;
     if ( sv_derived_from(svTHIS, "SAPO::Broker::Codecs::Autogen::ProtobufXS::Atom::Poll") ) {
       IV tmp = SvIV((SV *)SvRV(svTHIS));
       THIS = INT2PTR(__SAPO__Broker__Codecs__Autogen__ProtobufXS__Atom_Poll *, tmp);
@@ -4524,7 +4524,7 @@ void
 clear_timeout(svTHIS)
   SV * svTHIS;
   CODE:
-    ::SAPO::Broker::Codecs::Autogen::ProtobufXS::Atom_Poll * THIS;
+    ::sapo_broker::Atom_Poll * THIS;
     if ( sv_derived_from(svTHIS, "SAPO::Broker::Codecs::Autogen::ProtobufXS::Atom::Poll") ) {
       IV tmp = SvIV((SV *)SvRV(svTHIS));
       THIS = INT2PTR(__SAPO__Broker__Codecs__Autogen__ProtobufXS__Atom_Poll *, tmp);
@@ -4542,7 +4542,7 @@ PREINIT:
     ostringstream ost;
 
   PPCODE:
-    ::SAPO::Broker::Codecs::Autogen::ProtobufXS::Atom_Poll * THIS;
+    ::sapo_broker::Atom_Poll * THIS;
     if ( sv_derived_from(svTHIS, "SAPO::Broker::Codecs::Autogen::ProtobufXS::Atom::Poll") ) {
       IV tmp = SvIV((SV *)SvRV(svTHIS));
       THIS = INT2PTR(__SAPO__Broker__Codecs__Autogen__ProtobufXS__Atom_Poll *, tmp);
@@ -4569,7 +4569,7 @@ set_timeout(svTHIS, svVAL)
 
   CODE:
     lval = strtoll((svVAL) ? svVAL : "", NULL, 0);
-    ::SAPO::Broker::Codecs::Autogen::ProtobufXS::Atom_Poll * THIS;
+    ::sapo_broker::Atom_Poll * THIS;
     if ( sv_derived_from(svTHIS, "SAPO::Broker::Codecs::Autogen::ProtobufXS::Atom::Poll") ) {
       IV tmp = SvIV((SV *)SvRV(svTHIS));
       THIS = INT2PTR(__SAPO__Broker__Codecs__Autogen__ProtobufXS__Atom_Poll *, tmp);
@@ -4584,9 +4584,9 @@ PROTOTYPES: ENABLE
 
 
 SV *
-::SAPO::Broker::Codecs::Autogen::ProtobufXS::Atom_Accepted::new (...)
+::sapo_broker::Atom_Accepted::new (...)
   PREINIT:
-    ::SAPO::Broker::Codecs::Autogen::ProtobufXS::Atom_Accepted * rv = NULL;
+    ::sapo_broker::Atom_Accepted * rv = NULL;
 
   CODE:
     if ( strcmp(CLASS,"SAPO::Broker::Codecs::Autogen::ProtobufXS::Atom::Accepted") ) {
@@ -4599,14 +4599,14 @@ SV *
         STRLEN len;
         char * str;
 
-        rv = new ::SAPO::Broker::Codecs::Autogen::ProtobufXS::Atom_Accepted;
+        rv = new ::sapo_broker::Atom_Accepted;
         str = SvPV(ST(1), len);
         if ( str != NULL ) {
           rv->ParseFromArray(str, len);
         }
       }
     } else {
-      rv = new ::SAPO::Broker::Codecs::Autogen::ProtobufXS::Atom_Accepted;
+      rv = new ::sapo_broker::Atom_Accepted;
     }
     RETVAL = newSV(0);
     sv_setref_pv(RETVAL, "SAPO::Broker::Codecs::Autogen::ProtobufXS::Atom::Accepted", (void *)rv);
@@ -4619,7 +4619,7 @@ void
 DESTROY(svTHIS)
   SV * svTHIS;
   CODE:
-    ::SAPO::Broker::Codecs::Autogen::ProtobufXS::Atom_Accepted * THIS;
+    ::sapo_broker::Atom_Accepted * THIS;
     if ( sv_derived_from(svTHIS, "SAPO::Broker::Codecs::Autogen::ProtobufXS::Atom::Accepted") ) {
       IV tmp = SvIV((SV *)SvRV(svTHIS));
       THIS = INT2PTR(__SAPO__Broker__Codecs__Autogen__ProtobufXS__Atom_Accepted *, tmp);
@@ -4636,7 +4636,7 @@ copy_from(svTHIS, sv)
   SV * svTHIS
   SV * sv
   CODE:
-    ::SAPO::Broker::Codecs::Autogen::ProtobufXS::Atom_Accepted * THIS;
+    ::sapo_broker::Atom_Accepted * THIS;
     if ( sv_derived_from(svTHIS, "SAPO::Broker::Codecs::Autogen::ProtobufXS::Atom::Accepted") ) {
       IV tmp = SvIV((SV *)SvRV(svTHIS));
       THIS = INT2PTR(__SAPO__Broker__Codecs__Autogen__ProtobufXS__Atom_Accepted *, tmp);
@@ -4646,12 +4646,12 @@ copy_from(svTHIS, sv)
     if ( THIS != NULL && sv != NULL ) {
       if ( sv_derived_from(sv, "SAPO::Broker::Codecs::Autogen::ProtobufXS::Atom::Accepted") ) {
         IV tmp = SvIV((SV *)SvRV(sv));
-        ::SAPO::Broker::Codecs::Autogen::ProtobufXS::Atom_Accepted * other = INT2PTR(__SAPO__Broker__Codecs__Autogen__ProtobufXS__Atom_Accepted *, tmp);
+        ::sapo_broker::Atom_Accepted * other = INT2PTR(__SAPO__Broker__Codecs__Autogen__ProtobufXS__Atom_Accepted *, tmp);
 
         THIS->CopyFrom(*other);
       } else if ( SvROK(sv) &&
                   SvTYPE(SvRV(sv)) == SVt_PVHV ) {
-        ::SAPO::Broker::Codecs::Autogen::ProtobufXS::Atom_Accepted * other = __SAPO__Broker__Codecs__Autogen__ProtobufXS__Atom_Accepted_from_hashref(sv);
+        ::sapo_broker::Atom_Accepted * other = __SAPO__Broker__Codecs__Autogen__ProtobufXS__Atom_Accepted_from_hashref(sv);
         THIS->CopyFrom(*other);
         delete other;
       }
@@ -4663,7 +4663,7 @@ merge_from(svTHIS, sv)
   SV * svTHIS
   SV * sv
   CODE:
-    ::SAPO::Broker::Codecs::Autogen::ProtobufXS::Atom_Accepted * THIS;
+    ::sapo_broker::Atom_Accepted * THIS;
     if ( sv_derived_from(svTHIS, "SAPO::Broker::Codecs::Autogen::ProtobufXS::Atom::Accepted") ) {
       IV tmp = SvIV((SV *)SvRV(svTHIS));
       THIS = INT2PTR(__SAPO__Broker__Codecs__Autogen__ProtobufXS__Atom_Accepted *, tmp);
@@ -4673,12 +4673,12 @@ merge_from(svTHIS, sv)
     if ( THIS != NULL && sv != NULL ) {
       if ( sv_derived_from(sv, "SAPO::Broker::Codecs::Autogen::ProtobufXS::Atom::Accepted") ) {
         IV tmp = SvIV((SV *)SvRV(sv));
-        ::SAPO::Broker::Codecs::Autogen::ProtobufXS::Atom_Accepted * other = INT2PTR(__SAPO__Broker__Codecs__Autogen__ProtobufXS__Atom_Accepted *, tmp);
+        ::sapo_broker::Atom_Accepted * other = INT2PTR(__SAPO__Broker__Codecs__Autogen__ProtobufXS__Atom_Accepted *, tmp);
 
         THIS->MergeFrom(*other);
       } else if ( SvROK(sv) &&
                   SvTYPE(SvRV(sv)) == SVt_PVHV ) {
-        ::SAPO::Broker::Codecs::Autogen::ProtobufXS::Atom_Accepted * other = __SAPO__Broker__Codecs__Autogen__ProtobufXS__Atom_Accepted_from_hashref(sv);
+        ::sapo_broker::Atom_Accepted * other = __SAPO__Broker__Codecs__Autogen__ProtobufXS__Atom_Accepted_from_hashref(sv);
         THIS->MergeFrom(*other);
         delete other;
       }
@@ -4689,7 +4689,7 @@ void
 clear(svTHIS)
   SV * svTHIS
   CODE:
-    ::SAPO::Broker::Codecs::Autogen::ProtobufXS::Atom_Accepted * THIS;
+    ::sapo_broker::Atom_Accepted * THIS;
     if ( sv_derived_from(svTHIS, "SAPO::Broker::Codecs::Autogen::ProtobufXS::Atom::Accepted") ) {
       IV tmp = SvIV((SV *)SvRV(svTHIS));
       THIS = INT2PTR(__SAPO__Broker__Codecs__Autogen__ProtobufXS__Atom_Accepted *, tmp);
@@ -4705,7 +4705,7 @@ int
 is_initialized(svTHIS)
   SV * svTHIS
   CODE:
-    ::SAPO::Broker::Codecs::Autogen::ProtobufXS::Atom_Accepted * THIS;
+    ::sapo_broker::Atom_Accepted * THIS;
     if ( sv_derived_from(svTHIS, "SAPO::Broker::Codecs::Autogen::ProtobufXS::Atom::Accepted") ) {
       IV tmp = SvIV((SV *)SvRV(svTHIS));
       THIS = INT2PTR(__SAPO__Broker__Codecs__Autogen__ProtobufXS__Atom_Accepted *, tmp);
@@ -4729,7 +4729,7 @@ error_string(svTHIS)
     string estr;
 
   CODE:
-    ::SAPO::Broker::Codecs::Autogen::ProtobufXS::Atom_Accepted * THIS;
+    ::sapo_broker::Atom_Accepted * THIS;
     if ( sv_derived_from(svTHIS, "SAPO::Broker::Codecs::Autogen::ProtobufXS::Atom::Accepted") ) {
       IV tmp = SvIV((SV *)SvRV(svTHIS));
       THIS = INT2PTR(__SAPO__Broker__Codecs__Autogen__ProtobufXS__Atom_Accepted *, tmp);
@@ -4749,7 +4749,7 @@ void
 discard_unkown_fields(svTHIS)
   SV * svTHIS
   CODE:
-    ::SAPO::Broker::Codecs::Autogen::ProtobufXS::Atom_Accepted * THIS;
+    ::sapo_broker::Atom_Accepted * THIS;
     if ( sv_derived_from(svTHIS, "SAPO::Broker::Codecs::Autogen::ProtobufXS::Atom::Accepted") ) {
       IV tmp = SvIV((SV *)SvRV(svTHIS));
       THIS = INT2PTR(__SAPO__Broker__Codecs__Autogen__ProtobufXS__Atom_Accepted *, tmp);
@@ -4768,7 +4768,7 @@ debug_string(svTHIS)
     string dstr;
 
   CODE:
-    ::SAPO::Broker::Codecs::Autogen::ProtobufXS::Atom_Accepted * THIS;
+    ::sapo_broker::Atom_Accepted * THIS;
     if ( sv_derived_from(svTHIS, "SAPO::Broker::Codecs::Autogen::ProtobufXS::Atom::Accepted") ) {
       IV tmp = SvIV((SV *)SvRV(svTHIS));
       THIS = INT2PTR(__SAPO__Broker__Codecs__Autogen__ProtobufXS__Atom_Accepted *, tmp);
@@ -4791,7 +4791,7 @@ short_debug_string(svTHIS)
     string dstr;
 
   CODE:
-    ::SAPO::Broker::Codecs::Autogen::ProtobufXS::Atom_Accepted * THIS;
+    ::sapo_broker::Atom_Accepted * THIS;
     if ( sv_derived_from(svTHIS, "SAPO::Broker::Codecs::Autogen::ProtobufXS::Atom::Accepted") ) {
       IV tmp = SvIV((SV *)SvRV(svTHIS));
       THIS = INT2PTR(__SAPO__Broker__Codecs__Autogen__ProtobufXS__Atom_Accepted *, tmp);
@@ -4816,7 +4816,7 @@ unpack(svTHIS, arg)
     char * str;
 
   CODE:
-    ::SAPO::Broker::Codecs::Autogen::ProtobufXS::Atom_Accepted * THIS;
+    ::sapo_broker::Atom_Accepted * THIS;
     if ( sv_derived_from(svTHIS, "SAPO::Broker::Codecs::Autogen::ProtobufXS::Atom::Accepted") ) {
       IV tmp = SvIV((SV *)SvRV(svTHIS));
       THIS = INT2PTR(__SAPO__Broker__Codecs__Autogen__ProtobufXS__Atom_Accepted *, tmp);
@@ -4842,7 +4842,7 @@ SV *
 pack(svTHIS)
   SV * svTHIS
   CODE:
-    ::SAPO::Broker::Codecs::Autogen::ProtobufXS::Atom_Accepted * THIS;
+    ::sapo_broker::Atom_Accepted * THIS;
     if ( sv_derived_from(svTHIS, "SAPO::Broker::Codecs::Autogen::ProtobufXS::Atom::Accepted") ) {
       IV tmp = SvIV((SV *)SvRV(svTHIS));
       THIS = INT2PTR(__SAPO__Broker__Codecs__Autogen__ProtobufXS__Atom_Accepted *, tmp);
@@ -4875,7 +4875,7 @@ int
 length(svTHIS)
   SV * svTHIS
   CODE:
-    ::SAPO::Broker::Codecs::Autogen::ProtobufXS::Atom_Accepted * THIS;
+    ::sapo_broker::Atom_Accepted * THIS;
     if ( sv_derived_from(svTHIS, "SAPO::Broker::Codecs::Autogen::ProtobufXS::Atom::Accepted") ) {
       IV tmp = SvIV((SV *)SvRV(svTHIS));
       THIS = INT2PTR(__SAPO__Broker__Codecs__Autogen__ProtobufXS__Atom_Accepted *, tmp);
@@ -4905,7 +4905,7 @@ SV *
 to_hashref(svTHIS)
   SV * svTHIS
   CODE:
-    ::SAPO::Broker::Codecs::Autogen::ProtobufXS::Atom_Accepted * THIS;
+    ::sapo_broker::Atom_Accepted * THIS;
     if ( sv_derived_from(svTHIS, "SAPO::Broker::Codecs::Autogen::ProtobufXS::Atom::Accepted") ) {
       IV tmp = SvIV((SV *)SvRV(svTHIS));
       THIS = INT2PTR(__SAPO__Broker__Codecs__Autogen__ProtobufXS__Atom_Accepted *, tmp);
@@ -4914,7 +4914,7 @@ to_hashref(svTHIS)
     }
     if ( THIS != NULL ) {
       HV * hv0 = newHV();
-      ::SAPO::Broker::Codecs::Autogen::ProtobufXS::Atom_Accepted * msg0 = THIS;
+      ::sapo_broker::Atom_Accepted * msg0 = THIS;
 
       if ( msg0->has_action_id() ) {
         SV * sv0 = newSVpv(msg0->action_id().c_str(), msg0->action_id().length());
@@ -4933,7 +4933,7 @@ I32
 has_action_id(svTHIS)
   SV * svTHIS;
   CODE:
-    ::SAPO::Broker::Codecs::Autogen::ProtobufXS::Atom_Accepted * THIS;
+    ::sapo_broker::Atom_Accepted * THIS;
     if ( sv_derived_from(svTHIS, "SAPO::Broker::Codecs::Autogen::ProtobufXS::Atom::Accepted") ) {
       IV tmp = SvIV((SV *)SvRV(svTHIS));
       THIS = INT2PTR(__SAPO__Broker__Codecs__Autogen__ProtobufXS__Atom_Accepted *, tmp);
@@ -4950,7 +4950,7 @@ void
 clear_action_id(svTHIS)
   SV * svTHIS;
   CODE:
-    ::SAPO::Broker::Codecs::Autogen::ProtobufXS::Atom_Accepted * THIS;
+    ::sapo_broker::Atom_Accepted * THIS;
     if ( sv_derived_from(svTHIS, "SAPO::Broker::Codecs::Autogen::ProtobufXS::Atom::Accepted") ) {
       IV tmp = SvIV((SV *)SvRV(svTHIS));
       THIS = INT2PTR(__SAPO__Broker__Codecs__Autogen__ProtobufXS__Atom_Accepted *, tmp);
@@ -4967,7 +4967,7 @@ PREINIT:
     SV * sv;
 
   PPCODE:
-    ::SAPO::Broker::Codecs::Autogen::ProtobufXS::Atom_Accepted * THIS;
+    ::sapo_broker::Atom_Accepted * THIS;
     if ( sv_derived_from(svTHIS, "SAPO::Broker::Codecs::Autogen::ProtobufXS::Atom::Accepted") ) {
       IV tmp = SvIV((SV *)SvRV(svTHIS));
       THIS = INT2PTR(__SAPO__Broker__Codecs__Autogen__ProtobufXS__Atom_Accepted *, tmp);
@@ -4993,7 +4993,7 @@ set_action_id(svTHIS, svVAL)
     string sval;
 
   CODE:
-    ::SAPO::Broker::Codecs::Autogen::ProtobufXS::Atom_Accepted * THIS;
+    ::sapo_broker::Atom_Accepted * THIS;
     if ( sv_derived_from(svTHIS, "SAPO::Broker::Codecs::Autogen::ProtobufXS::Atom::Accepted") ) {
       IV tmp = SvIV((SV *)SvRV(svTHIS));
       THIS = INT2PTR(__SAPO__Broker__Codecs__Autogen__ProtobufXS__Atom_Accepted *, tmp);
@@ -5010,9 +5010,9 @@ PROTOTYPES: ENABLE
 
 
 SV *
-::SAPO::Broker::Codecs::Autogen::ProtobufXS::Atom_AcknowledgeMessage::new (...)
+::sapo_broker::Atom_AcknowledgeMessage::new (...)
   PREINIT:
-    ::SAPO::Broker::Codecs::Autogen::ProtobufXS::Atom_AcknowledgeMessage * rv = NULL;
+    ::sapo_broker::Atom_AcknowledgeMessage * rv = NULL;
 
   CODE:
     if ( strcmp(CLASS,"SAPO::Broker::Codecs::Autogen::ProtobufXS::Atom::AcknowledgeMessage") ) {
@@ -5025,14 +5025,14 @@ SV *
         STRLEN len;
         char * str;
 
-        rv = new ::SAPO::Broker::Codecs::Autogen::ProtobufXS::Atom_AcknowledgeMessage;
+        rv = new ::sapo_broker::Atom_AcknowledgeMessage;
         str = SvPV(ST(1), len);
         if ( str != NULL ) {
           rv->ParseFromArray(str, len);
         }
       }
     } else {
-      rv = new ::SAPO::Broker::Codecs::Autogen::ProtobufXS::Atom_AcknowledgeMessage;
+      rv = new ::sapo_broker::Atom_AcknowledgeMessage;
     }
     RETVAL = newSV(0);
     sv_setref_pv(RETVAL, "SAPO::Broker::Codecs::Autogen::ProtobufXS::Atom::AcknowledgeMessage", (void *)rv);
@@ -5045,7 +5045,7 @@ void
 DESTROY(svTHIS)
   SV * svTHIS;
   CODE:
-    ::SAPO::Broker::Codecs::Autogen::ProtobufXS::Atom_AcknowledgeMessage * THIS;
+    ::sapo_broker::Atom_AcknowledgeMessage * THIS;
     if ( sv_derived_from(svTHIS, "SAPO::Broker::Codecs::Autogen::ProtobufXS::Atom::AcknowledgeMessage") ) {
       IV tmp = SvIV((SV *)SvRV(svTHIS));
       THIS = INT2PTR(__SAPO__Broker__Codecs__Autogen__ProtobufXS__Atom_AcknowledgeMessage *, tmp);
@@ -5062,7 +5062,7 @@ copy_from(svTHIS, sv)
   SV * svTHIS
   SV * sv
   CODE:
-    ::SAPO::Broker::Codecs::Autogen::ProtobufXS::Atom_AcknowledgeMessage * THIS;
+    ::sapo_broker::Atom_AcknowledgeMessage * THIS;
     if ( sv_derived_from(svTHIS, "SAPO::Broker::Codecs::Autogen::ProtobufXS::Atom::AcknowledgeMessage") ) {
       IV tmp = SvIV((SV *)SvRV(svTHIS));
       THIS = INT2PTR(__SAPO__Broker__Codecs__Autogen__ProtobufXS__Atom_AcknowledgeMessage *, tmp);
@@ -5072,12 +5072,12 @@ copy_from(svTHIS, sv)
     if ( THIS != NULL && sv != NULL ) {
       if ( sv_derived_from(sv, "SAPO::Broker::Codecs::Autogen::ProtobufXS::Atom::AcknowledgeMessage") ) {
         IV tmp = SvIV((SV *)SvRV(sv));
-        ::SAPO::Broker::Codecs::Autogen::ProtobufXS::Atom_AcknowledgeMessage * other = INT2PTR(__SAPO__Broker__Codecs__Autogen__ProtobufXS__Atom_AcknowledgeMessage *, tmp);
+        ::sapo_broker::Atom_AcknowledgeMessage * other = INT2PTR(__SAPO__Broker__Codecs__Autogen__ProtobufXS__Atom_AcknowledgeMessage *, tmp);
 
         THIS->CopyFrom(*other);
       } else if ( SvROK(sv) &&
                   SvTYPE(SvRV(sv)) == SVt_PVHV ) {
-        ::SAPO::Broker::Codecs::Autogen::ProtobufXS::Atom_AcknowledgeMessage * other = __SAPO__Broker__Codecs__Autogen__ProtobufXS__Atom_AcknowledgeMessage_from_hashref(sv);
+        ::sapo_broker::Atom_AcknowledgeMessage * other = __SAPO__Broker__Codecs__Autogen__ProtobufXS__Atom_AcknowledgeMessage_from_hashref(sv);
         THIS->CopyFrom(*other);
         delete other;
       }
@@ -5089,7 +5089,7 @@ merge_from(svTHIS, sv)
   SV * svTHIS
   SV * sv
   CODE:
-    ::SAPO::Broker::Codecs::Autogen::ProtobufXS::Atom_AcknowledgeMessage * THIS;
+    ::sapo_broker::Atom_AcknowledgeMessage * THIS;
     if ( sv_derived_from(svTHIS, "SAPO::Broker::Codecs::Autogen::ProtobufXS::Atom::AcknowledgeMessage") ) {
       IV tmp = SvIV((SV *)SvRV(svTHIS));
       THIS = INT2PTR(__SAPO__Broker__Codecs__Autogen__ProtobufXS__Atom_AcknowledgeMessage *, tmp);
@@ -5099,12 +5099,12 @@ merge_from(svTHIS, sv)
     if ( THIS != NULL && sv != NULL ) {
       if ( sv_derived_from(sv, "SAPO::Broker::Codecs::Autogen::ProtobufXS::Atom::AcknowledgeMessage") ) {
         IV tmp = SvIV((SV *)SvRV(sv));
-        ::SAPO::Broker::Codecs::Autogen::ProtobufXS::Atom_AcknowledgeMessage * other = INT2PTR(__SAPO__Broker__Codecs__Autogen__ProtobufXS__Atom_AcknowledgeMessage *, tmp);
+        ::sapo_broker::Atom_AcknowledgeMessage * other = INT2PTR(__SAPO__Broker__Codecs__Autogen__ProtobufXS__Atom_AcknowledgeMessage *, tmp);
 
         THIS->MergeFrom(*other);
       } else if ( SvROK(sv) &&
                   SvTYPE(SvRV(sv)) == SVt_PVHV ) {
-        ::SAPO::Broker::Codecs::Autogen::ProtobufXS::Atom_AcknowledgeMessage * other = __SAPO__Broker__Codecs__Autogen__ProtobufXS__Atom_AcknowledgeMessage_from_hashref(sv);
+        ::sapo_broker::Atom_AcknowledgeMessage * other = __SAPO__Broker__Codecs__Autogen__ProtobufXS__Atom_AcknowledgeMessage_from_hashref(sv);
         THIS->MergeFrom(*other);
         delete other;
       }
@@ -5115,7 +5115,7 @@ void
 clear(svTHIS)
   SV * svTHIS
   CODE:
-    ::SAPO::Broker::Codecs::Autogen::ProtobufXS::Atom_AcknowledgeMessage * THIS;
+    ::sapo_broker::Atom_AcknowledgeMessage * THIS;
     if ( sv_derived_from(svTHIS, "SAPO::Broker::Codecs::Autogen::ProtobufXS::Atom::AcknowledgeMessage") ) {
       IV tmp = SvIV((SV *)SvRV(svTHIS));
       THIS = INT2PTR(__SAPO__Broker__Codecs__Autogen__ProtobufXS__Atom_AcknowledgeMessage *, tmp);
@@ -5131,7 +5131,7 @@ int
 is_initialized(svTHIS)
   SV * svTHIS
   CODE:
-    ::SAPO::Broker::Codecs::Autogen::ProtobufXS::Atom_AcknowledgeMessage * THIS;
+    ::sapo_broker::Atom_AcknowledgeMessage * THIS;
     if ( sv_derived_from(svTHIS, "SAPO::Broker::Codecs::Autogen::ProtobufXS::Atom::AcknowledgeMessage") ) {
       IV tmp = SvIV((SV *)SvRV(svTHIS));
       THIS = INT2PTR(__SAPO__Broker__Codecs__Autogen__ProtobufXS__Atom_AcknowledgeMessage *, tmp);
@@ -5155,7 +5155,7 @@ error_string(svTHIS)
     string estr;
 
   CODE:
-    ::SAPO::Broker::Codecs::Autogen::ProtobufXS::Atom_AcknowledgeMessage * THIS;
+    ::sapo_broker::Atom_AcknowledgeMessage * THIS;
     if ( sv_derived_from(svTHIS, "SAPO::Broker::Codecs::Autogen::ProtobufXS::Atom::AcknowledgeMessage") ) {
       IV tmp = SvIV((SV *)SvRV(svTHIS));
       THIS = INT2PTR(__SAPO__Broker__Codecs__Autogen__ProtobufXS__Atom_AcknowledgeMessage *, tmp);
@@ -5175,7 +5175,7 @@ void
 discard_unkown_fields(svTHIS)
   SV * svTHIS
   CODE:
-    ::SAPO::Broker::Codecs::Autogen::ProtobufXS::Atom_AcknowledgeMessage * THIS;
+    ::sapo_broker::Atom_AcknowledgeMessage * THIS;
     if ( sv_derived_from(svTHIS, "SAPO::Broker::Codecs::Autogen::ProtobufXS::Atom::AcknowledgeMessage") ) {
       IV tmp = SvIV((SV *)SvRV(svTHIS));
       THIS = INT2PTR(__SAPO__Broker__Codecs__Autogen__ProtobufXS__Atom_AcknowledgeMessage *, tmp);
@@ -5194,7 +5194,7 @@ debug_string(svTHIS)
     string dstr;
 
   CODE:
-    ::SAPO::Broker::Codecs::Autogen::ProtobufXS::Atom_AcknowledgeMessage * THIS;
+    ::sapo_broker::Atom_AcknowledgeMessage * THIS;
     if ( sv_derived_from(svTHIS, "SAPO::Broker::Codecs::Autogen::ProtobufXS::Atom::AcknowledgeMessage") ) {
       IV tmp = SvIV((SV *)SvRV(svTHIS));
       THIS = INT2PTR(__SAPO__Broker__Codecs__Autogen__ProtobufXS__Atom_AcknowledgeMessage *, tmp);
@@ -5217,7 +5217,7 @@ short_debug_string(svTHIS)
     string dstr;
 
   CODE:
-    ::SAPO::Broker::Codecs::Autogen::ProtobufXS::Atom_AcknowledgeMessage * THIS;
+    ::sapo_broker::Atom_AcknowledgeMessage * THIS;
     if ( sv_derived_from(svTHIS, "SAPO::Broker::Codecs::Autogen::ProtobufXS::Atom::AcknowledgeMessage") ) {
       IV tmp = SvIV((SV *)SvRV(svTHIS));
       THIS = INT2PTR(__SAPO__Broker__Codecs__Autogen__ProtobufXS__Atom_AcknowledgeMessage *, tmp);
@@ -5242,7 +5242,7 @@ unpack(svTHIS, arg)
     char * str;
 
   CODE:
-    ::SAPO::Broker::Codecs::Autogen::ProtobufXS::Atom_AcknowledgeMessage * THIS;
+    ::sapo_broker::Atom_AcknowledgeMessage * THIS;
     if ( sv_derived_from(svTHIS, "SAPO::Broker::Codecs::Autogen::ProtobufXS::Atom::AcknowledgeMessage") ) {
       IV tmp = SvIV((SV *)SvRV(svTHIS));
       THIS = INT2PTR(__SAPO__Broker__Codecs__Autogen__ProtobufXS__Atom_AcknowledgeMessage *, tmp);
@@ -5268,7 +5268,7 @@ SV *
 pack(svTHIS)
   SV * svTHIS
   CODE:
-    ::SAPO::Broker::Codecs::Autogen::ProtobufXS::Atom_AcknowledgeMessage * THIS;
+    ::sapo_broker::Atom_AcknowledgeMessage * THIS;
     if ( sv_derived_from(svTHIS, "SAPO::Broker::Codecs::Autogen::ProtobufXS::Atom::AcknowledgeMessage") ) {
       IV tmp = SvIV((SV *)SvRV(svTHIS));
       THIS = INT2PTR(__SAPO__Broker__Codecs__Autogen__ProtobufXS__Atom_AcknowledgeMessage *, tmp);
@@ -5301,7 +5301,7 @@ int
 length(svTHIS)
   SV * svTHIS
   CODE:
-    ::SAPO::Broker::Codecs::Autogen::ProtobufXS::Atom_AcknowledgeMessage * THIS;
+    ::sapo_broker::Atom_AcknowledgeMessage * THIS;
     if ( sv_derived_from(svTHIS, "SAPO::Broker::Codecs::Autogen::ProtobufXS::Atom::AcknowledgeMessage") ) {
       IV tmp = SvIV((SV *)SvRV(svTHIS));
       THIS = INT2PTR(__SAPO__Broker__Codecs__Autogen__ProtobufXS__Atom_AcknowledgeMessage *, tmp);
@@ -5333,7 +5333,7 @@ SV *
 to_hashref(svTHIS)
   SV * svTHIS
   CODE:
-    ::SAPO::Broker::Codecs::Autogen::ProtobufXS::Atom_AcknowledgeMessage * THIS;
+    ::sapo_broker::Atom_AcknowledgeMessage * THIS;
     if ( sv_derived_from(svTHIS, "SAPO::Broker::Codecs::Autogen::ProtobufXS::Atom::AcknowledgeMessage") ) {
       IV tmp = SvIV((SV *)SvRV(svTHIS));
       THIS = INT2PTR(__SAPO__Broker__Codecs__Autogen__ProtobufXS__Atom_AcknowledgeMessage *, tmp);
@@ -5342,7 +5342,7 @@ to_hashref(svTHIS)
     }
     if ( THIS != NULL ) {
       HV * hv0 = newHV();
-      ::SAPO::Broker::Codecs::Autogen::ProtobufXS::Atom_AcknowledgeMessage * msg0 = THIS;
+      ::sapo_broker::Atom_AcknowledgeMessage * msg0 = THIS;
 
       if ( msg0->has_action_id() ) {
         SV * sv0 = newSVpv(msg0->action_id().c_str(), msg0->action_id().length());
@@ -5369,7 +5369,7 @@ I32
 has_action_id(svTHIS)
   SV * svTHIS;
   CODE:
-    ::SAPO::Broker::Codecs::Autogen::ProtobufXS::Atom_AcknowledgeMessage * THIS;
+    ::sapo_broker::Atom_AcknowledgeMessage * THIS;
     if ( sv_derived_from(svTHIS, "SAPO::Broker::Codecs::Autogen::ProtobufXS::Atom::AcknowledgeMessage") ) {
       IV tmp = SvIV((SV *)SvRV(svTHIS));
       THIS = INT2PTR(__SAPO__Broker__Codecs__Autogen__ProtobufXS__Atom_AcknowledgeMessage *, tmp);
@@ -5386,7 +5386,7 @@ void
 clear_action_id(svTHIS)
   SV * svTHIS;
   CODE:
-    ::SAPO::Broker::Codecs::Autogen::ProtobufXS::Atom_AcknowledgeMessage * THIS;
+    ::sapo_broker::Atom_AcknowledgeMessage * THIS;
     if ( sv_derived_from(svTHIS, "SAPO::Broker::Codecs::Autogen::ProtobufXS::Atom::AcknowledgeMessage") ) {
       IV tmp = SvIV((SV *)SvRV(svTHIS));
       THIS = INT2PTR(__SAPO__Broker__Codecs__Autogen__ProtobufXS__Atom_AcknowledgeMessage *, tmp);
@@ -5403,7 +5403,7 @@ PREINIT:
     SV * sv;
 
   PPCODE:
-    ::SAPO::Broker::Codecs::Autogen::ProtobufXS::Atom_AcknowledgeMessage * THIS;
+    ::sapo_broker::Atom_AcknowledgeMessage * THIS;
     if ( sv_derived_from(svTHIS, "SAPO::Broker::Codecs::Autogen::ProtobufXS::Atom::AcknowledgeMessage") ) {
       IV tmp = SvIV((SV *)SvRV(svTHIS));
       THIS = INT2PTR(__SAPO__Broker__Codecs__Autogen__ProtobufXS__Atom_AcknowledgeMessage *, tmp);
@@ -5429,7 +5429,7 @@ set_action_id(svTHIS, svVAL)
     string sval;
 
   CODE:
-    ::SAPO::Broker::Codecs::Autogen::ProtobufXS::Atom_AcknowledgeMessage * THIS;
+    ::sapo_broker::Atom_AcknowledgeMessage * THIS;
     if ( sv_derived_from(svTHIS, "SAPO::Broker::Codecs::Autogen::ProtobufXS::Atom::AcknowledgeMessage") ) {
       IV tmp = SvIV((SV *)SvRV(svTHIS));
       THIS = INT2PTR(__SAPO__Broker__Codecs__Autogen__ProtobufXS__Atom_AcknowledgeMessage *, tmp);
@@ -5445,7 +5445,7 @@ I32
 has_message_id(svTHIS)
   SV * svTHIS;
   CODE:
-    ::SAPO::Broker::Codecs::Autogen::ProtobufXS::Atom_AcknowledgeMessage * THIS;
+    ::sapo_broker::Atom_AcknowledgeMessage * THIS;
     if ( sv_derived_from(svTHIS, "SAPO::Broker::Codecs::Autogen::ProtobufXS::Atom::AcknowledgeMessage") ) {
       IV tmp = SvIV((SV *)SvRV(svTHIS));
       THIS = INT2PTR(__SAPO__Broker__Codecs__Autogen__ProtobufXS__Atom_AcknowledgeMessage *, tmp);
@@ -5462,7 +5462,7 @@ void
 clear_message_id(svTHIS)
   SV * svTHIS;
   CODE:
-    ::SAPO::Broker::Codecs::Autogen::ProtobufXS::Atom_AcknowledgeMessage * THIS;
+    ::sapo_broker::Atom_AcknowledgeMessage * THIS;
     if ( sv_derived_from(svTHIS, "SAPO::Broker::Codecs::Autogen::ProtobufXS::Atom::AcknowledgeMessage") ) {
       IV tmp = SvIV((SV *)SvRV(svTHIS));
       THIS = INT2PTR(__SAPO__Broker__Codecs__Autogen__ProtobufXS__Atom_AcknowledgeMessage *, tmp);
@@ -5479,7 +5479,7 @@ PREINIT:
     SV * sv;
 
   PPCODE:
-    ::SAPO::Broker::Codecs::Autogen::ProtobufXS::Atom_AcknowledgeMessage * THIS;
+    ::sapo_broker::Atom_AcknowledgeMessage * THIS;
     if ( sv_derived_from(svTHIS, "SAPO::Broker::Codecs::Autogen::ProtobufXS::Atom::AcknowledgeMessage") ) {
       IV tmp = SvIV((SV *)SvRV(svTHIS));
       THIS = INT2PTR(__SAPO__Broker__Codecs__Autogen__ProtobufXS__Atom_AcknowledgeMessage *, tmp);
@@ -5505,7 +5505,7 @@ set_message_id(svTHIS, svVAL)
     string sval;
 
   CODE:
-    ::SAPO::Broker::Codecs::Autogen::ProtobufXS::Atom_AcknowledgeMessage * THIS;
+    ::sapo_broker::Atom_AcknowledgeMessage * THIS;
     if ( sv_derived_from(svTHIS, "SAPO::Broker::Codecs::Autogen::ProtobufXS::Atom::AcknowledgeMessage") ) {
       IV tmp = SvIV((SV *)SvRV(svTHIS));
       THIS = INT2PTR(__SAPO__Broker__Codecs__Autogen__ProtobufXS__Atom_AcknowledgeMessage *, tmp);
@@ -5521,7 +5521,7 @@ I32
 has_destination(svTHIS)
   SV * svTHIS;
   CODE:
-    ::SAPO::Broker::Codecs::Autogen::ProtobufXS::Atom_AcknowledgeMessage * THIS;
+    ::sapo_broker::Atom_AcknowledgeMessage * THIS;
     if ( sv_derived_from(svTHIS, "SAPO::Broker::Codecs::Autogen::ProtobufXS::Atom::AcknowledgeMessage") ) {
       IV tmp = SvIV((SV *)SvRV(svTHIS));
       THIS = INT2PTR(__SAPO__Broker__Codecs__Autogen__ProtobufXS__Atom_AcknowledgeMessage *, tmp);
@@ -5538,7 +5538,7 @@ void
 clear_destination(svTHIS)
   SV * svTHIS;
   CODE:
-    ::SAPO::Broker::Codecs::Autogen::ProtobufXS::Atom_AcknowledgeMessage * THIS;
+    ::sapo_broker::Atom_AcknowledgeMessage * THIS;
     if ( sv_derived_from(svTHIS, "SAPO::Broker::Codecs::Autogen::ProtobufXS::Atom::AcknowledgeMessage") ) {
       IV tmp = SvIV((SV *)SvRV(svTHIS));
       THIS = INT2PTR(__SAPO__Broker__Codecs__Autogen__ProtobufXS__Atom_AcknowledgeMessage *, tmp);
@@ -5555,7 +5555,7 @@ PREINIT:
     SV * sv;
 
   PPCODE:
-    ::SAPO::Broker::Codecs::Autogen::ProtobufXS::Atom_AcknowledgeMessage * THIS;
+    ::sapo_broker::Atom_AcknowledgeMessage * THIS;
     if ( sv_derived_from(svTHIS, "SAPO::Broker::Codecs::Autogen::ProtobufXS::Atom::AcknowledgeMessage") ) {
       IV tmp = SvIV((SV *)SvRV(svTHIS));
       THIS = INT2PTR(__SAPO__Broker__Codecs__Autogen__ProtobufXS__Atom_AcknowledgeMessage *, tmp);
@@ -5581,7 +5581,7 @@ set_destination(svTHIS, svVAL)
     string sval;
 
   CODE:
-    ::SAPO::Broker::Codecs::Autogen::ProtobufXS::Atom_AcknowledgeMessage * THIS;
+    ::sapo_broker::Atom_AcknowledgeMessage * THIS;
     if ( sv_derived_from(svTHIS, "SAPO::Broker::Codecs::Autogen::ProtobufXS::Atom::AcknowledgeMessage") ) {
       IV tmp = SvIV((SV *)SvRV(svTHIS));
       THIS = INT2PTR(__SAPO__Broker__Codecs__Autogen__ProtobufXS__Atom_AcknowledgeMessage *, tmp);
@@ -5598,9 +5598,9 @@ PROTOTYPES: ENABLE
 
 
 SV *
-::SAPO::Broker::Codecs::Autogen::ProtobufXS::Atom_Subscribe::new (...)
+::sapo_broker::Atom_Subscribe::new (...)
   PREINIT:
-    ::SAPO::Broker::Codecs::Autogen::ProtobufXS::Atom_Subscribe * rv = NULL;
+    ::sapo_broker::Atom_Subscribe * rv = NULL;
 
   CODE:
     if ( strcmp(CLASS,"SAPO::Broker::Codecs::Autogen::ProtobufXS::Atom::Subscribe") ) {
@@ -5613,14 +5613,14 @@ SV *
         STRLEN len;
         char * str;
 
-        rv = new ::SAPO::Broker::Codecs::Autogen::ProtobufXS::Atom_Subscribe;
+        rv = new ::sapo_broker::Atom_Subscribe;
         str = SvPV(ST(1), len);
         if ( str != NULL ) {
           rv->ParseFromArray(str, len);
         }
       }
     } else {
-      rv = new ::SAPO::Broker::Codecs::Autogen::ProtobufXS::Atom_Subscribe;
+      rv = new ::sapo_broker::Atom_Subscribe;
     }
     RETVAL = newSV(0);
     sv_setref_pv(RETVAL, "SAPO::Broker::Codecs::Autogen::ProtobufXS::Atom::Subscribe", (void *)rv);
@@ -5633,7 +5633,7 @@ void
 DESTROY(svTHIS)
   SV * svTHIS;
   CODE:
-    ::SAPO::Broker::Codecs::Autogen::ProtobufXS::Atom_Subscribe * THIS;
+    ::sapo_broker::Atom_Subscribe * THIS;
     if ( sv_derived_from(svTHIS, "SAPO::Broker::Codecs::Autogen::ProtobufXS::Atom::Subscribe") ) {
       IV tmp = SvIV((SV *)SvRV(svTHIS));
       THIS = INT2PTR(__SAPO__Broker__Codecs__Autogen__ProtobufXS__Atom_Subscribe *, tmp);
@@ -5650,7 +5650,7 @@ copy_from(svTHIS, sv)
   SV * svTHIS
   SV * sv
   CODE:
-    ::SAPO::Broker::Codecs::Autogen::ProtobufXS::Atom_Subscribe * THIS;
+    ::sapo_broker::Atom_Subscribe * THIS;
     if ( sv_derived_from(svTHIS, "SAPO::Broker::Codecs::Autogen::ProtobufXS::Atom::Subscribe") ) {
       IV tmp = SvIV((SV *)SvRV(svTHIS));
       THIS = INT2PTR(__SAPO__Broker__Codecs__Autogen__ProtobufXS__Atom_Subscribe *, tmp);
@@ -5660,12 +5660,12 @@ copy_from(svTHIS, sv)
     if ( THIS != NULL && sv != NULL ) {
       if ( sv_derived_from(sv, "SAPO::Broker::Codecs::Autogen::ProtobufXS::Atom::Subscribe") ) {
         IV tmp = SvIV((SV *)SvRV(sv));
-        ::SAPO::Broker::Codecs::Autogen::ProtobufXS::Atom_Subscribe * other = INT2PTR(__SAPO__Broker__Codecs__Autogen__ProtobufXS__Atom_Subscribe *, tmp);
+        ::sapo_broker::Atom_Subscribe * other = INT2PTR(__SAPO__Broker__Codecs__Autogen__ProtobufXS__Atom_Subscribe *, tmp);
 
         THIS->CopyFrom(*other);
       } else if ( SvROK(sv) &&
                   SvTYPE(SvRV(sv)) == SVt_PVHV ) {
-        ::SAPO::Broker::Codecs::Autogen::ProtobufXS::Atom_Subscribe * other = __SAPO__Broker__Codecs__Autogen__ProtobufXS__Atom_Subscribe_from_hashref(sv);
+        ::sapo_broker::Atom_Subscribe * other = __SAPO__Broker__Codecs__Autogen__ProtobufXS__Atom_Subscribe_from_hashref(sv);
         THIS->CopyFrom(*other);
         delete other;
       }
@@ -5677,7 +5677,7 @@ merge_from(svTHIS, sv)
   SV * svTHIS
   SV * sv
   CODE:
-    ::SAPO::Broker::Codecs::Autogen::ProtobufXS::Atom_Subscribe * THIS;
+    ::sapo_broker::Atom_Subscribe * THIS;
     if ( sv_derived_from(svTHIS, "SAPO::Broker::Codecs::Autogen::ProtobufXS::Atom::Subscribe") ) {
       IV tmp = SvIV((SV *)SvRV(svTHIS));
       THIS = INT2PTR(__SAPO__Broker__Codecs__Autogen__ProtobufXS__Atom_Subscribe *, tmp);
@@ -5687,12 +5687,12 @@ merge_from(svTHIS, sv)
     if ( THIS != NULL && sv != NULL ) {
       if ( sv_derived_from(sv, "SAPO::Broker::Codecs::Autogen::ProtobufXS::Atom::Subscribe") ) {
         IV tmp = SvIV((SV *)SvRV(sv));
-        ::SAPO::Broker::Codecs::Autogen::ProtobufXS::Atom_Subscribe * other = INT2PTR(__SAPO__Broker__Codecs__Autogen__ProtobufXS__Atom_Subscribe *, tmp);
+        ::sapo_broker::Atom_Subscribe * other = INT2PTR(__SAPO__Broker__Codecs__Autogen__ProtobufXS__Atom_Subscribe *, tmp);
 
         THIS->MergeFrom(*other);
       } else if ( SvROK(sv) &&
                   SvTYPE(SvRV(sv)) == SVt_PVHV ) {
-        ::SAPO::Broker::Codecs::Autogen::ProtobufXS::Atom_Subscribe * other = __SAPO__Broker__Codecs__Autogen__ProtobufXS__Atom_Subscribe_from_hashref(sv);
+        ::sapo_broker::Atom_Subscribe * other = __SAPO__Broker__Codecs__Autogen__ProtobufXS__Atom_Subscribe_from_hashref(sv);
         THIS->MergeFrom(*other);
         delete other;
       }
@@ -5703,7 +5703,7 @@ void
 clear(svTHIS)
   SV * svTHIS
   CODE:
-    ::SAPO::Broker::Codecs::Autogen::ProtobufXS::Atom_Subscribe * THIS;
+    ::sapo_broker::Atom_Subscribe * THIS;
     if ( sv_derived_from(svTHIS, "SAPO::Broker::Codecs::Autogen::ProtobufXS::Atom::Subscribe") ) {
       IV tmp = SvIV((SV *)SvRV(svTHIS));
       THIS = INT2PTR(__SAPO__Broker__Codecs__Autogen__ProtobufXS__Atom_Subscribe *, tmp);
@@ -5719,7 +5719,7 @@ int
 is_initialized(svTHIS)
   SV * svTHIS
   CODE:
-    ::SAPO::Broker::Codecs::Autogen::ProtobufXS::Atom_Subscribe * THIS;
+    ::sapo_broker::Atom_Subscribe * THIS;
     if ( sv_derived_from(svTHIS, "SAPO::Broker::Codecs::Autogen::ProtobufXS::Atom::Subscribe") ) {
       IV tmp = SvIV((SV *)SvRV(svTHIS));
       THIS = INT2PTR(__SAPO__Broker__Codecs__Autogen__ProtobufXS__Atom_Subscribe *, tmp);
@@ -5743,7 +5743,7 @@ error_string(svTHIS)
     string estr;
 
   CODE:
-    ::SAPO::Broker::Codecs::Autogen::ProtobufXS::Atom_Subscribe * THIS;
+    ::sapo_broker::Atom_Subscribe * THIS;
     if ( sv_derived_from(svTHIS, "SAPO::Broker::Codecs::Autogen::ProtobufXS::Atom::Subscribe") ) {
       IV tmp = SvIV((SV *)SvRV(svTHIS));
       THIS = INT2PTR(__SAPO__Broker__Codecs__Autogen__ProtobufXS__Atom_Subscribe *, tmp);
@@ -5763,7 +5763,7 @@ void
 discard_unkown_fields(svTHIS)
   SV * svTHIS
   CODE:
-    ::SAPO::Broker::Codecs::Autogen::ProtobufXS::Atom_Subscribe * THIS;
+    ::sapo_broker::Atom_Subscribe * THIS;
     if ( sv_derived_from(svTHIS, "SAPO::Broker::Codecs::Autogen::ProtobufXS::Atom::Subscribe") ) {
       IV tmp = SvIV((SV *)SvRV(svTHIS));
       THIS = INT2PTR(__SAPO__Broker__Codecs__Autogen__ProtobufXS__Atom_Subscribe *, tmp);
@@ -5782,7 +5782,7 @@ debug_string(svTHIS)
     string dstr;
 
   CODE:
-    ::SAPO::Broker::Codecs::Autogen::ProtobufXS::Atom_Subscribe * THIS;
+    ::sapo_broker::Atom_Subscribe * THIS;
     if ( sv_derived_from(svTHIS, "SAPO::Broker::Codecs::Autogen::ProtobufXS::Atom::Subscribe") ) {
       IV tmp = SvIV((SV *)SvRV(svTHIS));
       THIS = INT2PTR(__SAPO__Broker__Codecs__Autogen__ProtobufXS__Atom_Subscribe *, tmp);
@@ -5805,7 +5805,7 @@ short_debug_string(svTHIS)
     string dstr;
 
   CODE:
-    ::SAPO::Broker::Codecs::Autogen::ProtobufXS::Atom_Subscribe * THIS;
+    ::sapo_broker::Atom_Subscribe * THIS;
     if ( sv_derived_from(svTHIS, "SAPO::Broker::Codecs::Autogen::ProtobufXS::Atom::Subscribe") ) {
       IV tmp = SvIV((SV *)SvRV(svTHIS));
       THIS = INT2PTR(__SAPO__Broker__Codecs__Autogen__ProtobufXS__Atom_Subscribe *, tmp);
@@ -5830,7 +5830,7 @@ unpack(svTHIS, arg)
     char * str;
 
   CODE:
-    ::SAPO::Broker::Codecs::Autogen::ProtobufXS::Atom_Subscribe * THIS;
+    ::sapo_broker::Atom_Subscribe * THIS;
     if ( sv_derived_from(svTHIS, "SAPO::Broker::Codecs::Autogen::ProtobufXS::Atom::Subscribe") ) {
       IV tmp = SvIV((SV *)SvRV(svTHIS));
       THIS = INT2PTR(__SAPO__Broker__Codecs__Autogen__ProtobufXS__Atom_Subscribe *, tmp);
@@ -5856,7 +5856,7 @@ SV *
 pack(svTHIS)
   SV * svTHIS
   CODE:
-    ::SAPO::Broker::Codecs::Autogen::ProtobufXS::Atom_Subscribe * THIS;
+    ::sapo_broker::Atom_Subscribe * THIS;
     if ( sv_derived_from(svTHIS, "SAPO::Broker::Codecs::Autogen::ProtobufXS::Atom::Subscribe") ) {
       IV tmp = SvIV((SV *)SvRV(svTHIS));
       THIS = INT2PTR(__SAPO__Broker__Codecs__Autogen__ProtobufXS__Atom_Subscribe *, tmp);
@@ -5889,7 +5889,7 @@ int
 length(svTHIS)
   SV * svTHIS
   CODE:
-    ::SAPO::Broker::Codecs::Autogen::ProtobufXS::Atom_Subscribe * THIS;
+    ::sapo_broker::Atom_Subscribe * THIS;
     if ( sv_derived_from(svTHIS, "SAPO::Broker::Codecs::Autogen::ProtobufXS::Atom::Subscribe") ) {
       IV tmp = SvIV((SV *)SvRV(svTHIS));
       THIS = INT2PTR(__SAPO__Broker__Codecs__Autogen__ProtobufXS__Atom_Subscribe *, tmp);
@@ -5921,7 +5921,7 @@ SV *
 to_hashref(svTHIS)
   SV * svTHIS
   CODE:
-    ::SAPO::Broker::Codecs::Autogen::ProtobufXS::Atom_Subscribe * THIS;
+    ::sapo_broker::Atom_Subscribe * THIS;
     if ( sv_derived_from(svTHIS, "SAPO::Broker::Codecs::Autogen::ProtobufXS::Atom::Subscribe") ) {
       IV tmp = SvIV((SV *)SvRV(svTHIS));
       THIS = INT2PTR(__SAPO__Broker__Codecs__Autogen__ProtobufXS__Atom_Subscribe *, tmp);
@@ -5930,7 +5930,7 @@ to_hashref(svTHIS)
     }
     if ( THIS != NULL ) {
       HV * hv0 = newHV();
-      ::SAPO::Broker::Codecs::Autogen::ProtobufXS::Atom_Subscribe * msg0 = THIS;
+      ::sapo_broker::Atom_Subscribe * msg0 = THIS;
 
       if ( msg0->has_action_id() ) {
         SV * sv0 = newSVpv(msg0->action_id().c_str(), msg0->action_id().length());
@@ -5957,7 +5957,7 @@ I32
 has_action_id(svTHIS)
   SV * svTHIS;
   CODE:
-    ::SAPO::Broker::Codecs::Autogen::ProtobufXS::Atom_Subscribe * THIS;
+    ::sapo_broker::Atom_Subscribe * THIS;
     if ( sv_derived_from(svTHIS, "SAPO::Broker::Codecs::Autogen::ProtobufXS::Atom::Subscribe") ) {
       IV tmp = SvIV((SV *)SvRV(svTHIS));
       THIS = INT2PTR(__SAPO__Broker__Codecs__Autogen__ProtobufXS__Atom_Subscribe *, tmp);
@@ -5974,7 +5974,7 @@ void
 clear_action_id(svTHIS)
   SV * svTHIS;
   CODE:
-    ::SAPO::Broker::Codecs::Autogen::ProtobufXS::Atom_Subscribe * THIS;
+    ::sapo_broker::Atom_Subscribe * THIS;
     if ( sv_derived_from(svTHIS, "SAPO::Broker::Codecs::Autogen::ProtobufXS::Atom::Subscribe") ) {
       IV tmp = SvIV((SV *)SvRV(svTHIS));
       THIS = INT2PTR(__SAPO__Broker__Codecs__Autogen__ProtobufXS__Atom_Subscribe *, tmp);
@@ -5991,7 +5991,7 @@ PREINIT:
     SV * sv;
 
   PPCODE:
-    ::SAPO::Broker::Codecs::Autogen::ProtobufXS::Atom_Subscribe * THIS;
+    ::sapo_broker::Atom_Subscribe * THIS;
     if ( sv_derived_from(svTHIS, "SAPO::Broker::Codecs::Autogen::ProtobufXS::Atom::Subscribe") ) {
       IV tmp = SvIV((SV *)SvRV(svTHIS));
       THIS = INT2PTR(__SAPO__Broker__Codecs__Autogen__ProtobufXS__Atom_Subscribe *, tmp);
@@ -6017,7 +6017,7 @@ set_action_id(svTHIS, svVAL)
     string sval;
 
   CODE:
-    ::SAPO::Broker::Codecs::Autogen::ProtobufXS::Atom_Subscribe * THIS;
+    ::sapo_broker::Atom_Subscribe * THIS;
     if ( sv_derived_from(svTHIS, "SAPO::Broker::Codecs::Autogen::ProtobufXS::Atom::Subscribe") ) {
       IV tmp = SvIV((SV *)SvRV(svTHIS));
       THIS = INT2PTR(__SAPO__Broker__Codecs__Autogen__ProtobufXS__Atom_Subscribe *, tmp);
@@ -6033,7 +6033,7 @@ I32
 has_destination(svTHIS)
   SV * svTHIS;
   CODE:
-    ::SAPO::Broker::Codecs::Autogen::ProtobufXS::Atom_Subscribe * THIS;
+    ::sapo_broker::Atom_Subscribe * THIS;
     if ( sv_derived_from(svTHIS, "SAPO::Broker::Codecs::Autogen::ProtobufXS::Atom::Subscribe") ) {
       IV tmp = SvIV((SV *)SvRV(svTHIS));
       THIS = INT2PTR(__SAPO__Broker__Codecs__Autogen__ProtobufXS__Atom_Subscribe *, tmp);
@@ -6050,7 +6050,7 @@ void
 clear_destination(svTHIS)
   SV * svTHIS;
   CODE:
-    ::SAPO::Broker::Codecs::Autogen::ProtobufXS::Atom_Subscribe * THIS;
+    ::sapo_broker::Atom_Subscribe * THIS;
     if ( sv_derived_from(svTHIS, "SAPO::Broker::Codecs::Autogen::ProtobufXS::Atom::Subscribe") ) {
       IV tmp = SvIV((SV *)SvRV(svTHIS));
       THIS = INT2PTR(__SAPO__Broker__Codecs__Autogen__ProtobufXS__Atom_Subscribe *, tmp);
@@ -6067,7 +6067,7 @@ PREINIT:
     SV * sv;
 
   PPCODE:
-    ::SAPO::Broker::Codecs::Autogen::ProtobufXS::Atom_Subscribe * THIS;
+    ::sapo_broker::Atom_Subscribe * THIS;
     if ( sv_derived_from(svTHIS, "SAPO::Broker::Codecs::Autogen::ProtobufXS::Atom::Subscribe") ) {
       IV tmp = SvIV((SV *)SvRV(svTHIS));
       THIS = INT2PTR(__SAPO__Broker__Codecs__Autogen__ProtobufXS__Atom_Subscribe *, tmp);
@@ -6093,7 +6093,7 @@ set_destination(svTHIS, svVAL)
     string sval;
 
   CODE:
-    ::SAPO::Broker::Codecs::Autogen::ProtobufXS::Atom_Subscribe * THIS;
+    ::sapo_broker::Atom_Subscribe * THIS;
     if ( sv_derived_from(svTHIS, "SAPO::Broker::Codecs::Autogen::ProtobufXS::Atom::Subscribe") ) {
       IV tmp = SvIV((SV *)SvRV(svTHIS));
       THIS = INT2PTR(__SAPO__Broker__Codecs__Autogen__ProtobufXS__Atom_Subscribe *, tmp);
@@ -6109,7 +6109,7 @@ I32
 has_destination_type(svTHIS)
   SV * svTHIS;
   CODE:
-    ::SAPO::Broker::Codecs::Autogen::ProtobufXS::Atom_Subscribe * THIS;
+    ::sapo_broker::Atom_Subscribe * THIS;
     if ( sv_derived_from(svTHIS, "SAPO::Broker::Codecs::Autogen::ProtobufXS::Atom::Subscribe") ) {
       IV tmp = SvIV((SV *)SvRV(svTHIS));
       THIS = INT2PTR(__SAPO__Broker__Codecs__Autogen__ProtobufXS__Atom_Subscribe *, tmp);
@@ -6126,7 +6126,7 @@ void
 clear_destination_type(svTHIS)
   SV * svTHIS;
   CODE:
-    ::SAPO::Broker::Codecs::Autogen::ProtobufXS::Atom_Subscribe * THIS;
+    ::sapo_broker::Atom_Subscribe * THIS;
     if ( sv_derived_from(svTHIS, "SAPO::Broker::Codecs::Autogen::ProtobufXS::Atom::Subscribe") ) {
       IV tmp = SvIV((SV *)SvRV(svTHIS));
       THIS = INT2PTR(__SAPO__Broker__Codecs__Autogen__ProtobufXS__Atom_Subscribe *, tmp);
@@ -6143,7 +6143,7 @@ PREINIT:
     SV * sv;
 
   PPCODE:
-    ::SAPO::Broker::Codecs::Autogen::ProtobufXS::Atom_Subscribe * THIS;
+    ::sapo_broker::Atom_Subscribe * THIS;
     if ( sv_derived_from(svTHIS, "SAPO::Broker::Codecs::Autogen::ProtobufXS::Atom::Subscribe") ) {
       IV tmp = SvIV((SV *)SvRV(svTHIS));
       THIS = INT2PTR(__SAPO__Broker__Codecs__Autogen__ProtobufXS__Atom_Subscribe *, tmp);
@@ -6163,15 +6163,15 @@ set_destination_type(svTHIS, svVAL)
   IV svVAL
 
   CODE:
-    ::SAPO::Broker::Codecs::Autogen::ProtobufXS::Atom_Subscribe * THIS;
+    ::sapo_broker::Atom_Subscribe * THIS;
     if ( sv_derived_from(svTHIS, "SAPO::Broker::Codecs::Autogen::ProtobufXS::Atom::Subscribe") ) {
       IV tmp = SvIV((SV *)SvRV(svTHIS));
       THIS = INT2PTR(__SAPO__Broker__Codecs__Autogen__ProtobufXS__Atom_Subscribe *, tmp);
     } else {
       croak("THIS is not of type SAPO::Broker::Codecs::Autogen::ProtobufXS::Atom::Subscribe");
     }
-    if ( ::SAPO::Broker::Codecs::Autogen::ProtobufXS::Atom_DestinationType_IsValid(svVAL) ) {
-      THIS->set_destination_type((::SAPO::Broker::Codecs::Autogen::ProtobufXS::Atom_DestinationType)svVAL);
+    if ( ::sapo_broker::Atom_DestinationType_IsValid(svVAL) ) {
+      THIS->set_destination_type((::sapo_broker::Atom_DestinationType)svVAL);
     }
 
 
@@ -6180,9 +6180,9 @@ PROTOTYPES: ENABLE
 
 
 SV *
-::SAPO::Broker::Codecs::Autogen::ProtobufXS::Atom_Unsubscribe::new (...)
+::sapo_broker::Atom_Unsubscribe::new (...)
   PREINIT:
-    ::SAPO::Broker::Codecs::Autogen::ProtobufXS::Atom_Unsubscribe * rv = NULL;
+    ::sapo_broker::Atom_Unsubscribe * rv = NULL;
 
   CODE:
     if ( strcmp(CLASS,"SAPO::Broker::Codecs::Autogen::ProtobufXS::Atom::Unsubscribe") ) {
@@ -6195,14 +6195,14 @@ SV *
         STRLEN len;
         char * str;
 
-        rv = new ::SAPO::Broker::Codecs::Autogen::ProtobufXS::Atom_Unsubscribe;
+        rv = new ::sapo_broker::Atom_Unsubscribe;
         str = SvPV(ST(1), len);
         if ( str != NULL ) {
           rv->ParseFromArray(str, len);
         }
       }
     } else {
-      rv = new ::SAPO::Broker::Codecs::Autogen::ProtobufXS::Atom_Unsubscribe;
+      rv = new ::sapo_broker::Atom_Unsubscribe;
     }
     RETVAL = newSV(0);
     sv_setref_pv(RETVAL, "SAPO::Broker::Codecs::Autogen::ProtobufXS::Atom::Unsubscribe", (void *)rv);
@@ -6215,7 +6215,7 @@ void
 DESTROY(svTHIS)
   SV * svTHIS;
   CODE:
-    ::SAPO::Broker::Codecs::Autogen::ProtobufXS::Atom_Unsubscribe * THIS;
+    ::sapo_broker::Atom_Unsubscribe * THIS;
     if ( sv_derived_from(svTHIS, "SAPO::Broker::Codecs::Autogen::ProtobufXS::Atom::Unsubscribe") ) {
       IV tmp = SvIV((SV *)SvRV(svTHIS));
       THIS = INT2PTR(__SAPO__Broker__Codecs__Autogen__ProtobufXS__Atom_Unsubscribe *, tmp);
@@ -6232,7 +6232,7 @@ copy_from(svTHIS, sv)
   SV * svTHIS
   SV * sv
   CODE:
-    ::SAPO::Broker::Codecs::Autogen::ProtobufXS::Atom_Unsubscribe * THIS;
+    ::sapo_broker::Atom_Unsubscribe * THIS;
     if ( sv_derived_from(svTHIS, "SAPO::Broker::Codecs::Autogen::ProtobufXS::Atom::Unsubscribe") ) {
       IV tmp = SvIV((SV *)SvRV(svTHIS));
       THIS = INT2PTR(__SAPO__Broker__Codecs__Autogen__ProtobufXS__Atom_Unsubscribe *, tmp);
@@ -6242,12 +6242,12 @@ copy_from(svTHIS, sv)
     if ( THIS != NULL && sv != NULL ) {
       if ( sv_derived_from(sv, "SAPO::Broker::Codecs::Autogen::ProtobufXS::Atom::Unsubscribe") ) {
         IV tmp = SvIV((SV *)SvRV(sv));
-        ::SAPO::Broker::Codecs::Autogen::ProtobufXS::Atom_Unsubscribe * other = INT2PTR(__SAPO__Broker__Codecs__Autogen__ProtobufXS__Atom_Unsubscribe *, tmp);
+        ::sapo_broker::Atom_Unsubscribe * other = INT2PTR(__SAPO__Broker__Codecs__Autogen__ProtobufXS__Atom_Unsubscribe *, tmp);
 
         THIS->CopyFrom(*other);
       } else if ( SvROK(sv) &&
                   SvTYPE(SvRV(sv)) == SVt_PVHV ) {
-        ::SAPO::Broker::Codecs::Autogen::ProtobufXS::Atom_Unsubscribe * other = __SAPO__Broker__Codecs__Autogen__ProtobufXS__Atom_Unsubscribe_from_hashref(sv);
+        ::sapo_broker::Atom_Unsubscribe * other = __SAPO__Broker__Codecs__Autogen__ProtobufXS__Atom_Unsubscribe_from_hashref(sv);
         THIS->CopyFrom(*other);
         delete other;
       }
@@ -6259,7 +6259,7 @@ merge_from(svTHIS, sv)
   SV * svTHIS
   SV * sv
   CODE:
-    ::SAPO::Broker::Codecs::Autogen::ProtobufXS::Atom_Unsubscribe * THIS;
+    ::sapo_broker::Atom_Unsubscribe * THIS;
     if ( sv_derived_from(svTHIS, "SAPO::Broker::Codecs::Autogen::ProtobufXS::Atom::Unsubscribe") ) {
       IV tmp = SvIV((SV *)SvRV(svTHIS));
       THIS = INT2PTR(__SAPO__Broker__Codecs__Autogen__ProtobufXS__Atom_Unsubscribe *, tmp);
@@ -6269,12 +6269,12 @@ merge_from(svTHIS, sv)
     if ( THIS != NULL && sv != NULL ) {
       if ( sv_derived_from(sv, "SAPO::Broker::Codecs::Autogen::ProtobufXS::Atom::Unsubscribe") ) {
         IV tmp = SvIV((SV *)SvRV(sv));
-        ::SAPO::Broker::Codecs::Autogen::ProtobufXS::Atom_Unsubscribe * other = INT2PTR(__SAPO__Broker__Codecs__Autogen__ProtobufXS__Atom_Unsubscribe *, tmp);
+        ::sapo_broker::Atom_Unsubscribe * other = INT2PTR(__SAPO__Broker__Codecs__Autogen__ProtobufXS__Atom_Unsubscribe *, tmp);
 
         THIS->MergeFrom(*other);
       } else if ( SvROK(sv) &&
                   SvTYPE(SvRV(sv)) == SVt_PVHV ) {
-        ::SAPO::Broker::Codecs::Autogen::ProtobufXS::Atom_Unsubscribe * other = __SAPO__Broker__Codecs__Autogen__ProtobufXS__Atom_Unsubscribe_from_hashref(sv);
+        ::sapo_broker::Atom_Unsubscribe * other = __SAPO__Broker__Codecs__Autogen__ProtobufXS__Atom_Unsubscribe_from_hashref(sv);
         THIS->MergeFrom(*other);
         delete other;
       }
@@ -6285,7 +6285,7 @@ void
 clear(svTHIS)
   SV * svTHIS
   CODE:
-    ::SAPO::Broker::Codecs::Autogen::ProtobufXS::Atom_Unsubscribe * THIS;
+    ::sapo_broker::Atom_Unsubscribe * THIS;
     if ( sv_derived_from(svTHIS, "SAPO::Broker::Codecs::Autogen::ProtobufXS::Atom::Unsubscribe") ) {
       IV tmp = SvIV((SV *)SvRV(svTHIS));
       THIS = INT2PTR(__SAPO__Broker__Codecs__Autogen__ProtobufXS__Atom_Unsubscribe *, tmp);
@@ -6301,7 +6301,7 @@ int
 is_initialized(svTHIS)
   SV * svTHIS
   CODE:
-    ::SAPO::Broker::Codecs::Autogen::ProtobufXS::Atom_Unsubscribe * THIS;
+    ::sapo_broker::Atom_Unsubscribe * THIS;
     if ( sv_derived_from(svTHIS, "SAPO::Broker::Codecs::Autogen::ProtobufXS::Atom::Unsubscribe") ) {
       IV tmp = SvIV((SV *)SvRV(svTHIS));
       THIS = INT2PTR(__SAPO__Broker__Codecs__Autogen__ProtobufXS__Atom_Unsubscribe *, tmp);
@@ -6325,7 +6325,7 @@ error_string(svTHIS)
     string estr;
 
   CODE:
-    ::SAPO::Broker::Codecs::Autogen::ProtobufXS::Atom_Unsubscribe * THIS;
+    ::sapo_broker::Atom_Unsubscribe * THIS;
     if ( sv_derived_from(svTHIS, "SAPO::Broker::Codecs::Autogen::ProtobufXS::Atom::Unsubscribe") ) {
       IV tmp = SvIV((SV *)SvRV(svTHIS));
       THIS = INT2PTR(__SAPO__Broker__Codecs__Autogen__ProtobufXS__Atom_Unsubscribe *, tmp);
@@ -6345,7 +6345,7 @@ void
 discard_unkown_fields(svTHIS)
   SV * svTHIS
   CODE:
-    ::SAPO::Broker::Codecs::Autogen::ProtobufXS::Atom_Unsubscribe * THIS;
+    ::sapo_broker::Atom_Unsubscribe * THIS;
     if ( sv_derived_from(svTHIS, "SAPO::Broker::Codecs::Autogen::ProtobufXS::Atom::Unsubscribe") ) {
       IV tmp = SvIV((SV *)SvRV(svTHIS));
       THIS = INT2PTR(__SAPO__Broker__Codecs__Autogen__ProtobufXS__Atom_Unsubscribe *, tmp);
@@ -6364,7 +6364,7 @@ debug_string(svTHIS)
     string dstr;
 
   CODE:
-    ::SAPO::Broker::Codecs::Autogen::ProtobufXS::Atom_Unsubscribe * THIS;
+    ::sapo_broker::Atom_Unsubscribe * THIS;
     if ( sv_derived_from(svTHIS, "SAPO::Broker::Codecs::Autogen::ProtobufXS::Atom::Unsubscribe") ) {
       IV tmp = SvIV((SV *)SvRV(svTHIS));
       THIS = INT2PTR(__SAPO__Broker__Codecs__Autogen__ProtobufXS__Atom_Unsubscribe *, tmp);
@@ -6387,7 +6387,7 @@ short_debug_string(svTHIS)
     string dstr;
 
   CODE:
-    ::SAPO::Broker::Codecs::Autogen::ProtobufXS::Atom_Unsubscribe * THIS;
+    ::sapo_broker::Atom_Unsubscribe * THIS;
     if ( sv_derived_from(svTHIS, "SAPO::Broker::Codecs::Autogen::ProtobufXS::Atom::Unsubscribe") ) {
       IV tmp = SvIV((SV *)SvRV(svTHIS));
       THIS = INT2PTR(__SAPO__Broker__Codecs__Autogen__ProtobufXS__Atom_Unsubscribe *, tmp);
@@ -6412,7 +6412,7 @@ unpack(svTHIS, arg)
     char * str;
 
   CODE:
-    ::SAPO::Broker::Codecs::Autogen::ProtobufXS::Atom_Unsubscribe * THIS;
+    ::sapo_broker::Atom_Unsubscribe * THIS;
     if ( sv_derived_from(svTHIS, "SAPO::Broker::Codecs::Autogen::ProtobufXS::Atom::Unsubscribe") ) {
       IV tmp = SvIV((SV *)SvRV(svTHIS));
       THIS = INT2PTR(__SAPO__Broker__Codecs__Autogen__ProtobufXS__Atom_Unsubscribe *, tmp);
@@ -6438,7 +6438,7 @@ SV *
 pack(svTHIS)
   SV * svTHIS
   CODE:
-    ::SAPO::Broker::Codecs::Autogen::ProtobufXS::Atom_Unsubscribe * THIS;
+    ::sapo_broker::Atom_Unsubscribe * THIS;
     if ( sv_derived_from(svTHIS, "SAPO::Broker::Codecs::Autogen::ProtobufXS::Atom::Unsubscribe") ) {
       IV tmp = SvIV((SV *)SvRV(svTHIS));
       THIS = INT2PTR(__SAPO__Broker__Codecs__Autogen__ProtobufXS__Atom_Unsubscribe *, tmp);
@@ -6471,7 +6471,7 @@ int
 length(svTHIS)
   SV * svTHIS
   CODE:
-    ::SAPO::Broker::Codecs::Autogen::ProtobufXS::Atom_Unsubscribe * THIS;
+    ::sapo_broker::Atom_Unsubscribe * THIS;
     if ( sv_derived_from(svTHIS, "SAPO::Broker::Codecs::Autogen::ProtobufXS::Atom::Unsubscribe") ) {
       IV tmp = SvIV((SV *)SvRV(svTHIS));
       THIS = INT2PTR(__SAPO__Broker__Codecs__Autogen__ProtobufXS__Atom_Unsubscribe *, tmp);
@@ -6503,7 +6503,7 @@ SV *
 to_hashref(svTHIS)
   SV * svTHIS
   CODE:
-    ::SAPO::Broker::Codecs::Autogen::ProtobufXS::Atom_Unsubscribe * THIS;
+    ::sapo_broker::Atom_Unsubscribe * THIS;
     if ( sv_derived_from(svTHIS, "SAPO::Broker::Codecs::Autogen::ProtobufXS::Atom::Unsubscribe") ) {
       IV tmp = SvIV((SV *)SvRV(svTHIS));
       THIS = INT2PTR(__SAPO__Broker__Codecs__Autogen__ProtobufXS__Atom_Unsubscribe *, tmp);
@@ -6512,7 +6512,7 @@ to_hashref(svTHIS)
     }
     if ( THIS != NULL ) {
       HV * hv0 = newHV();
-      ::SAPO::Broker::Codecs::Autogen::ProtobufXS::Atom_Unsubscribe * msg0 = THIS;
+      ::sapo_broker::Atom_Unsubscribe * msg0 = THIS;
 
       if ( msg0->has_action_id() ) {
         SV * sv0 = newSVpv(msg0->action_id().c_str(), msg0->action_id().length());
@@ -6539,7 +6539,7 @@ I32
 has_action_id(svTHIS)
   SV * svTHIS;
   CODE:
-    ::SAPO::Broker::Codecs::Autogen::ProtobufXS::Atom_Unsubscribe * THIS;
+    ::sapo_broker::Atom_Unsubscribe * THIS;
     if ( sv_derived_from(svTHIS, "SAPO::Broker::Codecs::Autogen::ProtobufXS::Atom::Unsubscribe") ) {
       IV tmp = SvIV((SV *)SvRV(svTHIS));
       THIS = INT2PTR(__SAPO__Broker__Codecs__Autogen__ProtobufXS__Atom_Unsubscribe *, tmp);
@@ -6556,7 +6556,7 @@ void
 clear_action_id(svTHIS)
   SV * svTHIS;
   CODE:
-    ::SAPO::Broker::Codecs::Autogen::ProtobufXS::Atom_Unsubscribe * THIS;
+    ::sapo_broker::Atom_Unsubscribe * THIS;
     if ( sv_derived_from(svTHIS, "SAPO::Broker::Codecs::Autogen::ProtobufXS::Atom::Unsubscribe") ) {
       IV tmp = SvIV((SV *)SvRV(svTHIS));
       THIS = INT2PTR(__SAPO__Broker__Codecs__Autogen__ProtobufXS__Atom_Unsubscribe *, tmp);
@@ -6573,7 +6573,7 @@ PREINIT:
     SV * sv;
 
   PPCODE:
-    ::SAPO::Broker::Codecs::Autogen::ProtobufXS::Atom_Unsubscribe * THIS;
+    ::sapo_broker::Atom_Unsubscribe * THIS;
     if ( sv_derived_from(svTHIS, "SAPO::Broker::Codecs::Autogen::ProtobufXS::Atom::Unsubscribe") ) {
       IV tmp = SvIV((SV *)SvRV(svTHIS));
       THIS = INT2PTR(__SAPO__Broker__Codecs__Autogen__ProtobufXS__Atom_Unsubscribe *, tmp);
@@ -6599,7 +6599,7 @@ set_action_id(svTHIS, svVAL)
     string sval;
 
   CODE:
-    ::SAPO::Broker::Codecs::Autogen::ProtobufXS::Atom_Unsubscribe * THIS;
+    ::sapo_broker::Atom_Unsubscribe * THIS;
     if ( sv_derived_from(svTHIS, "SAPO::Broker::Codecs::Autogen::ProtobufXS::Atom::Unsubscribe") ) {
       IV tmp = SvIV((SV *)SvRV(svTHIS));
       THIS = INT2PTR(__SAPO__Broker__Codecs__Autogen__ProtobufXS__Atom_Unsubscribe *, tmp);
@@ -6615,7 +6615,7 @@ I32
 has_destination(svTHIS)
   SV * svTHIS;
   CODE:
-    ::SAPO::Broker::Codecs::Autogen::ProtobufXS::Atom_Unsubscribe * THIS;
+    ::sapo_broker::Atom_Unsubscribe * THIS;
     if ( sv_derived_from(svTHIS, "SAPO::Broker::Codecs::Autogen::ProtobufXS::Atom::Unsubscribe") ) {
       IV tmp = SvIV((SV *)SvRV(svTHIS));
       THIS = INT2PTR(__SAPO__Broker__Codecs__Autogen__ProtobufXS__Atom_Unsubscribe *, tmp);
@@ -6632,7 +6632,7 @@ void
 clear_destination(svTHIS)
   SV * svTHIS;
   CODE:
-    ::SAPO::Broker::Codecs::Autogen::ProtobufXS::Atom_Unsubscribe * THIS;
+    ::sapo_broker::Atom_Unsubscribe * THIS;
     if ( sv_derived_from(svTHIS, "SAPO::Broker::Codecs::Autogen::ProtobufXS::Atom::Unsubscribe") ) {
       IV tmp = SvIV((SV *)SvRV(svTHIS));
       THIS = INT2PTR(__SAPO__Broker__Codecs__Autogen__ProtobufXS__Atom_Unsubscribe *, tmp);
@@ -6649,7 +6649,7 @@ PREINIT:
     SV * sv;
 
   PPCODE:
-    ::SAPO::Broker::Codecs::Autogen::ProtobufXS::Atom_Unsubscribe * THIS;
+    ::sapo_broker::Atom_Unsubscribe * THIS;
     if ( sv_derived_from(svTHIS, "SAPO::Broker::Codecs::Autogen::ProtobufXS::Atom::Unsubscribe") ) {
       IV tmp = SvIV((SV *)SvRV(svTHIS));
       THIS = INT2PTR(__SAPO__Broker__Codecs__Autogen__ProtobufXS__Atom_Unsubscribe *, tmp);
@@ -6675,7 +6675,7 @@ set_destination(svTHIS, svVAL)
     string sval;
 
   CODE:
-    ::SAPO::Broker::Codecs::Autogen::ProtobufXS::Atom_Unsubscribe * THIS;
+    ::sapo_broker::Atom_Unsubscribe * THIS;
     if ( sv_derived_from(svTHIS, "SAPO::Broker::Codecs::Autogen::ProtobufXS::Atom::Unsubscribe") ) {
       IV tmp = SvIV((SV *)SvRV(svTHIS));
       THIS = INT2PTR(__SAPO__Broker__Codecs__Autogen__ProtobufXS__Atom_Unsubscribe *, tmp);
@@ -6691,7 +6691,7 @@ I32
 has_destination_type(svTHIS)
   SV * svTHIS;
   CODE:
-    ::SAPO::Broker::Codecs::Autogen::ProtobufXS::Atom_Unsubscribe * THIS;
+    ::sapo_broker::Atom_Unsubscribe * THIS;
     if ( sv_derived_from(svTHIS, "SAPO::Broker::Codecs::Autogen::ProtobufXS::Atom::Unsubscribe") ) {
       IV tmp = SvIV((SV *)SvRV(svTHIS));
       THIS = INT2PTR(__SAPO__Broker__Codecs__Autogen__ProtobufXS__Atom_Unsubscribe *, tmp);
@@ -6708,7 +6708,7 @@ void
 clear_destination_type(svTHIS)
   SV * svTHIS;
   CODE:
-    ::SAPO::Broker::Codecs::Autogen::ProtobufXS::Atom_Unsubscribe * THIS;
+    ::sapo_broker::Atom_Unsubscribe * THIS;
     if ( sv_derived_from(svTHIS, "SAPO::Broker::Codecs::Autogen::ProtobufXS::Atom::Unsubscribe") ) {
       IV tmp = SvIV((SV *)SvRV(svTHIS));
       THIS = INT2PTR(__SAPO__Broker__Codecs__Autogen__ProtobufXS__Atom_Unsubscribe *, tmp);
@@ -6725,7 +6725,7 @@ PREINIT:
     SV * sv;
 
   PPCODE:
-    ::SAPO::Broker::Codecs::Autogen::ProtobufXS::Atom_Unsubscribe * THIS;
+    ::sapo_broker::Atom_Unsubscribe * THIS;
     if ( sv_derived_from(svTHIS, "SAPO::Broker::Codecs::Autogen::ProtobufXS::Atom::Unsubscribe") ) {
       IV tmp = SvIV((SV *)SvRV(svTHIS));
       THIS = INT2PTR(__SAPO__Broker__Codecs__Autogen__ProtobufXS__Atom_Unsubscribe *, tmp);
@@ -6745,15 +6745,15 @@ set_destination_type(svTHIS, svVAL)
   IV svVAL
 
   CODE:
-    ::SAPO::Broker::Codecs::Autogen::ProtobufXS::Atom_Unsubscribe * THIS;
+    ::sapo_broker::Atom_Unsubscribe * THIS;
     if ( sv_derived_from(svTHIS, "SAPO::Broker::Codecs::Autogen::ProtobufXS::Atom::Unsubscribe") ) {
       IV tmp = SvIV((SV *)SvRV(svTHIS));
       THIS = INT2PTR(__SAPO__Broker__Codecs__Autogen__ProtobufXS__Atom_Unsubscribe *, tmp);
     } else {
       croak("THIS is not of type SAPO::Broker::Codecs::Autogen::ProtobufXS::Atom::Unsubscribe");
     }
-    if ( ::SAPO::Broker::Codecs::Autogen::ProtobufXS::Atom_DestinationType_IsValid(svVAL) ) {
-      THIS->set_destination_type((::SAPO::Broker::Codecs::Autogen::ProtobufXS::Atom_DestinationType)svVAL);
+    if ( ::sapo_broker::Atom_DestinationType_IsValid(svVAL) ) {
+      THIS->set_destination_type((::sapo_broker::Atom_DestinationType)svVAL);
     }
 
 
@@ -6762,9 +6762,9 @@ PROTOTYPES: ENABLE
 
 
 SV *
-::SAPO::Broker::Codecs::Autogen::ProtobufXS::Atom_Notification::new (...)
+::sapo_broker::Atom_Notification::new (...)
   PREINIT:
-    ::SAPO::Broker::Codecs::Autogen::ProtobufXS::Atom_Notification * rv = NULL;
+    ::sapo_broker::Atom_Notification * rv = NULL;
 
   CODE:
     if ( strcmp(CLASS,"SAPO::Broker::Codecs::Autogen::ProtobufXS::Atom::Notification") ) {
@@ -6777,14 +6777,14 @@ SV *
         STRLEN len;
         char * str;
 
-        rv = new ::SAPO::Broker::Codecs::Autogen::ProtobufXS::Atom_Notification;
+        rv = new ::sapo_broker::Atom_Notification;
         str = SvPV(ST(1), len);
         if ( str != NULL ) {
           rv->ParseFromArray(str, len);
         }
       }
     } else {
-      rv = new ::SAPO::Broker::Codecs::Autogen::ProtobufXS::Atom_Notification;
+      rv = new ::sapo_broker::Atom_Notification;
     }
     RETVAL = newSV(0);
     sv_setref_pv(RETVAL, "SAPO::Broker::Codecs::Autogen::ProtobufXS::Atom::Notification", (void *)rv);
@@ -6797,7 +6797,7 @@ void
 DESTROY(svTHIS)
   SV * svTHIS;
   CODE:
-    ::SAPO::Broker::Codecs::Autogen::ProtobufXS::Atom_Notification * THIS;
+    ::sapo_broker::Atom_Notification * THIS;
     if ( sv_derived_from(svTHIS, "SAPO::Broker::Codecs::Autogen::ProtobufXS::Atom::Notification") ) {
       IV tmp = SvIV((SV *)SvRV(svTHIS));
       THIS = INT2PTR(__SAPO__Broker__Codecs__Autogen__ProtobufXS__Atom_Notification *, tmp);
@@ -6814,7 +6814,7 @@ copy_from(svTHIS, sv)
   SV * svTHIS
   SV * sv
   CODE:
-    ::SAPO::Broker::Codecs::Autogen::ProtobufXS::Atom_Notification * THIS;
+    ::sapo_broker::Atom_Notification * THIS;
     if ( sv_derived_from(svTHIS, "SAPO::Broker::Codecs::Autogen::ProtobufXS::Atom::Notification") ) {
       IV tmp = SvIV((SV *)SvRV(svTHIS));
       THIS = INT2PTR(__SAPO__Broker__Codecs__Autogen__ProtobufXS__Atom_Notification *, tmp);
@@ -6824,12 +6824,12 @@ copy_from(svTHIS, sv)
     if ( THIS != NULL && sv != NULL ) {
       if ( sv_derived_from(sv, "SAPO::Broker::Codecs::Autogen::ProtobufXS::Atom::Notification") ) {
         IV tmp = SvIV((SV *)SvRV(sv));
-        ::SAPO::Broker::Codecs::Autogen::ProtobufXS::Atom_Notification * other = INT2PTR(__SAPO__Broker__Codecs__Autogen__ProtobufXS__Atom_Notification *, tmp);
+        ::sapo_broker::Atom_Notification * other = INT2PTR(__SAPO__Broker__Codecs__Autogen__ProtobufXS__Atom_Notification *, tmp);
 
         THIS->CopyFrom(*other);
       } else if ( SvROK(sv) &&
                   SvTYPE(SvRV(sv)) == SVt_PVHV ) {
-        ::SAPO::Broker::Codecs::Autogen::ProtobufXS::Atom_Notification * other = __SAPO__Broker__Codecs__Autogen__ProtobufXS__Atom_Notification_from_hashref(sv);
+        ::sapo_broker::Atom_Notification * other = __SAPO__Broker__Codecs__Autogen__ProtobufXS__Atom_Notification_from_hashref(sv);
         THIS->CopyFrom(*other);
         delete other;
       }
@@ -6841,7 +6841,7 @@ merge_from(svTHIS, sv)
   SV * svTHIS
   SV * sv
   CODE:
-    ::SAPO::Broker::Codecs::Autogen::ProtobufXS::Atom_Notification * THIS;
+    ::sapo_broker::Atom_Notification * THIS;
     if ( sv_derived_from(svTHIS, "SAPO::Broker::Codecs::Autogen::ProtobufXS::Atom::Notification") ) {
       IV tmp = SvIV((SV *)SvRV(svTHIS));
       THIS = INT2PTR(__SAPO__Broker__Codecs__Autogen__ProtobufXS__Atom_Notification *, tmp);
@@ -6851,12 +6851,12 @@ merge_from(svTHIS, sv)
     if ( THIS != NULL && sv != NULL ) {
       if ( sv_derived_from(sv, "SAPO::Broker::Codecs::Autogen::ProtobufXS::Atom::Notification") ) {
         IV tmp = SvIV((SV *)SvRV(sv));
-        ::SAPO::Broker::Codecs::Autogen::ProtobufXS::Atom_Notification * other = INT2PTR(__SAPO__Broker__Codecs__Autogen__ProtobufXS__Atom_Notification *, tmp);
+        ::sapo_broker::Atom_Notification * other = INT2PTR(__SAPO__Broker__Codecs__Autogen__ProtobufXS__Atom_Notification *, tmp);
 
         THIS->MergeFrom(*other);
       } else if ( SvROK(sv) &&
                   SvTYPE(SvRV(sv)) == SVt_PVHV ) {
-        ::SAPO::Broker::Codecs::Autogen::ProtobufXS::Atom_Notification * other = __SAPO__Broker__Codecs__Autogen__ProtobufXS__Atom_Notification_from_hashref(sv);
+        ::sapo_broker::Atom_Notification * other = __SAPO__Broker__Codecs__Autogen__ProtobufXS__Atom_Notification_from_hashref(sv);
         THIS->MergeFrom(*other);
         delete other;
       }
@@ -6867,7 +6867,7 @@ void
 clear(svTHIS)
   SV * svTHIS
   CODE:
-    ::SAPO::Broker::Codecs::Autogen::ProtobufXS::Atom_Notification * THIS;
+    ::sapo_broker::Atom_Notification * THIS;
     if ( sv_derived_from(svTHIS, "SAPO::Broker::Codecs::Autogen::ProtobufXS::Atom::Notification") ) {
       IV tmp = SvIV((SV *)SvRV(svTHIS));
       THIS = INT2PTR(__SAPO__Broker__Codecs__Autogen__ProtobufXS__Atom_Notification *, tmp);
@@ -6883,7 +6883,7 @@ int
 is_initialized(svTHIS)
   SV * svTHIS
   CODE:
-    ::SAPO::Broker::Codecs::Autogen::ProtobufXS::Atom_Notification * THIS;
+    ::sapo_broker::Atom_Notification * THIS;
     if ( sv_derived_from(svTHIS, "SAPO::Broker::Codecs::Autogen::ProtobufXS::Atom::Notification") ) {
       IV tmp = SvIV((SV *)SvRV(svTHIS));
       THIS = INT2PTR(__SAPO__Broker__Codecs__Autogen__ProtobufXS__Atom_Notification *, tmp);
@@ -6907,7 +6907,7 @@ error_string(svTHIS)
     string estr;
 
   CODE:
-    ::SAPO::Broker::Codecs::Autogen::ProtobufXS::Atom_Notification * THIS;
+    ::sapo_broker::Atom_Notification * THIS;
     if ( sv_derived_from(svTHIS, "SAPO::Broker::Codecs::Autogen::ProtobufXS::Atom::Notification") ) {
       IV tmp = SvIV((SV *)SvRV(svTHIS));
       THIS = INT2PTR(__SAPO__Broker__Codecs__Autogen__ProtobufXS__Atom_Notification *, tmp);
@@ -6927,7 +6927,7 @@ void
 discard_unkown_fields(svTHIS)
   SV * svTHIS
   CODE:
-    ::SAPO::Broker::Codecs::Autogen::ProtobufXS::Atom_Notification * THIS;
+    ::sapo_broker::Atom_Notification * THIS;
     if ( sv_derived_from(svTHIS, "SAPO::Broker::Codecs::Autogen::ProtobufXS::Atom::Notification") ) {
       IV tmp = SvIV((SV *)SvRV(svTHIS));
       THIS = INT2PTR(__SAPO__Broker__Codecs__Autogen__ProtobufXS__Atom_Notification *, tmp);
@@ -6946,7 +6946,7 @@ debug_string(svTHIS)
     string dstr;
 
   CODE:
-    ::SAPO::Broker::Codecs::Autogen::ProtobufXS::Atom_Notification * THIS;
+    ::sapo_broker::Atom_Notification * THIS;
     if ( sv_derived_from(svTHIS, "SAPO::Broker::Codecs::Autogen::ProtobufXS::Atom::Notification") ) {
       IV tmp = SvIV((SV *)SvRV(svTHIS));
       THIS = INT2PTR(__SAPO__Broker__Codecs__Autogen__ProtobufXS__Atom_Notification *, tmp);
@@ -6969,7 +6969,7 @@ short_debug_string(svTHIS)
     string dstr;
 
   CODE:
-    ::SAPO::Broker::Codecs::Autogen::ProtobufXS::Atom_Notification * THIS;
+    ::sapo_broker::Atom_Notification * THIS;
     if ( sv_derived_from(svTHIS, "SAPO::Broker::Codecs::Autogen::ProtobufXS::Atom::Notification") ) {
       IV tmp = SvIV((SV *)SvRV(svTHIS));
       THIS = INT2PTR(__SAPO__Broker__Codecs__Autogen__ProtobufXS__Atom_Notification *, tmp);
@@ -6994,7 +6994,7 @@ unpack(svTHIS, arg)
     char * str;
 
   CODE:
-    ::SAPO::Broker::Codecs::Autogen::ProtobufXS::Atom_Notification * THIS;
+    ::sapo_broker::Atom_Notification * THIS;
     if ( sv_derived_from(svTHIS, "SAPO::Broker::Codecs::Autogen::ProtobufXS::Atom::Notification") ) {
       IV tmp = SvIV((SV *)SvRV(svTHIS));
       THIS = INT2PTR(__SAPO__Broker__Codecs__Autogen__ProtobufXS__Atom_Notification *, tmp);
@@ -7020,7 +7020,7 @@ SV *
 pack(svTHIS)
   SV * svTHIS
   CODE:
-    ::SAPO::Broker::Codecs::Autogen::ProtobufXS::Atom_Notification * THIS;
+    ::sapo_broker::Atom_Notification * THIS;
     if ( sv_derived_from(svTHIS, "SAPO::Broker::Codecs::Autogen::ProtobufXS::Atom::Notification") ) {
       IV tmp = SvIV((SV *)SvRV(svTHIS));
       THIS = INT2PTR(__SAPO__Broker__Codecs__Autogen__ProtobufXS__Atom_Notification *, tmp);
@@ -7053,7 +7053,7 @@ int
 length(svTHIS)
   SV * svTHIS
   CODE:
-    ::SAPO::Broker::Codecs::Autogen::ProtobufXS::Atom_Notification * THIS;
+    ::sapo_broker::Atom_Notification * THIS;
     if ( sv_derived_from(svTHIS, "SAPO::Broker::Codecs::Autogen::ProtobufXS::Atom::Notification") ) {
       IV tmp = SvIV((SV *)SvRV(svTHIS));
       THIS = INT2PTR(__SAPO__Broker__Codecs__Autogen__ProtobufXS__Atom_Notification *, tmp);
@@ -7086,7 +7086,7 @@ SV *
 to_hashref(svTHIS)
   SV * svTHIS
   CODE:
-    ::SAPO::Broker::Codecs::Autogen::ProtobufXS::Atom_Notification * THIS;
+    ::sapo_broker::Atom_Notification * THIS;
     if ( sv_derived_from(svTHIS, "SAPO::Broker::Codecs::Autogen::ProtobufXS::Atom::Notification") ) {
       IV tmp = SvIV((SV *)SvRV(svTHIS));
       THIS = INT2PTR(__SAPO__Broker__Codecs__Autogen__ProtobufXS__Atom_Notification *, tmp);
@@ -7095,7 +7095,7 @@ to_hashref(svTHIS)
     }
     if ( THIS != NULL ) {
       HV * hv0 = newHV();
-      ::SAPO::Broker::Codecs::Autogen::ProtobufXS::Atom_Notification * msg0 = THIS;
+      ::sapo_broker::Atom_Notification * msg0 = THIS;
 
       if ( msg0->has_destination() ) {
         SV * sv0 = newSVpv(msg0->destination().c_str(), msg0->destination().length());
@@ -7110,7 +7110,7 @@ to_hashref(svTHIS)
         hv_store(hv0, "destination_type", sizeof("destination_type") - 1, sv0, 0);
       }
       if ( msg0->has_message() ) {
-        ::SAPO::Broker::Codecs::Autogen::ProtobufXS::Atom_BrokerMessage * msg2 = msg0->mutable_message();
+        ::sapo_broker::Atom_BrokerMessage * msg2 = msg0->mutable_message();
         HV * hv2 = newHV();
         SV * sv1 = newRV_noinc((SV *)hv2);
         
@@ -7151,7 +7151,7 @@ I32
 has_destination(svTHIS)
   SV * svTHIS;
   CODE:
-    ::SAPO::Broker::Codecs::Autogen::ProtobufXS::Atom_Notification * THIS;
+    ::sapo_broker::Atom_Notification * THIS;
     if ( sv_derived_from(svTHIS, "SAPO::Broker::Codecs::Autogen::ProtobufXS::Atom::Notification") ) {
       IV tmp = SvIV((SV *)SvRV(svTHIS));
       THIS = INT2PTR(__SAPO__Broker__Codecs__Autogen__ProtobufXS__Atom_Notification *, tmp);
@@ -7168,7 +7168,7 @@ void
 clear_destination(svTHIS)
   SV * svTHIS;
   CODE:
-    ::SAPO::Broker::Codecs::Autogen::ProtobufXS::Atom_Notification * THIS;
+    ::sapo_broker::Atom_Notification * THIS;
     if ( sv_derived_from(svTHIS, "SAPO::Broker::Codecs::Autogen::ProtobufXS::Atom::Notification") ) {
       IV tmp = SvIV((SV *)SvRV(svTHIS));
       THIS = INT2PTR(__SAPO__Broker__Codecs__Autogen__ProtobufXS__Atom_Notification *, tmp);
@@ -7185,7 +7185,7 @@ PREINIT:
     SV * sv;
 
   PPCODE:
-    ::SAPO::Broker::Codecs::Autogen::ProtobufXS::Atom_Notification * THIS;
+    ::sapo_broker::Atom_Notification * THIS;
     if ( sv_derived_from(svTHIS, "SAPO::Broker::Codecs::Autogen::ProtobufXS::Atom::Notification") ) {
       IV tmp = SvIV((SV *)SvRV(svTHIS));
       THIS = INT2PTR(__SAPO__Broker__Codecs__Autogen__ProtobufXS__Atom_Notification *, tmp);
@@ -7211,7 +7211,7 @@ set_destination(svTHIS, svVAL)
     string sval;
 
   CODE:
-    ::SAPO::Broker::Codecs::Autogen::ProtobufXS::Atom_Notification * THIS;
+    ::sapo_broker::Atom_Notification * THIS;
     if ( sv_derived_from(svTHIS, "SAPO::Broker::Codecs::Autogen::ProtobufXS::Atom::Notification") ) {
       IV tmp = SvIV((SV *)SvRV(svTHIS));
       THIS = INT2PTR(__SAPO__Broker__Codecs__Autogen__ProtobufXS__Atom_Notification *, tmp);
@@ -7227,7 +7227,7 @@ I32
 has_subscription(svTHIS)
   SV * svTHIS;
   CODE:
-    ::SAPO::Broker::Codecs::Autogen::ProtobufXS::Atom_Notification * THIS;
+    ::sapo_broker::Atom_Notification * THIS;
     if ( sv_derived_from(svTHIS, "SAPO::Broker::Codecs::Autogen::ProtobufXS::Atom::Notification") ) {
       IV tmp = SvIV((SV *)SvRV(svTHIS));
       THIS = INT2PTR(__SAPO__Broker__Codecs__Autogen__ProtobufXS__Atom_Notification *, tmp);
@@ -7244,7 +7244,7 @@ void
 clear_subscription(svTHIS)
   SV * svTHIS;
   CODE:
-    ::SAPO::Broker::Codecs::Autogen::ProtobufXS::Atom_Notification * THIS;
+    ::sapo_broker::Atom_Notification * THIS;
     if ( sv_derived_from(svTHIS, "SAPO::Broker::Codecs::Autogen::ProtobufXS::Atom::Notification") ) {
       IV tmp = SvIV((SV *)SvRV(svTHIS));
       THIS = INT2PTR(__SAPO__Broker__Codecs__Autogen__ProtobufXS__Atom_Notification *, tmp);
@@ -7261,7 +7261,7 @@ PREINIT:
     SV * sv;
 
   PPCODE:
-    ::SAPO::Broker::Codecs::Autogen::ProtobufXS::Atom_Notification * THIS;
+    ::sapo_broker::Atom_Notification * THIS;
     if ( sv_derived_from(svTHIS, "SAPO::Broker::Codecs::Autogen::ProtobufXS::Atom::Notification") ) {
       IV tmp = SvIV((SV *)SvRV(svTHIS));
       THIS = INT2PTR(__SAPO__Broker__Codecs__Autogen__ProtobufXS__Atom_Notification *, tmp);
@@ -7287,7 +7287,7 @@ set_subscription(svTHIS, svVAL)
     string sval;
 
   CODE:
-    ::SAPO::Broker::Codecs::Autogen::ProtobufXS::Atom_Notification * THIS;
+    ::sapo_broker::Atom_Notification * THIS;
     if ( sv_derived_from(svTHIS, "SAPO::Broker::Codecs::Autogen::ProtobufXS::Atom::Notification") ) {
       IV tmp = SvIV((SV *)SvRV(svTHIS));
       THIS = INT2PTR(__SAPO__Broker__Codecs__Autogen__ProtobufXS__Atom_Notification *, tmp);
@@ -7303,7 +7303,7 @@ I32
 has_destination_type(svTHIS)
   SV * svTHIS;
   CODE:
-    ::SAPO::Broker::Codecs::Autogen::ProtobufXS::Atom_Notification * THIS;
+    ::sapo_broker::Atom_Notification * THIS;
     if ( sv_derived_from(svTHIS, "SAPO::Broker::Codecs::Autogen::ProtobufXS::Atom::Notification") ) {
       IV tmp = SvIV((SV *)SvRV(svTHIS));
       THIS = INT2PTR(__SAPO__Broker__Codecs__Autogen__ProtobufXS__Atom_Notification *, tmp);
@@ -7320,7 +7320,7 @@ void
 clear_destination_type(svTHIS)
   SV * svTHIS;
   CODE:
-    ::SAPO::Broker::Codecs::Autogen::ProtobufXS::Atom_Notification * THIS;
+    ::sapo_broker::Atom_Notification * THIS;
     if ( sv_derived_from(svTHIS, "SAPO::Broker::Codecs::Autogen::ProtobufXS::Atom::Notification") ) {
       IV tmp = SvIV((SV *)SvRV(svTHIS));
       THIS = INT2PTR(__SAPO__Broker__Codecs__Autogen__ProtobufXS__Atom_Notification *, tmp);
@@ -7337,7 +7337,7 @@ PREINIT:
     SV * sv;
 
   PPCODE:
-    ::SAPO::Broker::Codecs::Autogen::ProtobufXS::Atom_Notification * THIS;
+    ::sapo_broker::Atom_Notification * THIS;
     if ( sv_derived_from(svTHIS, "SAPO::Broker::Codecs::Autogen::ProtobufXS::Atom::Notification") ) {
       IV tmp = SvIV((SV *)SvRV(svTHIS));
       THIS = INT2PTR(__SAPO__Broker__Codecs__Autogen__ProtobufXS__Atom_Notification *, tmp);
@@ -7357,15 +7357,15 @@ set_destination_type(svTHIS, svVAL)
   IV svVAL
 
   CODE:
-    ::SAPO::Broker::Codecs::Autogen::ProtobufXS::Atom_Notification * THIS;
+    ::sapo_broker::Atom_Notification * THIS;
     if ( sv_derived_from(svTHIS, "SAPO::Broker::Codecs::Autogen::ProtobufXS::Atom::Notification") ) {
       IV tmp = SvIV((SV *)SvRV(svTHIS));
       THIS = INT2PTR(__SAPO__Broker__Codecs__Autogen__ProtobufXS__Atom_Notification *, tmp);
     } else {
       croak("THIS is not of type SAPO::Broker::Codecs::Autogen::ProtobufXS::Atom::Notification");
     }
-    if ( ::SAPO::Broker::Codecs::Autogen::ProtobufXS::Atom_DestinationType_IsValid(svVAL) ) {
-      THIS->set_destination_type((::SAPO::Broker::Codecs::Autogen::ProtobufXS::Atom_DestinationType)svVAL);
+    if ( ::sapo_broker::Atom_DestinationType_IsValid(svVAL) ) {
+      THIS->set_destination_type((::sapo_broker::Atom_DestinationType)svVAL);
     }
 
 
@@ -7373,7 +7373,7 @@ I32
 has_message(svTHIS)
   SV * svTHIS;
   CODE:
-    ::SAPO::Broker::Codecs::Autogen::ProtobufXS::Atom_Notification * THIS;
+    ::sapo_broker::Atom_Notification * THIS;
     if ( sv_derived_from(svTHIS, "SAPO::Broker::Codecs::Autogen::ProtobufXS::Atom::Notification") ) {
       IV tmp = SvIV((SV *)SvRV(svTHIS));
       THIS = INT2PTR(__SAPO__Broker__Codecs__Autogen__ProtobufXS__Atom_Notification *, tmp);
@@ -7390,7 +7390,7 @@ void
 clear_message(svTHIS)
   SV * svTHIS;
   CODE:
-    ::SAPO::Broker::Codecs::Autogen::ProtobufXS::Atom_Notification * THIS;
+    ::sapo_broker::Atom_Notification * THIS;
     if ( sv_derived_from(svTHIS, "SAPO::Broker::Codecs::Autogen::ProtobufXS::Atom::Notification") ) {
       IV tmp = SvIV((SV *)SvRV(svTHIS));
       THIS = INT2PTR(__SAPO__Broker__Codecs__Autogen__ProtobufXS__Atom_Notification *, tmp);
@@ -7405,10 +7405,10 @@ message(svTHIS)
   SV * svTHIS;
 PREINIT:
     SV * sv;
-    ::SAPO::Broker::Codecs::Autogen::ProtobufXS::Atom_BrokerMessage * val = NULL;
+    ::sapo_broker::Atom_BrokerMessage * val = NULL;
 
   PPCODE:
-    ::SAPO::Broker::Codecs::Autogen::ProtobufXS::Atom_Notification * THIS;
+    ::sapo_broker::Atom_Notification * THIS;
     if ( sv_derived_from(svTHIS, "SAPO::Broker::Codecs::Autogen::ProtobufXS::Atom::Notification") ) {
       IV tmp = SvIV((SV *)SvRV(svTHIS));
       THIS = INT2PTR(__SAPO__Broker__Codecs__Autogen__ProtobufXS__Atom_Notification *, tmp);
@@ -7417,7 +7417,7 @@ PREINIT:
     }
     if ( THIS != NULL ) {
       EXTEND(SP,1);
-      val = new ::SAPO::Broker::Codecs::Autogen::ProtobufXS::Atom_BrokerMessage;
+      val = new ::sapo_broker::Atom_BrokerMessage;
       val->CopyFrom(THIS->message());
       sv = sv_newmortal();
       sv_setref_pv(sv, "SAPO::Broker::Codecs::Autogen::ProtobufXS::Atom::BrokerMessage", (void *)val);
@@ -7430,14 +7430,14 @@ set_message(svTHIS, svVAL)
   SV * svTHIS
   SV * svVAL
   CODE:
-    ::SAPO::Broker::Codecs::Autogen::ProtobufXS::Atom_Notification * THIS;
+    ::sapo_broker::Atom_Notification * THIS;
     if ( sv_derived_from(svTHIS, "SAPO::Broker::Codecs::Autogen::ProtobufXS::Atom::Notification") ) {
       IV tmp = SvIV((SV *)SvRV(svTHIS));
       THIS = INT2PTR(__SAPO__Broker__Codecs__Autogen__ProtobufXS__Atom_Notification *, tmp);
     } else {
       croak("THIS is not of type SAPO::Broker::Codecs::Autogen::ProtobufXS::Atom::Notification");
     }
-    ::SAPO::Broker::Codecs::Autogen::ProtobufXS::Atom_BrokerMessage * VAL;
+    ::sapo_broker::Atom_BrokerMessage * VAL;
     if ( sv_derived_from(svVAL, "SAPO::Broker::Codecs::Autogen::ProtobufXS::Atom::BrokerMessage") ) {
       IV tmp = SvIV((SV *)SvRV(svVAL));
       VAL = INT2PTR(__SAPO__Broker__Codecs__Autogen__ProtobufXS__Atom_BrokerMessage *, tmp);
@@ -7445,7 +7445,7 @@ set_message(svTHIS, svVAL)
       croak("VAL is not of type SAPO::Broker::Codecs::Autogen::ProtobufXS::Atom::BrokerMessage");
     }
     if ( VAL != NULL ) {
-      ::SAPO::Broker::Codecs::Autogen::ProtobufXS::Atom_BrokerMessage * mval = THIS->mutable_message();
+      ::sapo_broker::Atom_BrokerMessage * mval = THIS->mutable_message();
       mval->CopyFrom(*VAL);
     }
 
@@ -7455,9 +7455,9 @@ PROTOTYPES: ENABLE
 
 
 SV *
-::SAPO::Broker::Codecs::Autogen::ProtobufXS::Atom_Fault::new (...)
+::sapo_broker::Atom_Fault::new (...)
   PREINIT:
-    ::SAPO::Broker::Codecs::Autogen::ProtobufXS::Atom_Fault * rv = NULL;
+    ::sapo_broker::Atom_Fault * rv = NULL;
 
   CODE:
     if ( strcmp(CLASS,"SAPO::Broker::Codecs::Autogen::ProtobufXS::Atom::Fault") ) {
@@ -7470,14 +7470,14 @@ SV *
         STRLEN len;
         char * str;
 
-        rv = new ::SAPO::Broker::Codecs::Autogen::ProtobufXS::Atom_Fault;
+        rv = new ::sapo_broker::Atom_Fault;
         str = SvPV(ST(1), len);
         if ( str != NULL ) {
           rv->ParseFromArray(str, len);
         }
       }
     } else {
-      rv = new ::SAPO::Broker::Codecs::Autogen::ProtobufXS::Atom_Fault;
+      rv = new ::sapo_broker::Atom_Fault;
     }
     RETVAL = newSV(0);
     sv_setref_pv(RETVAL, "SAPO::Broker::Codecs::Autogen::ProtobufXS::Atom::Fault", (void *)rv);
@@ -7490,7 +7490,7 @@ void
 DESTROY(svTHIS)
   SV * svTHIS;
   CODE:
-    ::SAPO::Broker::Codecs::Autogen::ProtobufXS::Atom_Fault * THIS;
+    ::sapo_broker::Atom_Fault * THIS;
     if ( sv_derived_from(svTHIS, "SAPO::Broker::Codecs::Autogen::ProtobufXS::Atom::Fault") ) {
       IV tmp = SvIV((SV *)SvRV(svTHIS));
       THIS = INT2PTR(__SAPO__Broker__Codecs__Autogen__ProtobufXS__Atom_Fault *, tmp);
@@ -7507,7 +7507,7 @@ copy_from(svTHIS, sv)
   SV * svTHIS
   SV * sv
   CODE:
-    ::SAPO::Broker::Codecs::Autogen::ProtobufXS::Atom_Fault * THIS;
+    ::sapo_broker::Atom_Fault * THIS;
     if ( sv_derived_from(svTHIS, "SAPO::Broker::Codecs::Autogen::ProtobufXS::Atom::Fault") ) {
       IV tmp = SvIV((SV *)SvRV(svTHIS));
       THIS = INT2PTR(__SAPO__Broker__Codecs__Autogen__ProtobufXS__Atom_Fault *, tmp);
@@ -7517,12 +7517,12 @@ copy_from(svTHIS, sv)
     if ( THIS != NULL && sv != NULL ) {
       if ( sv_derived_from(sv, "SAPO::Broker::Codecs::Autogen::ProtobufXS::Atom::Fault") ) {
         IV tmp = SvIV((SV *)SvRV(sv));
-        ::SAPO::Broker::Codecs::Autogen::ProtobufXS::Atom_Fault * other = INT2PTR(__SAPO__Broker__Codecs__Autogen__ProtobufXS__Atom_Fault *, tmp);
+        ::sapo_broker::Atom_Fault * other = INT2PTR(__SAPO__Broker__Codecs__Autogen__ProtobufXS__Atom_Fault *, tmp);
 
         THIS->CopyFrom(*other);
       } else if ( SvROK(sv) &&
                   SvTYPE(SvRV(sv)) == SVt_PVHV ) {
-        ::SAPO::Broker::Codecs::Autogen::ProtobufXS::Atom_Fault * other = __SAPO__Broker__Codecs__Autogen__ProtobufXS__Atom_Fault_from_hashref(sv);
+        ::sapo_broker::Atom_Fault * other = __SAPO__Broker__Codecs__Autogen__ProtobufXS__Atom_Fault_from_hashref(sv);
         THIS->CopyFrom(*other);
         delete other;
       }
@@ -7534,7 +7534,7 @@ merge_from(svTHIS, sv)
   SV * svTHIS
   SV * sv
   CODE:
-    ::SAPO::Broker::Codecs::Autogen::ProtobufXS::Atom_Fault * THIS;
+    ::sapo_broker::Atom_Fault * THIS;
     if ( sv_derived_from(svTHIS, "SAPO::Broker::Codecs::Autogen::ProtobufXS::Atom::Fault") ) {
       IV tmp = SvIV((SV *)SvRV(svTHIS));
       THIS = INT2PTR(__SAPO__Broker__Codecs__Autogen__ProtobufXS__Atom_Fault *, tmp);
@@ -7544,12 +7544,12 @@ merge_from(svTHIS, sv)
     if ( THIS != NULL && sv != NULL ) {
       if ( sv_derived_from(sv, "SAPO::Broker::Codecs::Autogen::ProtobufXS::Atom::Fault") ) {
         IV tmp = SvIV((SV *)SvRV(sv));
-        ::SAPO::Broker::Codecs::Autogen::ProtobufXS::Atom_Fault * other = INT2PTR(__SAPO__Broker__Codecs__Autogen__ProtobufXS__Atom_Fault *, tmp);
+        ::sapo_broker::Atom_Fault * other = INT2PTR(__SAPO__Broker__Codecs__Autogen__ProtobufXS__Atom_Fault *, tmp);
 
         THIS->MergeFrom(*other);
       } else if ( SvROK(sv) &&
                   SvTYPE(SvRV(sv)) == SVt_PVHV ) {
-        ::SAPO::Broker::Codecs::Autogen::ProtobufXS::Atom_Fault * other = __SAPO__Broker__Codecs__Autogen__ProtobufXS__Atom_Fault_from_hashref(sv);
+        ::sapo_broker::Atom_Fault * other = __SAPO__Broker__Codecs__Autogen__ProtobufXS__Atom_Fault_from_hashref(sv);
         THIS->MergeFrom(*other);
         delete other;
       }
@@ -7560,7 +7560,7 @@ void
 clear(svTHIS)
   SV * svTHIS
   CODE:
-    ::SAPO::Broker::Codecs::Autogen::ProtobufXS::Atom_Fault * THIS;
+    ::sapo_broker::Atom_Fault * THIS;
     if ( sv_derived_from(svTHIS, "SAPO::Broker::Codecs::Autogen::ProtobufXS::Atom::Fault") ) {
       IV tmp = SvIV((SV *)SvRV(svTHIS));
       THIS = INT2PTR(__SAPO__Broker__Codecs__Autogen__ProtobufXS__Atom_Fault *, tmp);
@@ -7576,7 +7576,7 @@ int
 is_initialized(svTHIS)
   SV * svTHIS
   CODE:
-    ::SAPO::Broker::Codecs::Autogen::ProtobufXS::Atom_Fault * THIS;
+    ::sapo_broker::Atom_Fault * THIS;
     if ( sv_derived_from(svTHIS, "SAPO::Broker::Codecs::Autogen::ProtobufXS::Atom::Fault") ) {
       IV tmp = SvIV((SV *)SvRV(svTHIS));
       THIS = INT2PTR(__SAPO__Broker__Codecs__Autogen__ProtobufXS__Atom_Fault *, tmp);
@@ -7600,7 +7600,7 @@ error_string(svTHIS)
     string estr;
 
   CODE:
-    ::SAPO::Broker::Codecs::Autogen::ProtobufXS::Atom_Fault * THIS;
+    ::sapo_broker::Atom_Fault * THIS;
     if ( sv_derived_from(svTHIS, "SAPO::Broker::Codecs::Autogen::ProtobufXS::Atom::Fault") ) {
       IV tmp = SvIV((SV *)SvRV(svTHIS));
       THIS = INT2PTR(__SAPO__Broker__Codecs__Autogen__ProtobufXS__Atom_Fault *, tmp);
@@ -7620,7 +7620,7 @@ void
 discard_unkown_fields(svTHIS)
   SV * svTHIS
   CODE:
-    ::SAPO::Broker::Codecs::Autogen::ProtobufXS::Atom_Fault * THIS;
+    ::sapo_broker::Atom_Fault * THIS;
     if ( sv_derived_from(svTHIS, "SAPO::Broker::Codecs::Autogen::ProtobufXS::Atom::Fault") ) {
       IV tmp = SvIV((SV *)SvRV(svTHIS));
       THIS = INT2PTR(__SAPO__Broker__Codecs__Autogen__ProtobufXS__Atom_Fault *, tmp);
@@ -7639,7 +7639,7 @@ debug_string(svTHIS)
     string dstr;
 
   CODE:
-    ::SAPO::Broker::Codecs::Autogen::ProtobufXS::Atom_Fault * THIS;
+    ::sapo_broker::Atom_Fault * THIS;
     if ( sv_derived_from(svTHIS, "SAPO::Broker::Codecs::Autogen::ProtobufXS::Atom::Fault") ) {
       IV tmp = SvIV((SV *)SvRV(svTHIS));
       THIS = INT2PTR(__SAPO__Broker__Codecs__Autogen__ProtobufXS__Atom_Fault *, tmp);
@@ -7662,7 +7662,7 @@ short_debug_string(svTHIS)
     string dstr;
 
   CODE:
-    ::SAPO::Broker::Codecs::Autogen::ProtobufXS::Atom_Fault * THIS;
+    ::sapo_broker::Atom_Fault * THIS;
     if ( sv_derived_from(svTHIS, "SAPO::Broker::Codecs::Autogen::ProtobufXS::Atom::Fault") ) {
       IV tmp = SvIV((SV *)SvRV(svTHIS));
       THIS = INT2PTR(__SAPO__Broker__Codecs__Autogen__ProtobufXS__Atom_Fault *, tmp);
@@ -7687,7 +7687,7 @@ unpack(svTHIS, arg)
     char * str;
 
   CODE:
-    ::SAPO::Broker::Codecs::Autogen::ProtobufXS::Atom_Fault * THIS;
+    ::sapo_broker::Atom_Fault * THIS;
     if ( sv_derived_from(svTHIS, "SAPO::Broker::Codecs::Autogen::ProtobufXS::Atom::Fault") ) {
       IV tmp = SvIV((SV *)SvRV(svTHIS));
       THIS = INT2PTR(__SAPO__Broker__Codecs__Autogen__ProtobufXS__Atom_Fault *, tmp);
@@ -7713,7 +7713,7 @@ SV *
 pack(svTHIS)
   SV * svTHIS
   CODE:
-    ::SAPO::Broker::Codecs::Autogen::ProtobufXS::Atom_Fault * THIS;
+    ::sapo_broker::Atom_Fault * THIS;
     if ( sv_derived_from(svTHIS, "SAPO::Broker::Codecs::Autogen::ProtobufXS::Atom::Fault") ) {
       IV tmp = SvIV((SV *)SvRV(svTHIS));
       THIS = INT2PTR(__SAPO__Broker__Codecs__Autogen__ProtobufXS__Atom_Fault *, tmp);
@@ -7746,7 +7746,7 @@ int
 length(svTHIS)
   SV * svTHIS
   CODE:
-    ::SAPO::Broker::Codecs::Autogen::ProtobufXS::Atom_Fault * THIS;
+    ::sapo_broker::Atom_Fault * THIS;
     if ( sv_derived_from(svTHIS, "SAPO::Broker::Codecs::Autogen::ProtobufXS::Atom::Fault") ) {
       IV tmp = SvIV((SV *)SvRV(svTHIS));
       THIS = INT2PTR(__SAPO__Broker__Codecs__Autogen__ProtobufXS__Atom_Fault *, tmp);
@@ -7779,7 +7779,7 @@ SV *
 to_hashref(svTHIS)
   SV * svTHIS
   CODE:
-    ::SAPO::Broker::Codecs::Autogen::ProtobufXS::Atom_Fault * THIS;
+    ::sapo_broker::Atom_Fault * THIS;
     if ( sv_derived_from(svTHIS, "SAPO::Broker::Codecs::Autogen::ProtobufXS::Atom::Fault") ) {
       IV tmp = SvIV((SV *)SvRV(svTHIS));
       THIS = INT2PTR(__SAPO__Broker__Codecs__Autogen__ProtobufXS__Atom_Fault *, tmp);
@@ -7788,7 +7788,7 @@ to_hashref(svTHIS)
     }
     if ( THIS != NULL ) {
       HV * hv0 = newHV();
-      ::SAPO::Broker::Codecs::Autogen::ProtobufXS::Atom_Fault * msg0 = THIS;
+      ::sapo_broker::Atom_Fault * msg0 = THIS;
 
       if ( msg0->has_action_id() ) {
         SV * sv0 = newSVpv(msg0->action_id().c_str(), msg0->action_id().length());
@@ -7819,7 +7819,7 @@ I32
 has_action_id(svTHIS)
   SV * svTHIS;
   CODE:
-    ::SAPO::Broker::Codecs::Autogen::ProtobufXS::Atom_Fault * THIS;
+    ::sapo_broker::Atom_Fault * THIS;
     if ( sv_derived_from(svTHIS, "SAPO::Broker::Codecs::Autogen::ProtobufXS::Atom::Fault") ) {
       IV tmp = SvIV((SV *)SvRV(svTHIS));
       THIS = INT2PTR(__SAPO__Broker__Codecs__Autogen__ProtobufXS__Atom_Fault *, tmp);
@@ -7836,7 +7836,7 @@ void
 clear_action_id(svTHIS)
   SV * svTHIS;
   CODE:
-    ::SAPO::Broker::Codecs::Autogen::ProtobufXS::Atom_Fault * THIS;
+    ::sapo_broker::Atom_Fault * THIS;
     if ( sv_derived_from(svTHIS, "SAPO::Broker::Codecs::Autogen::ProtobufXS::Atom::Fault") ) {
       IV tmp = SvIV((SV *)SvRV(svTHIS));
       THIS = INT2PTR(__SAPO__Broker__Codecs__Autogen__ProtobufXS__Atom_Fault *, tmp);
@@ -7853,7 +7853,7 @@ PREINIT:
     SV * sv;
 
   PPCODE:
-    ::SAPO::Broker::Codecs::Autogen::ProtobufXS::Atom_Fault * THIS;
+    ::sapo_broker::Atom_Fault * THIS;
     if ( sv_derived_from(svTHIS, "SAPO::Broker::Codecs::Autogen::ProtobufXS::Atom::Fault") ) {
       IV tmp = SvIV((SV *)SvRV(svTHIS));
       THIS = INT2PTR(__SAPO__Broker__Codecs__Autogen__ProtobufXS__Atom_Fault *, tmp);
@@ -7879,7 +7879,7 @@ set_action_id(svTHIS, svVAL)
     string sval;
 
   CODE:
-    ::SAPO::Broker::Codecs::Autogen::ProtobufXS::Atom_Fault * THIS;
+    ::sapo_broker::Atom_Fault * THIS;
     if ( sv_derived_from(svTHIS, "SAPO::Broker::Codecs::Autogen::ProtobufXS::Atom::Fault") ) {
       IV tmp = SvIV((SV *)SvRV(svTHIS));
       THIS = INT2PTR(__SAPO__Broker__Codecs__Autogen__ProtobufXS__Atom_Fault *, tmp);
@@ -7895,7 +7895,7 @@ I32
 has_fault_code(svTHIS)
   SV * svTHIS;
   CODE:
-    ::SAPO::Broker::Codecs::Autogen::ProtobufXS::Atom_Fault * THIS;
+    ::sapo_broker::Atom_Fault * THIS;
     if ( sv_derived_from(svTHIS, "SAPO::Broker::Codecs::Autogen::ProtobufXS::Atom::Fault") ) {
       IV tmp = SvIV((SV *)SvRV(svTHIS));
       THIS = INT2PTR(__SAPO__Broker__Codecs__Autogen__ProtobufXS__Atom_Fault *, tmp);
@@ -7912,7 +7912,7 @@ void
 clear_fault_code(svTHIS)
   SV * svTHIS;
   CODE:
-    ::SAPO::Broker::Codecs::Autogen::ProtobufXS::Atom_Fault * THIS;
+    ::sapo_broker::Atom_Fault * THIS;
     if ( sv_derived_from(svTHIS, "SAPO::Broker::Codecs::Autogen::ProtobufXS::Atom::Fault") ) {
       IV tmp = SvIV((SV *)SvRV(svTHIS));
       THIS = INT2PTR(__SAPO__Broker__Codecs__Autogen__ProtobufXS__Atom_Fault *, tmp);
@@ -7929,7 +7929,7 @@ PREINIT:
     SV * sv;
 
   PPCODE:
-    ::SAPO::Broker::Codecs::Autogen::ProtobufXS::Atom_Fault * THIS;
+    ::sapo_broker::Atom_Fault * THIS;
     if ( sv_derived_from(svTHIS, "SAPO::Broker::Codecs::Autogen::ProtobufXS::Atom::Fault") ) {
       IV tmp = SvIV((SV *)SvRV(svTHIS));
       THIS = INT2PTR(__SAPO__Broker__Codecs__Autogen__ProtobufXS__Atom_Fault *, tmp);
@@ -7955,7 +7955,7 @@ set_fault_code(svTHIS, svVAL)
     string sval;
 
   CODE:
-    ::SAPO::Broker::Codecs::Autogen::ProtobufXS::Atom_Fault * THIS;
+    ::sapo_broker::Atom_Fault * THIS;
     if ( sv_derived_from(svTHIS, "SAPO::Broker::Codecs::Autogen::ProtobufXS::Atom::Fault") ) {
       IV tmp = SvIV((SV *)SvRV(svTHIS));
       THIS = INT2PTR(__SAPO__Broker__Codecs__Autogen__ProtobufXS__Atom_Fault *, tmp);
@@ -7971,7 +7971,7 @@ I32
 has_fault_message(svTHIS)
   SV * svTHIS;
   CODE:
-    ::SAPO::Broker::Codecs::Autogen::ProtobufXS::Atom_Fault * THIS;
+    ::sapo_broker::Atom_Fault * THIS;
     if ( sv_derived_from(svTHIS, "SAPO::Broker::Codecs::Autogen::ProtobufXS::Atom::Fault") ) {
       IV tmp = SvIV((SV *)SvRV(svTHIS));
       THIS = INT2PTR(__SAPO__Broker__Codecs__Autogen__ProtobufXS__Atom_Fault *, tmp);
@@ -7988,7 +7988,7 @@ void
 clear_fault_message(svTHIS)
   SV * svTHIS;
   CODE:
-    ::SAPO::Broker::Codecs::Autogen::ProtobufXS::Atom_Fault * THIS;
+    ::sapo_broker::Atom_Fault * THIS;
     if ( sv_derived_from(svTHIS, "SAPO::Broker::Codecs::Autogen::ProtobufXS::Atom::Fault") ) {
       IV tmp = SvIV((SV *)SvRV(svTHIS));
       THIS = INT2PTR(__SAPO__Broker__Codecs__Autogen__ProtobufXS__Atom_Fault *, tmp);
@@ -8005,7 +8005,7 @@ PREINIT:
     SV * sv;
 
   PPCODE:
-    ::SAPO::Broker::Codecs::Autogen::ProtobufXS::Atom_Fault * THIS;
+    ::sapo_broker::Atom_Fault * THIS;
     if ( sv_derived_from(svTHIS, "SAPO::Broker::Codecs::Autogen::ProtobufXS::Atom::Fault") ) {
       IV tmp = SvIV((SV *)SvRV(svTHIS));
       THIS = INT2PTR(__SAPO__Broker__Codecs__Autogen__ProtobufXS__Atom_Fault *, tmp);
@@ -8031,7 +8031,7 @@ set_fault_message(svTHIS, svVAL)
     string sval;
 
   CODE:
-    ::SAPO::Broker::Codecs::Autogen::ProtobufXS::Atom_Fault * THIS;
+    ::sapo_broker::Atom_Fault * THIS;
     if ( sv_derived_from(svTHIS, "SAPO::Broker::Codecs::Autogen::ProtobufXS::Atom::Fault") ) {
       IV tmp = SvIV((SV *)SvRV(svTHIS));
       THIS = INT2PTR(__SAPO__Broker__Codecs__Autogen__ProtobufXS__Atom_Fault *, tmp);
@@ -8047,7 +8047,7 @@ I32
 has_fault_detail(svTHIS)
   SV * svTHIS;
   CODE:
-    ::SAPO::Broker::Codecs::Autogen::ProtobufXS::Atom_Fault * THIS;
+    ::sapo_broker::Atom_Fault * THIS;
     if ( sv_derived_from(svTHIS, "SAPO::Broker::Codecs::Autogen::ProtobufXS::Atom::Fault") ) {
       IV tmp = SvIV((SV *)SvRV(svTHIS));
       THIS = INT2PTR(__SAPO__Broker__Codecs__Autogen__ProtobufXS__Atom_Fault *, tmp);
@@ -8064,7 +8064,7 @@ void
 clear_fault_detail(svTHIS)
   SV * svTHIS;
   CODE:
-    ::SAPO::Broker::Codecs::Autogen::ProtobufXS::Atom_Fault * THIS;
+    ::sapo_broker::Atom_Fault * THIS;
     if ( sv_derived_from(svTHIS, "SAPO::Broker::Codecs::Autogen::ProtobufXS::Atom::Fault") ) {
       IV tmp = SvIV((SV *)SvRV(svTHIS));
       THIS = INT2PTR(__SAPO__Broker__Codecs__Autogen__ProtobufXS__Atom_Fault *, tmp);
@@ -8081,7 +8081,7 @@ PREINIT:
     SV * sv;
 
   PPCODE:
-    ::SAPO::Broker::Codecs::Autogen::ProtobufXS::Atom_Fault * THIS;
+    ::sapo_broker::Atom_Fault * THIS;
     if ( sv_derived_from(svTHIS, "SAPO::Broker::Codecs::Autogen::ProtobufXS::Atom::Fault") ) {
       IV tmp = SvIV((SV *)SvRV(svTHIS));
       THIS = INT2PTR(__SAPO__Broker__Codecs__Autogen__ProtobufXS__Atom_Fault *, tmp);
@@ -8107,7 +8107,7 @@ set_fault_detail(svTHIS, svVAL)
     string sval;
 
   CODE:
-    ::SAPO::Broker::Codecs::Autogen::ProtobufXS::Atom_Fault * THIS;
+    ::sapo_broker::Atom_Fault * THIS;
     if ( sv_derived_from(svTHIS, "SAPO::Broker::Codecs::Autogen::ProtobufXS::Atom::Fault") ) {
       IV tmp = SvIV((SV *)SvRV(svTHIS));
       THIS = INT2PTR(__SAPO__Broker__Codecs__Autogen__ProtobufXS__Atom_Fault *, tmp);
@@ -8124,9 +8124,9 @@ PROTOTYPES: ENABLE
 
 
 SV *
-::SAPO::Broker::Codecs::Autogen::ProtobufXS::Atom_Ping::new (...)
+::sapo_broker::Atom_Ping::new (...)
   PREINIT:
-    ::SAPO::Broker::Codecs::Autogen::ProtobufXS::Atom_Ping * rv = NULL;
+    ::sapo_broker::Atom_Ping * rv = NULL;
 
   CODE:
     if ( strcmp(CLASS,"SAPO::Broker::Codecs::Autogen::ProtobufXS::Atom::Ping") ) {
@@ -8139,14 +8139,14 @@ SV *
         STRLEN len;
         char * str;
 
-        rv = new ::SAPO::Broker::Codecs::Autogen::ProtobufXS::Atom_Ping;
+        rv = new ::sapo_broker::Atom_Ping;
         str = SvPV(ST(1), len);
         if ( str != NULL ) {
           rv->ParseFromArray(str, len);
         }
       }
     } else {
-      rv = new ::SAPO::Broker::Codecs::Autogen::ProtobufXS::Atom_Ping;
+      rv = new ::sapo_broker::Atom_Ping;
     }
     RETVAL = newSV(0);
     sv_setref_pv(RETVAL, "SAPO::Broker::Codecs::Autogen::ProtobufXS::Atom::Ping", (void *)rv);
@@ -8159,7 +8159,7 @@ void
 DESTROY(svTHIS)
   SV * svTHIS;
   CODE:
-    ::SAPO::Broker::Codecs::Autogen::ProtobufXS::Atom_Ping * THIS;
+    ::sapo_broker::Atom_Ping * THIS;
     if ( sv_derived_from(svTHIS, "SAPO::Broker::Codecs::Autogen::ProtobufXS::Atom::Ping") ) {
       IV tmp = SvIV((SV *)SvRV(svTHIS));
       THIS = INT2PTR(__SAPO__Broker__Codecs__Autogen__ProtobufXS__Atom_Ping *, tmp);
@@ -8176,7 +8176,7 @@ copy_from(svTHIS, sv)
   SV * svTHIS
   SV * sv
   CODE:
-    ::SAPO::Broker::Codecs::Autogen::ProtobufXS::Atom_Ping * THIS;
+    ::sapo_broker::Atom_Ping * THIS;
     if ( sv_derived_from(svTHIS, "SAPO::Broker::Codecs::Autogen::ProtobufXS::Atom::Ping") ) {
       IV tmp = SvIV((SV *)SvRV(svTHIS));
       THIS = INT2PTR(__SAPO__Broker__Codecs__Autogen__ProtobufXS__Atom_Ping *, tmp);
@@ -8186,12 +8186,12 @@ copy_from(svTHIS, sv)
     if ( THIS != NULL && sv != NULL ) {
       if ( sv_derived_from(sv, "SAPO::Broker::Codecs::Autogen::ProtobufXS::Atom::Ping") ) {
         IV tmp = SvIV((SV *)SvRV(sv));
-        ::SAPO::Broker::Codecs::Autogen::ProtobufXS::Atom_Ping * other = INT2PTR(__SAPO__Broker__Codecs__Autogen__ProtobufXS__Atom_Ping *, tmp);
+        ::sapo_broker::Atom_Ping * other = INT2PTR(__SAPO__Broker__Codecs__Autogen__ProtobufXS__Atom_Ping *, tmp);
 
         THIS->CopyFrom(*other);
       } else if ( SvROK(sv) &&
                   SvTYPE(SvRV(sv)) == SVt_PVHV ) {
-        ::SAPO::Broker::Codecs::Autogen::ProtobufXS::Atom_Ping * other = __SAPO__Broker__Codecs__Autogen__ProtobufXS__Atom_Ping_from_hashref(sv);
+        ::sapo_broker::Atom_Ping * other = __SAPO__Broker__Codecs__Autogen__ProtobufXS__Atom_Ping_from_hashref(sv);
         THIS->CopyFrom(*other);
         delete other;
       }
@@ -8203,7 +8203,7 @@ merge_from(svTHIS, sv)
   SV * svTHIS
   SV * sv
   CODE:
-    ::SAPO::Broker::Codecs::Autogen::ProtobufXS::Atom_Ping * THIS;
+    ::sapo_broker::Atom_Ping * THIS;
     if ( sv_derived_from(svTHIS, "SAPO::Broker::Codecs::Autogen::ProtobufXS::Atom::Ping") ) {
       IV tmp = SvIV((SV *)SvRV(svTHIS));
       THIS = INT2PTR(__SAPO__Broker__Codecs__Autogen__ProtobufXS__Atom_Ping *, tmp);
@@ -8213,12 +8213,12 @@ merge_from(svTHIS, sv)
     if ( THIS != NULL && sv != NULL ) {
       if ( sv_derived_from(sv, "SAPO::Broker::Codecs::Autogen::ProtobufXS::Atom::Ping") ) {
         IV tmp = SvIV((SV *)SvRV(sv));
-        ::SAPO::Broker::Codecs::Autogen::ProtobufXS::Atom_Ping * other = INT2PTR(__SAPO__Broker__Codecs__Autogen__ProtobufXS__Atom_Ping *, tmp);
+        ::sapo_broker::Atom_Ping * other = INT2PTR(__SAPO__Broker__Codecs__Autogen__ProtobufXS__Atom_Ping *, tmp);
 
         THIS->MergeFrom(*other);
       } else if ( SvROK(sv) &&
                   SvTYPE(SvRV(sv)) == SVt_PVHV ) {
-        ::SAPO::Broker::Codecs::Autogen::ProtobufXS::Atom_Ping * other = __SAPO__Broker__Codecs__Autogen__ProtobufXS__Atom_Ping_from_hashref(sv);
+        ::sapo_broker::Atom_Ping * other = __SAPO__Broker__Codecs__Autogen__ProtobufXS__Atom_Ping_from_hashref(sv);
         THIS->MergeFrom(*other);
         delete other;
       }
@@ -8229,7 +8229,7 @@ void
 clear(svTHIS)
   SV * svTHIS
   CODE:
-    ::SAPO::Broker::Codecs::Autogen::ProtobufXS::Atom_Ping * THIS;
+    ::sapo_broker::Atom_Ping * THIS;
     if ( sv_derived_from(svTHIS, "SAPO::Broker::Codecs::Autogen::ProtobufXS::Atom::Ping") ) {
       IV tmp = SvIV((SV *)SvRV(svTHIS));
       THIS = INT2PTR(__SAPO__Broker__Codecs__Autogen__ProtobufXS__Atom_Ping *, tmp);
@@ -8245,7 +8245,7 @@ int
 is_initialized(svTHIS)
   SV * svTHIS
   CODE:
-    ::SAPO::Broker::Codecs::Autogen::ProtobufXS::Atom_Ping * THIS;
+    ::sapo_broker::Atom_Ping * THIS;
     if ( sv_derived_from(svTHIS, "SAPO::Broker::Codecs::Autogen::ProtobufXS::Atom::Ping") ) {
       IV tmp = SvIV((SV *)SvRV(svTHIS));
       THIS = INT2PTR(__SAPO__Broker__Codecs__Autogen__ProtobufXS__Atom_Ping *, tmp);
@@ -8269,7 +8269,7 @@ error_string(svTHIS)
     string estr;
 
   CODE:
-    ::SAPO::Broker::Codecs::Autogen::ProtobufXS::Atom_Ping * THIS;
+    ::sapo_broker::Atom_Ping * THIS;
     if ( sv_derived_from(svTHIS, "SAPO::Broker::Codecs::Autogen::ProtobufXS::Atom::Ping") ) {
       IV tmp = SvIV((SV *)SvRV(svTHIS));
       THIS = INT2PTR(__SAPO__Broker__Codecs__Autogen__ProtobufXS__Atom_Ping *, tmp);
@@ -8289,7 +8289,7 @@ void
 discard_unkown_fields(svTHIS)
   SV * svTHIS
   CODE:
-    ::SAPO::Broker::Codecs::Autogen::ProtobufXS::Atom_Ping * THIS;
+    ::sapo_broker::Atom_Ping * THIS;
     if ( sv_derived_from(svTHIS, "SAPO::Broker::Codecs::Autogen::ProtobufXS::Atom::Ping") ) {
       IV tmp = SvIV((SV *)SvRV(svTHIS));
       THIS = INT2PTR(__SAPO__Broker__Codecs__Autogen__ProtobufXS__Atom_Ping *, tmp);
@@ -8308,7 +8308,7 @@ debug_string(svTHIS)
     string dstr;
 
   CODE:
-    ::SAPO::Broker::Codecs::Autogen::ProtobufXS::Atom_Ping * THIS;
+    ::sapo_broker::Atom_Ping * THIS;
     if ( sv_derived_from(svTHIS, "SAPO::Broker::Codecs::Autogen::ProtobufXS::Atom::Ping") ) {
       IV tmp = SvIV((SV *)SvRV(svTHIS));
       THIS = INT2PTR(__SAPO__Broker__Codecs__Autogen__ProtobufXS__Atom_Ping *, tmp);
@@ -8331,7 +8331,7 @@ short_debug_string(svTHIS)
     string dstr;
 
   CODE:
-    ::SAPO::Broker::Codecs::Autogen::ProtobufXS::Atom_Ping * THIS;
+    ::sapo_broker::Atom_Ping * THIS;
     if ( sv_derived_from(svTHIS, "SAPO::Broker::Codecs::Autogen::ProtobufXS::Atom::Ping") ) {
       IV tmp = SvIV((SV *)SvRV(svTHIS));
       THIS = INT2PTR(__SAPO__Broker__Codecs__Autogen__ProtobufXS__Atom_Ping *, tmp);
@@ -8356,7 +8356,7 @@ unpack(svTHIS, arg)
     char * str;
 
   CODE:
-    ::SAPO::Broker::Codecs::Autogen::ProtobufXS::Atom_Ping * THIS;
+    ::sapo_broker::Atom_Ping * THIS;
     if ( sv_derived_from(svTHIS, "SAPO::Broker::Codecs::Autogen::ProtobufXS::Atom::Ping") ) {
       IV tmp = SvIV((SV *)SvRV(svTHIS));
       THIS = INT2PTR(__SAPO__Broker__Codecs__Autogen__ProtobufXS__Atom_Ping *, tmp);
@@ -8382,7 +8382,7 @@ SV *
 pack(svTHIS)
   SV * svTHIS
   CODE:
-    ::SAPO::Broker::Codecs::Autogen::ProtobufXS::Atom_Ping * THIS;
+    ::sapo_broker::Atom_Ping * THIS;
     if ( sv_derived_from(svTHIS, "SAPO::Broker::Codecs::Autogen::ProtobufXS::Atom::Ping") ) {
       IV tmp = SvIV((SV *)SvRV(svTHIS));
       THIS = INT2PTR(__SAPO__Broker__Codecs__Autogen__ProtobufXS__Atom_Ping *, tmp);
@@ -8415,7 +8415,7 @@ int
 length(svTHIS)
   SV * svTHIS
   CODE:
-    ::SAPO::Broker::Codecs::Autogen::ProtobufXS::Atom_Ping * THIS;
+    ::sapo_broker::Atom_Ping * THIS;
     if ( sv_derived_from(svTHIS, "SAPO::Broker::Codecs::Autogen::ProtobufXS::Atom::Ping") ) {
       IV tmp = SvIV((SV *)SvRV(svTHIS));
       THIS = INT2PTR(__SAPO__Broker__Codecs__Autogen__ProtobufXS__Atom_Ping *, tmp);
@@ -8445,7 +8445,7 @@ SV *
 to_hashref(svTHIS)
   SV * svTHIS
   CODE:
-    ::SAPO::Broker::Codecs::Autogen::ProtobufXS::Atom_Ping * THIS;
+    ::sapo_broker::Atom_Ping * THIS;
     if ( sv_derived_from(svTHIS, "SAPO::Broker::Codecs::Autogen::ProtobufXS::Atom::Ping") ) {
       IV tmp = SvIV((SV *)SvRV(svTHIS));
       THIS = INT2PTR(__SAPO__Broker__Codecs__Autogen__ProtobufXS__Atom_Ping *, tmp);
@@ -8454,7 +8454,7 @@ to_hashref(svTHIS)
     }
     if ( THIS != NULL ) {
       HV * hv0 = newHV();
-      ::SAPO::Broker::Codecs::Autogen::ProtobufXS::Atom_Ping * msg0 = THIS;
+      ::sapo_broker::Atom_Ping * msg0 = THIS;
 
       if ( msg0->has_action_id() ) {
         SV * sv0 = newSVpv(msg0->action_id().c_str(), msg0->action_id().length());
@@ -8473,7 +8473,7 @@ I32
 has_action_id(svTHIS)
   SV * svTHIS;
   CODE:
-    ::SAPO::Broker::Codecs::Autogen::ProtobufXS::Atom_Ping * THIS;
+    ::sapo_broker::Atom_Ping * THIS;
     if ( sv_derived_from(svTHIS, "SAPO::Broker::Codecs::Autogen::ProtobufXS::Atom::Ping") ) {
       IV tmp = SvIV((SV *)SvRV(svTHIS));
       THIS = INT2PTR(__SAPO__Broker__Codecs__Autogen__ProtobufXS__Atom_Ping *, tmp);
@@ -8490,7 +8490,7 @@ void
 clear_action_id(svTHIS)
   SV * svTHIS;
   CODE:
-    ::SAPO::Broker::Codecs::Autogen::ProtobufXS::Atom_Ping * THIS;
+    ::sapo_broker::Atom_Ping * THIS;
     if ( sv_derived_from(svTHIS, "SAPO::Broker::Codecs::Autogen::ProtobufXS::Atom::Ping") ) {
       IV tmp = SvIV((SV *)SvRV(svTHIS));
       THIS = INT2PTR(__SAPO__Broker__Codecs__Autogen__ProtobufXS__Atom_Ping *, tmp);
@@ -8507,7 +8507,7 @@ PREINIT:
     SV * sv;
 
   PPCODE:
-    ::SAPO::Broker::Codecs::Autogen::ProtobufXS::Atom_Ping * THIS;
+    ::sapo_broker::Atom_Ping * THIS;
     if ( sv_derived_from(svTHIS, "SAPO::Broker::Codecs::Autogen::ProtobufXS::Atom::Ping") ) {
       IV tmp = SvIV((SV *)SvRV(svTHIS));
       THIS = INT2PTR(__SAPO__Broker__Codecs__Autogen__ProtobufXS__Atom_Ping *, tmp);
@@ -8533,7 +8533,7 @@ set_action_id(svTHIS, svVAL)
     string sval;
 
   CODE:
-    ::SAPO::Broker::Codecs::Autogen::ProtobufXS::Atom_Ping * THIS;
+    ::sapo_broker::Atom_Ping * THIS;
     if ( sv_derived_from(svTHIS, "SAPO::Broker::Codecs::Autogen::ProtobufXS::Atom::Ping") ) {
       IV tmp = SvIV((SV *)SvRV(svTHIS));
       THIS = INT2PTR(__SAPO__Broker__Codecs__Autogen__ProtobufXS__Atom_Ping *, tmp);
@@ -8550,9 +8550,9 @@ PROTOTYPES: ENABLE
 
 
 SV *
-::SAPO::Broker::Codecs::Autogen::ProtobufXS::Atom_Pong::new (...)
+::sapo_broker::Atom_Pong::new (...)
   PREINIT:
-    ::SAPO::Broker::Codecs::Autogen::ProtobufXS::Atom_Pong * rv = NULL;
+    ::sapo_broker::Atom_Pong * rv = NULL;
 
   CODE:
     if ( strcmp(CLASS,"SAPO::Broker::Codecs::Autogen::ProtobufXS::Atom::Pong") ) {
@@ -8565,14 +8565,14 @@ SV *
         STRLEN len;
         char * str;
 
-        rv = new ::SAPO::Broker::Codecs::Autogen::ProtobufXS::Atom_Pong;
+        rv = new ::sapo_broker::Atom_Pong;
         str = SvPV(ST(1), len);
         if ( str != NULL ) {
           rv->ParseFromArray(str, len);
         }
       }
     } else {
-      rv = new ::SAPO::Broker::Codecs::Autogen::ProtobufXS::Atom_Pong;
+      rv = new ::sapo_broker::Atom_Pong;
     }
     RETVAL = newSV(0);
     sv_setref_pv(RETVAL, "SAPO::Broker::Codecs::Autogen::ProtobufXS::Atom::Pong", (void *)rv);
@@ -8585,7 +8585,7 @@ void
 DESTROY(svTHIS)
   SV * svTHIS;
   CODE:
-    ::SAPO::Broker::Codecs::Autogen::ProtobufXS::Atom_Pong * THIS;
+    ::sapo_broker::Atom_Pong * THIS;
     if ( sv_derived_from(svTHIS, "SAPO::Broker::Codecs::Autogen::ProtobufXS::Atom::Pong") ) {
       IV tmp = SvIV((SV *)SvRV(svTHIS));
       THIS = INT2PTR(__SAPO__Broker__Codecs__Autogen__ProtobufXS__Atom_Pong *, tmp);
@@ -8602,7 +8602,7 @@ copy_from(svTHIS, sv)
   SV * svTHIS
   SV * sv
   CODE:
-    ::SAPO::Broker::Codecs::Autogen::ProtobufXS::Atom_Pong * THIS;
+    ::sapo_broker::Atom_Pong * THIS;
     if ( sv_derived_from(svTHIS, "SAPO::Broker::Codecs::Autogen::ProtobufXS::Atom::Pong") ) {
       IV tmp = SvIV((SV *)SvRV(svTHIS));
       THIS = INT2PTR(__SAPO__Broker__Codecs__Autogen__ProtobufXS__Atom_Pong *, tmp);
@@ -8612,12 +8612,12 @@ copy_from(svTHIS, sv)
     if ( THIS != NULL && sv != NULL ) {
       if ( sv_derived_from(sv, "SAPO::Broker::Codecs::Autogen::ProtobufXS::Atom::Pong") ) {
         IV tmp = SvIV((SV *)SvRV(sv));
-        ::SAPO::Broker::Codecs::Autogen::ProtobufXS::Atom_Pong * other = INT2PTR(__SAPO__Broker__Codecs__Autogen__ProtobufXS__Atom_Pong *, tmp);
+        ::sapo_broker::Atom_Pong * other = INT2PTR(__SAPO__Broker__Codecs__Autogen__ProtobufXS__Atom_Pong *, tmp);
 
         THIS->CopyFrom(*other);
       } else if ( SvROK(sv) &&
                   SvTYPE(SvRV(sv)) == SVt_PVHV ) {
-        ::SAPO::Broker::Codecs::Autogen::ProtobufXS::Atom_Pong * other = __SAPO__Broker__Codecs__Autogen__ProtobufXS__Atom_Pong_from_hashref(sv);
+        ::sapo_broker::Atom_Pong * other = __SAPO__Broker__Codecs__Autogen__ProtobufXS__Atom_Pong_from_hashref(sv);
         THIS->CopyFrom(*other);
         delete other;
       }
@@ -8629,7 +8629,7 @@ merge_from(svTHIS, sv)
   SV * svTHIS
   SV * sv
   CODE:
-    ::SAPO::Broker::Codecs::Autogen::ProtobufXS::Atom_Pong * THIS;
+    ::sapo_broker::Atom_Pong * THIS;
     if ( sv_derived_from(svTHIS, "SAPO::Broker::Codecs::Autogen::ProtobufXS::Atom::Pong") ) {
       IV tmp = SvIV((SV *)SvRV(svTHIS));
       THIS = INT2PTR(__SAPO__Broker__Codecs__Autogen__ProtobufXS__Atom_Pong *, tmp);
@@ -8639,12 +8639,12 @@ merge_from(svTHIS, sv)
     if ( THIS != NULL && sv != NULL ) {
       if ( sv_derived_from(sv, "SAPO::Broker::Codecs::Autogen::ProtobufXS::Atom::Pong") ) {
         IV tmp = SvIV((SV *)SvRV(sv));
-        ::SAPO::Broker::Codecs::Autogen::ProtobufXS::Atom_Pong * other = INT2PTR(__SAPO__Broker__Codecs__Autogen__ProtobufXS__Atom_Pong *, tmp);
+        ::sapo_broker::Atom_Pong * other = INT2PTR(__SAPO__Broker__Codecs__Autogen__ProtobufXS__Atom_Pong *, tmp);
 
         THIS->MergeFrom(*other);
       } else if ( SvROK(sv) &&
                   SvTYPE(SvRV(sv)) == SVt_PVHV ) {
-        ::SAPO::Broker::Codecs::Autogen::ProtobufXS::Atom_Pong * other = __SAPO__Broker__Codecs__Autogen__ProtobufXS__Atom_Pong_from_hashref(sv);
+        ::sapo_broker::Atom_Pong * other = __SAPO__Broker__Codecs__Autogen__ProtobufXS__Atom_Pong_from_hashref(sv);
         THIS->MergeFrom(*other);
         delete other;
       }
@@ -8655,7 +8655,7 @@ void
 clear(svTHIS)
   SV * svTHIS
   CODE:
-    ::SAPO::Broker::Codecs::Autogen::ProtobufXS::Atom_Pong * THIS;
+    ::sapo_broker::Atom_Pong * THIS;
     if ( sv_derived_from(svTHIS, "SAPO::Broker::Codecs::Autogen::ProtobufXS::Atom::Pong") ) {
       IV tmp = SvIV((SV *)SvRV(svTHIS));
       THIS = INT2PTR(__SAPO__Broker__Codecs__Autogen__ProtobufXS__Atom_Pong *, tmp);
@@ -8671,7 +8671,7 @@ int
 is_initialized(svTHIS)
   SV * svTHIS
   CODE:
-    ::SAPO::Broker::Codecs::Autogen::ProtobufXS::Atom_Pong * THIS;
+    ::sapo_broker::Atom_Pong * THIS;
     if ( sv_derived_from(svTHIS, "SAPO::Broker::Codecs::Autogen::ProtobufXS::Atom::Pong") ) {
       IV tmp = SvIV((SV *)SvRV(svTHIS));
       THIS = INT2PTR(__SAPO__Broker__Codecs__Autogen__ProtobufXS__Atom_Pong *, tmp);
@@ -8695,7 +8695,7 @@ error_string(svTHIS)
     string estr;
 
   CODE:
-    ::SAPO::Broker::Codecs::Autogen::ProtobufXS::Atom_Pong * THIS;
+    ::sapo_broker::Atom_Pong * THIS;
     if ( sv_derived_from(svTHIS, "SAPO::Broker::Codecs::Autogen::ProtobufXS::Atom::Pong") ) {
       IV tmp = SvIV((SV *)SvRV(svTHIS));
       THIS = INT2PTR(__SAPO__Broker__Codecs__Autogen__ProtobufXS__Atom_Pong *, tmp);
@@ -8715,7 +8715,7 @@ void
 discard_unkown_fields(svTHIS)
   SV * svTHIS
   CODE:
-    ::SAPO::Broker::Codecs::Autogen::ProtobufXS::Atom_Pong * THIS;
+    ::sapo_broker::Atom_Pong * THIS;
     if ( sv_derived_from(svTHIS, "SAPO::Broker::Codecs::Autogen::ProtobufXS::Atom::Pong") ) {
       IV tmp = SvIV((SV *)SvRV(svTHIS));
       THIS = INT2PTR(__SAPO__Broker__Codecs__Autogen__ProtobufXS__Atom_Pong *, tmp);
@@ -8734,7 +8734,7 @@ debug_string(svTHIS)
     string dstr;
 
   CODE:
-    ::SAPO::Broker::Codecs::Autogen::ProtobufXS::Atom_Pong * THIS;
+    ::sapo_broker::Atom_Pong * THIS;
     if ( sv_derived_from(svTHIS, "SAPO::Broker::Codecs::Autogen::ProtobufXS::Atom::Pong") ) {
       IV tmp = SvIV((SV *)SvRV(svTHIS));
       THIS = INT2PTR(__SAPO__Broker__Codecs__Autogen__ProtobufXS__Atom_Pong *, tmp);
@@ -8757,7 +8757,7 @@ short_debug_string(svTHIS)
     string dstr;
 
   CODE:
-    ::SAPO::Broker::Codecs::Autogen::ProtobufXS::Atom_Pong * THIS;
+    ::sapo_broker::Atom_Pong * THIS;
     if ( sv_derived_from(svTHIS, "SAPO::Broker::Codecs::Autogen::ProtobufXS::Atom::Pong") ) {
       IV tmp = SvIV((SV *)SvRV(svTHIS));
       THIS = INT2PTR(__SAPO__Broker__Codecs__Autogen__ProtobufXS__Atom_Pong *, tmp);
@@ -8782,7 +8782,7 @@ unpack(svTHIS, arg)
     char * str;
 
   CODE:
-    ::SAPO::Broker::Codecs::Autogen::ProtobufXS::Atom_Pong * THIS;
+    ::sapo_broker::Atom_Pong * THIS;
     if ( sv_derived_from(svTHIS, "SAPO::Broker::Codecs::Autogen::ProtobufXS::Atom::Pong") ) {
       IV tmp = SvIV((SV *)SvRV(svTHIS));
       THIS = INT2PTR(__SAPO__Broker__Codecs__Autogen__ProtobufXS__Atom_Pong *, tmp);
@@ -8808,7 +8808,7 @@ SV *
 pack(svTHIS)
   SV * svTHIS
   CODE:
-    ::SAPO::Broker::Codecs::Autogen::ProtobufXS::Atom_Pong * THIS;
+    ::sapo_broker::Atom_Pong * THIS;
     if ( sv_derived_from(svTHIS, "SAPO::Broker::Codecs::Autogen::ProtobufXS::Atom::Pong") ) {
       IV tmp = SvIV((SV *)SvRV(svTHIS));
       THIS = INT2PTR(__SAPO__Broker__Codecs__Autogen__ProtobufXS__Atom_Pong *, tmp);
@@ -8841,7 +8841,7 @@ int
 length(svTHIS)
   SV * svTHIS
   CODE:
-    ::SAPO::Broker::Codecs::Autogen::ProtobufXS::Atom_Pong * THIS;
+    ::sapo_broker::Atom_Pong * THIS;
     if ( sv_derived_from(svTHIS, "SAPO::Broker::Codecs::Autogen::ProtobufXS::Atom::Pong") ) {
       IV tmp = SvIV((SV *)SvRV(svTHIS));
       THIS = INT2PTR(__SAPO__Broker__Codecs__Autogen__ProtobufXS__Atom_Pong *, tmp);
@@ -8871,7 +8871,7 @@ SV *
 to_hashref(svTHIS)
   SV * svTHIS
   CODE:
-    ::SAPO::Broker::Codecs::Autogen::ProtobufXS::Atom_Pong * THIS;
+    ::sapo_broker::Atom_Pong * THIS;
     if ( sv_derived_from(svTHIS, "SAPO::Broker::Codecs::Autogen::ProtobufXS::Atom::Pong") ) {
       IV tmp = SvIV((SV *)SvRV(svTHIS));
       THIS = INT2PTR(__SAPO__Broker__Codecs__Autogen__ProtobufXS__Atom_Pong *, tmp);
@@ -8880,7 +8880,7 @@ to_hashref(svTHIS)
     }
     if ( THIS != NULL ) {
       HV * hv0 = newHV();
-      ::SAPO::Broker::Codecs::Autogen::ProtobufXS::Atom_Pong * msg0 = THIS;
+      ::sapo_broker::Atom_Pong * msg0 = THIS;
 
       if ( msg0->has_action_id() ) {
         SV * sv0 = newSVpv(msg0->action_id().c_str(), msg0->action_id().length());
@@ -8899,7 +8899,7 @@ I32
 has_action_id(svTHIS)
   SV * svTHIS;
   CODE:
-    ::SAPO::Broker::Codecs::Autogen::ProtobufXS::Atom_Pong * THIS;
+    ::sapo_broker::Atom_Pong * THIS;
     if ( sv_derived_from(svTHIS, "SAPO::Broker::Codecs::Autogen::ProtobufXS::Atom::Pong") ) {
       IV tmp = SvIV((SV *)SvRV(svTHIS));
       THIS = INT2PTR(__SAPO__Broker__Codecs__Autogen__ProtobufXS__Atom_Pong *, tmp);
@@ -8916,7 +8916,7 @@ void
 clear_action_id(svTHIS)
   SV * svTHIS;
   CODE:
-    ::SAPO::Broker::Codecs::Autogen::ProtobufXS::Atom_Pong * THIS;
+    ::sapo_broker::Atom_Pong * THIS;
     if ( sv_derived_from(svTHIS, "SAPO::Broker::Codecs::Autogen::ProtobufXS::Atom::Pong") ) {
       IV tmp = SvIV((SV *)SvRV(svTHIS));
       THIS = INT2PTR(__SAPO__Broker__Codecs__Autogen__ProtobufXS__Atom_Pong *, tmp);
@@ -8933,7 +8933,7 @@ PREINIT:
     SV * sv;
 
   PPCODE:
-    ::SAPO::Broker::Codecs::Autogen::ProtobufXS::Atom_Pong * THIS;
+    ::sapo_broker::Atom_Pong * THIS;
     if ( sv_derived_from(svTHIS, "SAPO::Broker::Codecs::Autogen::ProtobufXS::Atom::Pong") ) {
       IV tmp = SvIV((SV *)SvRV(svTHIS));
       THIS = INT2PTR(__SAPO__Broker__Codecs__Autogen__ProtobufXS__Atom_Pong *, tmp);
@@ -8959,7 +8959,7 @@ set_action_id(svTHIS, svVAL)
     string sval;
 
   CODE:
-    ::SAPO::Broker::Codecs::Autogen::ProtobufXS::Atom_Pong * THIS;
+    ::sapo_broker::Atom_Pong * THIS;
     if ( sv_derived_from(svTHIS, "SAPO::Broker::Codecs::Autogen::ProtobufXS::Atom::Pong") ) {
       IV tmp = SvIV((SV *)SvRV(svTHIS));
       THIS = INT2PTR(__SAPO__Broker__Codecs__Autogen__ProtobufXS__Atom_Pong *, tmp);
@@ -8976,9 +8976,9 @@ PROTOTYPES: ENABLE
 
 
 SV *
-::SAPO::Broker::Codecs::Autogen::ProtobufXS::Atom_Authentication::new (...)
+::sapo_broker::Atom_Authentication::new (...)
   PREINIT:
-    ::SAPO::Broker::Codecs::Autogen::ProtobufXS::Atom_Authentication * rv = NULL;
+    ::sapo_broker::Atom_Authentication * rv = NULL;
 
   CODE:
     if ( strcmp(CLASS,"SAPO::Broker::Codecs::Autogen::ProtobufXS::Atom::Authentication") ) {
@@ -8991,14 +8991,14 @@ SV *
         STRLEN len;
         char * str;
 
-        rv = new ::SAPO::Broker::Codecs::Autogen::ProtobufXS::Atom_Authentication;
+        rv = new ::sapo_broker::Atom_Authentication;
         str = SvPV(ST(1), len);
         if ( str != NULL ) {
           rv->ParseFromArray(str, len);
         }
       }
     } else {
-      rv = new ::SAPO::Broker::Codecs::Autogen::ProtobufXS::Atom_Authentication;
+      rv = new ::sapo_broker::Atom_Authentication;
     }
     RETVAL = newSV(0);
     sv_setref_pv(RETVAL, "SAPO::Broker::Codecs::Autogen::ProtobufXS::Atom::Authentication", (void *)rv);
@@ -9011,7 +9011,7 @@ void
 DESTROY(svTHIS)
   SV * svTHIS;
   CODE:
-    ::SAPO::Broker::Codecs::Autogen::ProtobufXS::Atom_Authentication * THIS;
+    ::sapo_broker::Atom_Authentication * THIS;
     if ( sv_derived_from(svTHIS, "SAPO::Broker::Codecs::Autogen::ProtobufXS::Atom::Authentication") ) {
       IV tmp = SvIV((SV *)SvRV(svTHIS));
       THIS = INT2PTR(__SAPO__Broker__Codecs__Autogen__ProtobufXS__Atom_Authentication *, tmp);
@@ -9028,7 +9028,7 @@ copy_from(svTHIS, sv)
   SV * svTHIS
   SV * sv
   CODE:
-    ::SAPO::Broker::Codecs::Autogen::ProtobufXS::Atom_Authentication * THIS;
+    ::sapo_broker::Atom_Authentication * THIS;
     if ( sv_derived_from(svTHIS, "SAPO::Broker::Codecs::Autogen::ProtobufXS::Atom::Authentication") ) {
       IV tmp = SvIV((SV *)SvRV(svTHIS));
       THIS = INT2PTR(__SAPO__Broker__Codecs__Autogen__ProtobufXS__Atom_Authentication *, tmp);
@@ -9038,12 +9038,12 @@ copy_from(svTHIS, sv)
     if ( THIS != NULL && sv != NULL ) {
       if ( sv_derived_from(sv, "SAPO::Broker::Codecs::Autogen::ProtobufXS::Atom::Authentication") ) {
         IV tmp = SvIV((SV *)SvRV(sv));
-        ::SAPO::Broker::Codecs::Autogen::ProtobufXS::Atom_Authentication * other = INT2PTR(__SAPO__Broker__Codecs__Autogen__ProtobufXS__Atom_Authentication *, tmp);
+        ::sapo_broker::Atom_Authentication * other = INT2PTR(__SAPO__Broker__Codecs__Autogen__ProtobufXS__Atom_Authentication *, tmp);
 
         THIS->CopyFrom(*other);
       } else if ( SvROK(sv) &&
                   SvTYPE(SvRV(sv)) == SVt_PVHV ) {
-        ::SAPO::Broker::Codecs::Autogen::ProtobufXS::Atom_Authentication * other = __SAPO__Broker__Codecs__Autogen__ProtobufXS__Atom_Authentication_from_hashref(sv);
+        ::sapo_broker::Atom_Authentication * other = __SAPO__Broker__Codecs__Autogen__ProtobufXS__Atom_Authentication_from_hashref(sv);
         THIS->CopyFrom(*other);
         delete other;
       }
@@ -9055,7 +9055,7 @@ merge_from(svTHIS, sv)
   SV * svTHIS
   SV * sv
   CODE:
-    ::SAPO::Broker::Codecs::Autogen::ProtobufXS::Atom_Authentication * THIS;
+    ::sapo_broker::Atom_Authentication * THIS;
     if ( sv_derived_from(svTHIS, "SAPO::Broker::Codecs::Autogen::ProtobufXS::Atom::Authentication") ) {
       IV tmp = SvIV((SV *)SvRV(svTHIS));
       THIS = INT2PTR(__SAPO__Broker__Codecs__Autogen__ProtobufXS__Atom_Authentication *, tmp);
@@ -9065,12 +9065,12 @@ merge_from(svTHIS, sv)
     if ( THIS != NULL && sv != NULL ) {
       if ( sv_derived_from(sv, "SAPO::Broker::Codecs::Autogen::ProtobufXS::Atom::Authentication") ) {
         IV tmp = SvIV((SV *)SvRV(sv));
-        ::SAPO::Broker::Codecs::Autogen::ProtobufXS::Atom_Authentication * other = INT2PTR(__SAPO__Broker__Codecs__Autogen__ProtobufXS__Atom_Authentication *, tmp);
+        ::sapo_broker::Atom_Authentication * other = INT2PTR(__SAPO__Broker__Codecs__Autogen__ProtobufXS__Atom_Authentication *, tmp);
 
         THIS->MergeFrom(*other);
       } else if ( SvROK(sv) &&
                   SvTYPE(SvRV(sv)) == SVt_PVHV ) {
-        ::SAPO::Broker::Codecs::Autogen::ProtobufXS::Atom_Authentication * other = __SAPO__Broker__Codecs__Autogen__ProtobufXS__Atom_Authentication_from_hashref(sv);
+        ::sapo_broker::Atom_Authentication * other = __SAPO__Broker__Codecs__Autogen__ProtobufXS__Atom_Authentication_from_hashref(sv);
         THIS->MergeFrom(*other);
         delete other;
       }
@@ -9081,7 +9081,7 @@ void
 clear(svTHIS)
   SV * svTHIS
   CODE:
-    ::SAPO::Broker::Codecs::Autogen::ProtobufXS::Atom_Authentication * THIS;
+    ::sapo_broker::Atom_Authentication * THIS;
     if ( sv_derived_from(svTHIS, "SAPO::Broker::Codecs::Autogen::ProtobufXS::Atom::Authentication") ) {
       IV tmp = SvIV((SV *)SvRV(svTHIS));
       THIS = INT2PTR(__SAPO__Broker__Codecs__Autogen__ProtobufXS__Atom_Authentication *, tmp);
@@ -9097,7 +9097,7 @@ int
 is_initialized(svTHIS)
   SV * svTHIS
   CODE:
-    ::SAPO::Broker::Codecs::Autogen::ProtobufXS::Atom_Authentication * THIS;
+    ::sapo_broker::Atom_Authentication * THIS;
     if ( sv_derived_from(svTHIS, "SAPO::Broker::Codecs::Autogen::ProtobufXS::Atom::Authentication") ) {
       IV tmp = SvIV((SV *)SvRV(svTHIS));
       THIS = INT2PTR(__SAPO__Broker__Codecs__Autogen__ProtobufXS__Atom_Authentication *, tmp);
@@ -9121,7 +9121,7 @@ error_string(svTHIS)
     string estr;
 
   CODE:
-    ::SAPO::Broker::Codecs::Autogen::ProtobufXS::Atom_Authentication * THIS;
+    ::sapo_broker::Atom_Authentication * THIS;
     if ( sv_derived_from(svTHIS, "SAPO::Broker::Codecs::Autogen::ProtobufXS::Atom::Authentication") ) {
       IV tmp = SvIV((SV *)SvRV(svTHIS));
       THIS = INT2PTR(__SAPO__Broker__Codecs__Autogen__ProtobufXS__Atom_Authentication *, tmp);
@@ -9141,7 +9141,7 @@ void
 discard_unkown_fields(svTHIS)
   SV * svTHIS
   CODE:
-    ::SAPO::Broker::Codecs::Autogen::ProtobufXS::Atom_Authentication * THIS;
+    ::sapo_broker::Atom_Authentication * THIS;
     if ( sv_derived_from(svTHIS, "SAPO::Broker::Codecs::Autogen::ProtobufXS::Atom::Authentication") ) {
       IV tmp = SvIV((SV *)SvRV(svTHIS));
       THIS = INT2PTR(__SAPO__Broker__Codecs__Autogen__ProtobufXS__Atom_Authentication *, tmp);
@@ -9160,7 +9160,7 @@ debug_string(svTHIS)
     string dstr;
 
   CODE:
-    ::SAPO::Broker::Codecs::Autogen::ProtobufXS::Atom_Authentication * THIS;
+    ::sapo_broker::Atom_Authentication * THIS;
     if ( sv_derived_from(svTHIS, "SAPO::Broker::Codecs::Autogen::ProtobufXS::Atom::Authentication") ) {
       IV tmp = SvIV((SV *)SvRV(svTHIS));
       THIS = INT2PTR(__SAPO__Broker__Codecs__Autogen__ProtobufXS__Atom_Authentication *, tmp);
@@ -9183,7 +9183,7 @@ short_debug_string(svTHIS)
     string dstr;
 
   CODE:
-    ::SAPO::Broker::Codecs::Autogen::ProtobufXS::Atom_Authentication * THIS;
+    ::sapo_broker::Atom_Authentication * THIS;
     if ( sv_derived_from(svTHIS, "SAPO::Broker::Codecs::Autogen::ProtobufXS::Atom::Authentication") ) {
       IV tmp = SvIV((SV *)SvRV(svTHIS));
       THIS = INT2PTR(__SAPO__Broker__Codecs__Autogen__ProtobufXS__Atom_Authentication *, tmp);
@@ -9208,7 +9208,7 @@ unpack(svTHIS, arg)
     char * str;
 
   CODE:
-    ::SAPO::Broker::Codecs::Autogen::ProtobufXS::Atom_Authentication * THIS;
+    ::sapo_broker::Atom_Authentication * THIS;
     if ( sv_derived_from(svTHIS, "SAPO::Broker::Codecs::Autogen::ProtobufXS::Atom::Authentication") ) {
       IV tmp = SvIV((SV *)SvRV(svTHIS));
       THIS = INT2PTR(__SAPO__Broker__Codecs__Autogen__ProtobufXS__Atom_Authentication *, tmp);
@@ -9234,7 +9234,7 @@ SV *
 pack(svTHIS)
   SV * svTHIS
   CODE:
-    ::SAPO::Broker::Codecs::Autogen::ProtobufXS::Atom_Authentication * THIS;
+    ::sapo_broker::Atom_Authentication * THIS;
     if ( sv_derived_from(svTHIS, "SAPO::Broker::Codecs::Autogen::ProtobufXS::Atom::Authentication") ) {
       IV tmp = SvIV((SV *)SvRV(svTHIS));
       THIS = INT2PTR(__SAPO__Broker__Codecs__Autogen__ProtobufXS__Atom_Authentication *, tmp);
@@ -9267,7 +9267,7 @@ int
 length(svTHIS)
   SV * svTHIS
   CODE:
-    ::SAPO::Broker::Codecs::Autogen::ProtobufXS::Atom_Authentication * THIS;
+    ::sapo_broker::Atom_Authentication * THIS;
     if ( sv_derived_from(svTHIS, "SAPO::Broker::Codecs::Autogen::ProtobufXS::Atom::Authentication") ) {
       IV tmp = SvIV((SV *)SvRV(svTHIS));
       THIS = INT2PTR(__SAPO__Broker__Codecs__Autogen__ProtobufXS__Atom_Authentication *, tmp);
@@ -9301,7 +9301,7 @@ SV *
 to_hashref(svTHIS)
   SV * svTHIS
   CODE:
-    ::SAPO::Broker::Codecs::Autogen::ProtobufXS::Atom_Authentication * THIS;
+    ::sapo_broker::Atom_Authentication * THIS;
     if ( sv_derived_from(svTHIS, "SAPO::Broker::Codecs::Autogen::ProtobufXS::Atom::Authentication") ) {
       IV tmp = SvIV((SV *)SvRV(svTHIS));
       THIS = INT2PTR(__SAPO__Broker__Codecs__Autogen__ProtobufXS__Atom_Authentication *, tmp);
@@ -9310,7 +9310,7 @@ to_hashref(svTHIS)
     }
     if ( THIS != NULL ) {
       HV * hv0 = newHV();
-      ::SAPO::Broker::Codecs::Autogen::ProtobufXS::Atom_Authentication * msg0 = THIS;
+      ::sapo_broker::Atom_Authentication * msg0 = THIS;
 
       if ( msg0->has_action_id() ) {
         SV * sv0 = newSVpv(msg0->action_id().c_str(), msg0->action_id().length());
@@ -9351,7 +9351,7 @@ I32
 has_action_id(svTHIS)
   SV * svTHIS;
   CODE:
-    ::SAPO::Broker::Codecs::Autogen::ProtobufXS::Atom_Authentication * THIS;
+    ::sapo_broker::Atom_Authentication * THIS;
     if ( sv_derived_from(svTHIS, "SAPO::Broker::Codecs::Autogen::ProtobufXS::Atom::Authentication") ) {
       IV tmp = SvIV((SV *)SvRV(svTHIS));
       THIS = INT2PTR(__SAPO__Broker__Codecs__Autogen__ProtobufXS__Atom_Authentication *, tmp);
@@ -9368,7 +9368,7 @@ void
 clear_action_id(svTHIS)
   SV * svTHIS;
   CODE:
-    ::SAPO::Broker::Codecs::Autogen::ProtobufXS::Atom_Authentication * THIS;
+    ::sapo_broker::Atom_Authentication * THIS;
     if ( sv_derived_from(svTHIS, "SAPO::Broker::Codecs::Autogen::ProtobufXS::Atom::Authentication") ) {
       IV tmp = SvIV((SV *)SvRV(svTHIS));
       THIS = INT2PTR(__SAPO__Broker__Codecs__Autogen__ProtobufXS__Atom_Authentication *, tmp);
@@ -9385,7 +9385,7 @@ PREINIT:
     SV * sv;
 
   PPCODE:
-    ::SAPO::Broker::Codecs::Autogen::ProtobufXS::Atom_Authentication * THIS;
+    ::sapo_broker::Atom_Authentication * THIS;
     if ( sv_derived_from(svTHIS, "SAPO::Broker::Codecs::Autogen::ProtobufXS::Atom::Authentication") ) {
       IV tmp = SvIV((SV *)SvRV(svTHIS));
       THIS = INT2PTR(__SAPO__Broker__Codecs__Autogen__ProtobufXS__Atom_Authentication *, tmp);
@@ -9411,7 +9411,7 @@ set_action_id(svTHIS, svVAL)
     string sval;
 
   CODE:
-    ::SAPO::Broker::Codecs::Autogen::ProtobufXS::Atom_Authentication * THIS;
+    ::sapo_broker::Atom_Authentication * THIS;
     if ( sv_derived_from(svTHIS, "SAPO::Broker::Codecs::Autogen::ProtobufXS::Atom::Authentication") ) {
       IV tmp = SvIV((SV *)SvRV(svTHIS));
       THIS = INT2PTR(__SAPO__Broker__Codecs__Autogen__ProtobufXS__Atom_Authentication *, tmp);
@@ -9427,7 +9427,7 @@ I32
 has_authentication_type(svTHIS)
   SV * svTHIS;
   CODE:
-    ::SAPO::Broker::Codecs::Autogen::ProtobufXS::Atom_Authentication * THIS;
+    ::sapo_broker::Atom_Authentication * THIS;
     if ( sv_derived_from(svTHIS, "SAPO::Broker::Codecs::Autogen::ProtobufXS::Atom::Authentication") ) {
       IV tmp = SvIV((SV *)SvRV(svTHIS));
       THIS = INT2PTR(__SAPO__Broker__Codecs__Autogen__ProtobufXS__Atom_Authentication *, tmp);
@@ -9444,7 +9444,7 @@ void
 clear_authentication_type(svTHIS)
   SV * svTHIS;
   CODE:
-    ::SAPO::Broker::Codecs::Autogen::ProtobufXS::Atom_Authentication * THIS;
+    ::sapo_broker::Atom_Authentication * THIS;
     if ( sv_derived_from(svTHIS, "SAPO::Broker::Codecs::Autogen::ProtobufXS::Atom::Authentication") ) {
       IV tmp = SvIV((SV *)SvRV(svTHIS));
       THIS = INT2PTR(__SAPO__Broker__Codecs__Autogen__ProtobufXS__Atom_Authentication *, tmp);
@@ -9461,7 +9461,7 @@ PREINIT:
     SV * sv;
 
   PPCODE:
-    ::SAPO::Broker::Codecs::Autogen::ProtobufXS::Atom_Authentication * THIS;
+    ::sapo_broker::Atom_Authentication * THIS;
     if ( sv_derived_from(svTHIS, "SAPO::Broker::Codecs::Autogen::ProtobufXS::Atom::Authentication") ) {
       IV tmp = SvIV((SV *)SvRV(svTHIS));
       THIS = INT2PTR(__SAPO__Broker__Codecs__Autogen__ProtobufXS__Atom_Authentication *, tmp);
@@ -9487,7 +9487,7 @@ set_authentication_type(svTHIS, svVAL)
     string sval;
 
   CODE:
-    ::SAPO::Broker::Codecs::Autogen::ProtobufXS::Atom_Authentication * THIS;
+    ::sapo_broker::Atom_Authentication * THIS;
     if ( sv_derived_from(svTHIS, "SAPO::Broker::Codecs::Autogen::ProtobufXS::Atom::Authentication") ) {
       IV tmp = SvIV((SV *)SvRV(svTHIS));
       THIS = INT2PTR(__SAPO__Broker__Codecs__Autogen__ProtobufXS__Atom_Authentication *, tmp);
@@ -9503,7 +9503,7 @@ I32
 has_token(svTHIS)
   SV * svTHIS;
   CODE:
-    ::SAPO::Broker::Codecs::Autogen::ProtobufXS::Atom_Authentication * THIS;
+    ::sapo_broker::Atom_Authentication * THIS;
     if ( sv_derived_from(svTHIS, "SAPO::Broker::Codecs::Autogen::ProtobufXS::Atom::Authentication") ) {
       IV tmp = SvIV((SV *)SvRV(svTHIS));
       THIS = INT2PTR(__SAPO__Broker__Codecs__Autogen__ProtobufXS__Atom_Authentication *, tmp);
@@ -9520,7 +9520,7 @@ void
 clear_token(svTHIS)
   SV * svTHIS;
   CODE:
-    ::SAPO::Broker::Codecs::Autogen::ProtobufXS::Atom_Authentication * THIS;
+    ::sapo_broker::Atom_Authentication * THIS;
     if ( sv_derived_from(svTHIS, "SAPO::Broker::Codecs::Autogen::ProtobufXS::Atom::Authentication") ) {
       IV tmp = SvIV((SV *)SvRV(svTHIS));
       THIS = INT2PTR(__SAPO__Broker__Codecs__Autogen__ProtobufXS__Atom_Authentication *, tmp);
@@ -9537,7 +9537,7 @@ PREINIT:
     SV * sv;
 
   PPCODE:
-    ::SAPO::Broker::Codecs::Autogen::ProtobufXS::Atom_Authentication * THIS;
+    ::sapo_broker::Atom_Authentication * THIS;
     if ( sv_derived_from(svTHIS, "SAPO::Broker::Codecs::Autogen::ProtobufXS::Atom::Authentication") ) {
       IV tmp = SvIV((SV *)SvRV(svTHIS));
       THIS = INT2PTR(__SAPO__Broker__Codecs__Autogen__ProtobufXS__Atom_Authentication *, tmp);
@@ -9562,7 +9562,7 @@ set_token(svTHIS, svVAL)
     STRLEN len;
 
   CODE:
-    ::SAPO::Broker::Codecs::Autogen::ProtobufXS::Atom_Authentication * THIS;
+    ::sapo_broker::Atom_Authentication * THIS;
     if ( sv_derived_from(svTHIS, "SAPO::Broker::Codecs::Autogen::ProtobufXS::Atom::Authentication") ) {
       IV tmp = SvIV((SV *)SvRV(svTHIS));
       THIS = INT2PTR(__SAPO__Broker__Codecs__Autogen__ProtobufXS__Atom_Authentication *, tmp);
@@ -9577,7 +9577,7 @@ I32
 has_user_id(svTHIS)
   SV * svTHIS;
   CODE:
-    ::SAPO::Broker::Codecs::Autogen::ProtobufXS::Atom_Authentication * THIS;
+    ::sapo_broker::Atom_Authentication * THIS;
     if ( sv_derived_from(svTHIS, "SAPO::Broker::Codecs::Autogen::ProtobufXS::Atom::Authentication") ) {
       IV tmp = SvIV((SV *)SvRV(svTHIS));
       THIS = INT2PTR(__SAPO__Broker__Codecs__Autogen__ProtobufXS__Atom_Authentication *, tmp);
@@ -9594,7 +9594,7 @@ void
 clear_user_id(svTHIS)
   SV * svTHIS;
   CODE:
-    ::SAPO::Broker::Codecs::Autogen::ProtobufXS::Atom_Authentication * THIS;
+    ::sapo_broker::Atom_Authentication * THIS;
     if ( sv_derived_from(svTHIS, "SAPO::Broker::Codecs::Autogen::ProtobufXS::Atom::Authentication") ) {
       IV tmp = SvIV((SV *)SvRV(svTHIS));
       THIS = INT2PTR(__SAPO__Broker__Codecs__Autogen__ProtobufXS__Atom_Authentication *, tmp);
@@ -9611,7 +9611,7 @@ PREINIT:
     SV * sv;
 
   PPCODE:
-    ::SAPO::Broker::Codecs::Autogen::ProtobufXS::Atom_Authentication * THIS;
+    ::sapo_broker::Atom_Authentication * THIS;
     if ( sv_derived_from(svTHIS, "SAPO::Broker::Codecs::Autogen::ProtobufXS::Atom::Authentication") ) {
       IV tmp = SvIV((SV *)SvRV(svTHIS));
       THIS = INT2PTR(__SAPO__Broker__Codecs__Autogen__ProtobufXS__Atom_Authentication *, tmp);
@@ -9637,7 +9637,7 @@ set_user_id(svTHIS, svVAL)
     string sval;
 
   CODE:
-    ::SAPO::Broker::Codecs::Autogen::ProtobufXS::Atom_Authentication * THIS;
+    ::sapo_broker::Atom_Authentication * THIS;
     if ( sv_derived_from(svTHIS, "SAPO::Broker::Codecs::Autogen::ProtobufXS::Atom::Authentication") ) {
       IV tmp = SvIV((SV *)SvRV(svTHIS));
       THIS = INT2PTR(__SAPO__Broker__Codecs__Autogen__ProtobufXS__Atom_Authentication *, tmp);
@@ -9653,7 +9653,7 @@ I32
 role_size(svTHIS)
   SV * svTHIS;
   CODE:
-    ::SAPO::Broker::Codecs::Autogen::ProtobufXS::Atom_Authentication * THIS;
+    ::sapo_broker::Atom_Authentication * THIS;
     if ( sv_derived_from(svTHIS, "SAPO::Broker::Codecs::Autogen::ProtobufXS::Atom::Authentication") ) {
       IV tmp = SvIV((SV *)SvRV(svTHIS));
       THIS = INT2PTR(__SAPO__Broker__Codecs__Autogen__ProtobufXS__Atom_Authentication *, tmp);
@@ -9670,7 +9670,7 @@ void
 clear_role(svTHIS)
   SV * svTHIS;
   CODE:
-    ::SAPO::Broker::Codecs::Autogen::ProtobufXS::Atom_Authentication * THIS;
+    ::sapo_broker::Atom_Authentication * THIS;
     if ( sv_derived_from(svTHIS, "SAPO::Broker::Codecs::Autogen::ProtobufXS::Atom::Authentication") ) {
       IV tmp = SvIV((SV *)SvRV(svTHIS));
       THIS = INT2PTR(__SAPO__Broker__Codecs__Autogen__ProtobufXS__Atom_Authentication *, tmp);
@@ -9688,7 +9688,7 @@ PREINIT:
     int index = 0;
 
   PPCODE:
-    ::SAPO::Broker::Codecs::Autogen::ProtobufXS::Atom_Authentication * THIS;
+    ::sapo_broker::Atom_Authentication * THIS;
     if ( sv_derived_from(svTHIS, "SAPO::Broker::Codecs::Autogen::ProtobufXS::Atom::Authentication") ) {
       IV tmp = SvIV((SV *)SvRV(svTHIS));
       THIS = INT2PTR(__SAPO__Broker__Codecs__Autogen__ProtobufXS__Atom_Authentication *, tmp);
@@ -9734,7 +9734,7 @@ add_role(svTHIS, svVAL)
     string sval;
 
   CODE:
-    ::SAPO::Broker::Codecs::Autogen::ProtobufXS::Atom_Authentication * THIS;
+    ::sapo_broker::Atom_Authentication * THIS;
     if ( sv_derived_from(svTHIS, "SAPO::Broker::Codecs::Autogen::ProtobufXS::Atom::Authentication") ) {
       IV tmp = SvIV((SV *)SvRV(svTHIS));
       THIS = INT2PTR(__SAPO__Broker__Codecs__Autogen__ProtobufXS__Atom_Authentication *, tmp);
@@ -9755,24 +9755,24 @@ BOOT:
     HV * stash;
 
     stash = gv_stashpv("SAPO::Broker::Codecs::Autogen::ProtobufXS::Atom::Action::ActionType", TRUE);
-    newCONSTSUB(stash, "PUBLISH", newSViv(::SAPO::Broker::Codecs::Autogen::ProtobufXS::Atom_Action::PUBLISH));
-    newCONSTSUB(stash, "POLL", newSViv(::SAPO::Broker::Codecs::Autogen::ProtobufXS::Atom_Action::POLL));
-    newCONSTSUB(stash, "ACCEPTED", newSViv(::SAPO::Broker::Codecs::Autogen::ProtobufXS::Atom_Action::ACCEPTED));
-    newCONSTSUB(stash, "ACKNOWLEDGE_MESSAGE", newSViv(::SAPO::Broker::Codecs::Autogen::ProtobufXS::Atom_Action::ACKNOWLEDGE_MESSAGE));
-    newCONSTSUB(stash, "SUBSCRIBE", newSViv(::SAPO::Broker::Codecs::Autogen::ProtobufXS::Atom_Action::SUBSCRIBE));
-    newCONSTSUB(stash, "UNSUBSCRIBE", newSViv(::SAPO::Broker::Codecs::Autogen::ProtobufXS::Atom_Action::UNSUBSCRIBE));
-    newCONSTSUB(stash, "NOTIFICATION", newSViv(::SAPO::Broker::Codecs::Autogen::ProtobufXS::Atom_Action::NOTIFICATION));
-    newCONSTSUB(stash, "FAULT", newSViv(::SAPO::Broker::Codecs::Autogen::ProtobufXS::Atom_Action::FAULT));
-    newCONSTSUB(stash, "PING", newSViv(::SAPO::Broker::Codecs::Autogen::ProtobufXS::Atom_Action::PING));
-    newCONSTSUB(stash, "PONG", newSViv(::SAPO::Broker::Codecs::Autogen::ProtobufXS::Atom_Action::PONG));
-    newCONSTSUB(stash, "AUTH", newSViv(::SAPO::Broker::Codecs::Autogen::ProtobufXS::Atom_Action::AUTH));
+    newCONSTSUB(stash, "PUBLISH", newSViv(::sapo_broker::Atom_Action::PUBLISH));
+    newCONSTSUB(stash, "POLL", newSViv(::sapo_broker::Atom_Action::POLL));
+    newCONSTSUB(stash, "ACCEPTED", newSViv(::sapo_broker::Atom_Action::ACCEPTED));
+    newCONSTSUB(stash, "ACKNOWLEDGE_MESSAGE", newSViv(::sapo_broker::Atom_Action::ACKNOWLEDGE_MESSAGE));
+    newCONSTSUB(stash, "SUBSCRIBE", newSViv(::sapo_broker::Atom_Action::SUBSCRIBE));
+    newCONSTSUB(stash, "UNSUBSCRIBE", newSViv(::sapo_broker::Atom_Action::UNSUBSCRIBE));
+    newCONSTSUB(stash, "NOTIFICATION", newSViv(::sapo_broker::Atom_Action::NOTIFICATION));
+    newCONSTSUB(stash, "FAULT", newSViv(::sapo_broker::Atom_Action::FAULT));
+    newCONSTSUB(stash, "PING", newSViv(::sapo_broker::Atom_Action::PING));
+    newCONSTSUB(stash, "PONG", newSViv(::sapo_broker::Atom_Action::PONG));
+    newCONSTSUB(stash, "AUTH", newSViv(::sapo_broker::Atom_Action::AUTH));
   }
 
 
 SV *
-::SAPO::Broker::Codecs::Autogen::ProtobufXS::Atom_Action::new (...)
+::sapo_broker::Atom_Action::new (...)
   PREINIT:
-    ::SAPO::Broker::Codecs::Autogen::ProtobufXS::Atom_Action * rv = NULL;
+    ::sapo_broker::Atom_Action * rv = NULL;
 
   CODE:
     if ( strcmp(CLASS,"SAPO::Broker::Codecs::Autogen::ProtobufXS::Atom::Action") ) {
@@ -9785,14 +9785,14 @@ SV *
         STRLEN len;
         char * str;
 
-        rv = new ::SAPO::Broker::Codecs::Autogen::ProtobufXS::Atom_Action;
+        rv = new ::sapo_broker::Atom_Action;
         str = SvPV(ST(1), len);
         if ( str != NULL ) {
           rv->ParseFromArray(str, len);
         }
       }
     } else {
-      rv = new ::SAPO::Broker::Codecs::Autogen::ProtobufXS::Atom_Action;
+      rv = new ::sapo_broker::Atom_Action;
     }
     RETVAL = newSV(0);
     sv_setref_pv(RETVAL, "SAPO::Broker::Codecs::Autogen::ProtobufXS::Atom::Action", (void *)rv);
@@ -9805,7 +9805,7 @@ void
 DESTROY(svTHIS)
   SV * svTHIS;
   CODE:
-    ::SAPO::Broker::Codecs::Autogen::ProtobufXS::Atom_Action * THIS;
+    ::sapo_broker::Atom_Action * THIS;
     if ( sv_derived_from(svTHIS, "SAPO::Broker::Codecs::Autogen::ProtobufXS::Atom::Action") ) {
       IV tmp = SvIV((SV *)SvRV(svTHIS));
       THIS = INT2PTR(__SAPO__Broker__Codecs__Autogen__ProtobufXS__Atom_Action *, tmp);
@@ -9822,7 +9822,7 @@ copy_from(svTHIS, sv)
   SV * svTHIS
   SV * sv
   CODE:
-    ::SAPO::Broker::Codecs::Autogen::ProtobufXS::Atom_Action * THIS;
+    ::sapo_broker::Atom_Action * THIS;
     if ( sv_derived_from(svTHIS, "SAPO::Broker::Codecs::Autogen::ProtobufXS::Atom::Action") ) {
       IV tmp = SvIV((SV *)SvRV(svTHIS));
       THIS = INT2PTR(__SAPO__Broker__Codecs__Autogen__ProtobufXS__Atom_Action *, tmp);
@@ -9832,12 +9832,12 @@ copy_from(svTHIS, sv)
     if ( THIS != NULL && sv != NULL ) {
       if ( sv_derived_from(sv, "SAPO::Broker::Codecs::Autogen::ProtobufXS::Atom::Action") ) {
         IV tmp = SvIV((SV *)SvRV(sv));
-        ::SAPO::Broker::Codecs::Autogen::ProtobufXS::Atom_Action * other = INT2PTR(__SAPO__Broker__Codecs__Autogen__ProtobufXS__Atom_Action *, tmp);
+        ::sapo_broker::Atom_Action * other = INT2PTR(__SAPO__Broker__Codecs__Autogen__ProtobufXS__Atom_Action *, tmp);
 
         THIS->CopyFrom(*other);
       } else if ( SvROK(sv) &&
                   SvTYPE(SvRV(sv)) == SVt_PVHV ) {
-        ::SAPO::Broker::Codecs::Autogen::ProtobufXS::Atom_Action * other = __SAPO__Broker__Codecs__Autogen__ProtobufXS__Atom_Action_from_hashref(sv);
+        ::sapo_broker::Atom_Action * other = __SAPO__Broker__Codecs__Autogen__ProtobufXS__Atom_Action_from_hashref(sv);
         THIS->CopyFrom(*other);
         delete other;
       }
@@ -9849,7 +9849,7 @@ merge_from(svTHIS, sv)
   SV * svTHIS
   SV * sv
   CODE:
-    ::SAPO::Broker::Codecs::Autogen::ProtobufXS::Atom_Action * THIS;
+    ::sapo_broker::Atom_Action * THIS;
     if ( sv_derived_from(svTHIS, "SAPO::Broker::Codecs::Autogen::ProtobufXS::Atom::Action") ) {
       IV tmp = SvIV((SV *)SvRV(svTHIS));
       THIS = INT2PTR(__SAPO__Broker__Codecs__Autogen__ProtobufXS__Atom_Action *, tmp);
@@ -9859,12 +9859,12 @@ merge_from(svTHIS, sv)
     if ( THIS != NULL && sv != NULL ) {
       if ( sv_derived_from(sv, "SAPO::Broker::Codecs::Autogen::ProtobufXS::Atom::Action") ) {
         IV tmp = SvIV((SV *)SvRV(sv));
-        ::SAPO::Broker::Codecs::Autogen::ProtobufXS::Atom_Action * other = INT2PTR(__SAPO__Broker__Codecs__Autogen__ProtobufXS__Atom_Action *, tmp);
+        ::sapo_broker::Atom_Action * other = INT2PTR(__SAPO__Broker__Codecs__Autogen__ProtobufXS__Atom_Action *, tmp);
 
         THIS->MergeFrom(*other);
       } else if ( SvROK(sv) &&
                   SvTYPE(SvRV(sv)) == SVt_PVHV ) {
-        ::SAPO::Broker::Codecs::Autogen::ProtobufXS::Atom_Action * other = __SAPO__Broker__Codecs__Autogen__ProtobufXS__Atom_Action_from_hashref(sv);
+        ::sapo_broker::Atom_Action * other = __SAPO__Broker__Codecs__Autogen__ProtobufXS__Atom_Action_from_hashref(sv);
         THIS->MergeFrom(*other);
         delete other;
       }
@@ -9875,7 +9875,7 @@ void
 clear(svTHIS)
   SV * svTHIS
   CODE:
-    ::SAPO::Broker::Codecs::Autogen::ProtobufXS::Atom_Action * THIS;
+    ::sapo_broker::Atom_Action * THIS;
     if ( sv_derived_from(svTHIS, "SAPO::Broker::Codecs::Autogen::ProtobufXS::Atom::Action") ) {
       IV tmp = SvIV((SV *)SvRV(svTHIS));
       THIS = INT2PTR(__SAPO__Broker__Codecs__Autogen__ProtobufXS__Atom_Action *, tmp);
@@ -9891,7 +9891,7 @@ int
 is_initialized(svTHIS)
   SV * svTHIS
   CODE:
-    ::SAPO::Broker::Codecs::Autogen::ProtobufXS::Atom_Action * THIS;
+    ::sapo_broker::Atom_Action * THIS;
     if ( sv_derived_from(svTHIS, "SAPO::Broker::Codecs::Autogen::ProtobufXS::Atom::Action") ) {
       IV tmp = SvIV((SV *)SvRV(svTHIS));
       THIS = INT2PTR(__SAPO__Broker__Codecs__Autogen__ProtobufXS__Atom_Action *, tmp);
@@ -9915,7 +9915,7 @@ error_string(svTHIS)
     string estr;
 
   CODE:
-    ::SAPO::Broker::Codecs::Autogen::ProtobufXS::Atom_Action * THIS;
+    ::sapo_broker::Atom_Action * THIS;
     if ( sv_derived_from(svTHIS, "SAPO::Broker::Codecs::Autogen::ProtobufXS::Atom::Action") ) {
       IV tmp = SvIV((SV *)SvRV(svTHIS));
       THIS = INT2PTR(__SAPO__Broker__Codecs__Autogen__ProtobufXS__Atom_Action *, tmp);
@@ -9935,7 +9935,7 @@ void
 discard_unkown_fields(svTHIS)
   SV * svTHIS
   CODE:
-    ::SAPO::Broker::Codecs::Autogen::ProtobufXS::Atom_Action * THIS;
+    ::sapo_broker::Atom_Action * THIS;
     if ( sv_derived_from(svTHIS, "SAPO::Broker::Codecs::Autogen::ProtobufXS::Atom::Action") ) {
       IV tmp = SvIV((SV *)SvRV(svTHIS));
       THIS = INT2PTR(__SAPO__Broker__Codecs__Autogen__ProtobufXS__Atom_Action *, tmp);
@@ -9954,7 +9954,7 @@ debug_string(svTHIS)
     string dstr;
 
   CODE:
-    ::SAPO::Broker::Codecs::Autogen::ProtobufXS::Atom_Action * THIS;
+    ::sapo_broker::Atom_Action * THIS;
     if ( sv_derived_from(svTHIS, "SAPO::Broker::Codecs::Autogen::ProtobufXS::Atom::Action") ) {
       IV tmp = SvIV((SV *)SvRV(svTHIS));
       THIS = INT2PTR(__SAPO__Broker__Codecs__Autogen__ProtobufXS__Atom_Action *, tmp);
@@ -9977,7 +9977,7 @@ short_debug_string(svTHIS)
     string dstr;
 
   CODE:
-    ::SAPO::Broker::Codecs::Autogen::ProtobufXS::Atom_Action * THIS;
+    ::sapo_broker::Atom_Action * THIS;
     if ( sv_derived_from(svTHIS, "SAPO::Broker::Codecs::Autogen::ProtobufXS::Atom::Action") ) {
       IV tmp = SvIV((SV *)SvRV(svTHIS));
       THIS = INT2PTR(__SAPO__Broker__Codecs__Autogen__ProtobufXS__Atom_Action *, tmp);
@@ -10002,7 +10002,7 @@ unpack(svTHIS, arg)
     char * str;
 
   CODE:
-    ::SAPO::Broker::Codecs::Autogen::ProtobufXS::Atom_Action * THIS;
+    ::sapo_broker::Atom_Action * THIS;
     if ( sv_derived_from(svTHIS, "SAPO::Broker::Codecs::Autogen::ProtobufXS::Atom::Action") ) {
       IV tmp = SvIV((SV *)SvRV(svTHIS));
       THIS = INT2PTR(__SAPO__Broker__Codecs__Autogen__ProtobufXS__Atom_Action *, tmp);
@@ -10028,7 +10028,7 @@ SV *
 pack(svTHIS)
   SV * svTHIS
   CODE:
-    ::SAPO::Broker::Codecs::Autogen::ProtobufXS::Atom_Action * THIS;
+    ::sapo_broker::Atom_Action * THIS;
     if ( sv_derived_from(svTHIS, "SAPO::Broker::Codecs::Autogen::ProtobufXS::Atom::Action") ) {
       IV tmp = SvIV((SV *)SvRV(svTHIS));
       THIS = INT2PTR(__SAPO__Broker__Codecs__Autogen__ProtobufXS__Atom_Action *, tmp);
@@ -10061,7 +10061,7 @@ int
 length(svTHIS)
   SV * svTHIS
   CODE:
-    ::SAPO::Broker::Codecs::Autogen::ProtobufXS::Atom_Action * THIS;
+    ::sapo_broker::Atom_Action * THIS;
     if ( sv_derived_from(svTHIS, "SAPO::Broker::Codecs::Autogen::ProtobufXS::Atom::Action") ) {
       IV tmp = SvIV((SV *)SvRV(svTHIS));
       THIS = INT2PTR(__SAPO__Broker__Codecs__Autogen__ProtobufXS__Atom_Action *, tmp);
@@ -10102,7 +10102,7 @@ SV *
 to_hashref(svTHIS)
   SV * svTHIS
   CODE:
-    ::SAPO::Broker::Codecs::Autogen::ProtobufXS::Atom_Action * THIS;
+    ::sapo_broker::Atom_Action * THIS;
     if ( sv_derived_from(svTHIS, "SAPO::Broker::Codecs::Autogen::ProtobufXS::Atom::Action") ) {
       IV tmp = SvIV((SV *)SvRV(svTHIS));
       THIS = INT2PTR(__SAPO__Broker__Codecs__Autogen__ProtobufXS__Atom_Action *, tmp);
@@ -10111,10 +10111,10 @@ to_hashref(svTHIS)
     }
     if ( THIS != NULL ) {
       HV * hv0 = newHV();
-      ::SAPO::Broker::Codecs::Autogen::ProtobufXS::Atom_Action * msg0 = THIS;
+      ::sapo_broker::Atom_Action * msg0 = THIS;
 
       if ( msg0->has_publish() ) {
-        ::SAPO::Broker::Codecs::Autogen::ProtobufXS::Atom_Publish * msg2 = msg0->mutable_publish();
+        ::sapo_broker::Atom_Publish * msg2 = msg0->mutable_publish();
         HV * hv2 = newHV();
         SV * sv1 = newRV_noinc((SV *)hv2);
         
@@ -10131,7 +10131,7 @@ to_hashref(svTHIS)
           hv_store(hv2, "destination", sizeof("destination") - 1, sv2, 0);
         }
         if ( msg2->has_message() ) {
-          ::SAPO::Broker::Codecs::Autogen::ProtobufXS::Atom_BrokerMessage * msg4 = msg2->mutable_message();
+          ::sapo_broker::Atom_BrokerMessage * msg4 = msg2->mutable_message();
           HV * hv4 = newHV();
           SV * sv3 = newRV_noinc((SV *)hv4);
           
@@ -10162,7 +10162,7 @@ to_hashref(svTHIS)
         hv_store(hv0, "publish", sizeof("publish") - 1, sv1, 0);
       }
       if ( msg0->has_poll() ) {
-        ::SAPO::Broker::Codecs::Autogen::ProtobufXS::Atom_Poll * msg2 = msg0->mutable_poll();
+        ::sapo_broker::Atom_Poll * msg2 = msg0->mutable_poll();
         HV * hv2 = newHV();
         SV * sv1 = newRV_noinc((SV *)hv2);
         
@@ -10184,7 +10184,7 @@ to_hashref(svTHIS)
         hv_store(hv0, "poll", sizeof("poll") - 1, sv1, 0);
       }
       if ( msg0->has_accepted() ) {
-        ::SAPO::Broker::Codecs::Autogen::ProtobufXS::Atom_Accepted * msg2 = msg0->mutable_accepted();
+        ::sapo_broker::Atom_Accepted * msg2 = msg0->mutable_accepted();
         HV * hv2 = newHV();
         SV * sv1 = newRV_noinc((SV *)hv2);
         
@@ -10195,7 +10195,7 @@ to_hashref(svTHIS)
         hv_store(hv0, "accepted", sizeof("accepted") - 1, sv1, 0);
       }
       if ( msg0->has_ack_message() ) {
-        ::SAPO::Broker::Codecs::Autogen::ProtobufXS::Atom_AcknowledgeMessage * msg2 = msg0->mutable_ack_message();
+        ::sapo_broker::Atom_AcknowledgeMessage * msg2 = msg0->mutable_ack_message();
         HV * hv2 = newHV();
         SV * sv1 = newRV_noinc((SV *)hv2);
         
@@ -10214,7 +10214,7 @@ to_hashref(svTHIS)
         hv_store(hv0, "ack_message", sizeof("ack_message") - 1, sv1, 0);
       }
       if ( msg0->has_subscribe() ) {
-        ::SAPO::Broker::Codecs::Autogen::ProtobufXS::Atom_Subscribe * msg2 = msg0->mutable_subscribe();
+        ::sapo_broker::Atom_Subscribe * msg2 = msg0->mutable_subscribe();
         HV * hv2 = newHV();
         SV * sv1 = newRV_noinc((SV *)hv2);
         
@@ -10233,7 +10233,7 @@ to_hashref(svTHIS)
         hv_store(hv0, "subscribe", sizeof("subscribe") - 1, sv1, 0);
       }
       if ( msg0->has_unsubscribe() ) {
-        ::SAPO::Broker::Codecs::Autogen::ProtobufXS::Atom_Unsubscribe * msg2 = msg0->mutable_unsubscribe();
+        ::sapo_broker::Atom_Unsubscribe * msg2 = msg0->mutable_unsubscribe();
         HV * hv2 = newHV();
         SV * sv1 = newRV_noinc((SV *)hv2);
         
@@ -10252,7 +10252,7 @@ to_hashref(svTHIS)
         hv_store(hv0, "unsubscribe", sizeof("unsubscribe") - 1, sv1, 0);
       }
       if ( msg0->has_notification() ) {
-        ::SAPO::Broker::Codecs::Autogen::ProtobufXS::Atom_Notification * msg2 = msg0->mutable_notification();
+        ::sapo_broker::Atom_Notification * msg2 = msg0->mutable_notification();
         HV * hv2 = newHV();
         SV * sv1 = newRV_noinc((SV *)hv2);
         
@@ -10269,7 +10269,7 @@ to_hashref(svTHIS)
           hv_store(hv2, "destination_type", sizeof("destination_type") - 1, sv2, 0);
         }
         if ( msg2->has_message() ) {
-          ::SAPO::Broker::Codecs::Autogen::ProtobufXS::Atom_BrokerMessage * msg4 = msg2->mutable_message();
+          ::sapo_broker::Atom_BrokerMessage * msg4 = msg2->mutable_message();
           HV * hv4 = newHV();
           SV * sv3 = newRV_noinc((SV *)hv4);
           
@@ -10300,7 +10300,7 @@ to_hashref(svTHIS)
         hv_store(hv0, "notification", sizeof("notification") - 1, sv1, 0);
       }
       if ( msg0->has_fault() ) {
-        ::SAPO::Broker::Codecs::Autogen::ProtobufXS::Atom_Fault * msg2 = msg0->mutable_fault();
+        ::sapo_broker::Atom_Fault * msg2 = msg0->mutable_fault();
         HV * hv2 = newHV();
         SV * sv1 = newRV_noinc((SV *)hv2);
         
@@ -10323,7 +10323,7 @@ to_hashref(svTHIS)
         hv_store(hv0, "fault", sizeof("fault") - 1, sv1, 0);
       }
       if ( msg0->has_ping() ) {
-        ::SAPO::Broker::Codecs::Autogen::ProtobufXS::Atom_Ping * msg2 = msg0->mutable_ping();
+        ::sapo_broker::Atom_Ping * msg2 = msg0->mutable_ping();
         HV * hv2 = newHV();
         SV * sv1 = newRV_noinc((SV *)hv2);
         
@@ -10334,7 +10334,7 @@ to_hashref(svTHIS)
         hv_store(hv0, "ping", sizeof("ping") - 1, sv1, 0);
       }
       if ( msg0->has_pong() ) {
-        ::SAPO::Broker::Codecs::Autogen::ProtobufXS::Atom_Pong * msg2 = msg0->mutable_pong();
+        ::sapo_broker::Atom_Pong * msg2 = msg0->mutable_pong();
         HV * hv2 = newHV();
         SV * sv1 = newRV_noinc((SV *)hv2);
         
@@ -10345,7 +10345,7 @@ to_hashref(svTHIS)
         hv_store(hv0, "pong", sizeof("pong") - 1, sv1, 0);
       }
       if ( msg0->has_auth() ) {
-        ::SAPO::Broker::Codecs::Autogen::ProtobufXS::Atom_Authentication * msg2 = msg0->mutable_auth();
+        ::sapo_broker::Atom_Authentication * msg2 = msg0->mutable_auth();
         HV * hv2 = newHV();
         SV * sv1 = newRV_noinc((SV *)hv2);
         
@@ -10394,7 +10394,7 @@ I32
 has_publish(svTHIS)
   SV * svTHIS;
   CODE:
-    ::SAPO::Broker::Codecs::Autogen::ProtobufXS::Atom_Action * THIS;
+    ::sapo_broker::Atom_Action * THIS;
     if ( sv_derived_from(svTHIS, "SAPO::Broker::Codecs::Autogen::ProtobufXS::Atom::Action") ) {
       IV tmp = SvIV((SV *)SvRV(svTHIS));
       THIS = INT2PTR(__SAPO__Broker__Codecs__Autogen__ProtobufXS__Atom_Action *, tmp);
@@ -10411,7 +10411,7 @@ void
 clear_publish(svTHIS)
   SV * svTHIS;
   CODE:
-    ::SAPO::Broker::Codecs::Autogen::ProtobufXS::Atom_Action * THIS;
+    ::sapo_broker::Atom_Action * THIS;
     if ( sv_derived_from(svTHIS, "SAPO::Broker::Codecs::Autogen::ProtobufXS::Atom::Action") ) {
       IV tmp = SvIV((SV *)SvRV(svTHIS));
       THIS = INT2PTR(__SAPO__Broker__Codecs__Autogen__ProtobufXS__Atom_Action *, tmp);
@@ -10426,10 +10426,10 @@ publish(svTHIS)
   SV * svTHIS;
 PREINIT:
     SV * sv;
-    ::SAPO::Broker::Codecs::Autogen::ProtobufXS::Atom_Publish * val = NULL;
+    ::sapo_broker::Atom_Publish * val = NULL;
 
   PPCODE:
-    ::SAPO::Broker::Codecs::Autogen::ProtobufXS::Atom_Action * THIS;
+    ::sapo_broker::Atom_Action * THIS;
     if ( sv_derived_from(svTHIS, "SAPO::Broker::Codecs::Autogen::ProtobufXS::Atom::Action") ) {
       IV tmp = SvIV((SV *)SvRV(svTHIS));
       THIS = INT2PTR(__SAPO__Broker__Codecs__Autogen__ProtobufXS__Atom_Action *, tmp);
@@ -10438,7 +10438,7 @@ PREINIT:
     }
     if ( THIS != NULL ) {
       EXTEND(SP,1);
-      val = new ::SAPO::Broker::Codecs::Autogen::ProtobufXS::Atom_Publish;
+      val = new ::sapo_broker::Atom_Publish;
       val->CopyFrom(THIS->publish());
       sv = sv_newmortal();
       sv_setref_pv(sv, "SAPO::Broker::Codecs::Autogen::ProtobufXS::Atom::Publish", (void *)val);
@@ -10451,14 +10451,14 @@ set_publish(svTHIS, svVAL)
   SV * svTHIS
   SV * svVAL
   CODE:
-    ::SAPO::Broker::Codecs::Autogen::ProtobufXS::Atom_Action * THIS;
+    ::sapo_broker::Atom_Action * THIS;
     if ( sv_derived_from(svTHIS, "SAPO::Broker::Codecs::Autogen::ProtobufXS::Atom::Action") ) {
       IV tmp = SvIV((SV *)SvRV(svTHIS));
       THIS = INT2PTR(__SAPO__Broker__Codecs__Autogen__ProtobufXS__Atom_Action *, tmp);
     } else {
       croak("THIS is not of type SAPO::Broker::Codecs::Autogen::ProtobufXS::Atom::Action");
     }
-    ::SAPO::Broker::Codecs::Autogen::ProtobufXS::Atom_Publish * VAL;
+    ::sapo_broker::Atom_Publish * VAL;
     if ( sv_derived_from(svVAL, "SAPO::Broker::Codecs::Autogen::ProtobufXS::Atom::Publish") ) {
       IV tmp = SvIV((SV *)SvRV(svVAL));
       VAL = INT2PTR(__SAPO__Broker__Codecs__Autogen__ProtobufXS__Atom_Publish *, tmp);
@@ -10466,7 +10466,7 @@ set_publish(svTHIS, svVAL)
       croak("VAL is not of type SAPO::Broker::Codecs::Autogen::ProtobufXS::Atom::Publish");
     }
     if ( VAL != NULL ) {
-      ::SAPO::Broker::Codecs::Autogen::ProtobufXS::Atom_Publish * mval = THIS->mutable_publish();
+      ::sapo_broker::Atom_Publish * mval = THIS->mutable_publish();
       mval->CopyFrom(*VAL);
     }
 
@@ -10475,7 +10475,7 @@ I32
 has_poll(svTHIS)
   SV * svTHIS;
   CODE:
-    ::SAPO::Broker::Codecs::Autogen::ProtobufXS::Atom_Action * THIS;
+    ::sapo_broker::Atom_Action * THIS;
     if ( sv_derived_from(svTHIS, "SAPO::Broker::Codecs::Autogen::ProtobufXS::Atom::Action") ) {
       IV tmp = SvIV((SV *)SvRV(svTHIS));
       THIS = INT2PTR(__SAPO__Broker__Codecs__Autogen__ProtobufXS__Atom_Action *, tmp);
@@ -10492,7 +10492,7 @@ void
 clear_poll(svTHIS)
   SV * svTHIS;
   CODE:
-    ::SAPO::Broker::Codecs::Autogen::ProtobufXS::Atom_Action * THIS;
+    ::sapo_broker::Atom_Action * THIS;
     if ( sv_derived_from(svTHIS, "SAPO::Broker::Codecs::Autogen::ProtobufXS::Atom::Action") ) {
       IV tmp = SvIV((SV *)SvRV(svTHIS));
       THIS = INT2PTR(__SAPO__Broker__Codecs__Autogen__ProtobufXS__Atom_Action *, tmp);
@@ -10507,10 +10507,10 @@ poll(svTHIS)
   SV * svTHIS;
 PREINIT:
     SV * sv;
-    ::SAPO::Broker::Codecs::Autogen::ProtobufXS::Atom_Poll * val = NULL;
+    ::sapo_broker::Atom_Poll * val = NULL;
 
   PPCODE:
-    ::SAPO::Broker::Codecs::Autogen::ProtobufXS::Atom_Action * THIS;
+    ::sapo_broker::Atom_Action * THIS;
     if ( sv_derived_from(svTHIS, "SAPO::Broker::Codecs::Autogen::ProtobufXS::Atom::Action") ) {
       IV tmp = SvIV((SV *)SvRV(svTHIS));
       THIS = INT2PTR(__SAPO__Broker__Codecs__Autogen__ProtobufXS__Atom_Action *, tmp);
@@ -10519,7 +10519,7 @@ PREINIT:
     }
     if ( THIS != NULL ) {
       EXTEND(SP,1);
-      val = new ::SAPO::Broker::Codecs::Autogen::ProtobufXS::Atom_Poll;
+      val = new ::sapo_broker::Atom_Poll;
       val->CopyFrom(THIS->poll());
       sv = sv_newmortal();
       sv_setref_pv(sv, "SAPO::Broker::Codecs::Autogen::ProtobufXS::Atom::Poll", (void *)val);
@@ -10532,14 +10532,14 @@ set_poll(svTHIS, svVAL)
   SV * svTHIS
   SV * svVAL
   CODE:
-    ::SAPO::Broker::Codecs::Autogen::ProtobufXS::Atom_Action * THIS;
+    ::sapo_broker::Atom_Action * THIS;
     if ( sv_derived_from(svTHIS, "SAPO::Broker::Codecs::Autogen::ProtobufXS::Atom::Action") ) {
       IV tmp = SvIV((SV *)SvRV(svTHIS));
       THIS = INT2PTR(__SAPO__Broker__Codecs__Autogen__ProtobufXS__Atom_Action *, tmp);
     } else {
       croak("THIS is not of type SAPO::Broker::Codecs::Autogen::ProtobufXS::Atom::Action");
     }
-    ::SAPO::Broker::Codecs::Autogen::ProtobufXS::Atom_Poll * VAL;
+    ::sapo_broker::Atom_Poll * VAL;
     if ( sv_derived_from(svVAL, "SAPO::Broker::Codecs::Autogen::ProtobufXS::Atom::Poll") ) {
       IV tmp = SvIV((SV *)SvRV(svVAL));
       VAL = INT2PTR(__SAPO__Broker__Codecs__Autogen__ProtobufXS__Atom_Poll *, tmp);
@@ -10547,7 +10547,7 @@ set_poll(svTHIS, svVAL)
       croak("VAL is not of type SAPO::Broker::Codecs::Autogen::ProtobufXS::Atom::Poll");
     }
     if ( VAL != NULL ) {
-      ::SAPO::Broker::Codecs::Autogen::ProtobufXS::Atom_Poll * mval = THIS->mutable_poll();
+      ::sapo_broker::Atom_Poll * mval = THIS->mutable_poll();
       mval->CopyFrom(*VAL);
     }
 
@@ -10556,7 +10556,7 @@ I32
 has_accepted(svTHIS)
   SV * svTHIS;
   CODE:
-    ::SAPO::Broker::Codecs::Autogen::ProtobufXS::Atom_Action * THIS;
+    ::sapo_broker::Atom_Action * THIS;
     if ( sv_derived_from(svTHIS, "SAPO::Broker::Codecs::Autogen::ProtobufXS::Atom::Action") ) {
       IV tmp = SvIV((SV *)SvRV(svTHIS));
       THIS = INT2PTR(__SAPO__Broker__Codecs__Autogen__ProtobufXS__Atom_Action *, tmp);
@@ -10573,7 +10573,7 @@ void
 clear_accepted(svTHIS)
   SV * svTHIS;
   CODE:
-    ::SAPO::Broker::Codecs::Autogen::ProtobufXS::Atom_Action * THIS;
+    ::sapo_broker::Atom_Action * THIS;
     if ( sv_derived_from(svTHIS, "SAPO::Broker::Codecs::Autogen::ProtobufXS::Atom::Action") ) {
       IV tmp = SvIV((SV *)SvRV(svTHIS));
       THIS = INT2PTR(__SAPO__Broker__Codecs__Autogen__ProtobufXS__Atom_Action *, tmp);
@@ -10588,10 +10588,10 @@ accepted(svTHIS)
   SV * svTHIS;
 PREINIT:
     SV * sv;
-    ::SAPO::Broker::Codecs::Autogen::ProtobufXS::Atom_Accepted * val = NULL;
+    ::sapo_broker::Atom_Accepted * val = NULL;
 
   PPCODE:
-    ::SAPO::Broker::Codecs::Autogen::ProtobufXS::Atom_Action * THIS;
+    ::sapo_broker::Atom_Action * THIS;
     if ( sv_derived_from(svTHIS, "SAPO::Broker::Codecs::Autogen::ProtobufXS::Atom::Action") ) {
       IV tmp = SvIV((SV *)SvRV(svTHIS));
       THIS = INT2PTR(__SAPO__Broker__Codecs__Autogen__ProtobufXS__Atom_Action *, tmp);
@@ -10600,7 +10600,7 @@ PREINIT:
     }
     if ( THIS != NULL ) {
       EXTEND(SP,1);
-      val = new ::SAPO::Broker::Codecs::Autogen::ProtobufXS::Atom_Accepted;
+      val = new ::sapo_broker::Atom_Accepted;
       val->CopyFrom(THIS->accepted());
       sv = sv_newmortal();
       sv_setref_pv(sv, "SAPO::Broker::Codecs::Autogen::ProtobufXS::Atom::Accepted", (void *)val);
@@ -10613,14 +10613,14 @@ set_accepted(svTHIS, svVAL)
   SV * svTHIS
   SV * svVAL
   CODE:
-    ::SAPO::Broker::Codecs::Autogen::ProtobufXS::Atom_Action * THIS;
+    ::sapo_broker::Atom_Action * THIS;
     if ( sv_derived_from(svTHIS, "SAPO::Broker::Codecs::Autogen::ProtobufXS::Atom::Action") ) {
       IV tmp = SvIV((SV *)SvRV(svTHIS));
       THIS = INT2PTR(__SAPO__Broker__Codecs__Autogen__ProtobufXS__Atom_Action *, tmp);
     } else {
       croak("THIS is not of type SAPO::Broker::Codecs::Autogen::ProtobufXS::Atom::Action");
     }
-    ::SAPO::Broker::Codecs::Autogen::ProtobufXS::Atom_Accepted * VAL;
+    ::sapo_broker::Atom_Accepted * VAL;
     if ( sv_derived_from(svVAL, "SAPO::Broker::Codecs::Autogen::ProtobufXS::Atom::Accepted") ) {
       IV tmp = SvIV((SV *)SvRV(svVAL));
       VAL = INT2PTR(__SAPO__Broker__Codecs__Autogen__ProtobufXS__Atom_Accepted *, tmp);
@@ -10628,7 +10628,7 @@ set_accepted(svTHIS, svVAL)
       croak("VAL is not of type SAPO::Broker::Codecs::Autogen::ProtobufXS::Atom::Accepted");
     }
     if ( VAL != NULL ) {
-      ::SAPO::Broker::Codecs::Autogen::ProtobufXS::Atom_Accepted * mval = THIS->mutable_accepted();
+      ::sapo_broker::Atom_Accepted * mval = THIS->mutable_accepted();
       mval->CopyFrom(*VAL);
     }
 
@@ -10637,7 +10637,7 @@ I32
 has_ack_message(svTHIS)
   SV * svTHIS;
   CODE:
-    ::SAPO::Broker::Codecs::Autogen::ProtobufXS::Atom_Action * THIS;
+    ::sapo_broker::Atom_Action * THIS;
     if ( sv_derived_from(svTHIS, "SAPO::Broker::Codecs::Autogen::ProtobufXS::Atom::Action") ) {
       IV tmp = SvIV((SV *)SvRV(svTHIS));
       THIS = INT2PTR(__SAPO__Broker__Codecs__Autogen__ProtobufXS__Atom_Action *, tmp);
@@ -10654,7 +10654,7 @@ void
 clear_ack_message(svTHIS)
   SV * svTHIS;
   CODE:
-    ::SAPO::Broker::Codecs::Autogen::ProtobufXS::Atom_Action * THIS;
+    ::sapo_broker::Atom_Action * THIS;
     if ( sv_derived_from(svTHIS, "SAPO::Broker::Codecs::Autogen::ProtobufXS::Atom::Action") ) {
       IV tmp = SvIV((SV *)SvRV(svTHIS));
       THIS = INT2PTR(__SAPO__Broker__Codecs__Autogen__ProtobufXS__Atom_Action *, tmp);
@@ -10669,10 +10669,10 @@ ack_message(svTHIS)
   SV * svTHIS;
 PREINIT:
     SV * sv;
-    ::SAPO::Broker::Codecs::Autogen::ProtobufXS::Atom_AcknowledgeMessage * val = NULL;
+    ::sapo_broker::Atom_AcknowledgeMessage * val = NULL;
 
   PPCODE:
-    ::SAPO::Broker::Codecs::Autogen::ProtobufXS::Atom_Action * THIS;
+    ::sapo_broker::Atom_Action * THIS;
     if ( sv_derived_from(svTHIS, "SAPO::Broker::Codecs::Autogen::ProtobufXS::Atom::Action") ) {
       IV tmp = SvIV((SV *)SvRV(svTHIS));
       THIS = INT2PTR(__SAPO__Broker__Codecs__Autogen__ProtobufXS__Atom_Action *, tmp);
@@ -10681,7 +10681,7 @@ PREINIT:
     }
     if ( THIS != NULL ) {
       EXTEND(SP,1);
-      val = new ::SAPO::Broker::Codecs::Autogen::ProtobufXS::Atom_AcknowledgeMessage;
+      val = new ::sapo_broker::Atom_AcknowledgeMessage;
       val->CopyFrom(THIS->ack_message());
       sv = sv_newmortal();
       sv_setref_pv(sv, "SAPO::Broker::Codecs::Autogen::ProtobufXS::Atom::AcknowledgeMessage", (void *)val);
@@ -10694,14 +10694,14 @@ set_ack_message(svTHIS, svVAL)
   SV * svTHIS
   SV * svVAL
   CODE:
-    ::SAPO::Broker::Codecs::Autogen::ProtobufXS::Atom_Action * THIS;
+    ::sapo_broker::Atom_Action * THIS;
     if ( sv_derived_from(svTHIS, "SAPO::Broker::Codecs::Autogen::ProtobufXS::Atom::Action") ) {
       IV tmp = SvIV((SV *)SvRV(svTHIS));
       THIS = INT2PTR(__SAPO__Broker__Codecs__Autogen__ProtobufXS__Atom_Action *, tmp);
     } else {
       croak("THIS is not of type SAPO::Broker::Codecs::Autogen::ProtobufXS::Atom::Action");
     }
-    ::SAPO::Broker::Codecs::Autogen::ProtobufXS::Atom_AcknowledgeMessage * VAL;
+    ::sapo_broker::Atom_AcknowledgeMessage * VAL;
     if ( sv_derived_from(svVAL, "SAPO::Broker::Codecs::Autogen::ProtobufXS::Atom::AcknowledgeMessage") ) {
       IV tmp = SvIV((SV *)SvRV(svVAL));
       VAL = INT2PTR(__SAPO__Broker__Codecs__Autogen__ProtobufXS__Atom_AcknowledgeMessage *, tmp);
@@ -10709,7 +10709,7 @@ set_ack_message(svTHIS, svVAL)
       croak("VAL is not of type SAPO::Broker::Codecs::Autogen::ProtobufXS::Atom::AcknowledgeMessage");
     }
     if ( VAL != NULL ) {
-      ::SAPO::Broker::Codecs::Autogen::ProtobufXS::Atom_AcknowledgeMessage * mval = THIS->mutable_ack_message();
+      ::sapo_broker::Atom_AcknowledgeMessage * mval = THIS->mutable_ack_message();
       mval->CopyFrom(*VAL);
     }
 
@@ -10718,7 +10718,7 @@ I32
 has_subscribe(svTHIS)
   SV * svTHIS;
   CODE:
-    ::SAPO::Broker::Codecs::Autogen::ProtobufXS::Atom_Action * THIS;
+    ::sapo_broker::Atom_Action * THIS;
     if ( sv_derived_from(svTHIS, "SAPO::Broker::Codecs::Autogen::ProtobufXS::Atom::Action") ) {
       IV tmp = SvIV((SV *)SvRV(svTHIS));
       THIS = INT2PTR(__SAPO__Broker__Codecs__Autogen__ProtobufXS__Atom_Action *, tmp);
@@ -10735,7 +10735,7 @@ void
 clear_subscribe(svTHIS)
   SV * svTHIS;
   CODE:
-    ::SAPO::Broker::Codecs::Autogen::ProtobufXS::Atom_Action * THIS;
+    ::sapo_broker::Atom_Action * THIS;
     if ( sv_derived_from(svTHIS, "SAPO::Broker::Codecs::Autogen::ProtobufXS::Atom::Action") ) {
       IV tmp = SvIV((SV *)SvRV(svTHIS));
       THIS = INT2PTR(__SAPO__Broker__Codecs__Autogen__ProtobufXS__Atom_Action *, tmp);
@@ -10750,10 +10750,10 @@ subscribe(svTHIS)
   SV * svTHIS;
 PREINIT:
     SV * sv;
-    ::SAPO::Broker::Codecs::Autogen::ProtobufXS::Atom_Subscribe * val = NULL;
+    ::sapo_broker::Atom_Subscribe * val = NULL;
 
   PPCODE:
-    ::SAPO::Broker::Codecs::Autogen::ProtobufXS::Atom_Action * THIS;
+    ::sapo_broker::Atom_Action * THIS;
     if ( sv_derived_from(svTHIS, "SAPO::Broker::Codecs::Autogen::ProtobufXS::Atom::Action") ) {
       IV tmp = SvIV((SV *)SvRV(svTHIS));
       THIS = INT2PTR(__SAPO__Broker__Codecs__Autogen__ProtobufXS__Atom_Action *, tmp);
@@ -10762,7 +10762,7 @@ PREINIT:
     }
     if ( THIS != NULL ) {
       EXTEND(SP,1);
-      val = new ::SAPO::Broker::Codecs::Autogen::ProtobufXS::Atom_Subscribe;
+      val = new ::sapo_broker::Atom_Subscribe;
       val->CopyFrom(THIS->subscribe());
       sv = sv_newmortal();
       sv_setref_pv(sv, "SAPO::Broker::Codecs::Autogen::ProtobufXS::Atom::Subscribe", (void *)val);
@@ -10775,14 +10775,14 @@ set_subscribe(svTHIS, svVAL)
   SV * svTHIS
   SV * svVAL
   CODE:
-    ::SAPO::Broker::Codecs::Autogen::ProtobufXS::Atom_Action * THIS;
+    ::sapo_broker::Atom_Action * THIS;
     if ( sv_derived_from(svTHIS, "SAPO::Broker::Codecs::Autogen::ProtobufXS::Atom::Action") ) {
       IV tmp = SvIV((SV *)SvRV(svTHIS));
       THIS = INT2PTR(__SAPO__Broker__Codecs__Autogen__ProtobufXS__Atom_Action *, tmp);
     } else {
       croak("THIS is not of type SAPO::Broker::Codecs::Autogen::ProtobufXS::Atom::Action");
     }
-    ::SAPO::Broker::Codecs::Autogen::ProtobufXS::Atom_Subscribe * VAL;
+    ::sapo_broker::Atom_Subscribe * VAL;
     if ( sv_derived_from(svVAL, "SAPO::Broker::Codecs::Autogen::ProtobufXS::Atom::Subscribe") ) {
       IV tmp = SvIV((SV *)SvRV(svVAL));
       VAL = INT2PTR(__SAPO__Broker__Codecs__Autogen__ProtobufXS__Atom_Subscribe *, tmp);
@@ -10790,7 +10790,7 @@ set_subscribe(svTHIS, svVAL)
       croak("VAL is not of type SAPO::Broker::Codecs::Autogen::ProtobufXS::Atom::Subscribe");
     }
     if ( VAL != NULL ) {
-      ::SAPO::Broker::Codecs::Autogen::ProtobufXS::Atom_Subscribe * mval = THIS->mutable_subscribe();
+      ::sapo_broker::Atom_Subscribe * mval = THIS->mutable_subscribe();
       mval->CopyFrom(*VAL);
     }
 
@@ -10799,7 +10799,7 @@ I32
 has_unsubscribe(svTHIS)
   SV * svTHIS;
   CODE:
-    ::SAPO::Broker::Codecs::Autogen::ProtobufXS::Atom_Action * THIS;
+    ::sapo_broker::Atom_Action * THIS;
     if ( sv_derived_from(svTHIS, "SAPO::Broker::Codecs::Autogen::ProtobufXS::Atom::Action") ) {
       IV tmp = SvIV((SV *)SvRV(svTHIS));
       THIS = INT2PTR(__SAPO__Broker__Codecs__Autogen__ProtobufXS__Atom_Action *, tmp);
@@ -10816,7 +10816,7 @@ void
 clear_unsubscribe(svTHIS)
   SV * svTHIS;
   CODE:
-    ::SAPO::Broker::Codecs::Autogen::ProtobufXS::Atom_Action * THIS;
+    ::sapo_broker::Atom_Action * THIS;
     if ( sv_derived_from(svTHIS, "SAPO::Broker::Codecs::Autogen::ProtobufXS::Atom::Action") ) {
       IV tmp = SvIV((SV *)SvRV(svTHIS));
       THIS = INT2PTR(__SAPO__Broker__Codecs__Autogen__ProtobufXS__Atom_Action *, tmp);
@@ -10831,10 +10831,10 @@ unsubscribe(svTHIS)
   SV * svTHIS;
 PREINIT:
     SV * sv;
-    ::SAPO::Broker::Codecs::Autogen::ProtobufXS::Atom_Unsubscribe * val = NULL;
+    ::sapo_broker::Atom_Unsubscribe * val = NULL;
 
   PPCODE:
-    ::SAPO::Broker::Codecs::Autogen::ProtobufXS::Atom_Action * THIS;
+    ::sapo_broker::Atom_Action * THIS;
     if ( sv_derived_from(svTHIS, "SAPO::Broker::Codecs::Autogen::ProtobufXS::Atom::Action") ) {
       IV tmp = SvIV((SV *)SvRV(svTHIS));
       THIS = INT2PTR(__SAPO__Broker__Codecs__Autogen__ProtobufXS__Atom_Action *, tmp);
@@ -10843,7 +10843,7 @@ PREINIT:
     }
     if ( THIS != NULL ) {
       EXTEND(SP,1);
-      val = new ::SAPO::Broker::Codecs::Autogen::ProtobufXS::Atom_Unsubscribe;
+      val = new ::sapo_broker::Atom_Unsubscribe;
       val->CopyFrom(THIS->unsubscribe());
       sv = sv_newmortal();
       sv_setref_pv(sv, "SAPO::Broker::Codecs::Autogen::ProtobufXS::Atom::Unsubscribe", (void *)val);
@@ -10856,14 +10856,14 @@ set_unsubscribe(svTHIS, svVAL)
   SV * svTHIS
   SV * svVAL
   CODE:
-    ::SAPO::Broker::Codecs::Autogen::ProtobufXS::Atom_Action * THIS;
+    ::sapo_broker::Atom_Action * THIS;
     if ( sv_derived_from(svTHIS, "SAPO::Broker::Codecs::Autogen::ProtobufXS::Atom::Action") ) {
       IV tmp = SvIV((SV *)SvRV(svTHIS));
       THIS = INT2PTR(__SAPO__Broker__Codecs__Autogen__ProtobufXS__Atom_Action *, tmp);
     } else {
       croak("THIS is not of type SAPO::Broker::Codecs::Autogen::ProtobufXS::Atom::Action");
     }
-    ::SAPO::Broker::Codecs::Autogen::ProtobufXS::Atom_Unsubscribe * VAL;
+    ::sapo_broker::Atom_Unsubscribe * VAL;
     if ( sv_derived_from(svVAL, "SAPO::Broker::Codecs::Autogen::ProtobufXS::Atom::Unsubscribe") ) {
       IV tmp = SvIV((SV *)SvRV(svVAL));
       VAL = INT2PTR(__SAPO__Broker__Codecs__Autogen__ProtobufXS__Atom_Unsubscribe *, tmp);
@@ -10871,7 +10871,7 @@ set_unsubscribe(svTHIS, svVAL)
       croak("VAL is not of type SAPO::Broker::Codecs::Autogen::ProtobufXS::Atom::Unsubscribe");
     }
     if ( VAL != NULL ) {
-      ::SAPO::Broker::Codecs::Autogen::ProtobufXS::Atom_Unsubscribe * mval = THIS->mutable_unsubscribe();
+      ::sapo_broker::Atom_Unsubscribe * mval = THIS->mutable_unsubscribe();
       mval->CopyFrom(*VAL);
     }
 
@@ -10880,7 +10880,7 @@ I32
 has_notification(svTHIS)
   SV * svTHIS;
   CODE:
-    ::SAPO::Broker::Codecs::Autogen::ProtobufXS::Atom_Action * THIS;
+    ::sapo_broker::Atom_Action * THIS;
     if ( sv_derived_from(svTHIS, "SAPO::Broker::Codecs::Autogen::ProtobufXS::Atom::Action") ) {
       IV tmp = SvIV((SV *)SvRV(svTHIS));
       THIS = INT2PTR(__SAPO__Broker__Codecs__Autogen__ProtobufXS__Atom_Action *, tmp);
@@ -10897,7 +10897,7 @@ void
 clear_notification(svTHIS)
   SV * svTHIS;
   CODE:
-    ::SAPO::Broker::Codecs::Autogen::ProtobufXS::Atom_Action * THIS;
+    ::sapo_broker::Atom_Action * THIS;
     if ( sv_derived_from(svTHIS, "SAPO::Broker::Codecs::Autogen::ProtobufXS::Atom::Action") ) {
       IV tmp = SvIV((SV *)SvRV(svTHIS));
       THIS = INT2PTR(__SAPO__Broker__Codecs__Autogen__ProtobufXS__Atom_Action *, tmp);
@@ -10912,10 +10912,10 @@ notification(svTHIS)
   SV * svTHIS;
 PREINIT:
     SV * sv;
-    ::SAPO::Broker::Codecs::Autogen::ProtobufXS::Atom_Notification * val = NULL;
+    ::sapo_broker::Atom_Notification * val = NULL;
 
   PPCODE:
-    ::SAPO::Broker::Codecs::Autogen::ProtobufXS::Atom_Action * THIS;
+    ::sapo_broker::Atom_Action * THIS;
     if ( sv_derived_from(svTHIS, "SAPO::Broker::Codecs::Autogen::ProtobufXS::Atom::Action") ) {
       IV tmp = SvIV((SV *)SvRV(svTHIS));
       THIS = INT2PTR(__SAPO__Broker__Codecs__Autogen__ProtobufXS__Atom_Action *, tmp);
@@ -10924,7 +10924,7 @@ PREINIT:
     }
     if ( THIS != NULL ) {
       EXTEND(SP,1);
-      val = new ::SAPO::Broker::Codecs::Autogen::ProtobufXS::Atom_Notification;
+      val = new ::sapo_broker::Atom_Notification;
       val->CopyFrom(THIS->notification());
       sv = sv_newmortal();
       sv_setref_pv(sv, "SAPO::Broker::Codecs::Autogen::ProtobufXS::Atom::Notification", (void *)val);
@@ -10937,14 +10937,14 @@ set_notification(svTHIS, svVAL)
   SV * svTHIS
   SV * svVAL
   CODE:
-    ::SAPO::Broker::Codecs::Autogen::ProtobufXS::Atom_Action * THIS;
+    ::sapo_broker::Atom_Action * THIS;
     if ( sv_derived_from(svTHIS, "SAPO::Broker::Codecs::Autogen::ProtobufXS::Atom::Action") ) {
       IV tmp = SvIV((SV *)SvRV(svTHIS));
       THIS = INT2PTR(__SAPO__Broker__Codecs__Autogen__ProtobufXS__Atom_Action *, tmp);
     } else {
       croak("THIS is not of type SAPO::Broker::Codecs::Autogen::ProtobufXS::Atom::Action");
     }
-    ::SAPO::Broker::Codecs::Autogen::ProtobufXS::Atom_Notification * VAL;
+    ::sapo_broker::Atom_Notification * VAL;
     if ( sv_derived_from(svVAL, "SAPO::Broker::Codecs::Autogen::ProtobufXS::Atom::Notification") ) {
       IV tmp = SvIV((SV *)SvRV(svVAL));
       VAL = INT2PTR(__SAPO__Broker__Codecs__Autogen__ProtobufXS__Atom_Notification *, tmp);
@@ -10952,7 +10952,7 @@ set_notification(svTHIS, svVAL)
       croak("VAL is not of type SAPO::Broker::Codecs::Autogen::ProtobufXS::Atom::Notification");
     }
     if ( VAL != NULL ) {
-      ::SAPO::Broker::Codecs::Autogen::ProtobufXS::Atom_Notification * mval = THIS->mutable_notification();
+      ::sapo_broker::Atom_Notification * mval = THIS->mutable_notification();
       mval->CopyFrom(*VAL);
     }
 
@@ -10961,7 +10961,7 @@ I32
 has_fault(svTHIS)
   SV * svTHIS;
   CODE:
-    ::SAPO::Broker::Codecs::Autogen::ProtobufXS::Atom_Action * THIS;
+    ::sapo_broker::Atom_Action * THIS;
     if ( sv_derived_from(svTHIS, "SAPO::Broker::Codecs::Autogen::ProtobufXS::Atom::Action") ) {
       IV tmp = SvIV((SV *)SvRV(svTHIS));
       THIS = INT2PTR(__SAPO__Broker__Codecs__Autogen__ProtobufXS__Atom_Action *, tmp);
@@ -10978,7 +10978,7 @@ void
 clear_fault(svTHIS)
   SV * svTHIS;
   CODE:
-    ::SAPO::Broker::Codecs::Autogen::ProtobufXS::Atom_Action * THIS;
+    ::sapo_broker::Atom_Action * THIS;
     if ( sv_derived_from(svTHIS, "SAPO::Broker::Codecs::Autogen::ProtobufXS::Atom::Action") ) {
       IV tmp = SvIV((SV *)SvRV(svTHIS));
       THIS = INT2PTR(__SAPO__Broker__Codecs__Autogen__ProtobufXS__Atom_Action *, tmp);
@@ -10993,10 +10993,10 @@ fault(svTHIS)
   SV * svTHIS;
 PREINIT:
     SV * sv;
-    ::SAPO::Broker::Codecs::Autogen::ProtobufXS::Atom_Fault * val = NULL;
+    ::sapo_broker::Atom_Fault * val = NULL;
 
   PPCODE:
-    ::SAPO::Broker::Codecs::Autogen::ProtobufXS::Atom_Action * THIS;
+    ::sapo_broker::Atom_Action * THIS;
     if ( sv_derived_from(svTHIS, "SAPO::Broker::Codecs::Autogen::ProtobufXS::Atom::Action") ) {
       IV tmp = SvIV((SV *)SvRV(svTHIS));
       THIS = INT2PTR(__SAPO__Broker__Codecs__Autogen__ProtobufXS__Atom_Action *, tmp);
@@ -11005,7 +11005,7 @@ PREINIT:
     }
     if ( THIS != NULL ) {
       EXTEND(SP,1);
-      val = new ::SAPO::Broker::Codecs::Autogen::ProtobufXS::Atom_Fault;
+      val = new ::sapo_broker::Atom_Fault;
       val->CopyFrom(THIS->fault());
       sv = sv_newmortal();
       sv_setref_pv(sv, "SAPO::Broker::Codecs::Autogen::ProtobufXS::Atom::Fault", (void *)val);
@@ -11018,14 +11018,14 @@ set_fault(svTHIS, svVAL)
   SV * svTHIS
   SV * svVAL
   CODE:
-    ::SAPO::Broker::Codecs::Autogen::ProtobufXS::Atom_Action * THIS;
+    ::sapo_broker::Atom_Action * THIS;
     if ( sv_derived_from(svTHIS, "SAPO::Broker::Codecs::Autogen::ProtobufXS::Atom::Action") ) {
       IV tmp = SvIV((SV *)SvRV(svTHIS));
       THIS = INT2PTR(__SAPO__Broker__Codecs__Autogen__ProtobufXS__Atom_Action *, tmp);
     } else {
       croak("THIS is not of type SAPO::Broker::Codecs::Autogen::ProtobufXS::Atom::Action");
     }
-    ::SAPO::Broker::Codecs::Autogen::ProtobufXS::Atom_Fault * VAL;
+    ::sapo_broker::Atom_Fault * VAL;
     if ( sv_derived_from(svVAL, "SAPO::Broker::Codecs::Autogen::ProtobufXS::Atom::Fault") ) {
       IV tmp = SvIV((SV *)SvRV(svVAL));
       VAL = INT2PTR(__SAPO__Broker__Codecs__Autogen__ProtobufXS__Atom_Fault *, tmp);
@@ -11033,7 +11033,7 @@ set_fault(svTHIS, svVAL)
       croak("VAL is not of type SAPO::Broker::Codecs::Autogen::ProtobufXS::Atom::Fault");
     }
     if ( VAL != NULL ) {
-      ::SAPO::Broker::Codecs::Autogen::ProtobufXS::Atom_Fault * mval = THIS->mutable_fault();
+      ::sapo_broker::Atom_Fault * mval = THIS->mutable_fault();
       mval->CopyFrom(*VAL);
     }
 
@@ -11042,7 +11042,7 @@ I32
 has_ping(svTHIS)
   SV * svTHIS;
   CODE:
-    ::SAPO::Broker::Codecs::Autogen::ProtobufXS::Atom_Action * THIS;
+    ::sapo_broker::Atom_Action * THIS;
     if ( sv_derived_from(svTHIS, "SAPO::Broker::Codecs::Autogen::ProtobufXS::Atom::Action") ) {
       IV tmp = SvIV((SV *)SvRV(svTHIS));
       THIS = INT2PTR(__SAPO__Broker__Codecs__Autogen__ProtobufXS__Atom_Action *, tmp);
@@ -11059,7 +11059,7 @@ void
 clear_ping(svTHIS)
   SV * svTHIS;
   CODE:
-    ::SAPO::Broker::Codecs::Autogen::ProtobufXS::Atom_Action * THIS;
+    ::sapo_broker::Atom_Action * THIS;
     if ( sv_derived_from(svTHIS, "SAPO::Broker::Codecs::Autogen::ProtobufXS::Atom::Action") ) {
       IV tmp = SvIV((SV *)SvRV(svTHIS));
       THIS = INT2PTR(__SAPO__Broker__Codecs__Autogen__ProtobufXS__Atom_Action *, tmp);
@@ -11074,10 +11074,10 @@ ping(svTHIS)
   SV * svTHIS;
 PREINIT:
     SV * sv;
-    ::SAPO::Broker::Codecs::Autogen::ProtobufXS::Atom_Ping * val = NULL;
+    ::sapo_broker::Atom_Ping * val = NULL;
 
   PPCODE:
-    ::SAPO::Broker::Codecs::Autogen::ProtobufXS::Atom_Action * THIS;
+    ::sapo_broker::Atom_Action * THIS;
     if ( sv_derived_from(svTHIS, "SAPO::Broker::Codecs::Autogen::ProtobufXS::Atom::Action") ) {
       IV tmp = SvIV((SV *)SvRV(svTHIS));
       THIS = INT2PTR(__SAPO__Broker__Codecs__Autogen__ProtobufXS__Atom_Action *, tmp);
@@ -11086,7 +11086,7 @@ PREINIT:
     }
     if ( THIS != NULL ) {
       EXTEND(SP,1);
-      val = new ::SAPO::Broker::Codecs::Autogen::ProtobufXS::Atom_Ping;
+      val = new ::sapo_broker::Atom_Ping;
       val->CopyFrom(THIS->ping());
       sv = sv_newmortal();
       sv_setref_pv(sv, "SAPO::Broker::Codecs::Autogen::ProtobufXS::Atom::Ping", (void *)val);
@@ -11099,14 +11099,14 @@ set_ping(svTHIS, svVAL)
   SV * svTHIS
   SV * svVAL
   CODE:
-    ::SAPO::Broker::Codecs::Autogen::ProtobufXS::Atom_Action * THIS;
+    ::sapo_broker::Atom_Action * THIS;
     if ( sv_derived_from(svTHIS, "SAPO::Broker::Codecs::Autogen::ProtobufXS::Atom::Action") ) {
       IV tmp = SvIV((SV *)SvRV(svTHIS));
       THIS = INT2PTR(__SAPO__Broker__Codecs__Autogen__ProtobufXS__Atom_Action *, tmp);
     } else {
       croak("THIS is not of type SAPO::Broker::Codecs::Autogen::ProtobufXS::Atom::Action");
     }
-    ::SAPO::Broker::Codecs::Autogen::ProtobufXS::Atom_Ping * VAL;
+    ::sapo_broker::Atom_Ping * VAL;
     if ( sv_derived_from(svVAL, "SAPO::Broker::Codecs::Autogen::ProtobufXS::Atom::Ping") ) {
       IV tmp = SvIV((SV *)SvRV(svVAL));
       VAL = INT2PTR(__SAPO__Broker__Codecs__Autogen__ProtobufXS__Atom_Ping *, tmp);
@@ -11114,7 +11114,7 @@ set_ping(svTHIS, svVAL)
       croak("VAL is not of type SAPO::Broker::Codecs::Autogen::ProtobufXS::Atom::Ping");
     }
     if ( VAL != NULL ) {
-      ::SAPO::Broker::Codecs::Autogen::ProtobufXS::Atom_Ping * mval = THIS->mutable_ping();
+      ::sapo_broker::Atom_Ping * mval = THIS->mutable_ping();
       mval->CopyFrom(*VAL);
     }
 
@@ -11123,7 +11123,7 @@ I32
 has_pong(svTHIS)
   SV * svTHIS;
   CODE:
-    ::SAPO::Broker::Codecs::Autogen::ProtobufXS::Atom_Action * THIS;
+    ::sapo_broker::Atom_Action * THIS;
     if ( sv_derived_from(svTHIS, "SAPO::Broker::Codecs::Autogen::ProtobufXS::Atom::Action") ) {
       IV tmp = SvIV((SV *)SvRV(svTHIS));
       THIS = INT2PTR(__SAPO__Broker__Codecs__Autogen__ProtobufXS__Atom_Action *, tmp);
@@ -11140,7 +11140,7 @@ void
 clear_pong(svTHIS)
   SV * svTHIS;
   CODE:
-    ::SAPO::Broker::Codecs::Autogen::ProtobufXS::Atom_Action * THIS;
+    ::sapo_broker::Atom_Action * THIS;
     if ( sv_derived_from(svTHIS, "SAPO::Broker::Codecs::Autogen::ProtobufXS::Atom::Action") ) {
       IV tmp = SvIV((SV *)SvRV(svTHIS));
       THIS = INT2PTR(__SAPO__Broker__Codecs__Autogen__ProtobufXS__Atom_Action *, tmp);
@@ -11155,10 +11155,10 @@ pong(svTHIS)
   SV * svTHIS;
 PREINIT:
     SV * sv;
-    ::SAPO::Broker::Codecs::Autogen::ProtobufXS::Atom_Pong * val = NULL;
+    ::sapo_broker::Atom_Pong * val = NULL;
 
   PPCODE:
-    ::SAPO::Broker::Codecs::Autogen::ProtobufXS::Atom_Action * THIS;
+    ::sapo_broker::Atom_Action * THIS;
     if ( sv_derived_from(svTHIS, "SAPO::Broker::Codecs::Autogen::ProtobufXS::Atom::Action") ) {
       IV tmp = SvIV((SV *)SvRV(svTHIS));
       THIS = INT2PTR(__SAPO__Broker__Codecs__Autogen__ProtobufXS__Atom_Action *, tmp);
@@ -11167,7 +11167,7 @@ PREINIT:
     }
     if ( THIS != NULL ) {
       EXTEND(SP,1);
-      val = new ::SAPO::Broker::Codecs::Autogen::ProtobufXS::Atom_Pong;
+      val = new ::sapo_broker::Atom_Pong;
       val->CopyFrom(THIS->pong());
       sv = sv_newmortal();
       sv_setref_pv(sv, "SAPO::Broker::Codecs::Autogen::ProtobufXS::Atom::Pong", (void *)val);
@@ -11180,14 +11180,14 @@ set_pong(svTHIS, svVAL)
   SV * svTHIS
   SV * svVAL
   CODE:
-    ::SAPO::Broker::Codecs::Autogen::ProtobufXS::Atom_Action * THIS;
+    ::sapo_broker::Atom_Action * THIS;
     if ( sv_derived_from(svTHIS, "SAPO::Broker::Codecs::Autogen::ProtobufXS::Atom::Action") ) {
       IV tmp = SvIV((SV *)SvRV(svTHIS));
       THIS = INT2PTR(__SAPO__Broker__Codecs__Autogen__ProtobufXS__Atom_Action *, tmp);
     } else {
       croak("THIS is not of type SAPO::Broker::Codecs::Autogen::ProtobufXS::Atom::Action");
     }
-    ::SAPO::Broker::Codecs::Autogen::ProtobufXS::Atom_Pong * VAL;
+    ::sapo_broker::Atom_Pong * VAL;
     if ( sv_derived_from(svVAL, "SAPO::Broker::Codecs::Autogen::ProtobufXS::Atom::Pong") ) {
       IV tmp = SvIV((SV *)SvRV(svVAL));
       VAL = INT2PTR(__SAPO__Broker__Codecs__Autogen__ProtobufXS__Atom_Pong *, tmp);
@@ -11195,7 +11195,7 @@ set_pong(svTHIS, svVAL)
       croak("VAL is not of type SAPO::Broker::Codecs::Autogen::ProtobufXS::Atom::Pong");
     }
     if ( VAL != NULL ) {
-      ::SAPO::Broker::Codecs::Autogen::ProtobufXS::Atom_Pong * mval = THIS->mutable_pong();
+      ::sapo_broker::Atom_Pong * mval = THIS->mutable_pong();
       mval->CopyFrom(*VAL);
     }
 
@@ -11204,7 +11204,7 @@ I32
 has_auth(svTHIS)
   SV * svTHIS;
   CODE:
-    ::SAPO::Broker::Codecs::Autogen::ProtobufXS::Atom_Action * THIS;
+    ::sapo_broker::Atom_Action * THIS;
     if ( sv_derived_from(svTHIS, "SAPO::Broker::Codecs::Autogen::ProtobufXS::Atom::Action") ) {
       IV tmp = SvIV((SV *)SvRV(svTHIS));
       THIS = INT2PTR(__SAPO__Broker__Codecs__Autogen__ProtobufXS__Atom_Action *, tmp);
@@ -11221,7 +11221,7 @@ void
 clear_auth(svTHIS)
   SV * svTHIS;
   CODE:
-    ::SAPO::Broker::Codecs::Autogen::ProtobufXS::Atom_Action * THIS;
+    ::sapo_broker::Atom_Action * THIS;
     if ( sv_derived_from(svTHIS, "SAPO::Broker::Codecs::Autogen::ProtobufXS::Atom::Action") ) {
       IV tmp = SvIV((SV *)SvRV(svTHIS));
       THIS = INT2PTR(__SAPO__Broker__Codecs__Autogen__ProtobufXS__Atom_Action *, tmp);
@@ -11236,10 +11236,10 @@ auth(svTHIS)
   SV * svTHIS;
 PREINIT:
     SV * sv;
-    ::SAPO::Broker::Codecs::Autogen::ProtobufXS::Atom_Authentication * val = NULL;
+    ::sapo_broker::Atom_Authentication * val = NULL;
 
   PPCODE:
-    ::SAPO::Broker::Codecs::Autogen::ProtobufXS::Atom_Action * THIS;
+    ::sapo_broker::Atom_Action * THIS;
     if ( sv_derived_from(svTHIS, "SAPO::Broker::Codecs::Autogen::ProtobufXS::Atom::Action") ) {
       IV tmp = SvIV((SV *)SvRV(svTHIS));
       THIS = INT2PTR(__SAPO__Broker__Codecs__Autogen__ProtobufXS__Atom_Action *, tmp);
@@ -11248,7 +11248,7 @@ PREINIT:
     }
     if ( THIS != NULL ) {
       EXTEND(SP,1);
-      val = new ::SAPO::Broker::Codecs::Autogen::ProtobufXS::Atom_Authentication;
+      val = new ::sapo_broker::Atom_Authentication;
       val->CopyFrom(THIS->auth());
       sv = sv_newmortal();
       sv_setref_pv(sv, "SAPO::Broker::Codecs::Autogen::ProtobufXS::Atom::Authentication", (void *)val);
@@ -11261,14 +11261,14 @@ set_auth(svTHIS, svVAL)
   SV * svTHIS
   SV * svVAL
   CODE:
-    ::SAPO::Broker::Codecs::Autogen::ProtobufXS::Atom_Action * THIS;
+    ::sapo_broker::Atom_Action * THIS;
     if ( sv_derived_from(svTHIS, "SAPO::Broker::Codecs::Autogen::ProtobufXS::Atom::Action") ) {
       IV tmp = SvIV((SV *)SvRV(svTHIS));
       THIS = INT2PTR(__SAPO__Broker__Codecs__Autogen__ProtobufXS__Atom_Action *, tmp);
     } else {
       croak("THIS is not of type SAPO::Broker::Codecs::Autogen::ProtobufXS::Atom::Action");
     }
-    ::SAPO::Broker::Codecs::Autogen::ProtobufXS::Atom_Authentication * VAL;
+    ::sapo_broker::Atom_Authentication * VAL;
     if ( sv_derived_from(svVAL, "SAPO::Broker::Codecs::Autogen::ProtobufXS::Atom::Authentication") ) {
       IV tmp = SvIV((SV *)SvRV(svVAL));
       VAL = INT2PTR(__SAPO__Broker__Codecs__Autogen__ProtobufXS__Atom_Authentication *, tmp);
@@ -11276,7 +11276,7 @@ set_auth(svTHIS, svVAL)
       croak("VAL is not of type SAPO::Broker::Codecs::Autogen::ProtobufXS::Atom::Authentication");
     }
     if ( VAL != NULL ) {
-      ::SAPO::Broker::Codecs::Autogen::ProtobufXS::Atom_Authentication * mval = THIS->mutable_auth();
+      ::sapo_broker::Atom_Authentication * mval = THIS->mutable_auth();
       mval->CopyFrom(*VAL);
     }
 
@@ -11285,7 +11285,7 @@ I32
 has_action_type(svTHIS)
   SV * svTHIS;
   CODE:
-    ::SAPO::Broker::Codecs::Autogen::ProtobufXS::Atom_Action * THIS;
+    ::sapo_broker::Atom_Action * THIS;
     if ( sv_derived_from(svTHIS, "SAPO::Broker::Codecs::Autogen::ProtobufXS::Atom::Action") ) {
       IV tmp = SvIV((SV *)SvRV(svTHIS));
       THIS = INT2PTR(__SAPO__Broker__Codecs__Autogen__ProtobufXS__Atom_Action *, tmp);
@@ -11302,7 +11302,7 @@ void
 clear_action_type(svTHIS)
   SV * svTHIS;
   CODE:
-    ::SAPO::Broker::Codecs::Autogen::ProtobufXS::Atom_Action * THIS;
+    ::sapo_broker::Atom_Action * THIS;
     if ( sv_derived_from(svTHIS, "SAPO::Broker::Codecs::Autogen::ProtobufXS::Atom::Action") ) {
       IV tmp = SvIV((SV *)SvRV(svTHIS));
       THIS = INT2PTR(__SAPO__Broker__Codecs__Autogen__ProtobufXS__Atom_Action *, tmp);
@@ -11319,7 +11319,7 @@ PREINIT:
     SV * sv;
 
   PPCODE:
-    ::SAPO::Broker::Codecs::Autogen::ProtobufXS::Atom_Action * THIS;
+    ::sapo_broker::Atom_Action * THIS;
     if ( sv_derived_from(svTHIS, "SAPO::Broker::Codecs::Autogen::ProtobufXS::Atom::Action") ) {
       IV tmp = SvIV((SV *)SvRV(svTHIS));
       THIS = INT2PTR(__SAPO__Broker__Codecs__Autogen__ProtobufXS__Atom_Action *, tmp);
@@ -11339,15 +11339,15 @@ set_action_type(svTHIS, svVAL)
   IV svVAL
 
   CODE:
-    ::SAPO::Broker::Codecs::Autogen::ProtobufXS::Atom_Action * THIS;
+    ::sapo_broker::Atom_Action * THIS;
     if ( sv_derived_from(svTHIS, "SAPO::Broker::Codecs::Autogen::ProtobufXS::Atom::Action") ) {
       IV tmp = SvIV((SV *)SvRV(svTHIS));
       THIS = INT2PTR(__SAPO__Broker__Codecs__Autogen__ProtobufXS__Atom_Action *, tmp);
     } else {
       croak("THIS is not of type SAPO::Broker::Codecs::Autogen::ProtobufXS::Atom::Action");
     }
-    if ( ::SAPO::Broker::Codecs::Autogen::ProtobufXS::Atom_Action_ActionType_IsValid(svVAL) ) {
-      THIS->set_action_type((::SAPO::Broker::Codecs::Autogen::ProtobufXS::Atom_Action_ActionType)svVAL);
+    if ( ::sapo_broker::Atom_Action_ActionType_IsValid(svVAL) ) {
+      THIS->set_action_type((::sapo_broker::Atom_Action_ActionType)svVAL);
     }
 
 
@@ -11360,16 +11360,16 @@ BOOT:
     HV * stash;
 
     stash = gv_stashpv("SAPO::Broker::Codecs::Autogen::ProtobufXS::Atom::DestinationType", TRUE);
-    newCONSTSUB(stash, "TOPIC", newSViv(::SAPO::Broker::Codecs::Autogen::ProtobufXS::Atom::TOPIC));
-    newCONSTSUB(stash, "QUEUE", newSViv(::SAPO::Broker::Codecs::Autogen::ProtobufXS::Atom::QUEUE));
-    newCONSTSUB(stash, "VIRTUAL_QUEUE", newSViv(::SAPO::Broker::Codecs::Autogen::ProtobufXS::Atom::VIRTUAL_QUEUE));
+    newCONSTSUB(stash, "TOPIC", newSViv(::sapo_broker::Atom::TOPIC));
+    newCONSTSUB(stash, "QUEUE", newSViv(::sapo_broker::Atom::QUEUE));
+    newCONSTSUB(stash, "VIRTUAL_QUEUE", newSViv(::sapo_broker::Atom::VIRTUAL_QUEUE));
   }
 
 
 SV *
-::SAPO::Broker::Codecs::Autogen::ProtobufXS::Atom::new (...)
+::sapo_broker::Atom::new (...)
   PREINIT:
-    ::SAPO::Broker::Codecs::Autogen::ProtobufXS::Atom * rv = NULL;
+    ::sapo_broker::Atom * rv = NULL;
 
   CODE:
     if ( strcmp(CLASS,"SAPO::Broker::Codecs::Autogen::ProtobufXS::Atom") ) {
@@ -11382,14 +11382,14 @@ SV *
         STRLEN len;
         char * str;
 
-        rv = new ::SAPO::Broker::Codecs::Autogen::ProtobufXS::Atom;
+        rv = new ::sapo_broker::Atom;
         str = SvPV(ST(1), len);
         if ( str != NULL ) {
           rv->ParseFromArray(str, len);
         }
       }
     } else {
-      rv = new ::SAPO::Broker::Codecs::Autogen::ProtobufXS::Atom;
+      rv = new ::sapo_broker::Atom;
     }
     RETVAL = newSV(0);
     sv_setref_pv(RETVAL, "SAPO::Broker::Codecs::Autogen::ProtobufXS::Atom", (void *)rv);
@@ -11402,7 +11402,7 @@ void
 DESTROY(svTHIS)
   SV * svTHIS;
   CODE:
-    ::SAPO::Broker::Codecs::Autogen::ProtobufXS::Atom * THIS;
+    ::sapo_broker::Atom * THIS;
     if ( sv_derived_from(svTHIS, "SAPO::Broker::Codecs::Autogen::ProtobufXS::Atom") ) {
       IV tmp = SvIV((SV *)SvRV(svTHIS));
       THIS = INT2PTR(__SAPO__Broker__Codecs__Autogen__ProtobufXS__Atom *, tmp);
@@ -11419,7 +11419,7 @@ copy_from(svTHIS, sv)
   SV * svTHIS
   SV * sv
   CODE:
-    ::SAPO::Broker::Codecs::Autogen::ProtobufXS::Atom * THIS;
+    ::sapo_broker::Atom * THIS;
     if ( sv_derived_from(svTHIS, "SAPO::Broker::Codecs::Autogen::ProtobufXS::Atom") ) {
       IV tmp = SvIV((SV *)SvRV(svTHIS));
       THIS = INT2PTR(__SAPO__Broker__Codecs__Autogen__ProtobufXS__Atom *, tmp);
@@ -11429,12 +11429,12 @@ copy_from(svTHIS, sv)
     if ( THIS != NULL && sv != NULL ) {
       if ( sv_derived_from(sv, "SAPO::Broker::Codecs::Autogen::ProtobufXS::Atom") ) {
         IV tmp = SvIV((SV *)SvRV(sv));
-        ::SAPO::Broker::Codecs::Autogen::ProtobufXS::Atom * other = INT2PTR(__SAPO__Broker__Codecs__Autogen__ProtobufXS__Atom *, tmp);
+        ::sapo_broker::Atom * other = INT2PTR(__SAPO__Broker__Codecs__Autogen__ProtobufXS__Atom *, tmp);
 
         THIS->CopyFrom(*other);
       } else if ( SvROK(sv) &&
                   SvTYPE(SvRV(sv)) == SVt_PVHV ) {
-        ::SAPO::Broker::Codecs::Autogen::ProtobufXS::Atom * other = __SAPO__Broker__Codecs__Autogen__ProtobufXS__Atom_from_hashref(sv);
+        ::sapo_broker::Atom * other = __SAPO__Broker__Codecs__Autogen__ProtobufXS__Atom_from_hashref(sv);
         THIS->CopyFrom(*other);
         delete other;
       }
@@ -11446,7 +11446,7 @@ merge_from(svTHIS, sv)
   SV * svTHIS
   SV * sv
   CODE:
-    ::SAPO::Broker::Codecs::Autogen::ProtobufXS::Atom * THIS;
+    ::sapo_broker::Atom * THIS;
     if ( sv_derived_from(svTHIS, "SAPO::Broker::Codecs::Autogen::ProtobufXS::Atom") ) {
       IV tmp = SvIV((SV *)SvRV(svTHIS));
       THIS = INT2PTR(__SAPO__Broker__Codecs__Autogen__ProtobufXS__Atom *, tmp);
@@ -11456,12 +11456,12 @@ merge_from(svTHIS, sv)
     if ( THIS != NULL && sv != NULL ) {
       if ( sv_derived_from(sv, "SAPO::Broker::Codecs::Autogen::ProtobufXS::Atom") ) {
         IV tmp = SvIV((SV *)SvRV(sv));
-        ::SAPO::Broker::Codecs::Autogen::ProtobufXS::Atom * other = INT2PTR(__SAPO__Broker__Codecs__Autogen__ProtobufXS__Atom *, tmp);
+        ::sapo_broker::Atom * other = INT2PTR(__SAPO__Broker__Codecs__Autogen__ProtobufXS__Atom *, tmp);
 
         THIS->MergeFrom(*other);
       } else if ( SvROK(sv) &&
                   SvTYPE(SvRV(sv)) == SVt_PVHV ) {
-        ::SAPO::Broker::Codecs::Autogen::ProtobufXS::Atom * other = __SAPO__Broker__Codecs__Autogen__ProtobufXS__Atom_from_hashref(sv);
+        ::sapo_broker::Atom * other = __SAPO__Broker__Codecs__Autogen__ProtobufXS__Atom_from_hashref(sv);
         THIS->MergeFrom(*other);
         delete other;
       }
@@ -11472,7 +11472,7 @@ void
 clear(svTHIS)
   SV * svTHIS
   CODE:
-    ::SAPO::Broker::Codecs::Autogen::ProtobufXS::Atom * THIS;
+    ::sapo_broker::Atom * THIS;
     if ( sv_derived_from(svTHIS, "SAPO::Broker::Codecs::Autogen::ProtobufXS::Atom") ) {
       IV tmp = SvIV((SV *)SvRV(svTHIS));
       THIS = INT2PTR(__SAPO__Broker__Codecs__Autogen__ProtobufXS__Atom *, tmp);
@@ -11488,7 +11488,7 @@ int
 is_initialized(svTHIS)
   SV * svTHIS
   CODE:
-    ::SAPO::Broker::Codecs::Autogen::ProtobufXS::Atom * THIS;
+    ::sapo_broker::Atom * THIS;
     if ( sv_derived_from(svTHIS, "SAPO::Broker::Codecs::Autogen::ProtobufXS::Atom") ) {
       IV tmp = SvIV((SV *)SvRV(svTHIS));
       THIS = INT2PTR(__SAPO__Broker__Codecs__Autogen__ProtobufXS__Atom *, tmp);
@@ -11512,7 +11512,7 @@ error_string(svTHIS)
     string estr;
 
   CODE:
-    ::SAPO::Broker::Codecs::Autogen::ProtobufXS::Atom * THIS;
+    ::sapo_broker::Atom * THIS;
     if ( sv_derived_from(svTHIS, "SAPO::Broker::Codecs::Autogen::ProtobufXS::Atom") ) {
       IV tmp = SvIV((SV *)SvRV(svTHIS));
       THIS = INT2PTR(__SAPO__Broker__Codecs__Autogen__ProtobufXS__Atom *, tmp);
@@ -11532,7 +11532,7 @@ void
 discard_unkown_fields(svTHIS)
   SV * svTHIS
   CODE:
-    ::SAPO::Broker::Codecs::Autogen::ProtobufXS::Atom * THIS;
+    ::sapo_broker::Atom * THIS;
     if ( sv_derived_from(svTHIS, "SAPO::Broker::Codecs::Autogen::ProtobufXS::Atom") ) {
       IV tmp = SvIV((SV *)SvRV(svTHIS));
       THIS = INT2PTR(__SAPO__Broker__Codecs__Autogen__ProtobufXS__Atom *, tmp);
@@ -11551,7 +11551,7 @@ debug_string(svTHIS)
     string dstr;
 
   CODE:
-    ::SAPO::Broker::Codecs::Autogen::ProtobufXS::Atom * THIS;
+    ::sapo_broker::Atom * THIS;
     if ( sv_derived_from(svTHIS, "SAPO::Broker::Codecs::Autogen::ProtobufXS::Atom") ) {
       IV tmp = SvIV((SV *)SvRV(svTHIS));
       THIS = INT2PTR(__SAPO__Broker__Codecs__Autogen__ProtobufXS__Atom *, tmp);
@@ -11574,7 +11574,7 @@ short_debug_string(svTHIS)
     string dstr;
 
   CODE:
-    ::SAPO::Broker::Codecs::Autogen::ProtobufXS::Atom * THIS;
+    ::sapo_broker::Atom * THIS;
     if ( sv_derived_from(svTHIS, "SAPO::Broker::Codecs::Autogen::ProtobufXS::Atom") ) {
       IV tmp = SvIV((SV *)SvRV(svTHIS));
       THIS = INT2PTR(__SAPO__Broker__Codecs__Autogen__ProtobufXS__Atom *, tmp);
@@ -11599,7 +11599,7 @@ unpack(svTHIS, arg)
     char * str;
 
   CODE:
-    ::SAPO::Broker::Codecs::Autogen::ProtobufXS::Atom * THIS;
+    ::sapo_broker::Atom * THIS;
     if ( sv_derived_from(svTHIS, "SAPO::Broker::Codecs::Autogen::ProtobufXS::Atom") ) {
       IV tmp = SvIV((SV *)SvRV(svTHIS));
       THIS = INT2PTR(__SAPO__Broker__Codecs__Autogen__ProtobufXS__Atom *, tmp);
@@ -11625,7 +11625,7 @@ SV *
 pack(svTHIS)
   SV * svTHIS
   CODE:
-    ::SAPO::Broker::Codecs::Autogen::ProtobufXS::Atom * THIS;
+    ::sapo_broker::Atom * THIS;
     if ( sv_derived_from(svTHIS, "SAPO::Broker::Codecs::Autogen::ProtobufXS::Atom") ) {
       IV tmp = SvIV((SV *)SvRV(svTHIS));
       THIS = INT2PTR(__SAPO__Broker__Codecs__Autogen__ProtobufXS__Atom *, tmp);
@@ -11658,7 +11658,7 @@ int
 length(svTHIS)
   SV * svTHIS
   CODE:
-    ::SAPO::Broker::Codecs::Autogen::ProtobufXS::Atom * THIS;
+    ::sapo_broker::Atom * THIS;
     if ( sv_derived_from(svTHIS, "SAPO::Broker::Codecs::Autogen::ProtobufXS::Atom") ) {
       IV tmp = SvIV((SV *)SvRV(svTHIS));
       THIS = INT2PTR(__SAPO__Broker__Codecs__Autogen__ProtobufXS__Atom *, tmp);
@@ -11689,7 +11689,7 @@ SV *
 to_hashref(svTHIS)
   SV * svTHIS
   CODE:
-    ::SAPO::Broker::Codecs::Autogen::ProtobufXS::Atom * THIS;
+    ::sapo_broker::Atom * THIS;
     if ( sv_derived_from(svTHIS, "SAPO::Broker::Codecs::Autogen::ProtobufXS::Atom") ) {
       IV tmp = SvIV((SV *)SvRV(svTHIS));
       THIS = INT2PTR(__SAPO__Broker__Codecs__Autogen__ProtobufXS__Atom *, tmp);
@@ -11698,10 +11698,10 @@ to_hashref(svTHIS)
     }
     if ( THIS != NULL ) {
       HV * hv0 = newHV();
-      ::SAPO::Broker::Codecs::Autogen::ProtobufXS::Atom * msg0 = THIS;
+      ::sapo_broker::Atom * msg0 = THIS;
 
       if ( msg0->has_header() ) {
-        ::SAPO::Broker::Codecs::Autogen::ProtobufXS::Atom_Header * msg2 = msg0->mutable_header();
+        ::sapo_broker::Atom_Header * msg2 = msg0->mutable_header();
         HV * hv2 = newHV();
         SV * sv1 = newRV_noinc((SV *)hv2);
         
@@ -11710,7 +11710,7 @@ to_hashref(svTHIS)
           SV * sv2 = newRV_noinc((SV *)av2);
           
           for ( int i2 = 0; i2 < msg2->parameter_size(); i2++ ) {
-            ::SAPO::Broker::Codecs::Autogen::ProtobufXS::Atom_Parameter * msg4 = msg2->mutable_parameter(i2);
+            ::sapo_broker::Atom_Parameter * msg4 = msg2->mutable_parameter(i2);
             HV * hv4 = newHV();
             SV * sv3 = newRV_noinc((SV *)hv4);
             
@@ -11729,12 +11729,12 @@ to_hashref(svTHIS)
         hv_store(hv0, "header", sizeof("header") - 1, sv1, 0);
       }
       if ( msg0->has_action() ) {
-        ::SAPO::Broker::Codecs::Autogen::ProtobufXS::Atom_Action * msg2 = msg0->mutable_action();
+        ::sapo_broker::Atom_Action * msg2 = msg0->mutable_action();
         HV * hv2 = newHV();
         SV * sv1 = newRV_noinc((SV *)hv2);
         
         if ( msg2->has_publish() ) {
-          ::SAPO::Broker::Codecs::Autogen::ProtobufXS::Atom_Publish * msg4 = msg2->mutable_publish();
+          ::sapo_broker::Atom_Publish * msg4 = msg2->mutable_publish();
           HV * hv4 = newHV();
           SV * sv3 = newRV_noinc((SV *)hv4);
           
@@ -11751,7 +11751,7 @@ to_hashref(svTHIS)
             hv_store(hv4, "destination", sizeof("destination") - 1, sv4, 0);
           }
           if ( msg4->has_message() ) {
-            ::SAPO::Broker::Codecs::Autogen::ProtobufXS::Atom_BrokerMessage * msg6 = msg4->mutable_message();
+            ::sapo_broker::Atom_BrokerMessage * msg6 = msg4->mutable_message();
             HV * hv6 = newHV();
             SV * sv5 = newRV_noinc((SV *)hv6);
             
@@ -11782,7 +11782,7 @@ to_hashref(svTHIS)
           hv_store(hv2, "publish", sizeof("publish") - 1, sv3, 0);
         }
         if ( msg2->has_poll() ) {
-          ::SAPO::Broker::Codecs::Autogen::ProtobufXS::Atom_Poll * msg4 = msg2->mutable_poll();
+          ::sapo_broker::Atom_Poll * msg4 = msg2->mutable_poll();
           HV * hv4 = newHV();
           SV * sv3 = newRV_noinc((SV *)hv4);
           
@@ -11804,7 +11804,7 @@ to_hashref(svTHIS)
           hv_store(hv2, "poll", sizeof("poll") - 1, sv3, 0);
         }
         if ( msg2->has_accepted() ) {
-          ::SAPO::Broker::Codecs::Autogen::ProtobufXS::Atom_Accepted * msg4 = msg2->mutable_accepted();
+          ::sapo_broker::Atom_Accepted * msg4 = msg2->mutable_accepted();
           HV * hv4 = newHV();
           SV * sv3 = newRV_noinc((SV *)hv4);
           
@@ -11815,7 +11815,7 @@ to_hashref(svTHIS)
           hv_store(hv2, "accepted", sizeof("accepted") - 1, sv3, 0);
         }
         if ( msg2->has_ack_message() ) {
-          ::SAPO::Broker::Codecs::Autogen::ProtobufXS::Atom_AcknowledgeMessage * msg4 = msg2->mutable_ack_message();
+          ::sapo_broker::Atom_AcknowledgeMessage * msg4 = msg2->mutable_ack_message();
           HV * hv4 = newHV();
           SV * sv3 = newRV_noinc((SV *)hv4);
           
@@ -11834,7 +11834,7 @@ to_hashref(svTHIS)
           hv_store(hv2, "ack_message", sizeof("ack_message") - 1, sv3, 0);
         }
         if ( msg2->has_subscribe() ) {
-          ::SAPO::Broker::Codecs::Autogen::ProtobufXS::Atom_Subscribe * msg4 = msg2->mutable_subscribe();
+          ::sapo_broker::Atom_Subscribe * msg4 = msg2->mutable_subscribe();
           HV * hv4 = newHV();
           SV * sv3 = newRV_noinc((SV *)hv4);
           
@@ -11853,7 +11853,7 @@ to_hashref(svTHIS)
           hv_store(hv2, "subscribe", sizeof("subscribe") - 1, sv3, 0);
         }
         if ( msg2->has_unsubscribe() ) {
-          ::SAPO::Broker::Codecs::Autogen::ProtobufXS::Atom_Unsubscribe * msg4 = msg2->mutable_unsubscribe();
+          ::sapo_broker::Atom_Unsubscribe * msg4 = msg2->mutable_unsubscribe();
           HV * hv4 = newHV();
           SV * sv3 = newRV_noinc((SV *)hv4);
           
@@ -11872,7 +11872,7 @@ to_hashref(svTHIS)
           hv_store(hv2, "unsubscribe", sizeof("unsubscribe") - 1, sv3, 0);
         }
         if ( msg2->has_notification() ) {
-          ::SAPO::Broker::Codecs::Autogen::ProtobufXS::Atom_Notification * msg4 = msg2->mutable_notification();
+          ::sapo_broker::Atom_Notification * msg4 = msg2->mutable_notification();
           HV * hv4 = newHV();
           SV * sv3 = newRV_noinc((SV *)hv4);
           
@@ -11889,7 +11889,7 @@ to_hashref(svTHIS)
             hv_store(hv4, "destination_type", sizeof("destination_type") - 1, sv4, 0);
           }
           if ( msg4->has_message() ) {
-            ::SAPO::Broker::Codecs::Autogen::ProtobufXS::Atom_BrokerMessage * msg6 = msg4->mutable_message();
+            ::sapo_broker::Atom_BrokerMessage * msg6 = msg4->mutable_message();
             HV * hv6 = newHV();
             SV * sv5 = newRV_noinc((SV *)hv6);
             
@@ -11920,7 +11920,7 @@ to_hashref(svTHIS)
           hv_store(hv2, "notification", sizeof("notification") - 1, sv3, 0);
         }
         if ( msg2->has_fault() ) {
-          ::SAPO::Broker::Codecs::Autogen::ProtobufXS::Atom_Fault * msg4 = msg2->mutable_fault();
+          ::sapo_broker::Atom_Fault * msg4 = msg2->mutable_fault();
           HV * hv4 = newHV();
           SV * sv3 = newRV_noinc((SV *)hv4);
           
@@ -11943,7 +11943,7 @@ to_hashref(svTHIS)
           hv_store(hv2, "fault", sizeof("fault") - 1, sv3, 0);
         }
         if ( msg2->has_ping() ) {
-          ::SAPO::Broker::Codecs::Autogen::ProtobufXS::Atom_Ping * msg4 = msg2->mutable_ping();
+          ::sapo_broker::Atom_Ping * msg4 = msg2->mutable_ping();
           HV * hv4 = newHV();
           SV * sv3 = newRV_noinc((SV *)hv4);
           
@@ -11954,7 +11954,7 @@ to_hashref(svTHIS)
           hv_store(hv2, "ping", sizeof("ping") - 1, sv3, 0);
         }
         if ( msg2->has_pong() ) {
-          ::SAPO::Broker::Codecs::Autogen::ProtobufXS::Atom_Pong * msg4 = msg2->mutable_pong();
+          ::sapo_broker::Atom_Pong * msg4 = msg2->mutable_pong();
           HV * hv4 = newHV();
           SV * sv3 = newRV_noinc((SV *)hv4);
           
@@ -11965,7 +11965,7 @@ to_hashref(svTHIS)
           hv_store(hv2, "pong", sizeof("pong") - 1, sv3, 0);
         }
         if ( msg2->has_auth() ) {
-          ::SAPO::Broker::Codecs::Autogen::ProtobufXS::Atom_Authentication * msg4 = msg2->mutable_auth();
+          ::sapo_broker::Atom_Authentication * msg4 = msg2->mutable_auth();
           HV * hv4 = newHV();
           SV * sv3 = newRV_noinc((SV *)hv4);
           
@@ -12016,7 +12016,7 @@ I32
 has_header(svTHIS)
   SV * svTHIS;
   CODE:
-    ::SAPO::Broker::Codecs::Autogen::ProtobufXS::Atom * THIS;
+    ::sapo_broker::Atom * THIS;
     if ( sv_derived_from(svTHIS, "SAPO::Broker::Codecs::Autogen::ProtobufXS::Atom") ) {
       IV tmp = SvIV((SV *)SvRV(svTHIS));
       THIS = INT2PTR(__SAPO__Broker__Codecs__Autogen__ProtobufXS__Atom *, tmp);
@@ -12033,7 +12033,7 @@ void
 clear_header(svTHIS)
   SV * svTHIS;
   CODE:
-    ::SAPO::Broker::Codecs::Autogen::ProtobufXS::Atom * THIS;
+    ::sapo_broker::Atom * THIS;
     if ( sv_derived_from(svTHIS, "SAPO::Broker::Codecs::Autogen::ProtobufXS::Atom") ) {
       IV tmp = SvIV((SV *)SvRV(svTHIS));
       THIS = INT2PTR(__SAPO__Broker__Codecs__Autogen__ProtobufXS__Atom *, tmp);
@@ -12048,10 +12048,10 @@ header(svTHIS)
   SV * svTHIS;
 PREINIT:
     SV * sv;
-    ::SAPO::Broker::Codecs::Autogen::ProtobufXS::Atom_Header * val = NULL;
+    ::sapo_broker::Atom_Header * val = NULL;
 
   PPCODE:
-    ::SAPO::Broker::Codecs::Autogen::ProtobufXS::Atom * THIS;
+    ::sapo_broker::Atom * THIS;
     if ( sv_derived_from(svTHIS, "SAPO::Broker::Codecs::Autogen::ProtobufXS::Atom") ) {
       IV tmp = SvIV((SV *)SvRV(svTHIS));
       THIS = INT2PTR(__SAPO__Broker__Codecs__Autogen__ProtobufXS__Atom *, tmp);
@@ -12060,7 +12060,7 @@ PREINIT:
     }
     if ( THIS != NULL ) {
       EXTEND(SP,1);
-      val = new ::SAPO::Broker::Codecs::Autogen::ProtobufXS::Atom_Header;
+      val = new ::sapo_broker::Atom_Header;
       val->CopyFrom(THIS->header());
       sv = sv_newmortal();
       sv_setref_pv(sv, "SAPO::Broker::Codecs::Autogen::ProtobufXS::Atom::Header", (void *)val);
@@ -12073,14 +12073,14 @@ set_header(svTHIS, svVAL)
   SV * svTHIS
   SV * svVAL
   CODE:
-    ::SAPO::Broker::Codecs::Autogen::ProtobufXS::Atom * THIS;
+    ::sapo_broker::Atom * THIS;
     if ( sv_derived_from(svTHIS, "SAPO::Broker::Codecs::Autogen::ProtobufXS::Atom") ) {
       IV tmp = SvIV((SV *)SvRV(svTHIS));
       THIS = INT2PTR(__SAPO__Broker__Codecs__Autogen__ProtobufXS__Atom *, tmp);
     } else {
       croak("THIS is not of type SAPO::Broker::Codecs::Autogen::ProtobufXS::Atom");
     }
-    ::SAPO::Broker::Codecs::Autogen::ProtobufXS::Atom_Header * VAL;
+    ::sapo_broker::Atom_Header * VAL;
     if ( sv_derived_from(svVAL, "SAPO::Broker::Codecs::Autogen::ProtobufXS::Atom::Header") ) {
       IV tmp = SvIV((SV *)SvRV(svVAL));
       VAL = INT2PTR(__SAPO__Broker__Codecs__Autogen__ProtobufXS__Atom_Header *, tmp);
@@ -12088,7 +12088,7 @@ set_header(svTHIS, svVAL)
       croak("VAL is not of type SAPO::Broker::Codecs::Autogen::ProtobufXS::Atom::Header");
     }
     if ( VAL != NULL ) {
-      ::SAPO::Broker::Codecs::Autogen::ProtobufXS::Atom_Header * mval = THIS->mutable_header();
+      ::sapo_broker::Atom_Header * mval = THIS->mutable_header();
       mval->CopyFrom(*VAL);
     }
 
@@ -12097,7 +12097,7 @@ I32
 has_action(svTHIS)
   SV * svTHIS;
   CODE:
-    ::SAPO::Broker::Codecs::Autogen::ProtobufXS::Atom * THIS;
+    ::sapo_broker::Atom * THIS;
     if ( sv_derived_from(svTHIS, "SAPO::Broker::Codecs::Autogen::ProtobufXS::Atom") ) {
       IV tmp = SvIV((SV *)SvRV(svTHIS));
       THIS = INT2PTR(__SAPO__Broker__Codecs__Autogen__ProtobufXS__Atom *, tmp);
@@ -12114,7 +12114,7 @@ void
 clear_action(svTHIS)
   SV * svTHIS;
   CODE:
-    ::SAPO::Broker::Codecs::Autogen::ProtobufXS::Atom * THIS;
+    ::sapo_broker::Atom * THIS;
     if ( sv_derived_from(svTHIS, "SAPO::Broker::Codecs::Autogen::ProtobufXS::Atom") ) {
       IV tmp = SvIV((SV *)SvRV(svTHIS));
       THIS = INT2PTR(__SAPO__Broker__Codecs__Autogen__ProtobufXS__Atom *, tmp);
@@ -12129,10 +12129,10 @@ action(svTHIS)
   SV * svTHIS;
 PREINIT:
     SV * sv;
-    ::SAPO::Broker::Codecs::Autogen::ProtobufXS::Atom_Action * val = NULL;
+    ::sapo_broker::Atom_Action * val = NULL;
 
   PPCODE:
-    ::SAPO::Broker::Codecs::Autogen::ProtobufXS::Atom * THIS;
+    ::sapo_broker::Atom * THIS;
     if ( sv_derived_from(svTHIS, "SAPO::Broker::Codecs::Autogen::ProtobufXS::Atom") ) {
       IV tmp = SvIV((SV *)SvRV(svTHIS));
       THIS = INT2PTR(__SAPO__Broker__Codecs__Autogen__ProtobufXS__Atom *, tmp);
@@ -12141,7 +12141,7 @@ PREINIT:
     }
     if ( THIS != NULL ) {
       EXTEND(SP,1);
-      val = new ::SAPO::Broker::Codecs::Autogen::ProtobufXS::Atom_Action;
+      val = new ::sapo_broker::Atom_Action;
       val->CopyFrom(THIS->action());
       sv = sv_newmortal();
       sv_setref_pv(sv, "SAPO::Broker::Codecs::Autogen::ProtobufXS::Atom::Action", (void *)val);
@@ -12154,14 +12154,14 @@ set_action(svTHIS, svVAL)
   SV * svTHIS
   SV * svVAL
   CODE:
-    ::SAPO::Broker::Codecs::Autogen::ProtobufXS::Atom * THIS;
+    ::sapo_broker::Atom * THIS;
     if ( sv_derived_from(svTHIS, "SAPO::Broker::Codecs::Autogen::ProtobufXS::Atom") ) {
       IV tmp = SvIV((SV *)SvRV(svTHIS));
       THIS = INT2PTR(__SAPO__Broker__Codecs__Autogen__ProtobufXS__Atom *, tmp);
     } else {
       croak("THIS is not of type SAPO::Broker::Codecs::Autogen::ProtobufXS::Atom");
     }
-    ::SAPO::Broker::Codecs::Autogen::ProtobufXS::Atom_Action * VAL;
+    ::sapo_broker::Atom_Action * VAL;
     if ( sv_derived_from(svVAL, "SAPO::Broker::Codecs::Autogen::ProtobufXS::Atom::Action") ) {
       IV tmp = SvIV((SV *)SvRV(svVAL));
       VAL = INT2PTR(__SAPO__Broker__Codecs__Autogen__ProtobufXS__Atom_Action *, tmp);
@@ -12169,7 +12169,7 @@ set_action(svTHIS, svVAL)
       croak("VAL is not of type SAPO::Broker::Codecs::Autogen::ProtobufXS::Atom::Action");
     }
     if ( VAL != NULL ) {
-      ::SAPO::Broker::Codecs::Autogen::ProtobufXS::Atom_Action * mval = THIS->mutable_action();
+      ::sapo_broker::Atom_Action * mval = THIS->mutable_action();
       mval->CopyFrom(*VAL);
     }
 
